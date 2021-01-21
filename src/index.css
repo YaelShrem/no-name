@@ -1,3 +1,37 @@
+/*--Designed by: Odelya Elimelech--*/
+
+/*Colors Definitions*/
+:root{
+  --white: #FFFFFF !important;
+  --smoky-white: #F2F2F2 !important;
+  --very-light-gray: #00000029 !important;
+  --light-gray: #B9B9B9 !important;
+  --gray: #707070 !important;
+  --dark-gray: #515151 !important;
+  --very-dark-gray: #161616 !important;
+  --black: #000000 !important;
+  --green: #4DDC6B !important;
+  --blue: #22C5BB !important;
+  --yellow: #FFD600 !important;
+}
+
+/*Global Styles Definitions*/
+*{
+  text-decoration: none!important;
+}
+.large-icon{
+  width: 80px;
+  height: 80px;
+}
+.medium-icon{
+  width: 60px;
+  height: 60px;
+}
+.small-icon{
+  width: 35px;
+  height: 35px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
