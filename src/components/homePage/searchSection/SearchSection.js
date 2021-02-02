@@ -5,11 +5,13 @@ import './searchSection.css';
 
 export default function SearchSection() {
     return (
-        <div>
-            <video src='../../../style/images/video.mp4' autoPlay loop muted/>
-            {/* <div className="background-shape"></div> */}
-             <img src={backgroundShape} alt={backgroundShape} style={{ maxWidth: "50px", maxHeight: "50px" }}/>
-            <img src={mainImg} alt={mainImg} style={{ maxWidth: "50px", maxHeight: "50px" }} /> 
-        </div>
+        <div >
+            <img src={backgroundShape}
+                 alt={backgroundShape}
+                 className="background-shape"/>
+                <img src={mainImg}
+                 alt={mainImg}
+                 className="main-img"/> 
+            </div>
     )
 }

@@ -14,11 +14,12 @@
   --blue: #22C5BB !important;
   --yellow: #FFD600 !important;
 }
-
 /*Global Styles Definitions*/
-*{
+/**,::before,::after{
+  box-sizing: border-box;
   text-decoration: none!important;
-}
+}*/
+
 .large-icon{
   width: 80px;
   height: 80px;
@@ -30,18 +31,4 @@
 .small-icon{
   width: 35px;
   height: 35px;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import SearchSection from './searchSection/SearchSection';
 import Categories from './categories/Categories';
 import TopBusinesses from './topBusinesses/TopBusinesses';
@@ -8,7 +8,6 @@ import Footer from './footer/Footer';
 export default function HomePage() {
     return (
         <div>
-            <br/><br/><br/><br/>
             <SearchSection/>
             <Categories/>
             <TopBusinesses/>

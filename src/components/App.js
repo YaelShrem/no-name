@@ -1,11 +1,13 @@
 import Header from './header/Header';
-import HomePage from './homePage/HomePage';
+// import {Container, Row, Col} from 'react-bootstrap'
+// import HomePage from './homePage/HomePage';
+import Login from './login/Login';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <HomePage/>
+      <Login/>
     </div>
   );
 }
