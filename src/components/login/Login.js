@@ -1,22 +1,36 @@
 import React, { useRef, useState } from "react";
+import TextField from "@material-ui/core/TextField";
+import { Tabs, Tab, Paper } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import backgroundShape from "../../style/images/backgroundShape.png";
 // import { useAuth } from "../../contexts/AuthContext";
 import firebase from "firebase";
-import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
+// import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 import "./login.css";
+
 export default function Login() {
   const { t } = useTranslation();
   const emailRef = useRef();
   const passwordRef = useRef();
-// //   const { login } = useAuth();
-  const [error] = useState("");
-  const [loading] = useState(false);
-//   const history = useHistory();
+  // //   const { login } = useAuth();
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+  //   const history = useHistory();
 
   return (
     <>
+      <Tabs
+        // value={value}
+        indicatorColor="primary"
+        textColor="primary"
+        // onChange={handleChange}
+        // aria-label="disabled tabs example"
+      >
+        <Tab label="Active" />
+        {/* <Tab label="Disabled" disabled /> */}
+        <Tab label="Active" />
+      </Tabs>
       <div>
         <img
           src={backgroundShape}
@@ -25,37 +39,46 @@ export default function Login() {
         />
       </div>
       <Container
+        dir="rtl"
         className="d-flex align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
       >
         <div className="w-100" style={{ maxWidth: "400px" }}>
           <Card className="css-shadow">
-            <Card.Body>
-              <h2 className="css-text text-center mb-4">{t("signin")}</h2>
+            <Card.Body className="card">
+              <h2 className="css-text text-center mb-4"></h2>
               {error && <Alert variant="danger">{error}</Alert>}
               {/* <StyledFirebaseAuth
                 firebaseAuth={firebase.auth()}
                 type="submit"
               /> */}
+
               <Form>
-                <Form.Label>{t("userName")}</Form.Label>
-                <Form.Group id="email" className="input-group">
-                  <span class="input-group-addon">
-                    <i class="im im-icon-Male"></i>
-                  </span>
-                  <Form.Control type="email" ref={emailRef} required />
-                </Form.Group>
-                <Form.Label>{t("password")}</Form.Label>
-                <Form.Group id="password" className="input-group">
-                  <span class="input-group-addon">
-                    <i class="im im-icon-Lock-2"></i>
-                  </span>
-                  <Form.Control type="password" ref={passwordRef} required />
-                </Form.Group>
+                <Form.Label type="email" ref={emailRef} required>
+                  {/* {t("userName")} */}
+                </Form.Label>
+                <form noValidate autoComplete="off">
+                  <TextField id="standard-basic" label="אמייל" />
+                </form>
+                <Form.Label type="email" ref={passwordRef} required>
+                  {/* {t("userName")} */}
+                </Form.Label>
+                <form noValidate autoComplete="off">
+                  <TextField
+                    id="standard-password-input"
+                    label="סיסמא"
+                    type="password"
+                  />
+                </form>
                 <div className="d-flex justify-content-center mb-4 mt-4">
-                  <Button disabled={loading} className="submit" type="submit">
-                    {t("signin")}{" "}
-                  </Button>
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="submit"
+                    type="submit"
+                  >
+                    הרשם{" "}
+                  </button>
                 </div>
               </Form>
               {/* <div className="w-100 text-center mt-3">
