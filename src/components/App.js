@@ -6,9 +6,9 @@ import BusinessDetails from "./businessDetails/BusinessDetails";
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
-      <Login2/> */}
-      <BusinessDetails/>
+      <Header/>
+      <Login2/>
+      {/* <BusinessDetails/> */}
     </div>
   );
 }

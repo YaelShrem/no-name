@@ -24,12 +24,12 @@ export default function Login2() {
       </div>
       <Container
         dir="rtl"
-        className="d-flex align-items-center justify-content-center"
-        style={{ minHeight: "100vh" }}
+        className="d-flex align-items-center justify-content-center col-4"
+        style={{ minHeight: "100vh",minWidth:"400px"}}
       >
         <div
-          className="w-100 "
-          style={({ maxWidth: "550px" }, { minWidth: "100vw" })}
+          className="col-12"
+         
         >
           <Card className="css-shadow">
             <Card.Body className="d-flex justify-content-center">
