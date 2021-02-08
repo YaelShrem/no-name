@@ -1,17 +1,32 @@
-import React from 'react'
-import backgroundShape from "../../style/images/backgroundShape.png";
-import "../login/Login2";
+import React from "react";
+import backgroundGray from "../../style/images/backgroundGray.png";
+import imageFood from "../../style/images/imageFood.png";
+import "./BusinessDetails.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function BusinessDetails() {
-    return (
-        <>
-             <div>
+  return (
+    <>
+      <div
+        className="d-flex justify-content-between"
+        style={{ height: "30vh", minHeight: "800px", marginTop: "77px" }}
+      >
         <img
-          src={backgroundShape}
-          alt={backgroundShape}
-          className="background-shape"
+          src={backgroundGray}
+          alt={backgroundGray}
+          className="col-9"
+          style={{ height: "70vh" }}
         />
+
+        <div>
+          {" "}
+          <img src={imageFood} alt={imageFood} className="imageFood" />
+        </div>
       </div>
-        </>
-    )
+      <div className="text d-flex align-items-end flex-column">
+        <p className="name p-2">BIGA</p>
+        <p className="menu p-2">מטבח | ביקריי | קפה</p>
+      </div>
+    </>
+  );
 }
