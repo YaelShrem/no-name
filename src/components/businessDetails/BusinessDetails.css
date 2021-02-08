@@ -1,3 +1,77 @@
-.backgroundShape{
-    background: #EAF0F080 0% 0% no-repeat padding-box;
+
+.background-shape{
+    width: 88vw;
+    height: 95vh;
+    z-index: -2;
+    position: absolute;
+    right: 0%;
+}
+
+.main-img{
+    width: 35vw;
+    height: 73vh;
+    position: absolute;
+    left: 7%;
+    top: 25%;    
+}
+.background-shape{
+    width: 88vw;
+    height: 95vh;
+    z-index: -2;
+    position: absolute;
+    right: 0%;
+}
+.img{
+    top: 105px;
+    left: 419px;
+    width: 930px;
+    height: 574px;
+    /* background: #EAF0F080 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    position: absolute;
+}
+.imageFood{
+top: 140px;
+left: -43px;
+width: 1000px;
+height: 500px;
+/* box-shadow: 0px 20px 40px #0000001A; */
+opacity: 1;
+position: absolute;
+}
+.images{
+display: inline-block;
+position: relative;
+}
+.name{
+    top: 609px;
+left: 1513px;
+width: 179px;
+height: 95px;
+font: var(--unnamed-font-style-normal) normal 900 71px/96px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: right;
+font: normal normal 900 71px/96px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.menu{
+    top: 716px;
+left: 1391px;
+width: 297px;
+height: 46px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 34px/46px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: right;
+font: normal normal normal 34px/46px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.text{
+    left: 431px;
+    top: 415px;
 }
