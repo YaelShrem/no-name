@@ -21,6 +21,18 @@
     position: absolute;
     right: 0%;
 }
+.psign{
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.MuiFormControl-root{
+    direction: rtl;
+}
+.MuiInputLabel-shrink{
+    font-size: 15px !important;
+}
 .img{
     top: 105px;
     left: 419px;
