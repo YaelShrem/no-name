@@ -24,14 +24,20 @@ export default function Login2() {
       </div>
       <Container
         dir="rtl"
-        className="d-flex align-items-center justify-content-center"
-        style={{ minHeight: "100vh" }}
+        className="d-flex align-items-center justify-content-center col-4"
+        style={{ minHeight: "100vh",minWidth:"400px"}}
       >
-        <div className="w-100" style={{ maxWidth: "400px" }}>
+        <div
+          className="col-12"
+         
+        >
           <Card className="css-shadow">
-            <Card.Body>
-              <div className="sign-in-form style-1">
-                <ul className="tabs-nav">
+            <Card.Body className="d-flex justify-content-center">
+              <div
+                className="sign-in-form style-1"
+                style={{ maxWidth: "300px" }}
+              >
+                <ul className="tabs-nav d-flex justify-content-center">
                   <li className>
                     <a href="#tab1">הרשם</a>
                   </li>
@@ -82,14 +88,14 @@ export default function Login2() {
                           name="login"
                           defaultValue="Login"
                         />
-                        <div className="checkboxes margin-top-10">
+                        {/* <div className="checkboxes margin-top-10">
                           <input
                             id="remember-me"
                             type="checkbox"
                             name="check"
                           />
                           <label htmlFor="remember-me">Remember Me</label>
-                        </div>
+                        </div> */}
                       </div>
                     </form>
                   </div>
@@ -163,25 +169,30 @@ export default function Login2() {
                 <button
                   variant="contained"
                   type="button"
-                  className="login-with-google-btn"
+                  className="login-with-google-btn d-flex justify-content-center align-items-center"
                 >
-                  הרשם עם גוגל
                   <img
                     class="firebaseui-idp-icon"
                     alt=""
                     src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
-                  ></img>
+                  ></img>{" "}
+                  <p className="m-0">הרשם עם גוגל</p>
                 </button>
 
-                <div class="header__center">או</div>
-                <Form>
+                <div className="header__center">או</div>
+                <Form className="form  d-flex flex-column justify-content-center">
                   <Form.Label type="email" ref={emailRef} required>
                     {/* {t("userName")} */}
                   </Form.Label>
                   <form noValidate autoComplete="off">
                     <TextField id="standard-basic" label="אמייל" />
                   </form>
-                  <Form.Label type="email" ref={passwordRef} required>
+                  <Form.Label
+                    className="input-form"
+                    type="email"
+                    ref={passwordRef}
+                    required
+                  >
                     {/* {t("userName")} */}
                   </Form.Label>
                   <form noValidate autoComplete="off">
@@ -191,18 +202,34 @@ export default function Login2() {
                       type="password"
                     />
                   </form>
-                  <div className="d-flex justify-content-center mb-4 mt-4">
-                    <Button
-                      variant="contained"
-                      type="submit"
-                      disabled={loading}
-                      className="submit"
-                      type="submit"
-                    >
-                      הרשם
-                    </Button>
+                  <div className="d-flex justify-content-around mb-3">
+                    <p classnames="p">תזכור אותי</p>
+                    <p className="p">אפס סיסמא</p>
                   </div>
                 </Form>
+                <section title=".roundedOne">
+                  <div className="roundedOne">
+                    <input
+                      type="checkbox"
+                      defaultValue="None"
+                      id="roundedOne"
+                      name="check"
+                      defaultChecked
+                    />
+                    <label1 htmlFor="roundedOne" />
+                  </div>
+                </section>
+                <div className="d-flex justify-content-center mb-4 mt-4">
+                  <Button
+                    variant="contained"
+                    type="submit"
+                    disabled={loading}
+                    className="submit"
+                    type="submit"
+                  >
+                    הרשם
+                  </Button>
+                </div>
               </div>
             </Card.Body>
           </Card>
