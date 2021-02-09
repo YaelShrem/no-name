@@ -1,0 +1,53 @@
+.recommendations{
+top: 3499px;
+left: 606px;
+width: 1562px;
+height: 377px;
+background: transparent linear-gradient(249deg, var(--unnamed-color-4ddc6b) 0%, var(--unnamed-color-22c5bb) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(249deg, #4DDC6B 0%, #22C5BB 100%) 0% 0% no-repeat padding-box;
+border-radius: 0px 219px;
+opacity: 1;
+}
+.message{
+    top: 3740px;
+left: 1244px;
+width: 423px;
+height: 266px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+/* box-shadow: 0px 40px 60px #00000026; */
+opacity: 1;
+}
+.p{
+top: 3785px;
+left: 1323px;
+width: 300px;
+height: 86px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/var(--unnamed-line-spacing-27) var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: right;
+font: normal normal normal 20px/27px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+    position: absolute;
+    
+}
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    margin :5px 0;
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, .1);
+    margin-bottom: 1.6%;
+    background: #fff;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+.container{
+    position: relative;
+    text-align: center;
+}

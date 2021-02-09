@@ -4,6 +4,7 @@ import Header from "./header/Header";
 import Login2 from "./login/Login2";
 import BusinessDetails from "./businessDetails/BusinessDetails";
 import Footer from "./homePage/footer/Footer";
+import Recommendations from "./recommendations/Recommendations";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       <Footer />
+      {/* <Recommendations /> */}
     </div>
   );
 }
