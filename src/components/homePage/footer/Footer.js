@@ -7,11 +7,11 @@ export default function Footer() {
     <MDBFooter color="blue" className="footer d-flex font-small pt-4 mt-4">
       <MDBContainer
         fluid
-        className="text-center d-flex justify-content-center text-md-left"
+        className="text-center d-flex justify-content-center align-items-center text-md-left"
       >
-        <MDBRow className="text-center row col-lg-9 col-md-10 col-sm-12">
-          <MDBCol md="6">
-            <h5 className="title">Logo</h5>
+        <MDBRow className="text-center containerFooter row col-lg-9 col-md-10 col-sm-12 ">
+          <MDBCol lg="6" md="6" sm="6">
+            <h5 className="title" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
               <p>
                 {" "}
@@ -23,9 +23,9 @@ export default function Footer() {
             </div>
           </MDBCol>
           <MDBCol className="d-flex justify-content-between" md="6">
-            <MDBCol md="6">
-              <h5 className="title">לינקים שימושיים</h5>
-              <ul>
+            <MDBCol lg="6" md="6" sm="6">
+              <h5 className="title" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
+              <ul className="ulContainer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
                   <a href="#!">איך זה עובד</a>
                 </li>
@@ -46,8 +46,8 @@ export default function Footer() {
                 </li>
               </ul>
             </MDBCol>
-            <MDBCol md="6">
-              <h5 className="title">יצירת קשר</h5>
+            <MDBCol lg="6" md="6" sm="6">
+              <h5 className="title" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
               <div className="contact">
                 <p>בר כוכבא 4 קומה 6</p>
                 <p>טלפון: (123) 123-456</p>
