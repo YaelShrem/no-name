@@ -7,8 +7,8 @@ import Footer from "./homePage/footer/Footer";
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
-      <Login2/> */}
+      {/* <Header/>*/}
+      {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       <Footer />
     </div>
