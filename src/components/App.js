@@ -3,7 +3,7 @@ import Header from "./header/Header";
 // import HomePage from './homePage/HomePage';
 import Login2 from "./login/Login2";
 import BusinessDetails from "./businessDetails/BusinessDetails";
-import Footer from "./homePage/footer/footer";
+import Footer from "./homePage/footer/Footer";
 
 function App() {
   return (
@@ -12,8 +12,6 @@ function App() {
       {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       <Footer />
-
-      {/* <BusinessDetails /> */}
     </div>
   );
 }
