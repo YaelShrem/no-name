@@ -9,7 +9,7 @@ export default function Footer() {
         fluid
         className="text-center d-flex justify-content-center align-items-center text-md-left"
       >
-        <MDBRow className="text-center containerFooter row col-lg-9 col-md-10 col-sm-12 ">
+        <MDBRow className="text-center containerFooter row col-lg-9 col-md-10 ">
           <MDBCol lg="6" md="6" sm="6">
             <h5 className="title" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
@@ -22,8 +22,8 @@ export default function Footer() {
               <p>האלגוריתם של האתר והמידע בתוכו מתעדכנים באופן קבוע.</p>
             </div>
           </MDBCol>
-          <MDBCol className="d-flex justify-content-between" md="6">
-            <MDBCol lg="6" md="6" sm="6">
+          <MDBCol className="d-flex justify-content-between wrapper" md="6" sm="6">
+            <MDBCol className="ulWrapper" lg="6" md="6" sm="6">
               <h5 className="title" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
               <ul className="ulContainer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
