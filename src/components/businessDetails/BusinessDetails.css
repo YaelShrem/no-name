@@ -21,6 +21,18 @@
     position: absolute;
     right: 0%;
 }
+.psign{
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.MuiFormControl-root{
+    direction: rtl;
+}
+.MuiInputLabel-shrink{
+    font-size: 15px !important;
+}
 .img{
     top: 105px;
     left: 419px;
@@ -31,7 +43,7 @@
     position: absolute;
 }
 .imageFood{
-top: 140px;
+top: 120px;
 left: -43px;
 width: 1000px;
 height: 500px;
@@ -52,7 +64,7 @@ font: var(--unnamed-font-style-normal) normal 900 71px/96px var(--unnamed-font-f
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-707070);
 text-align: right;
-font: normal normal 900 71px/96px Segoe UI;
+font: normal normal 900 60px/100px Segoe UI;
 letter-spacing: 0px;
 color: #707070;
 opacity: 1;
@@ -60,18 +72,19 @@ opacity: 1;
 .menu{
     top: 716px;
 left: 1391px;
-width: 297px;
+width: 310px;
 height: 46px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 34px/46px var(--unnamed-font-family-segoe-ui);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-707070);
 text-align: right;
-font: normal normal normal 34px/46px Segoe UI;
+font: normal normal normal 27px/35px Segoe UI;
 letter-spacing: 0px;
 color: #707070;
 opacity: 1;
 }
 .text{
-    left: 431px;
-    top: 415px;
+    position: absolute;
+    right: 87px;
+    top: 330px;
 }

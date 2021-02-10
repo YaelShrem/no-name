@@ -25,16 +25,13 @@ export default function Login2() {
       <Container
         dir="rtl"
         className="d-flex align-items-center justify-content-center col-4"
-        style={{ minHeight: "100vh",minWidth:"400px"}}
+        style={{ minHeight: "100vh", minWidth: "400px",marginTop:"76px" }}
       >
-        <div
-          className="col-12"
-         
-        >
+        <div className="col-12" style={{minHeight:"400px",height:"550px"}}>
           <Card className="css-shadow">
             <Card.Body className="d-flex justify-content-center">
               <div
-                className="sign-in-form style-1"
+                className="sign-in-form style-1 d-flex flex-column justify-content-between"
                 style={{ maxWidth: "300px" }}
               >
                 <ul className="tabs-nav d-flex justify-content-center">
@@ -45,6 +42,7 @@ export default function Login2() {
                     <a href="#tab2">התחבר</a>
                   </li>
                 </ul>
+                <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
                 <div className="tabs-container alt">
                   {/* Login */}
                   <div
@@ -180,45 +178,45 @@ export default function Login2() {
                 </button>
 
                 <div className="header__center">או</div>
-                <Form className="form  d-flex flex-column justify-content-center">
-                  <Form.Label type="email" ref={emailRef} required>
-                    {/* {t("userName")} */}
-                  </Form.Label>
-                  <form noValidate autoComplete="off">
-                    <TextField id="standard-basic" label="אמייל" />
-                  </form>
-                  <Form.Label
-                    className="input-form"
-                    type="email"
-                    ref={passwordRef}
-                    required
-                  >
-                    {/* {t("userName")} */}
-                  </Form.Label>
-                  <form noValidate autoComplete="off">
-                    <TextField
-                      id="standard-password-input"
-                      label="סיסמא"
-                      type="password"
-                    />
-                  </form>
-                  <div className="d-flex justify-content-around mb-3">
-                    <p classnames="p">תזכור אותי</p>
+                <Form className="form  d-flex flex-column justify-content-between">
+                  <TextField
+                    id="userName"
+                    label="שם משתמש"
+                    type="text"
+                    InputLabelProps={{
+                      shrink: true,
+                    }}
+                  />
+                  <TextField
+                    id="email"
+                    label="אמייל"
+                    type="text"
+                    InputLabelProps={{
+                      shrink: true,
+                    }}
+                  />
+
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex align-items-center">
+                      
+                      <section title=".roundedOne">
+                        <div class="roundedOne">
+                          <input
+                            type="checkbox"
+                            value="None"
+                            id="roundedOne"
+                            name="check"
+                            checked
+                          />
+                          <label for="roundedOne" className="labelClass"></label>
+                        </div>
+                      </section>
+                      <p classnames="p" style={{marginBottom:"0"}}>תזכור אותי</p>
+                    </div>
                     <p className="p">אפס סיסמא</p>
                   </div>
                 </Form>
-                <section title=".roundedOne">
-                  <div className="roundedOne">
-                    <input
-                      type="checkbox"
-                      defaultValue="None"
-                      id="roundedOne"
-                      name="check"
-                      defaultChecked
-                    />
-                    <label1 htmlFor="roundedOne" />
-                  </div>
-                </section>
+
                 <div className="d-flex justify-content-center mb-4 mt-4">
                   <Button
                     variant="contained"
