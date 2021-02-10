@@ -11,7 +11,7 @@ function App() {
       <Header/>
       {/* <Login2 /> */}
       <BusinessDetails/>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
