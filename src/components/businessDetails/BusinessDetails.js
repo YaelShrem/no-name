@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function BusinessDetails() {
   return (
     <>
+    <div>
       <div
         className="d-flex justify-content-between"
         style={{ height: "30vh", minHeight: "800px", marginTop: "77px" }}
@@ -24,6 +25,8 @@ export default function BusinessDetails() {
         <p className="name p-2">BIGA</p>
         <p className="menu p-2">מטבח | ביקריי | קפה</p>
       </div>
-    </>
+   
+      </div>
+       </>
   );
 }
