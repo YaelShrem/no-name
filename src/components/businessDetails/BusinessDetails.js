@@ -15,13 +15,10 @@ export default function BusinessDetails() {
           src={backgroundGray}
           alt={backgroundGray}
           className="col-9"
-          style={{ height: "70vh" }}
+          // style={{ height: "70vh" }}
         />
-
-        <div>
-          {" "}
           <img src={imageFood} alt={imageFood} className="imageFood" />
-        </div>
+        
       </div>
       <div className="text d-flex align-items-end flex-column">
         <p className="name p-2">BIGA</p>
