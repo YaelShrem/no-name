@@ -88,3 +88,20 @@ opacity: 1;
     right: 87px;
     top: 330px;
 }
+@media screen and (max-width: 1120px){
+    .imgGray{
+        height: 460px;
+    width: 800px;
+    }
+    .imageFood{
+       
+        width: 800px;
+        height: 400px;
+    }
+    .text{
+        top:220px;
+    }
+    .menu{
+       font: normal normal normal 24px/15px Segoe UI;
+    }
+}
