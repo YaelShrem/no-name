@@ -9,9 +9,9 @@ import Recommendations from "./recommendations/Recommendations";
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
+      <Header />
       {/* <Login2 /> */}
-      {/* <BusinessDetails/> */}
+      {/* <BusinessDetails /> */}
       {/* <Footer /> */}
       <Recommendations />
     </div>
