@@ -6,9 +6,8 @@ import Avater from "../../style/images/avater.png";
 import { Avatar } from "@material-ui/core";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import Rating from '@material-ui/lab/Rating';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-
 
 
 export default function Recommendations() {
