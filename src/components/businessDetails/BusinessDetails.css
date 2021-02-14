@@ -42,6 +42,13 @@
     opacity: 1;
     position: absolute;
 }
+.imgGray{
+    height: 560px;
+    width:1000px;  
+    position: absolute;
+    right:0;
+    padding:0;
+}
 .imageFood{
 top: 120px;
 left: -43px;
@@ -88,3 +95,334 @@ opacity: 1;
     right: 87px;
     top: 330px;
 }
+.p1{
+    top: 1327px;
+    left: 1002px;
+    width: 542px;
+    /* height: 113px; */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-26)/39px var(--unnamed-font-family-segoe-ui);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: right;
+    font: normal normal normal 17px/22px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.details{
+top: 1070px;
+left: 408px;
+/* width: 227px; */
+height: 76px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 36px/48px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: right;
+font: normal normal 600 28px/48px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.preDetails{
+top: 1192px;
+left: 518px;
+/* width: 117px; */
+height: 50px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-37) var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: right;
+font: normal normal 600 20px/60px Segoe UI;;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.d-1{
+    top: 1407px;
+    left: 339px;
+    width: 300px;
+    height: 168px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/var(--unnamed-line-spacing-27) var(--unnamed-font-family-segoe-ui);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: right;
+    font: normal normal normal 17px/22px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#B9B9B9 !important;
+}
+.tabs{
+/* width:70%; */
+text-align:center;
+/* margin-top:15vh;
+top: 1070px;
+height: 35px; */
+left: 1391px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-26)/35px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: left;
+/* font: normal normal 600 26px/35px Segoe UI; */
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+  }
+
+  .tab-buttons{
+    margin-bottom:50px;
+  }
+  
+  button{
+    /* margin-right:15px; */
+    font-size:20px;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px 20px ;
+    cursor:pointer;
+    transition:all ease-in-out .2s;
+    border-bottom:2px solid transparent;
+    /* top: 1072px;
+left: 1265px;
+width: 74px;
+height: 32px; */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 24px/32px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: left;
+font: normal normal 600 20px/60px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 0.5;   
+ }
+  .active{
+    border-bottom:2px solid #FFD600;
+    color: #707070;
+    opacity: 1;
+    border-width: medium;
+}
+.map{
+top: 1333px;
+left: 544px;
+width: 95px;
+height: 24px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffd600);
+text-align: right;
+font: normal normal 600 17px/22px Segoe UI;
+letter-spacing: 0px;
+color: #FFD600 !important;
+opacity: 1;
+}
+@media screen and (max-width: 1120px){
+    .imgGray{
+        height: 460px;
+    width: 800px;
+    }
+    .imageFood{
+       
+        width: 800px;
+        height: 400px;
+    }
+    .text{
+        top:220px;
+    }
+    .name{
+        font:normal normal 900 60px/100px Segoe UI;
+    }
+    .menu{
+       font: normal normal normal 24px/15px Segoe UI;
+    }
+}
+@media screen and (max-width: 1000px){
+    .imgGray{
+        height: 410px;
+    width: 700px;
+    }
+    .imageFood{
+        width: 700px;
+        height: 350px;
+    }
+    .text{
+        top:194px;
+    }
+    .name{
+        font:normal normal 900 44px/133px Segoe UI;
+    }
+    .menu{
+       font: normal normal normal 17px/15px Segoe UI;
+    }
+}
+@media screen and (max-width: 830px){
+    .imgGray{
+        height: 360px;
+    width: 600px;
+    }
+    .imageFood{
+        width: 600px;
+        height: 300px;
+    }
+    .text{
+        top:160px;
+    }
+    .name{
+        font:normal normal 900 40px/136px Segoe UI;
+    }
+    .menu{
+       font: normal normal normal 15px/15px Segoe UI;
+    }
+}
+@media screen and (max-width: 720px){
+    .imgGray{
+        height: 310px;
+    width: 500px;
+    }
+    .imageFood{
+        width: 500px;
+        height: 250px;
+    }
+    .text{
+        top:120px;
+    }
+    .name{
+        font:normal normal 900 33px/140px Segoe UI;
+    }
+    .menu{
+       font: normal normal normal 13px/15px Segoe UI;
+    }
+}
+@media screen and (max-width: 620px){
+    .imgGray{
+        height: 260px;
+    width: 450px;
+    }
+    .imageFood{
+        width: 450px;
+        height: 220px;
+        top:105px;
+    }
+    .text{
+        top:80px;
+        right: 60px;
+    }
+    .name{
+        font:normal normal 900 30px/150px Segoe UI;
+    }
+    .menu{
+       font: normal normal normal 11px/15px Segoe UI;
+    }
+}
+@media screen and (max-width: 530px){
+    .imgGray{
+        height: 240px;
+    width: 400px;
+    }
+    .imageFood{
+        width: 400px;
+        height: 200px;
+        top: 105px;
+    }
+    .text{
+        top: 65px;
+        right: 40px;
+    }
+    .name{
+        font:normal normal 900 30px/160px Segoe UI;
+    }
+    .menu{
+       font: normal normal normal 11px/15px Segoe UI;
+    }
+}
+@media screen and (max-width: 480px){
+    .imgGray{
+        height: 220px;
+    width: 350px;
+    }
+    .imageFood{
+        width: 350px;
+        height: 180px;
+    }
+    .text{
+        top: 47px;
+        right: 37px;
+    }
+   }
+   @media screen and (max-width: 425px){
+    .imgGray{
+        height: 200px;
+    width: 320px;
+    }
+    .imageFood{
+        width: 320px;
+        height: 180px;
+        top:95px;
+    }
+    .text{
+        top: 40px;
+        right: 30px;
+    }
+   }
+   @media screen and (max-width: 375px){
+    .imgGray{
+        height: 190px;
+    width: 300px;
+    }
+    .imageFood{
+        width: 300px;
+        height: 170px;
+        top:95px;
+    }
+    .text{
+        top: 35px;
+        right: 20px;
+    }
+    .name{
+        font:normal normal 900 25px/170px Segoe UI;
+    }
+   }
+   @media screen and (max-width: 340px){
+    .imgGray{
+        height: 170px;
+    width: 250px;
+    }
+    .imageFood{
+        width: 250px;
+        height: 150px;
+        top:95px;
+    }
+    .text{
+        top: 20px;
+        right: 20px;
+    }
+    .name{
+        font:normal normal 900 25px/170px Segoe UI;
+    }
+   }
+   @media screen and (max-width: 290px){
+    .imgGray{
+        height: 170px;
+    width: 250px;
+    }
+    .imageFood{
+        width: 250px;
+        height: 150px;
+        top:95px;
+    }
+    .text{
+        top: 20px;
+        right: 0px;
+    }
+    .name{
+        font:normal normal 900 25px/170px Segoe UI;
+    }
+    .menu{
+        font: normal normal normal 10px/15px Segoe UI;
+     }
+   }

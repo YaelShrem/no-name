@@ -27,7 +27,7 @@ export default function Footer() {
               <h5 className="title" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
               <ul className="ulContainer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
-                  <a href="#!">איך זה עובד</a>
+                  {/* <a href="#!">איך זה עובד</a> */}
                 </li>
                 <li className="list-unstyled">
                   <a href="#!">צור קשר</a>
