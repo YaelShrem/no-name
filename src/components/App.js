@@ -6,15 +6,15 @@ import BusinessDetails from "./businessDetails/BusinessDetails";
 import Footer from "./homePage/footer/Footer";
 import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 import SearchSection from "./homePage/searchSection/SearchSection";
+import Recommendations from "./recommendations/Recommendations";
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       {/* <Login2 /> */}
-      <BusinessDetails/>
-{/* <TopBusinesses/> */}
-{/* <SearchSection/> */}
-      {/* <Footer /> */}
+      {/* <BusinessDetails/> */}
+<Recommendations/>
+      <Footer />
     </div>
   );
 }

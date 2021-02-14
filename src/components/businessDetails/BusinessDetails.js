@@ -13,13 +13,8 @@ export default function BusinessDetails() {
         style={{ height: "30vh", minHeight: "800px", marginTop: "77px" }}
       >
         <div style={{position:"relative"}}>
-        <img
-          src={backgroundGray}
-          alt={backgroundGray}
-           className="imgGray"
-          style={{ height: "560px",width:"1000px",    position: "absolute",
-          right:"0 ",padding:"0" }}
-        /><div className="text d-flex align-items-end flex-column">
+        <img src={backgroundGray} alt={backgroundGray}  className="imgGray" />
+        <div className="text d-flex align-items-end flex-column">
         <p className="name p-2">BIGA</p>
         <p className="menu p-2">מטבח | ביקריי | קפה</p>
       </div>

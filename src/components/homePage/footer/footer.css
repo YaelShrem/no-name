@@ -22,6 +22,8 @@ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 
     height: 30vh;
     max-height: 250px;
     min-height: 150px;
+    margin-bottom: 20px;
+
 }
 .ulContainer{
     height:150px ;
