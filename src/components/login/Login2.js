@@ -34,15 +34,6 @@ export default function Login2() {
                 className="sign-in-form style-1 d-flex flex-column justify-content-between"
                 style={{ maxWidth: "300px" }}
               >
-                {/* <ul className="tabs-nav d-flex justify-content-center">
-                  <li className>
-                    <a href="#tab1">הרשם</a>
-                  </li>
-                  <li>
-                    <a href="#tab2">התחבר</a>
-                  </li>
-                </ul> */}
-
                 <div className="tabs d-flex justify-content-center">
                   <Tabs>
                     <Tab label="התחבר">

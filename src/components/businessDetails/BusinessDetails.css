@@ -178,7 +178,8 @@ opacity: 1;
   .tab-buttons{
     margin-bottom:38px;
     direction: rtl;
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    display: flex;
   }
   
   button{

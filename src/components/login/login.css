@@ -610,7 +610,7 @@ opacity: 1;
 .tabs{
     font-family:arial;
     margin:0 auto;
-    width:70%;
+    /* width:70%; */
     text-align:center;
     /* margin-top:15vh; */
   }
@@ -619,6 +619,7 @@ opacity: 1;
   .tab-buttons{
     /* margin-bottom:50px; */
     text-align: center;
+    padding-right: 0px;
   }
   
   button{
@@ -638,6 +639,9 @@ opacity: 1;
     letter-spacing: 0px;
     text-transform: capitalize;
     opacity: 1;
+  }
+  .psign{
+      text-align: center;
   }
   .active{
     border-bottom:2px solid #FFD600 !important;
