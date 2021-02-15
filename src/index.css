@@ -1,6 +1,6 @@
 /*--Designed by: Odelya Elimelech--*/
 
-/*Colors Definitions*/
+/*Colors Definitions +fonts*/
 :root{
   --white: #FFFFFF !important;
   --smoky-white: #F2F2F2 !important;
@@ -13,22 +13,29 @@
   --green: #4DDC6B !important;
   --blue: #22C5BB !important;
   --yellow: #FFD600 !important;
+  --heading-font-family: 'Poppins', sans-serif;
+  --body-font-family: 'Lato', sans-serif;
 }
 /*Global Styles Definitions*/
-/**,::before,::after{
+*,::before,::after{
   box-sizing: border-box;
   text-decoration: none!important;
-}*/
+}
 
 .large-icon{
-  width: 80px;
-  height: 80px;
+  width: 80px !important;
+  height: 80px !important;
 }
 .medium-icon{
-  width: 60px;
-  height: 60px;
+  width: 60px !important;
+  height: 60px !important;
 }
 .small-icon{
-  width: 35px;
-  height: 35px;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.mini-icon{
+  width: 21px !important;
+  height: 21px !important;
 }

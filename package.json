@@ -21,7 +21,7 @@
     "framework7-react": "^5.7.14",
     "framework7-vue": "^5.7.14",
     "google-maps-react": "^2.0.6",
-    "html-react-parser": "^1.0.0",
+    "html-react-parser": "^1.2.4",
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
     "i18next-http-backend": "^1.0.21",
