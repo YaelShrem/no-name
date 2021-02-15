@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import { TextField, FormControlLabel, Radio } from "@material-ui/core";
-import { Tabs, Tab, Paper } from "@material-ui/core";
-import { useTranslation } from "react-i18next";
+import { TextField/*, FormControlLabel, Radio*/ } from "@material-ui/core";
+//import { Tabs, Tab, Paper } from "@material-ui/core";
+//import { useTranslation } from "react-i18next";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import backgroundShape from "../../style/images/backgroundShape.png";
 import "./login.css";
@@ -9,8 +9,8 @@ import "./login.css";
 export default function Login2() {
   const emailRef = useRef();
   const passwordRef = useRef();
-  //   const { login } = useAuth();
-  // const [error, setError] = useState("");
+  //const { login } = useAuth();
+  //const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
   return (
