@@ -104,7 +104,7 @@ opacity: 1;
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-707070);
     text-align: right;
-    font: normal normal normal 17px/22px Segoe UI;
+    font: normal normal normal 17px/13px Segoe UI;
     letter-spacing: 0px;
     color: #707070;
     opacity: 1;
@@ -199,7 +199,7 @@ text-align: left;
 font: normal normal 600 20px/60px Segoe UI;
 letter-spacing: 0px;
 color: #707070;
-opacity: 0.5;   
+opacity: 0.5
  }
   .active{
     border-bottom:2px solid #FFD600;

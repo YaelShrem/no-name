@@ -7,14 +7,16 @@ import Footer from "./homePage/footer/Footer";
 import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 import SearchSection from "./homePage/searchSection/SearchSection";
 import Recommendations from "./recommendations/Recommendations";
+import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Recommendations />
-      {/* <Login2 /> */}
+      {/* <Header /> */}
+      {/* <Recommendations /> */}
+      <Login2 />
       {/* <BusinessDetails /> */}
-      <Footer />
+      {/* <OrderDetails /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

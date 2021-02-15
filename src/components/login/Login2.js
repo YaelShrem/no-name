@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { TextField, FormControlLabel, Radio } from "@material-ui/core";
-import { Tabs, Tab, Paper } from "@material-ui/core";
+import { Paper } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import backgroundShape from "../../style/images/backgroundShape.png";
@@ -25,23 +25,35 @@ export default function Login2() {
       <Container
         dir="rtl"
         className="d-flex align-items-center justify-content-center col-4"
-        style={{ minHeight: "100vh", minWidth: "400px",marginTop:"76px" }}
+        style={{ minHeight: "100vh", minWidth: "400px", marginTop: "76px" }}
       >
-        <div className="col-12" style={{minHeight:"400px",height:"550px"}}>
+        <div className="col-12" style={{ minHeight: "400px", height: "550px" }}>
           <Card className="css-shadow">
-            <Card.Body className="d-flex justify-content-center">
+            <Card.Body className="card d-flex justify-content-center align-items-center">
               <div
                 className="sign-in-form style-1 d-flex flex-column justify-content-between"
                 style={{ maxWidth: "300px" }}
               >
-                <ul className="tabs-nav d-flex justify-content-center">
+                {/* <ul className="tabs-nav d-flex justify-content-center">
                   <li className>
                     <a href="#tab1">הרשם</a>
                   </li>
                   <li>
                     <a href="#tab2">התחבר</a>
                   </li>
-                </ul>
+                </ul> */}
+
+                <div className="tabs d-flex justify-content-center">
+                  <Tabs>
+                    <Tab label="התחבר">
+                      <div></div>
+                    </Tab>
+                    <Tab label="הרשם">
+                      <div></div>
+                    </Tab>
+                  </Tabs>
+                </div>
+
                 <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
                 <div className="tabs-container alt">
                   {/* Login */}
@@ -198,7 +210,6 @@ export default function Login2() {
 
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
-                      
                       <section title=".roundedOne">
                         <div class="roundedOne">
                           <input
@@ -208,10 +219,15 @@ export default function Login2() {
                             name="check"
                             checked
                           />
-                          <label for="roundedOne" className="labelClass"></label>
+                          <label
+                            for="roundedOne"
+                            className="labelClass"
+                          ></label>
                         </div>
                       </section>
-                      <p classnames="p" style={{marginBottom:"0"}}>תזכור אותי</p>
+                      <p classnames="p" style={{ marginBottom: "0" }}>
+                        תזכור אותי
+                      </p>
                     </div>
                     <p className="p">אפס סיסמא</p>
                   </div>
@@ -297,3 +313,53 @@ export default function Login2() {
     </ul>
   </div>
 </div>;
+
+class Tabs extends React.Component {
+  state = {
+    activeTab: this.props.children[0].props.label,
+  };
+  changeTab = (tab) => {
+    this.setState({ activeTab: tab });
+  };
+  render() {
+    let content;
+    let buttons = [];
+    return (
+      <div>
+        {React.Children.map(this.props.children, (child) => {
+          buttons.push(child.props.label);
+          if (child.props.label === this.state.activeTab)
+            content = child.props.children;
+        })}
+
+        <TabButtons
+          activeTab={this.state.activeTab}
+          buttons={buttons}
+          changeTab={this.changeTab}
+        />
+        <div className="tab-content">{content}</div>
+      </div>
+    );
+  }
+}
+
+const TabButtons = ({ buttons, changeTab, activeTab }) => {
+  return (
+    <div className="tab-buttons">
+      {buttons.map((button) => {
+        return (
+          <button
+            className={button === activeTab ? "active" : ""}
+            onClick={() => changeTab(button)}
+          >
+            {button}
+          </button>
+        );
+      })}
+    </div>
+  );
+};
+
+const Tab = (props) => {
+  return <React.Fragment>{props.children}</React.Fragment>;
+};
