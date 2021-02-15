@@ -104,7 +104,9 @@ font-size: large;
     .MuiAvatar-circle{
       border: none !important;
     }
-    
+    .alice-carousel__stage-item{
+      width: 445px !important;
+    }
     #section02 a {
         padding-top: 60px;
       }

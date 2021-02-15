@@ -10,11 +10,11 @@ import Recommendations from "./recommendations/Recommendations";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Recommendations />
+      {/* <Header /> */}
+      {/* <Recommendations /> */}
       {/* <Login2 /> */}
-      {/* <BusinessDetails /> */}
-      <Footer />
+      <BusinessDetails />
+      {/* <Footer /> */}
     </div>
   );
 }
