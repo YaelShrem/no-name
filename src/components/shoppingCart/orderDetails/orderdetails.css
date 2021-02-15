@@ -1,0 +1,87 @@
+.background{
+/* top: 1736px;
+left: 0px;
+width: 1920px;
+height: 1222px; */
+background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
+background: #F2F2F2  0% 0% no-repeat padding-box;
+}
+
+.title{
+top: 1989px;
+left: 1285px;
+/* width: 260px; */
+height: 56px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 42px/63px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: left;
+font: normal normal 600 42px/63px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.detail{
+top: 2079px;
+left: 1035px;
+width: 510px;
+height: 30px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/51px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: left;
+font: normal normal normal 17px/31px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.tabs{
+    /* width:70%; */
+    text-align:center;
+    /* margin-top:15vh;
+    top: 1070px;
+    height: 35px; */
+    left: 1391px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-26)/35px var(--unnamed-font-family-segoe-ui);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    /* font: normal normal 600 26px/35px Segoe UI; */
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+      }
+    
+      .tab-buttons{
+        margin-bottom:50px;
+      }
+      
+      button{
+        /* margin-right:15px; */
+        font-size:20px;
+        background:transparent;
+        border:none;
+        outline:none;
+        padding:10px 20px ;
+        cursor:pointer;
+        transition:all ease-in-out .2s;
+        border-bottom:2px solid transparent;
+        /* top: 1072px;
+    left: 1265px;
+    width: 74px;
+    height: 32px; */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 24px/32px var(--unnamed-font-family-segoe-ui);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font: normal normal 600 20px/60px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 0.5
+     }
+      .active{
+        border-bottom:2px solid #FFD600;
+        color: #707070;
+        opacity: 1;
+        border-width: medium;
+    }
