@@ -51,7 +51,7 @@ opacity: 1;
 *::after {
     text-align: right;
 }
-.title{
+.titleFooter{
 top: 4314px;
 left: 1236px;
 width: 268px;
@@ -64,6 +64,7 @@ letter-spacing: 3.2px;
 color: #FFFFFF;
 text-transform: uppercase;
 opacity: 1;
+margin-bottom: 12px;
 }
 .contact{
     top: 4374px;

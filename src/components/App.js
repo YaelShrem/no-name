@@ -11,12 +11,12 @@ import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       {/* <Recommendations /> */}
-      {/* <Login2 /> */}
-      <BusinessDetails />
+      <Login2 />
+      {/* <BusinessDetails /> */}
       {/* <OrderDetails /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
