@@ -31,7 +31,7 @@ export default function OrderDetails() {
               <Form.Control
                 className="control"
                 type="email"
-                placeholder="Exampl@email.com"
+                placeholder="Example@email.com"
               />
             </Form.Group>
             <Form.Group>
@@ -46,7 +46,7 @@ export default function OrderDetails() {
                     variant="contained"
                     type="submit"
                     // disabled={loading}
-                    className="submit"
+                    className="submitOrder"
                     type="submit"
                   >
                     תזמין לי
