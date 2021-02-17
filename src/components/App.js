@@ -8,14 +8,17 @@ import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 import SearchSection from "./homePage/searchSection/SearchSection";
 import Recommendations from "./recommendations/Recommendations";
 import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
+
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
       {/* <Recommendations /> */}
-      <Login2 />
+      {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
       {/* <OrderDetails /> */}
+      <ProductCatalog />
       {/* <Footer /> */}
     </div>
   );

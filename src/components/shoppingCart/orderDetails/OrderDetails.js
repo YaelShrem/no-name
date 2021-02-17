@@ -1,34 +1,70 @@
 import React from "react";
 import "./orderdetails.css";
-import { BootstrapInput ,Form } from "react-bootstrap";
+import { BootstrapInput, Form, Container } from "react-bootstrap";
 
 export default function OrderDetails() {
   return (
     <>
-      <div
-        className="background"
-        style={{ width: "100wh", hight: "100vh", direction: "rtl" }}
-      >
-        <Form className="d-flex-column">
-          <div className="tabs d-flex">
-            <Tabs>
-              <Tab label="סקירה כללית">
-                <div></div>
-              </Tab>
-              <Tab label="הזמנות">
-                <div></div>
-              </Tab>
-              <Tab label="המלצות">
-                <div>{/* <p>המלצות</p> */}</div>
-              </Tab>
-            </Tabs>
-          </div>
-          <p className="title">כמעט סיימנו...</p>
-          <div className="detail">
-            <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
-            <p>.זמן ההזמנה נחשב מרגע סיום ההזמנה</p>
-          </div>
-        </Form>
+      <div className="background" style={{ width: "100wh", hight: "550px" }}>
+        <Container
+          dir="rtl"
+          className="d-flex"
+          style={{ minHeight: "100vh", minWidth: "400px" }}
+        >
+          <Form className="d-flex-col">
+            <div className="order-tabs d-flex justify-content-center">
+              <Tabs>
+                <Tab label="קטלוג מוצרים">
+                  <div></div>
+                </Tab>
+                <Tab label="סל הקניות שלי">
+                  <div></div>
+                </Tab>
+                <Tab label="לסיים הזמנה"></Tab>
+              </Tabs>
+            </div>
+            <p className="title">כמעט סיימנו...</p>
+            <div className="detail">
+              <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
+              <p>זמן ההזמנה נחשב מרגע סיום ההזמנה.</p>
+            </div>
+
+            <Form.Group>
+              <Form.Label className="formLable">הזן כתובת מייל</Form.Label>
+              <Form.Control
+                className="control"
+                type="email"
+                placeholder="Exampl@email.com"
+              />
+            </Form.Group>
+            <Form.Group>
+              <Form.Label className="formLable">פלאפון</Form.Label>
+              <Form.Control
+                className="control"
+                type="text"
+                placeholder="050-000-0000"
+              />
+            </Form.Group>
+          </Form>
+          {/* <Form className="d-flex-column">
+            <div className="order-tabs d-flex justify-content-center">
+              <Tabs>
+                <Tab label="קטלוג מוצרים">
+                  <div></div>
+                </Tab>
+                <Tab label="סל הקניות שלי">
+                  <div></div>
+                </Tab>
+                <Tab label="לסיים הזמנה"></Tab>
+              </Tabs>
+            </div>
+            <p className="title">כמעט סיימנו...</p>
+            <div className="detail">
+              <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
+              <p>זמן ההזמנה נחשב מרגע סיום ההזמנה.</p>
+            </div>
+          </Form> */}
+        </Container>
       </div>
     </>
   );

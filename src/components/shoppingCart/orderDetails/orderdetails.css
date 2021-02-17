@@ -35,53 +35,77 @@ letter-spacing: 0px;
 color: #707070;
 opacity: 1;
 }
+.order-tabs{
+top: 1833px;
+left: 1396px;
+/* width: 145px; */
+height: 32px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 24px/32px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-707070);
+text-align: left;
+font: normal normal 600 24px/32px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 0.5;
+}
+
 .tabs{
-    /* width:70%; */
+    font-family:arial;
+    margin:0 auto;
+    width:70%;
     text-align:center;
-    /* margin-top:15vh;
-    top: 1070px;
-    height: 35px; */
-    left: 1391px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-26)/35px var(--unnamed-font-family-segoe-ui);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-707070);
-    text-align: left;
-    /* font: normal normal 600 26px/35px Segoe UI; */
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 1;
-      }
+    margin-top:15vh;
+  }
+  
+  .tab-buttons{
+    margin-bottom:50px;
+  }
+  
+  button{
+    margin-right:15px;
+    font-size:20px;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px 20px ;
+    cursor:pointer;
+    color:rgba(0,0,0,.4);
+    transition:all ease-in-out .2s;
+    border-bottom:2px solid transparent !important;
+    opacity: 0.5 !important;
     
-      .tab-buttons{
-        margin-bottom:50px;
-      }
-      
-      button{
-        /* margin-right:15px; */
-        font-size:20px;
-        background:transparent;
-        border:none;
-        outline:none;
-        padding:10px 20px ;
-        cursor:pointer;
-        transition:all ease-in-out .2s;
-        border-bottom:2px solid transparent;
-        /* top: 1072px;
-    left: 1265px;
-    width: 74px;
-    height: 32px; */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 24px/32px var(--unnamed-font-family-segoe-ui);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-707070);
-    text-align: left;
-    font: normal normal 600 20px/60px Segoe UI;
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 0.5
+  }
+  .active{
+    border-bottom:2px solid #42b3f4;
+    opacity: 1 !important;
      }
-      .active{
-        border-bottom:2px solid #FFD600;
-        color: #707070;
-        opacity: 1;
-        border-width: medium;
-    }
+
+ .control{
+    top: 2318px;
+    left: 1290px;
+    width: 219px;
+    height: 31px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/33px Poppins;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    /* font: normal normal normal 22px/33px Poppins; */
+    letter-spacing: 0px;
+    color: #7A7A7A !important;
+    opacity: 0.5;
+    background-color: transparent !important;
+    
+}
+.formLable{
+    top: 2216px;
+    left: 1358px;
+    width: 186px;
+    height: 41px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/39px Poppins;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 29px/39px Poppins;
+    letter-spacing: 0px;
+    color: #302D3A;
+    opacity: 1;
+}
