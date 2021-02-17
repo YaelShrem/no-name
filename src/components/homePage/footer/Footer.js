@@ -11,7 +11,7 @@ export default function Footer() {
       >
         <MDBRow className="text-center containerFooter row col-lg-9 col-md-10 ">
           <MDBCol lg="6" md="6" sm="6">
-            <h5 className="title" style={{color:"#B9B9B9"}}>Logo</h5>
+            <h5 className="titleFooter" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
               <p>
                 {" "}
@@ -24,10 +24,10 @@ export default function Footer() {
           </MDBCol>
           <MDBCol className="d-flex justify-content-between wrapper" md="6" sm="6">
             <MDBCol className="ulWrapper" lg="6" md="6" sm="6">
-              <h5 className="title" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
+              <h5 className="titleFooter" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
               <ul className="ulContainer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
-                  {/* <a href="#!">איך זה עובד</a> */}
+                  <a href="#!">איך זה עובד</a>
                 </li>
                 <li className="list-unstyled">
                   <a href="#!">צור קשר</a>
@@ -47,7 +47,7 @@ export default function Footer() {
               </ul>
             </MDBCol>
             <MDBCol lg="6" md="6" sm="6">
-              <h5 className="title" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
+              <h5 className="titleFooter" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
               <div className="contact">
                 <p>בר כוכבא 4 קומה 6</p>
                 <p>טלפון: (123) 123-456</p>

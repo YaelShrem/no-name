@@ -25,158 +25,20 @@ export default function Login2() {
       <Container
         dir="rtl"
         className="d-flex align-items-center justify-content-center col-4"
-        style={{ minHeight: "100vh", minWidth: "400px", marginTop: "76px" }}
+        style={{ minHeight: "100vh", minWidth: "320px", marginTop: "76px" }}
       >
-        <div className="col-12" style={{ minHeight: "400px", height: "550px" }}>
+        <div className="col-12" style={{ minHeight: "550px", height: "70vh" }}>
           <Card className="css-shadow">
             <Card.Body className="card d-flex justify-content-center align-items-center">
               <div
-                className="sign-in-form style-1 d-flex flex-column justify-content-between"
-                style={{ maxWidth: "300px" }}
-              >
-                {/* <ul className="tabs-nav d-flex justify-content-center">
-                  <li className>
-                    <a href="#tab1">הרשם</a>
-                  </li>
-                  <li>
-                    <a href="#tab2">התחבר</a>
-                  </li>
-                </ul> */}
-
-                <div className="tabs d-flex justify-content-center">
+                className="sign-in-form style-1 d-flex flex-column justify-content-between">
+                <div className="tabs d-flex flex-column justify-content-between">
                   <Tabs>
                     <Tab label="התחבר">
-                      <div></div>
-                    </Tab>
-                    <Tab label="הרשם">
-                      <div></div>
-                    </Tab>
-                  </Tabs>
-                </div>
+                      {/* Login */}
+                      <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
 
-                <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
-                <div className="tabs-container alt">
-                  {/* Login */}
-                  <div
-                    className="tab-content"
-                    id="tab1"
-                    style={{ display: "none" }}
-                  >
-                    <form method="post" className="login">
-                      <p className="form-row form-row-wide">
-                        <label htmlFor="username">
-                          Username:
-                          <i className="im im-icon-Male" />
-                          <input
-                            type="text"
-                            className="input-text"
-                            name="username"
-                            id="username"
-                            defaultValue
-                          />
-                        </label>
-                      </p>
-                      <p className="form-row form-row-wide">
-                        <label htmlFor="password">
-                          Password:
-                          <i className="im im-icon-Lock-2" />
-                          <input
-                            className="input-text"
-                            type="password"
-                            name="password"
-                            id="password"
-                          />
-                        </label>
-                        <span className="lost_password">
-                          <a href="#">Lost Your Password?</a>
-                        </span>
-                      </p>
-                      <div className="form-row">
-                        <input
-                          type="submit"
-                          className="button border margin-top-5"
-                          name="login"
-                          defaultValue="Login"
-                        />
-                        {/* <div className="checkboxes margin-top-10">
-                          <input
-                            id="remember-me"
-                            type="checkbox"
-                            name="check"
-                          />
-                          <label htmlFor="remember-me">Remember Me</label>
-                        </div> */}
-                      </div>
-                    </form>
-                  </div>
-                  {/* Register */}
-                  <div
-                    className="tab-content"
-                    id="tab2"
-                    style={{ display: "none" }}
-                  >
-                    <form method="post" className="register">
-                      <p className="form-row form-row-wide">
-                        <label htmlFor="username2">
-                          Username:
-                          <i className="im im-icon-Male" />
-                          <input
-                            type="text"
-                            className="input-text"
-                            name="username"
-                            id="username2"
-                            defaultValue
-                          />
-                        </label>
-                      </p>
-                      <p className="form-row form-row-wide">
-                        <label htmlFor="email2">
-                          Email Address:
-                          <i className="im im-icon-Mail" />
-                          <input
-                            type="text"
-                            className="input-text"
-                            name="email"
-                            id="email2"
-                            defaultValue
-                          />
-                        </label>
-                      </p>
-                      <p className="form-row form-row-wide">
-                        <label htmlFor="password1">
-                          Password:
-                          <i className="im im-icon-Lock-2" />
-                          <input
-                            className="input-text"
-                            type="password"
-                            name="password1"
-                            id="password1"
-                          />
-                        </label>
-                      </p>
-                      <p className="form-row form-row-wide">
-                        <label htmlFor="password2">
-                          Repeat Password:
-                          <i className="im im-icon-Lock-2" />
-                          <input
-                            className="input-text"
-                            type="password"
-                            name="password2"
-                            id="password2"
-                          />
-                        </label>
-                      </p>
-                      <input
-                        type="submit"
-                        className="button border fw margin-top-10"
-                        name="register"
-                        defaultValue="Register"
-                      />
-                    </form>
-                  </div>
-                </div>
-                {/* <button class="button">bygole</button> */}
-                <button
+                      <button
                   variant="contained"
                   type="button"
                   className="login-with-google-btn d-flex justify-content-center align-items-center"
@@ -186,11 +48,11 @@ export default function Login2() {
                     alt=""
                     src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                   ></img>{" "}
-                  <p className="m-0">הרשם עם גוגל</p>
+                  <p className="m-0">התחבר עם גוגל</p>
                 </button>
 
                 <div className="header__center">או</div>
-                <Form className="form  d-flex flex-column justify-content-between">
+                <Form className="form formRegister  d-flex flex-column justify-content-between">
                   <TextField
                     id="userName"
                     label="שם משתמש"
@@ -203,6 +65,14 @@ export default function Login2() {
                     id="email"
                     label="אמייל"
                     type="text"
+                    InputLabelProps={{
+                      shrink: true,
+                    }}
+                  />
+                  <TextField
+                    id="password"
+                    label="סיסמא"
+                    type="password"
                     InputLabelProps={{
                       shrink: true,
                     }}
@@ -244,6 +114,211 @@ export default function Login2() {
                     הרשם
                   </Button>
                 </div>
+                      {/* <div>
+                      <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
+
+                      <div className="tabs-container alt">
+                        <div
+                          className="tab-content"
+                          id="tab1"
+                          style={{ display: "none" }}
+                        >
+                          <form method="post" className="login">
+                            <p className="form-row form-row-wide">
+                              <label htmlFor="username">
+                                Username:
+                                <i className="im im-icon-Male" />
+                                <input
+                                  type="text"
+                                  className="input-text"
+                                  name="username"
+                                  id="username"
+                                  defaultValue
+                                />
+                              </label>
+                            </p>
+                            <p className="form-row form-row-wide">
+                              <label htmlFor="password">
+                                Password:
+                                <i className="im im-icon-Lock-2" />
+                                <input
+                                  className="input-text"
+                                  type="password"
+                                  name="password"
+                                  id="password"
+                                />
+                              </label>
+                              <span className="lost_password">
+                                <a href="#">Lost Your Password?</a>
+                              </span>
+                            </p>
+                            <div className="form-row">
+                              <input
+                                type="submit"
+                                className="button border margin-top-5"
+                                name="login"
+                                defaultValue="Login"
+                              /> */}
+                              {/* <div className="checkboxes margin-top-10">
+                          <input
+                            id="remember-me"
+                            type="checkbox"
+                            name="check"
+                          />
+                          <label htmlFor="remember-me">Remember Me</label>
+                        </div> */}
+                            {/* </div>
+                          </form>
+                        </div>
+                      </div>
+                      </div> */}
+                    </Tab>
+                    <Tab label="הרשם">
+                      {/* Register */}
+                      <p className="psign">הרשם באמצעות חשבון הגוגל שלך</p>
+                      <button
+                  variant="contained"
+                  type="button"
+                  className="login-with-google-btn d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    class="firebaseui-idp-icon"
+                    alt=""
+                    src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                  ></img>{" "}
+                  <p className="m-0">הרשם עם גוגל</p>
+                </button>
+
+                <div className="header__center">או</div>
+                <Form className="form  d-flex flex-column justify-content-between">
+                  <TextField
+                    id="email"
+                    label="אמייל"
+                    type="text"
+                    InputLabelProps={{
+                      shrink: true,
+                    }}
+                  />
+                  <TextField
+                    id="password"
+                    label="סיסמא"
+                    type="password"
+                    InputLabelProps={{
+                      shrink: true,
+                    }}
+                  />
+
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex align-items-center">
+                      <section title=".roundedOne">
+                        <div class="roundedOne">
+                          <input
+                            type="checkbox"
+                            value="None"
+                            id="roundedOne"
+                            name="check"
+                            checked
+                          />
+                          <label
+                            for="roundedOne"
+                            className="labelClass"
+                          ></label>
+                        </div>
+                      </section>
+                      <p classnames="p" style={{ marginBottom: "0" }}>
+                        תזכור אותי
+                      </p>
+                    </div>
+                    <p className="p">אפס סיסמא</p>
+                  </div>
+                </Form>
+
+                <div className="d-flex justify-content-center mb-4 mt-4">
+                  <Button
+                    variant="contained"
+                    type="submit"
+                    disabled={loading}
+                    className="submit"
+                    type="submit"
+                  >
+                    הרשם
+                  </Button>
+                </div>
+                    {/*   <div>
+                      <p className="psign">הרשם באמצעות חשבון הגוגל שלך</p>
+                      <div className="tabs-container alt">
+                        <div
+                          className="tab-content"
+                          id="tab2"
+                          style={{ display: "none" }}
+                        >
+                          <form method="post" className="register">
+                            <p className="form-row form-row-wide">
+                              <label htmlFor="username2">
+                                Username:
+                                <i className="im im-icon-Male" />
+                                <input
+                                  type="text"
+                                  className="input-text"
+                                  name="username"
+                                  id="username2"
+                                  defaultValue
+                                />
+                              </label>
+                            </p>
+                            <p className="form-row form-row-wide">
+                              <label htmlFor="email2">
+                                Email Address:
+                                <i className="im im-icon-Mail" />
+                                <input
+                                  type="text"
+                                  className="input-text"
+                                  name="email"
+                                  id="email2"
+                                  defaultValue
+                                />
+                              </label>
+                            </p>
+                            <p className="form-row form-row-wide">
+                              <label htmlFor="password1">
+                                Password:
+                                <i className="im im-icon-Lock-2" />
+                                <input
+                                  className="input-text"
+                                  type="password"
+                                  name="password1"
+                                  id="password1"
+                                />
+                              </label>
+                            </p>
+                            <p className="form-row form-row-wide">
+                              <label htmlFor="password2">
+                                Repeat Password:
+                                <i className="im im-icon-Lock-2" />
+                                <input
+                                  className="input-text"
+                                  type="password"
+                                  name="password2"
+                                  id="password2"
+                                />
+                              </label>
+                            </p>
+                            <input
+                              type="submit"
+                              className="button border fw margin-top-10"
+                              name="register"
+                              defaultValue="Register"
+                            />
+                          </form>
+                        </div>
+                      </div>
+                      </div> */}
+                    </Tab>
+                  </Tabs>
+                </div>
+
+                {/* <button class="button">bygole</button> */}
+              
               </div>
             </Card.Body>
           </Card>

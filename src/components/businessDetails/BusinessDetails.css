@@ -178,7 +178,8 @@ opacity: 1;
   .tab-buttons{
     margin-bottom:38px;
     direction: rtl;
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    display: flex;
   }
   
   button{
@@ -224,6 +225,13 @@ letter-spacing: 0px;
 color: #FFD600 !important;
 opacity: 1;
 }
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.container{
+   width: 100vw;
+}
 @media screen and (max-width: 1120px){
     .imgGray{
         height: 460px;
@@ -244,6 +252,11 @@ opacity: 1;
        font: normal normal normal 24px/15px Segoe UI;
     }
 }
+@media screen and(max-width:3000px) and (min-width: 1000px){
+   .container{
+    width: 75vw;
+}
+}
 @media screen and (max-width: 1000px){
     .imgGray{
         height: 410px;
@@ -262,7 +275,27 @@ opacity: 1;
     .menu{
        font: normal normal normal 17px/15px Segoe UI;
     }
+    button{
+        font: normal normal 600 18px/60px Segoe UI;
+    }
+    .pFooter{
+        font: normal normal normal 15px/20px Segoe UI;
+    }
+    .map{
+        font: normal normal 600 15px/22px Segoe UI;
+    }
+    .p1{
+        font: normal normal normal 15px/13px Segoe UI;
+    }
+    .details{
+        font: normal normal 600 20px/48px Segoe UI;
+    }
+    .preDetails{
+        font: normal normal 600 18px/60px Segoe UI;;
+    }
+
 }
+
 @media screen and (max-width: 830px){
     .imgGray{
         height: 360px;
@@ -281,6 +314,11 @@ opacity: 1;
     .menu{
        font: normal normal normal 15px/15px Segoe UI;
     }
+}
+@media screen and (max-width: 768px){
+    .container{
+        height: 730px !important;
+}
 }
 @media screen and (max-width: 720px){
     .imgGray{
@@ -356,6 +394,25 @@ opacity: 1;
         top: 47px;
         right: 37px;
     }
+
+    button{
+        font: normal normal 600 16px/60px Segoe UI;
+    }
+    .pFooter{
+        font: normal normal normal 13px/20px Segoe UI;
+    }
+    .p1{
+        font: normal normal normal 13px/13px Segoe UI;
+    }
+    .map{
+        font: normal normal 600 13px/22px Segoe UI;
+    }
+    .details{
+        font: normal normal 600 18px/48px Segoe UI;
+    }
+    .preDetails{
+        font: normal normal 600 16px/60px Segoe UI;;
+    }
    }
    @media screen and (max-width: 425px){
     .imgGray{
@@ -370,6 +427,24 @@ opacity: 1;
     .text{
         top: 40px;
         right: 30px;
+    }
+    button{
+        font: normal normal 600 14px/60px Segoe UI !important;
+    }
+    .pFooter{
+        font: normal normal normal 11ppx/20px Segoe UI;
+    }
+    .p1{
+        font: normal normal normal 11px/13px Segoe UI;
+    }
+    .map{
+        font: normal normal 600 12px/22px Segoe UI;
+    }
+    .details{
+        font: normal normal 600 16px/48px Segoe UI;
+    }
+    .preDetails{
+        font: normal normal 600 14px/60px Segoe UI;;
     }
    }
    @media screen and (max-width: 375px){
