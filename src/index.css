@@ -19,7 +19,7 @@
 /*Global Styles Definitions*/
 *,::before,::after{
   box-sizing: border-box;
-  text-decoration: none!important;
+  /* text-decoration: none!important; */
 }
 
 .large-icon{
