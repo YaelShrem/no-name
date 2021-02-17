@@ -3,17 +3,12 @@ import backgroundGray from "../../style/images/backgroundGray.png";
 import imageFood from "../../style/images/imageFood.png";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container } from "@material-ui/core";
 import Recommendations from "../recommendations/Recommendations";
-
 export default function BusinessDetails() {
   return (
     <>
     <div>
-      <div
-        className=""
-        style={{ height: "30vh", minHeight: "650px", marginTop: "77px" }}
-      >
+      <div className="wrapperBuisness">
         <div style={{position:"relative"}}>
         <img src={backgroundGray} alt={backgroundGray}  className="imgGray" />
         <div className="text d-flex align-items-end flex-column">
@@ -25,14 +20,11 @@ export default function BusinessDetails() {
         </div>
       </div>
       <div className="d-flex justify-content-center w-100">
-        <div
-          className="container row"
-          style={{ height: "30vh", minHeight: "500px",direction:"rtl"}}
-        >
+        <div className="container row">
         
           <div className="col-lg-8 col-md-8 col-sm-12">
           <div className="d-flex flex-column">
-            <div className="tabs d-flex">
+            <div className="tabs d-flex tabsBuisness ">
               <Tabs>
                 <Tab label="סקירה כללית">
                 <div className="p1">

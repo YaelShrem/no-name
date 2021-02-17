@@ -4,7 +4,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <MDBFooter color="blue" className="footer d-flex font-small pt-4 mt-4">
+    <MDBFooter color="blue" className="footer d-flex font-small pt-4">
       <MDBContainer
         fluid
         className="text-center d-flex justify-content-center align-items-center text-md-left"

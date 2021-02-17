@@ -17,9 +17,14 @@ function App() {
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
+<<<<<<< HEAD
       {/* <OrderDetails /> */}
       <Pricing/>
       {/* <Footer /> */}
+=======
+      <OrderDetails />
+      <Footer />
+>>>>>>> 2b0a82ac37c3126f63b123b5c402115fba899595
     </div>
   );
 }

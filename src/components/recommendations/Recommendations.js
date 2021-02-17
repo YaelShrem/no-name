@@ -4,7 +4,10 @@ import RecommendationsImg from "../../style/images/recommendationsImg.png";
 import message from "../../style/images/message.png";
 import Avater from "../../style/images/avater.png";
 import { Avatar } from "@material-ui/core";
+<<<<<<< HEAD
 //import { Form, Button, Card, Alert, Container } from "react-bootstrap";
+=======
+>>>>>>> 2b0a82ac37c3126f63b123b5c402115fba899595
 import Rating from '@material-ui/lab/Rating';
 // import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
@@ -141,7 +144,7 @@ onChange={(event, newValue) => {
 
   return (
     <>
-      <div className="d-flex flex-column justify-content-between align-items-center">
+      <div className="wrapperRecommendations d-flex flex-column justify-content-between align-items-center">
         <div className="d-flex justify-content-end w-100">
           <img
             src={RecommendationsImg}
@@ -151,12 +154,7 @@ onChange={(event, newValue) => {
           />
         </div>
         
-        {/* <section id="section02" class="demo">
-          <a href="#section03">
-            <span></span>Scroll
-          </a>
-        </section> */}
-        <div className="d-flex">
+       <div className="d-flex">
         <AliceCarousel
                  mouseTracking
                 items={items}
