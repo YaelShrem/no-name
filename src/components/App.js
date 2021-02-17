@@ -1,4 +1,4 @@
-// import Header from "./header/Header";
+//import Header from "./header/Header";
 // import {Container, Row, Col} from 'react-bootstrap'
 // import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
@@ -13,7 +13,7 @@ import Pricing from './homePage/pricing/Pricing';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
