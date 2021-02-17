@@ -12,6 +12,9 @@
 .nav-link:hover{
     color: var(--yellow) !important;
 }
+.navbar-dark .navbar-toggler{
+  outline: none;
+}
 
 /* Change this breakpoint if you change the breakpoint of the navbar */
 

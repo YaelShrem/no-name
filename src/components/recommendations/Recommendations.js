@@ -4,10 +4,6 @@ import RecommendationsImg from "../../style/images/recommendationsImg.png";
 import message from "../../style/images/message.png";
 import Avater from "../../style/images/avater.png";
 import { Avatar } from "@material-ui/core";
-<<<<<<< HEAD
-//import { Form, Button, Card, Alert, Container } from "react-bootstrap";
-=======
->>>>>>> 2b0a82ac37c3126f63b123b5c402115fba899595
 import Rating from '@material-ui/lab/Rating';
 // import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';

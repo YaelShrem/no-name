@@ -53,6 +53,7 @@ section {
 .pricing-action:focus,
 .pricing-action:hover {
   transform: scale(1.1) !important;
+  outline: none;
 }
 
 .pricing-feature-list {
