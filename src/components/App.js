@@ -13,7 +13,7 @@ import Pricing from './homePage/pricing/Pricing';
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}

@@ -24,30 +24,13 @@ export default function BusinessDetails() {
           <img src={imageFood} alt={imageFood} className="imageFood" />
         </div>
       </div>
-        <Container
-          className="d-flex justify-content-between"
-          style={{ width: "75vw",height: "30vh", minHeight: "500px" }}
+      <div className="d-flex justify-content-center w-100">
+        <div
+          className="container row"
+          style={{ height: "30vh", minHeight: "500px",direction:"rtl"}}
         >
-          <div className="d-flex flex-column justify-content-between align-items-end">
-            <p className="details">פרטי המסעדה</p>
-            <p className="preDetails">כתובת</p>
-              <div className="d-1">
-                <p>יגאל אלון 51 תל אביב</p>
-                <p> 6706204 Tel Aviv</p>
-              </div>
-            
-            <a className="map" href="#!">
-              להצגה במפה
-            </a>
-              <p className="preDetails">שעות פתיחה</p>
-              <div className="d-1">
-                <p>ראשון 10.00 –24.00 </p>
-                <p> שני - חמישי 10.00–24.00 </p>
-                <p>שישי 10.00–14.00 </p>
-                <p>שבת סגור</p>
-              </div>
-          </div>
-
+        
+          <div className="col-lg-8 col-md-8 col-sm-12">
           <div className="d-flex flex-column">
             <div className="tabs d-flex">
               <Tabs>
@@ -72,9 +55,31 @@ export default function BusinessDetails() {
                 </Tab>
               </Tabs>
             </div>
-            
+            </div>
           </div>
-        </Container>
+          <div className="col-lg-4 col-md-4 col-sm-12" dir="ltr">
+          <div className="d-flex flex-column justify-content-between align-items-end">
+            <p className="details">פרטי המסעדה</p>
+            <p className="preDetails">כתובת</p>
+              <div className="d-1">
+                <p className="pFooter">יגאל אלון 51 תל אביב</p>
+                <p className="pFooter"> 6706204 Tel Aviv</p>
+              </div>
+            
+            <a className="map" href="#!">
+              להצגה במפה
+            </a>
+              <p className="preDetails">שעות פתיחה</p>
+              <div className="d-1">
+                <p className="pFooter">ראשון 10.00 –24.00 </p>
+                <p className="pFooter"> שני - חמישי 10.00–24.00 </p>
+                <p className="pFooter">שישי 10.00–14.00 </p>
+                <p className="pFooter">שבת סגור</p>
+              </div>
+          </div>
+          </div>
+        </div>
+        </div>
       {/* <Recommendations/> */}
     </>
   );
