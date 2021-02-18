@@ -72,7 +72,7 @@ opacity: 1;
 }
 .sign-in-form{
     height: 60vh;
-    min-height: 550px;
+    min-height: 580px;
     width: 90%;
     max-width: 500px;
     min-width: 300px
@@ -436,6 +436,7 @@ border: 1px solid #8D8D8D;
 border-radius: 7px;
 opacity: 1;
 margin-bottom: 2vh;
+margin-right: 0px !important;
 width: 100%;
     transition: background-color .3s, box-shadow .3s;
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
@@ -666,6 +667,7 @@ margin-bottom: -10px;
   }
   .tab-buttons button{
       padding-bottom: 0px !important;
+
   }
   button{
     /* margin-right:15px; */

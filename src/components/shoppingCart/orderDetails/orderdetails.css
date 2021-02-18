@@ -118,4 +118,26 @@
     margin-right: 0px !important;
     border-radius: unset;
     box-shadow: unset;
+    color: white;
+    font:normal normal 600 18px/30px Segoe UI;
+    margin-top: 10px;
+  }
+  @media screen and (max-width: 580px){
+    .wrapperContent{
+      width: 80%;
+    }
+    .tab-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    .control{
+      /* width: 80%; */
+      padding: 23px;
+    }
+    .submitOrder{
+      /* width: 80%; */
+      height: 48px;
+      font:normal normal 600 16px/30px Segoe UI;
+    }
   }
