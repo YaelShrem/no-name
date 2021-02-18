@@ -610,9 +610,6 @@ max-height: 220px;
 min-height: 220px;
 max-height: 260px;
 }
-.MuiFormControl-root{
-    /* padding-top: 2vh !important; */
-}
 .MuiInputLabel-shrink{
     transform-origin: top right !important;
 }

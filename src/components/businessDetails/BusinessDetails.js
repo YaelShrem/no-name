@@ -76,6 +76,7 @@ export default function BusinessDetails() {
     </>
   );
 }
+
 class Tabs extends React.Component {
   state = {
     activeTab: this.props.children[0].props.label,
