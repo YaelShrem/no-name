@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "./productCatalog.css";
 import ProductImg from "../../../style/images/productImg.png";
-import CardColumns from "react-bootstrap-card";
+// import CardColumns from "react-bootstrap-card";
 
 export default function ProductCatalog() {
   return (
