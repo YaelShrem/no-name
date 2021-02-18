@@ -6,7 +6,8 @@ height: 433px;*/
 background: #515151 0% 0% no-repeat padding-box;
 direction: rtl;
 justify-content: space-between !important;
-opacity: 1; 
+opacity: 1;
+width: 100vw; 
 height: 50vh;
 max-height: 350px;
 min-height: 150px;

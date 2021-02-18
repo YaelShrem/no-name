@@ -1,17 +1,16 @@
 import React from "react";
 import "./orderdetails.css";
-import { BootstrapInput, Form, Container } from "react-bootstrap";
+import { /*BootstrapInput,*/ Form, Container ,Button } from "react-bootstrap";
 
 export default function OrderDetails() {
   return (
     <>
-      <div className="background" style={{ width: "100wh", hight: "550px" }}>
+      <div className="wrapperOrderDetails">
         <Container
           dir="rtl"
           className="d-flex"
           style={{ minHeight: "100vh", minWidth: "400px" }}
         >
-          <Form className="d-flex-col">
             <div className="order-tabs d-flex justify-content-center">
               <Tabs>
                 <Tab label="קטלוג מוצרים">
@@ -20,10 +19,8 @@ export default function OrderDetails() {
                 <Tab label="סל הקניות שלי">
                   <div></div>
                 </Tab>
-                <Tab label="לסיים הזמנה"></Tab>
-              </Tabs>
-            </div>
-            <p className="title">כמעט סיימנו...</p>
+                <Tab label="לסיים הזמנה">
+                <p className="title">כמעט סיימנו...</p>
             <div className="detail">
               <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
               <p>זמן ההזמנה נחשב מרגע סיום ההזמנה.</p>
@@ -34,7 +31,7 @@ export default function OrderDetails() {
               <Form.Control
                 className="control"
                 type="email"
-                placeholder="Exampl@email.com"
+                placeholder="Example@email.com"
               />
             </Form.Group>
             <Form.Group>
@@ -45,7 +42,18 @@ export default function OrderDetails() {
                 placeholder="050-000-0000"
               />
             </Form.Group>
-          </Form>
+            <Button
+                    variant="contained"
+                    type="submit"
+                    // disabled={loading}
+                    className="submitOrder"
+                  >
+                    תזמין לי
+                  </Button>
+                </Tab>
+              </Tabs>
+            </div>
+            
           {/* <Form className="d-flex-column">
             <div className="order-tabs d-flex justify-content-center">
               <Tabs>
@@ -72,7 +80,7 @@ export default function OrderDetails() {
 
 class Tabs extends React.Component {
   state = {
-    activeTab: this.props.children[0].props.label,
+    activeTab: this.props.children[2].props.label,
   };
   changeTab = (tab) => {
     this.setState({ activeTab: tab });
@@ -119,3 +127,6 @@ const TabButtons = ({ buttons, changeTab, activeTab }) => {
 const Tab = (props) => {
   return <React.Fragment>{props.children}</React.Fragment>;
 };
+
+
+

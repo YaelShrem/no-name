@@ -9,8 +9,8 @@ import "./login.css";
 export default function Login2() {
   const emailRef = useRef();
   const passwordRef = useRef();
-  //   const { login } = useAuth();
-  // const [error, setError] = useState("");
+  //const { login } = useAuth();
+  //const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
   return (
