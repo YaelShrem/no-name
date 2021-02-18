@@ -3,7 +3,7 @@ import backgroundGray from "../../style/images/backgroundGray.png";
 import imageFood from "../../style/images/imageFood.png";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Recommendations from "../recommendations/Recommendations";
+// import Recommendations from "../recommendations/Recommendations";
 export default function BusinessDetails() {
   return (
     <>

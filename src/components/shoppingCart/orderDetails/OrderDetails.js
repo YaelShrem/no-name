@@ -1,6 +1,6 @@
 import React from "react";
 import "./orderdetails.css";
-import { BootstrapInput, Form, Container ,Button } from "react-bootstrap";
+import { /*BootstrapInput,*/ Form, Container ,Button } from "react-bootstrap";
 
 export default function OrderDetails() {
   return (
@@ -48,7 +48,6 @@ export default function OrderDetails() {
                     type="submit"
                     // disabled={loading}
                     className="submitOrder"
-                    type="submit"
                   >
                     תזמין לי
                   </Button>
