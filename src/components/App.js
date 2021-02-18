@@ -13,7 +13,7 @@ import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
