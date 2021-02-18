@@ -57,13 +57,114 @@ export default function ProductCatalog() {
     </div>
   </div>
 </div> */}
-      <Container className="d-flex-col justify-content-center">
-        <div className="d-flex justify-content-between">
-          <div className="tab-div d-flex justify-content-between">
+      <Container className="containerProductCatalog d-flex-col justify-content-center">
+        <div className="d-flex justify-content-end">
+          <div className="tabProductCatalog d-flex justify-content-between">
+            <div>
             <Tabs>
               <Tab label="קטלוג מוצרים">
-                {/* <div className="p1">
-                </div> */}
+              <div className="d-flex  justify-content-center">
+          <div className="d-flex-column">
+            <Card className="d-flex pd-4" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+          </div>
+
+          <div className="d-flex-column">
+            <Card className="d-flex pd-4" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+          </div>
+
+          <div className="d-flex-column">
+            <Card className="d-flex pd-4" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+
+            <Card style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
+              <Button variant="primary" className="botton-style">
+                <Card.Body>
+                  <Card.Title>מנת ירקות של בורגר</Card.Title>
+                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
+                  <Card.Text className="p">ש"ח 25</Card.Text>
+                </Card.Body>
+              </Button>
+            </Card>
+          </div>
+        </div>
               </Tab>
               <Tab label="סל הקניות שלי">
                 {/* <div className="p1">כאן תוכלו להזמין את המוצרים שלכם</div> */}
@@ -72,117 +173,18 @@ export default function ProductCatalog() {
                 {/* <div className="p1">כאן תוכלו לראות את ההמלצות עלינו</div> */}
               </Tab>
             </Tabs>
-          </div>
-          <div className="d-flex justify-content-center">
+            </div>
+            <div className="d-flex justify-content-center">
             <p className="sortBy">מיין לפי</p>
             <Button className="show-all" variant="contained">
               תציג הכל
             </Button>
           </div>
+          </div>
+          
         </div>
 
-        <div className="d-flex  justify-content-center">
-          <div className="d-flex-column">
-            <Card className="d-flex pd-4" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-          </div>
-
-          <div className="d-flex-column">
-            <Card className="d-flex pd-4" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-          </div>
-
-          <div className="d-flex-column">
-            <Card className="d-flex pd-4" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={ProductImg} alt={ProductImg} />
-              <Button variant="primary" className="botton-style">
-                <Card.Body>
-                  <Card.Title>מנת ירקות של בורגר</Card.Title>
-                  <Card.Text>'זמן משלוח 30 דק</Card.Text>
-                  <Card.Text className="p">ש"ח 25</Card.Text>
-                </Card.Body>
-              </Button>
-            </Card>
-          </div>
-        </div>
+        
       </Container>
     </>
   );

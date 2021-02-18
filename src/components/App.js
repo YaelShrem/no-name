@@ -23,12 +23,12 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       <Header />
-      <Pricing/>
+      {/* <Pricing/> */}
       {/* <Recommendations /> */}
-      {/* <Login2 /> */}
+      <Login2 />
       {/* <BusinessDetails /> */}
       {/* <OrderDetails /> */}
-      <ProductCatalog />
+      {/* <ProductCatalog /> */}
       {/* <Footer /> */}
     </div>
   );

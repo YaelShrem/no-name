@@ -549,14 +549,23 @@ width: 100%;
      box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
    
      
-    } .roundedOne:hover::after {
+    }
+    
+    .roundedOne:hover::after {
        opacity:0.3 ;
       }
     input[type=checkbox] {
       visibility: hidden;
+      background-color: white;
      
     }input[type=checkbox]:checked + .labelClass:after {
         opacity: 1;
+        --color-1: #22C5BB;
+    --color-2: #4DDC6B;
+     background:linear-gradient( 
+        360deg
+        , var(--color-1), var(--color-2) 85% );
+
       }
       .labelClass {
         width: 20px;
@@ -568,6 +577,7 @@ width: 100%;
         background:linear-gradient(top, #222 0%, #45484d 100%);
          border-radius:50px ;
         box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+        background-color: white;
        
   } .labelClass:after {
           content: '';
