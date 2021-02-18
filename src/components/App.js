@@ -22,9 +22,9 @@ function App() {
   return (
     <div className="App">
       {/* <Header /> */}
-      <Header />
-      <br/><br/><br/><br/>
-      <Pricing/>
+      {/* <Header /> */}
+      {/* <br/><br/><br/><br/> */}
+      {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}

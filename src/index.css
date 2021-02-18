@@ -2,6 +2,7 @@
 
 /*Colors Definitions +fonts*/
 :root{
+  --almost-black:#302D3A !important;
   --white: #FFFFFF !important;
   --smoky-white: #F2F2F2 !important;
   --very-light-gray: #00000029 !important;

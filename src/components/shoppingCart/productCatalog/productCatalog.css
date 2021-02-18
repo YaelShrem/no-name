@@ -1,3 +1,10 @@
+/* Overiding Bootstrap Style */
+.card-title.h5{
+    color:#302D3A !important;
+}
+
+/* @Chani Style Definitions */
+
 .productImg{
     /* width: 88vw !important;
     height: 95vh !important; */
@@ -33,10 +40,9 @@ body {
     height: 200px !important;
     width: 300px !important;
 } */
-.Container{
+.container-catalog{
     background-color:#F2F2F2 !important;
-    width:100vw;
-
+    width:50vw;
 }
 .card{
 /* top: 1934px;
@@ -60,19 +66,16 @@ margin: 15px;
     cursor: pointer;
     box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
   }
-  .card.Titl{
-    top: 2180px !important;
-    left: 1312px !important;
-    width: 214px !important;
-    height: 66px !important;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 24px/32px Poppins !important;
-    letter-spacing: var(--unnamed-character-spacing-0) !important;
+  /*
+.main-title{
+     font: var(--very-dark-gray) normal var(--very-dark-gray) 24px/32px Poppins !important; */
+    /* letter-spacing: var(--unnamed-character-spacing-0) !important;
     text-align: right !important;
     font: normal normal medium 24px/32px Poppins !important;
     letter-spacing: 0px !important;
-    color: #302D3A !important;
+    color: #302D3A!important;
     opacity: 1 !important;
-  }
+  } */
 
    .card.Text{
     top: 2232px;
@@ -86,6 +89,7 @@ margin: 15px;
     letter-spacing: 0px;
     color: #8C98A8;
     opacity: 1;
+    padding-right: 8px;
   }
   .p{
     top: 2277px;
@@ -98,7 +102,7 @@ margin: 15px;
     font: normal normal bold 18px/24px ;
     letter-spacing: 0.36px;
     color: #22C5BB;
-    opacity: 1;
+    opacity: 1 !important;
   }
   .botton-style{
       padding:0px !important;
@@ -167,31 +171,32 @@ margin: 15px;
         opacity: 1 !important;
         border-width: medium !important;
     }
-    .show-all{
+.show-all{
 /* top: 1817px;
 left: 377px; */
-width: 127px;
-height: 56px;
+width: 97px;
+height: 38px;
 background: var(--unnamed-color-ffd600) 0% 0% no-repeat padding-box;
 background: #FFD600 0% 0%  !important; 
 border-radius: 4px!important;
-opacity: 1;
+opacity: 1 !important;
 color: #FFFFFF!important;
 /* top: 1833px;
 left: 401px; */
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-segoe-ui);
 color: var(--unnamed-color-ffffff);
 text-align: left;
-/* font: normal normal 600 18px/24px Segoe UI; */
+font: normal normal 600 18px/24px Segoe UI;
 letter-spacing: 0.54px;
 color: #FFFFFF;
-
+box-shadow:none !important;
 }
-.sortBy{
+.dropdown{
 /* top: 1834px;
 left: 531px; */
-width: 59px;
-height: 24px;
+/* width: 59px;
+height: 24px; */
+margin:11px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-segoe-ui);
 letter-spacing: var(--unnamed-character-spacing-0);
 text-align: left;
@@ -199,4 +204,15 @@ text-align: left;
 letter-spacing: 0px;
 color: #5F5982;
 opacity: 1;
+border: none;
+background-color:5F5982;
+}
+.rout{
+   text-align: left;
+}
+.time{
+    padding-right: 8px;
+}
+.div-time{
+    margin-bottom: 7px;
 }
