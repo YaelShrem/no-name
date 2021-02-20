@@ -9,13 +9,14 @@ import Header from "./header/Header";
 //import Recommendations from "./recommendations/Recommendations";
 // import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 import Pricing from './homePage/pricing/Pricing';
-
+import Icon from './Icon'
 function App() {
   return (
     <div className="App">
       <Header />
       <br/><br/><br/><br/>
       <Pricing/>
+      <Icon name="checkCircle"/>
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
