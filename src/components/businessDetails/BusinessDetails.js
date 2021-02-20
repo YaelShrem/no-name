@@ -20,7 +20,7 @@ export default function BusinessDetails() {
         </div>
       </div>
       <div className="d-flex justify-content-center w-100">
-        <div className="container row">
+        <div className="containerBuisnessDetails row">
         
           <div className="col-lg-8 col-md-8 col-sm-12">
           <div className="d-flex flex-column">
@@ -76,6 +76,7 @@ export default function BusinessDetails() {
     </>
   );
 }
+
 class Tabs extends React.Component {
   state = {
     activeTab: this.props.children[0].props.label,

@@ -87,7 +87,7 @@ export default function Login2() {
                             value="None"
                             id="roundedOne"
                             name="check"
-                            checked
+                          //  checked
                           />
                           <label
                             for="roundedOne"

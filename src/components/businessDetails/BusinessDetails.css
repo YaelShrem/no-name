@@ -233,7 +233,7 @@ opacity: 1;
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
-.container{
+.containerBuisnessDetails{
    width: 100vw;
    height: 30vh; 
    min-height: 500px;
@@ -265,12 +265,12 @@ opacity: 1;
     }
 }
 @media screen and(max-width:3000px) and (min-width: 1000px){
-   .container{
+   .containerBuisnessDetails{
     width: 75vw;
 }
 }
 @media screen and (max-width: 1000px){
-    .container{
+    .containerBuisnessDetails{
         height:450px !important;
         min-height: unset !important;
     }
@@ -338,13 +338,13 @@ opacity: 1;
     }
 }
 @media screen and (max-width: 768px){
-    .container{
+    .containerBuisnessDetails{
         height:450px !important;
         min-height: unset !important;
     }
 }
 @media screen and (max-width: 767px){
-    .container{
+    .containerBuisnessDetails{
         height:730px !important;
         min-height: unset !important;
     }
