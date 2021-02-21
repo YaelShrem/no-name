@@ -3,6 +3,13 @@
     color:#302D3A !important;
 }
 
+.MuiButtonBase-root{
+  background:var(--white)!important;
+  opacity: 1 !important;
+  min-width: 36px!important;
+  border-radius: 5px !important;
+}
+
 /* @Chani Style Definitions */
 
 .productImg{
@@ -148,14 +155,10 @@ margin: 15px;
         background:transparent;
         border:none;
         outline:none;
-        padding:10px 20px ;
+        padding:10px 20px;
         cursor:pointer;
         transition:all ease-in-out .2s;
         border-bottom:2px solid transparent;
-        /* top: 1072px;
-    left: 1265px;
-    width: 74px;
-    height: 32px; */
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 24px/32px var(--unnamed-font-family-segoe-ui);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-707070);
@@ -216,3 +219,25 @@ background-color:5F5982;
 .div-time{
     margin-bottom: 7px;
 }
+
+ .arrow {
+    color: red !important;
+}
+
+.arrow:active {     
+  color:yellow !important;    
+}
+/* .line{
+ width: 513px;
+height: 2px;
+cursor:pointer !important;
+transition:all ease-in-out .2s !important;
+border-bottom:1px solid  transparent !important;
+opacity: 0.5 !important;
+} */
+/* .line:active{
+  border-bottom:2px solid #FFD600 !important;
+  color: #707070 !important;
+  opacity: 1 !important;
+  border-width: medium !important;
+} */

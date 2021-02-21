@@ -53,25 +53,6 @@ export default function OrderDetails() {
                 </Tab>
               </Tabs>
             </div>
-            
-          {/* <Form className="d-flex-column">
-            <div className="order-tabs d-flex justify-content-center">
-              <Tabs>
-                <Tab label="קטלוג מוצרים">
-                  <div></div>
-                </Tab>
-                <Tab label="סל הקניות שלי">
-                  <div></div>
-                </Tab>
-                <Tab label="לסיים הזמנה"></Tab>
-              </Tabs>
-            </div>
-            <p className="title">כמעט סיימנו...</p>
-            <div className="detail">
-              <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
-              <p>זמן ההזמנה נחשב מרגע סיום ההזמנה.</p>
-            </div>
-          </Form> */}
         </Container>
       </div>
     </>
