@@ -12,7 +12,7 @@ import BusinessDetails from "./businessDetails/BusinessDetails";
 import Footer from "./footer/Footer";
 //import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 //import SearchSection from "./homePage/searchSection/SearchSection";
-// import Recommendations from "./recommendations/Recommendations";
+import Recommendations from "./recommendations/Recommendations";
 import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 // import Pricing from './homePage/pricing/Pricing';
 
@@ -23,9 +23,9 @@ function App() {
       {/* <HomePage/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
-      <Login2 />
+      {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
-      {/* <OrderDetails /> */}
+      <OrderDetails />
       {/* <ProductCatalog /> */}
       {/* <Footer /> */}
     </>
