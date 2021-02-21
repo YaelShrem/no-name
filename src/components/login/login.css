@@ -630,6 +630,7 @@ max-height: 260px;
     color: #8D8D8D !important;
     opacity: 1;
 margin-bottom: -10px;
+text-align: right;
 }
 #userName,#email,#password{
     font-size: medium;

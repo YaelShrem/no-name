@@ -7,7 +7,7 @@ import HomePage from './homePage/HomePage';
 //import Recommendations from "./recommendations/Recommendations";
 //import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 //import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
-// import Login2 from "./login/Login2";
+import Login2 from "./login/Login2";
 import BusinessDetails from "./businessDetails/BusinessDetails";
 import Footer from "./footer/Footer";
 //import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
@@ -20,10 +20,10 @@ function App() {
   return (
     <>
       <Header />
-      <HomePage/>
+      {/* <HomePage/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
-      {/* <Login2 /> */}
+      <Login2 />
       {/* <BusinessDetails /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
