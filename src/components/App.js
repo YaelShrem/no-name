@@ -1,6 +1,6 @@
 import Header from "./header/Header";
-//import HomePage from './homePage/HomePage';
-import Login2 from "./login/Login2";
+import HomePage from './homePage/HomePage';
+//import Login2 from "./login/Login2";
 //import BusinessDetails from "./businessDetails/BusinessDetails";
 //import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 //import SearchSection from "./homePage/searchSection/SearchSection";
@@ -18,17 +18,17 @@ import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      {/* <HomePage/> */}
+      <HomePage/>
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
-      <OrderDetails />
+      {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
-      <Footer />
-    </div>
+      {/* <Footer /> */}
+    </>
   );
 }
 
