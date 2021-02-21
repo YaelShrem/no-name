@@ -24,7 +24,7 @@ export default function BusinessDetails() {
         
           <div className="col-lg-8 col-md-8 col-sm-12">
           <div className="d-flex flex-column">
-            <div className="tabs d-flex tabsBuisness ">
+            <div className="tabs d-flex tabsBuisness justify-content-center">
               <Tabs>
                 <Tab label="סקירה כללית">
                 <div className="p1">
