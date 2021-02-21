@@ -12,8 +12,8 @@ import BusinessDetails from "./businessDetails/BusinessDetails";
 import Footer from "./footer/Footer";
 //import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 //import SearchSection from "./homePage/searchSection/SearchSection";
-import Recommendations from "./recommendations/Recommendations";
-// import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+// import Recommendations from "./recommendations/Recommendations";
+import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 // import Pricing from './homePage/pricing/Pricing';
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
-      <BusinessDetails />
-      {/* <OrderDetails /> */}
+      {/* <BusinessDetails /> */}
+      <OrderDetails />
       {/* <ProductCatalog /> */}
       <Footer />
     </div>

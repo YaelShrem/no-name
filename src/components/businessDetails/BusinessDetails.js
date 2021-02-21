@@ -49,7 +49,7 @@ export default function BusinessDetails() {
             </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12" dir="ltr">
+          <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center" dir="ltr">
           <div className="d-flex flex-column justify-content-between align-items-end">
             <p className="details">פרטי המסעדה</p>
             <p className="preDetails">כתובת</p>
