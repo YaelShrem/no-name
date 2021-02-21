@@ -6,12 +6,22 @@ import './searchSection.css';
 export default function SearchSection() {
     return (
         <>
-            <img src={backgroundShape}
+                    {/* <Row> */}
+                    <section style={{
+                       height: '90vh',
+                       position: 'relative',
+                      //  backgroundSize: 'cover',
+                       backgroundColor: 'red',
+                       paddingTop: '8rem',
+                       paddingBottom: '8rem'}}>
+                                       <img src={backgroundShape}
                  alt={backgroundShape}
                  className="background-shape"/>
                 <img src={mainImg}
                  alt={mainImg}
                  className="main-img"/> 
+                    </section>
+            {/* </Row> */}
             </>
     )
 }
