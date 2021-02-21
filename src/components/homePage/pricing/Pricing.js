@@ -1,39 +1,10 @@
 import React from 'react';
-import Parser from 'html-react-parser';
 import './pricing.css';
-
+import Icon from '../../Icon'
 export default function Pricing() {
-    const icon={
-        checkCircle: `<svg xmlns="http://www.w3.org/2000/svg"
-                            fill="url('#myGradient')"
-                            class="bi bi-check2-circle try mini-icon check-icon"
-                            viewBox="0 0 16 16">
-                            <defs>
-                            <linearGradient id="myGradient" gradientTransform="rotate(90)">
-                              <stop offset="5%"  stop-color="#4DDC6B" />
-                              <stop offset="95%" stop-color="#22C5BB" />
-                            </linearGradient>
-                          </defs>                                             
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
-      </svg>`, 
-      checkCircleWhite: `<svg xmlns="http://www.w3.org/2000/svg"
-      fill="currentColor"
-      class="bi bi-check2-circle try mini-icon check-icon-white"
-      viewBox="0 0 16 16">
-        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
-        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
-      </svg>`, 
-    };
     return (
         <>
-<section>
-  {/* <center>
-      <h1>
-          Responsive Pricing Table (HTML &amp; CSS) Only
-      </h1>
-</center> */}
-
+<section className="pricing-section">
   <div className="pricing pricing-palden">
     <div className="pricing-item features-item ja-animate" data-animation="move-from-bottom" data-delay="item-0" style={{minHeight: 497}}>
       <div className="pricing-deco">
@@ -48,14 +19,14 @@ export default function Pricing() {
       <br/>
       <ul className="pricing-feature-list">
         <li className="pricing-feature">
-           {Parser(icon.checkCircle)}
+          <Icon name="checkCircle"/>
             1 GB of space
         </li>
         <li className="pricing-feature">
-            {Parser(icon.checkCircle)}
+          <Icon name="checkCircle"/>
             Support at $25/hour</li>
         <li className="pricing-feature">
-            {Parser(icon.checkCircle)}
+          <Icon name="checkCircle"/>
             Limited cloud access
         </li>
       </ul>
@@ -77,15 +48,15 @@ export default function Pricing() {
       <br/>
       <ul className="pricing-feature-list text-light">
         <li className="pricing-feature">
-            {Parser(icon.checkCircleWhite)}
+            <Icon name="checkCircleWhite"/>
             5 GB of space
         </li>
         <li className="pricing-feature">
-            {Parser(icon.checkCircleWhite)}
+        <Icon name="checkCircleWhite"/>
             Support at $5/hour
         </li>
         <li className="pricing-feature">
-            {Parser(icon.checkCircleWhite)}
+        <Icon name="checkCircleWhite"/>
             Full cloud access
         </li>
       </ul>
@@ -105,15 +76,15 @@ export default function Pricing() {
       <br/>
       <ul className="pricing-feature-list">
         <li className="pricing-feature">
-            {Parser(icon.checkCircle)}
+        <Icon name="checkCircle"/>
             10 GB of space
         </li>
         <li className="pricing-feature">
-            {Parser(icon.checkCircle)}
+        <Icon name="checkCircle"/>
             Support at $5/hour
         </li>
         <li className="pricing-feature">
-            {Parser(icon.checkCircle)}
+        <Icon name="checkCircle"/>
             Full cloud access
         </li>
       </ul>
