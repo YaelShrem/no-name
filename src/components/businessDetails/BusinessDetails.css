@@ -101,7 +101,7 @@ opacity: 1;
 .p1{
     top: 1327px;
     left: 1002px;
-    /* width: 542px; */
+    width: 542px;
     /* height: 113px; */
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-26)/39px var(--unnamed-font-family-segoe-ui);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -183,7 +183,7 @@ min-height: unset;
     direction: rtl;
     /* padding-right: 30px; */
     display: flex;
-    /* justify-content: end; */
+    justify-content: start;
   }
   
   button{
@@ -304,6 +304,7 @@ opacity: 1;
         font: normal normal 600 15px/22px Segoe UI;
     }
     .p1{
+        width: 450px;
         font: normal normal normal 15px/13px Segoe UI;
     }
     .details{
