@@ -13,21 +13,21 @@ import Footer from "./footer/Footer";
 //import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 //import SearchSection from "./homePage/searchSection/SearchSection";
 import Recommendations from "./recommendations/Recommendations";
-import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+// import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 // import Pricing from './homePage/pricing/Pricing';
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* <HomePage/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}
-      <OrderDetails />
+      {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
