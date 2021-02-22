@@ -9,9 +9,11 @@ import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import ScrollMenu from 'react-horizontal-scrolling-menu';
 
 
-export default function Recommendations() {
+
+export default function Recommendations(props) {
   const [value, setValue] = React.useState(2);
 
   const responsive = {
@@ -150,13 +152,14 @@ onChange={(event, newValue) => {
           />
         </div>
         
-       <div className="d-flex">
+       {/* <div className="d-flex">
         <AliceCarousel
                  mouseTracking
                 items={items}
                 responsive={responsive}
             />
-            </div>
+            </div> */}
+     
       </div>
       {/* Fonts to support Material Design  */}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
