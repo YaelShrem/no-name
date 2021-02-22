@@ -1,9 +1,15 @@
 import Header from "./header/Header";
-// import {Container, Row, Col} from 'react-bootstrap'
-// import HomePage from './homePage/HomePage';
+import HomePage from "./homePage/HomePage";
+//import Login2 from "./login/Login2";
+//import BusinessDetails from "./businessDetails/BusinessDetails";
+//import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
+//import SearchSection from "./homePage/searchSection/SearchSection";
+//import Recommendations from "./recommendations/Recommendations";
+//import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+//import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 import Login2 from "./login/Login2";
 import BusinessDetails from "./businessDetails/BusinessDetails";
-import Footer from "./homePage/footer/Footer";
+// import Footer from "./homePage/footer/Footer";
 import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 import SearchSection from "./homePage/searchSection/SearchSection";
 import Recommendations from "./recommendations/Recommendations";
@@ -14,7 +20,7 @@ import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
 
 function App() {
   return (
-    <div className="App">
+    <>
       {/* <Header /> */}
       {/* <Header /> */}
       {/* <br/><br/><br/><br/> */}
@@ -26,7 +32,7 @@ function App() {
       {/* <ProductCatalog /> */}
       <MyShoppingBag />
       {/* <Footer /> */}
-    </div>
+    </>
   );
 }
 

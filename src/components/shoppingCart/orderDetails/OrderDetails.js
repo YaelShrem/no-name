@@ -20,6 +20,7 @@ export default function OrderDetails() {
                   <div></div>
                 </Tab>
                 <Tab label="לסיים הזמנה">
+                  <div className="wrapperContent">
                 <p className="title">כמעט סיימנו...</p>
             <div className="detail">
               <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
@@ -50,6 +51,7 @@ export default function OrderDetails() {
                   >
                     תזמין לי
                   </Button>
+                  </div>
                 </Tab>
               </Tabs>
             </div>

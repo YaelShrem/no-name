@@ -1,6 +1,6 @@
 import React from "react";
 import Parser from "html-react-parser";
-import { Container,Dropdown } from "react-bootstrap";
+import { Container, Dropdown } from "react-bootstrap";
 import Button from "@material-ui/core/Button";
 import ProductImg from "../../../style/images/productImg.png";
 import "./myShoppingBag.css";

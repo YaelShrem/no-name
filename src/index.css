@@ -17,6 +17,7 @@
   --heading-font-family: 'Poppins', sans-serif;
   --body-font-family: 'Lato', sans-serif;
 }
+
 /*Global Styles Definitions*/
 *,::before,::after{
   box-sizing: border-box;

@@ -72,7 +72,7 @@ opacity: 1;
 }
 .sign-in-form{
     height: 60vh;
-    min-height: 550px;
+    min-height: 580px;
     width: 90%;
     max-width: 500px;
     min-width: 300px
@@ -436,6 +436,7 @@ border: 1px solid #8D8D8D;
 border-radius: 7px;
 opacity: 1;
 margin-bottom: 2vh;
+margin-right: 0px !important;
 width: 100%;
     transition: background-color .3s, box-shadow .3s;
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
@@ -486,7 +487,7 @@ width: 100%;
     opacity: 1;
     margin-left: 8px;
   }
-  *,
+  /* *, */
   *::before,
   *::after {
       margin: 0;
@@ -548,14 +549,23 @@ width: 100%;
      box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
    
      
-    } .roundedOne:hover::after {
+    }
+    
+    .roundedOne:hover::after {
        opacity:0.3 ;
       }
     input[type=checkbox] {
       visibility: hidden;
+      background-color: white;
      
     }input[type=checkbox]:checked + .labelClass:after {
         opacity: 1;
+        --color-1: #22C5BB;
+    --color-2: #4DDC6B;
+     background:linear-gradient( 
+        360deg
+        , var(--color-1), var(--color-2) 85% );
+
       }
       .labelClass {
         width: 20px;
@@ -567,6 +577,7 @@ width: 100%;
         background:linear-gradient(top, #222 0%, #45484d 100%);
          border-radius:50px ;
         box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+        background-color: white;
        
   } .labelClass:after {
           content: '';
@@ -619,6 +630,7 @@ max-height: 260px;
     color: #8D8D8D !important;
     opacity: 1;
 margin-bottom: -10px;
+text-align: right;
 }
 #userName,#email,#password{
     font-size: medium;
@@ -663,6 +675,7 @@ margin-bottom: -10px;
   }
   .tab-buttons button{
       padding-bottom: 0px !important;
+
   }
   button{
     /* margin-right:15px; */

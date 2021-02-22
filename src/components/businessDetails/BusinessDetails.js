@@ -20,11 +20,11 @@ export default function BusinessDetails() {
         </div>
       </div>
       <div className="d-flex justify-content-center w-100">
-        <div className="container row">
+        <div className="containerBuisnessDetails row">
         
           <div className="col-lg-8 col-md-8 col-sm-12">
           <div className="d-flex flex-column">
-            <div className="tabs d-flex tabsBuisness ">
+            <div className="tabs d-flex tabsBuisness justify-content-center">
               <Tabs>
                 <Tab label="סקירה כללית">
                 <div className="p1">
@@ -49,7 +49,7 @@ export default function BusinessDetails() {
             </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12" dir="ltr">
+          <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center" dir="ltr">
           <div className="d-flex flex-column justify-content-between align-items-end">
             <p className="details">פרטי המסעדה</p>
             <p className="preDetails">כתובת</p>

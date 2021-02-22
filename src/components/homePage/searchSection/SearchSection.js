@@ -5,13 +5,13 @@ import './searchSection.css';
 
 export default function SearchSection() {
     return (
-        <div >
+        <>
             <img src={backgroundShape}
                  alt={backgroundShape}
                  className="background-shape"/>
                 <img src={mainImg}
                  alt={mainImg}
                  className="main-img"/> 
-            </div>
+            </>
     )
 }

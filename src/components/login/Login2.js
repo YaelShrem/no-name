@@ -87,7 +87,7 @@ export default function Login2() {
                             value="None"
                             id="roundedOne"
                             name="check"
-                            checked
+                          //  checked
                           />
                           <label
                             for="roundedOne"
@@ -114,65 +114,7 @@ export default function Login2() {
                     הרשם
                   </Button>
                 </div>
-                      {/* <div>
-                      <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
-
-                      <div className="tabs-container alt">
-                        <div
-                          className="tab-content"
-                          id="tab1"
-                          style={{ display: "none" }}
-                        >
-                          <form method="post" className="login">
-                            <p className="form-row form-row-wide">
-                              <label htmlFor="username">
-                                Username:
-                                <i className="im im-icon-Male" />
-                                <input
-                                  type="text"
-                                  className="input-text"
-                                  name="username"
-                                  id="username"
-                                  defaultValue
-                                />
-                              </label>
-                            </p>
-                            <p className="form-row form-row-wide">
-                              <label htmlFor="password">
-                                Password:
-                                <i className="im im-icon-Lock-2" />
-                                <input
-                                  className="input-text"
-                                  type="password"
-                                  name="password"
-                                  id="password"
-                                />
-                              </label>
-                              <span className="lost_password">
-                                <a href="#">Lost Your Password?</a>
-                              </span>
-                            </p>
-                            <div className="form-row">
-                              <input
-                                type="submit"
-                                className="button border margin-top-5"
-                                name="login"
-                                defaultValue="Login"
-                              /> */}
-                              {/* <div className="checkboxes margin-top-10">
-                          <input
-                            id="remember-me"
-                            type="checkbox"
-                            name="check"
-                          />
-                          <label htmlFor="remember-me">Remember Me</label>
-                        </div> */}
-                            {/* </div>
-                          </form>
-                        </div>
-                      </div>
-                      </div> */}
-                    </Tab>
+                     </Tab>
                     <Tab label="הרשם">
                       {/* Register */}
                       <p className="psign">הרשם באמצעות חשבון הגוגל שלך</p>
