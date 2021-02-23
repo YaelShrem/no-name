@@ -21,12 +21,8 @@ function App() {
     <>
       <Header />
       <HomePage/>
-
-
       {/* <br/><br/><br/>
       <Pricing/> */}
-
-
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails /> */}

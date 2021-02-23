@@ -1,16 +1,13 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
 
 export default function Footer() {
   return (
-    <MDBFooter color="blue" className="footer d-flex font-small pt-4">
-      <MDBContainer
-        fluid
-        className="text-center d-flex justify-content-center align-items-center text-md-left"
-      >
-        <MDBRow className="text-center containerFooter row col-lg-9 col-md-10 ">
-          <MDBCol lg="6" md="6" sm="6">
+    <div className="footer d-flex justify-content-center font-small pt-4">
+      <div  className="container-footer d-flex justify-content-center align-items-center col-xl-9 col-lg-11" >
+        <div className="wrapper-footer d-flex justify-content-between row">
+          <div className="col-lg-7 col-md-6 col-sm-6">
             <h5 className="titleFooter" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
               <p>
@@ -21,11 +18,11 @@ export default function Footer() {
               <p> הרשת וממשתמשי Xbiz על בסיס יום יומי, באופן אוטומטי.</p>
               <p>האלגוריתם של האתר והמידע בתוכו מתעדכנים באופן קבוע.</p>
             </div>
-          </MDBCol>
-          <MDBCol className="d-flex justify-content-between wrapper" md="6" sm="6">
-            <MDBCol className="ulWrapper" lg="6" md="6" sm="6">
+          </div>
+          <div className="d-flex justify-content-between wrapper col-lg-5 col-md-6 col-sm-6">
+            <div className="ulWrapper col-lg-6 col-md-6 col-sm-6">
               <h5 className="titleFooter" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
-              <ul className="ulContainer d-flex flex-column justify-content-between">
+              <ul className="ul-footer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
                   <a href="#!">איך זה עובד</a>
                 </li>
@@ -45,24 +42,19 @@ export default function Footer() {
                   <a href="#!">החשבון שלי</a>
                 </li>
               </ul>
-            </MDBCol>
-            <MDBCol lg="6" md="6" sm="6">
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <h5 className="titleFooter" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
               <div className="contact">
                 <p>בר כוכבא 4 קומה 6</p>
                 <p>טלפון: (123) 123-456</p>
                 <p> אמייל:office@example.com</p>
               </div>
-            </MDBCol>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-      {/* <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
-        </MDBContainer>
-      </div> */}
-    </MDBFooter>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
   );
 }
