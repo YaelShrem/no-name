@@ -5,9 +5,9 @@ import "./footer.css";
 export default function Footer() {
   return (
     <div className="footer d-flex justify-content-center font-small pt-4">
-      <div  className="container-footer d-flex justify-content-center align-items-center" >
-        <div className="containerFooter d-flex justify-content-between row">
-          <div className="col-lg-6 col-md-6 col-sm-6">
+      <div  className="container-footer d-flex justify-content-center align-items-center col-xl-9 col-lg-11" >
+        <div className="wrapper-footer d-flex justify-content-between row">
+          <div className="col-lg-7 col-md-6 col-sm-6">
             <h5 className="titleFooter" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
               <p>
@@ -19,8 +19,8 @@ export default function Footer() {
               <p>האלגוריתם של האתר והמידע בתוכו מתעדכנים באופן קבוע.</p>
             </div>
           </div>
-          <div className="d-flex justify-content-between wrapper col-lg-6 col-md-6 col-sm-6">
-            <div className="ulWrapper" lg="6" md="6" sm="6">
+          <div className="d-flex justify-content-between wrapper col-lg-5 col-md-6 col-sm-6">
+            <div className="ulWrapper col-lg-6 col-md-6 col-sm-6">
               <h5 className="titleFooter" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
               <ul className="ul-footer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
@@ -43,7 +43,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div lg="6" md="6" sm="6">
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <h5 className="titleFooter" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
               <div className="contact">
                 <p>בר כוכבא 4 קומה 6</p>
