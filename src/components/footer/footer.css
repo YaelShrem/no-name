@@ -81,8 +81,16 @@ opacity: 1;
 a{
     color: white !important;
 }
-
-
+@media screen and (max-width: 1800px){
+.ulWrapper{
+    padding-right: 65px;
+}
+}
+@media screen and (max-width: 1400px){
+    .ulWrapper{
+        padding-right: 10px;
+    }
+}
 @media screen and (max-width: 880px){
     .content,.ulWrapper,.contact,.titleFooter{
 font-size: smaller;
@@ -113,7 +121,7 @@ font-size: small;
 }
 @media screen and (max-width: 710px){
      .content,.ulWrapper,.contact,.titleFooter{
-font-size: x-small;
+font-size:11px;
     }
 }
 @media screen and (max-width: 500px){

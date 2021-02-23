@@ -1,3 +1,14 @@
+.container-login{
+    min-height: 100vh; 
+    min-width: 320px;
+     margin-top: 77px;
+     width: 100%;
+}
+.wrapper-card-login{
+    min-height: 550px;
+     height: 70vh;
+     
+}
 .background-shape{
     width: 88vw;
     height: 95vh;
@@ -74,7 +85,7 @@ opacity: 1;
     height: 60vh;
     min-height: 580px;
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
     min-width: 300px
 }
 
@@ -111,22 +122,15 @@ a, button {
 .tab-buttons button{
     margin: 0px !important;
 }
-  /* .style-3 .tabs-nav li a:hover,
-.style-3 .tabs-nav li.active a {
-	border-color: #66676b;
-	background-color: #66676b;
-	color: #fff;
-	z-index: 11;
-} */
 
 .tabs-nav li a:hover { border-color: #66676b; color: #FFD600;}
 
 
-.container::before {
+.container-login::before {
     content: none !important;
 }
 
-.container::after {
+.container-login::after {
     content: none !important;
 }
 .container-forgot-password{
@@ -137,6 +141,9 @@ a, button {
 }
 .css-shadow{
     height: 100%;
+    max-width: 720px;
+    min-width: 280px;
+    background-color: white;
     box-shadow: 0px 2px 6px #0000001F;
 
 }
@@ -172,87 +179,9 @@ a, button {
     font-size: 15px !important;
     font-weight: normal !important;
 }
-i{
+.sl-icon-settings{
     font-size: 21px;
 }
-label{
-    color: #666;
-    font-size: 15px;
-    font-weight: normal !important;
-}
-/* 
-.tabs-nav {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.tabs-nav li a i {
-	padding-right: 5px;
-	font-size: 16px;
-	top: 1px;
-	position: relative;
-}
-
-.tabs-nav li {
-	float: left;
-	/* line-height: 45px; */
-	/* padding: 0;
-	margin-right: 4px;
-	position: relative;
-	z-index: 12;
-}
-
-.tabs-nav li a,
-.tab-reviews {
-	-webkit-transition: all 0.25s ease-in-out;
-	transition: all 0.25s ease-in-out;
-}
-
-.tabs-nav li a {
-	border-bottom: 1px solid transparent;
-	color: #333;
-	display: inline-block;
-	outline: none;
-	padding: 7px 15px;
-	text-decoration: none;
-	font-size: 15px;
-	z-index: 11;
-	position: relative;
-	margin-bottom: -1px;
-}
-
-.tabs-nav li a:hover { border-color: #66676b;color: #FFD600;}
-
-.tab-reviews { color: #aaa; }
-
-.tabs-nav li.active .tab-reviews { color: #fff; }
-.tabs-nav li a:hover,
-.tabs-nav li.active a {
-	border-color: #66676b;
-	color: #FFD600;
-    z-index: 11;
-    text-decoration-color: #FFD600 ;
-}
-
-.tab-content {
-	padding: 28px 33px;
-	position: relative;
-	z-index: 10;
-	display: inline-block;
-	width: 100%;
-}
-
-.tabs-container {
-	overflow: hidden;
-	width: 100%;
-}
-
-.tab-content p:last-child { margin-bottom: 0; }
-
-
-.style-2 .tabs-container { box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); border-radius: 3px; }
 
 /* Tabs Style 1 */
 .style-1 .tabs-container .tab-content {
@@ -355,60 +284,11 @@ label{
 
 } */
 
-/* Tabs Style 5 */
-/* .style-5 .tabs-nav li {
-	width: 33.33%;
-}
-
-.stytle-5 .tabs-container .widget-text {
-	position: relative;
-	top: 50px;
-	transform: transitionY(-50%);
-	display: inline-block;
-} */
-
-
-/* .style-5 .tabs-nav {
-	bottom: 5px;
-	position: relative;
-} */
-
-/* .style-5 .tabs-nav li a {
-	border: none;
-	background-color: #f2f2f2;
-	color: #333;
-	border-radius: 4px;
-	padding: 0;
-}
-
-.style-5 .tabs-nav li.active a {
-	background-color: #66676b;
-	color: #fff;
-}
-
-
-.style-5 .tabs-container .tab-content {
-	box-shadow: none;
-	border: none;
-	padding: 20px 0 0 0;
-} */ 
-
-/* .tabs-nav{
-top: 277px;
-left: 992px;
-height: 28px;
-letter-spacing: var(--unnamed-character-spacing-0);
-text-align: left;
-letter-spacing: 0px;
-color: #8D8D8D;
-text-transform: capitalize;
-opacity: 0.33;
-} */
-.container::before {
+.container-login::before {
     content: none !important;
 }
 
-.container::after {
+.container-login::after {
     content: none !important;
 }
 .container-forgot-password{
@@ -449,33 +329,7 @@ width: 100%;
     background-position: 12px 11px;
     top: 485px;
 }
-   /* .:hover {
-      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
-    }
-    
-    &:active {
-      background-color: #eeeeee;
-    }
-    
-    &:focus {
-      outline: none;
-      box-shadow: 
-        0 -1px 0 rgba(0, 0, 0, .04),
-        0 2px 4px rgba(0, 0, 0, .25),
-        0 0 0 3px #c8dafc;
-    }
-    
-    &:disabled {
-      filter: grayscale(100%);
-      background-color: #ebebeb;
-      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
-      cursor: not-allowed;
-    }
-  } */
-  /* body {
-    text-align: center;
-    padding-top: 2rem;
-  } */
+  
  .firebaseui-idp-icon{
     vertical-align: middle;
     border-style: none;
@@ -487,18 +341,21 @@ width: 100%;
     opacity: 1;
     margin-left: 8px;
   }
+  .p-google-button{
+font-size: large;
+  }
   /* *, */
-  *::before,
+  /* *::before,
   *::after {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       text-align: center;
-}
- html {
+} */
+ /* html {
       font-size: 62.5%;
       font-family: 'Lato', sans-serif;
-}
+} */
   .header__center {
       font-size: 2rem;
       display: grid;
@@ -516,7 +373,7 @@ width: 100%;
       color: #8D8D8D;
       margin-top: 12px;
       margin-bottom: 12px;
-      font-size: initial;
+      font-size: x-large;
       text-align: center;
 
   }
@@ -593,10 +450,10 @@ width: 100%;
           box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5) ;
         }    
   /* end .roundedOne */  
-.p{
+.link-login{
     top: 765px;
     left: 789px;
-    width: 56px;
+    width: 82px;
     height: 15px;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 11px/13px Lato;
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -605,6 +462,7 @@ width: 100%;
     letter-spacing: 0px;
     color: #141414;
     opacity: 1;
+    font-size:large;
 }
 .form{
 top: 625px;
@@ -631,6 +489,8 @@ max-height: 260px;
     opacity: 1;
 margin-bottom: -10px;
 text-align: right;
+font-size: x-large;
+font-weight: normal !important;
 }
 #userName,#email,#password{
     font-size: medium;
@@ -654,7 +514,7 @@ text-align: right;
     border: none !important;
 }
 
-.tabs{
+.tabs-login{
     font-family:arial;
     margin:0 auto;
     width:73%;
