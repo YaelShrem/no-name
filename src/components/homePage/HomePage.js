@@ -4,7 +4,7 @@ import SearchSection from './searchSection/SearchSection';
 import CategoriesSection from './categoriesSection/CategoriesSection';
 import TopBusinesses from './topBusinesses/TopBusinesses';
 import Pricing from './pricing/Pricing';
-// import Footer from '../../footer/Footer';
+ import Footer from '../../footer/Footer';
 
 export default function HomePage() {
     return (
@@ -15,18 +15,18 @@ export default function HomePage() {
                       //  position: 'relative',
                       //  backgroundSize: 'cover',
                        backgroundColor: 'green'}}><h2>TopBusinesses</h2></section>
-      <section style={{height: '100vh',
-                      //  position: 'relative',
-                      //  backgroundSize: 'cover',
-                       //backgroundColor: 'yellow'
-                    }}>
+      
+                        <section>
                            <h2>Pricing</h2>
-                        <Pricing/>
+                            <Pricing/>
                         </section>
-                             <section style={{height: '35vh',
+                    
+                    <section //style={{height: '35vh',
                       //  position: 'relative',
                       //  backgroundSize: 'cover',
-                       backgroundColor: 'gray'}}><h2>@2021 All Rights Reserved</h2></section>
+                       /*backgroundColor: 'gray'}}*/>
+                        <Footer/>       
+                    </section>
                 {/* <Row>
                     <Pricing/>
                 </Row> */}
