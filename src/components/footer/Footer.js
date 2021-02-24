@@ -21,22 +21,22 @@ export default function Footer() {
               <h5 className="titleFooter" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
               <ul className="ul-footer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
-                  <a href="#!">איך זה עובד</a>
+                  <a href="#!" className="footer-link">איך זה עובד</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">צור קשר</a>
+                  <a href="#!" className="footer-link">צור קשר</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">מדיניות ופרטיות</a>
+                  <a href="#!" className="footer-link">מדיניות ופרטיות</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">הרשמה</a>
+                  <a href="#!" className="footer-link">הרשמה</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">כניסה</a>
+                  <a href="#!" className="footer-link">כניסה</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">החשבון שלי</a>
+                  <a href="#!" className="footer-link">החשבון שלי</a>
                 </li>
               </ul>
             </div>

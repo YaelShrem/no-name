@@ -1,28 +1,32 @@
-.wrapperOrderDetails{
-   width: 100vw; 
-   height: 625px; 
-   background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
-  background: #F2F2F2  0% 0% no-repeat padding-box;
-  margin-top: 77px;
-  }
-  
-  .title{
+.wrapperOrderDetails {
+  width: 100vw;
+  height: 625px;
+  background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  margin-top: 86px;
+}
+
+.title {
   top: 1989px;
   left: 1285px;
   /* width: 260px; */
   height: 56px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 42px/63px var(--unnamed-font-family-segoe-ui);  letter-spacing: var(--unnamed-character-spacing-0);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    42px/63px var(--unnamed-font-family-segoe-ui);
+  letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-707070);
   font: normal normal 600 30px/63px Segoe UI;
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
-  }
-  .detail{
+}
+.detail {
   top: 2079px;
   left: 1035px;
   width: 510px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/51px var(--unnamed-font-family-segoe-ui);
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 22px/51px
+    var(--unnamed-font-family-segoe-ui);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-707070);
   text-align: left;
@@ -30,39 +34,38 @@
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
-  }
-  .order-tabs{
-  top: 1833px;
-  left: 1396px;
-  /* width: 145px; */
-  /* height: 700px; */
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 24px/32px var(--unnamed-font-family-segoe-ui);
+}
+
+.control {
+  top: 2318px;
+  left: 1290px;
+  width: 100%;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 22px/33px Poppins;
   letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: left;
-  font: normal normal 600 24px/32px Segoe UI;
+  /* font: normal normal normal 22px/33px Poppins; */
   letter-spacing: 0px;
-  color: #707070;
+  color: #7a7a7a !important;
   opacity: 0.5;
   }
   
-  .tabs{
+  /* .tabs{
       font-family:arial;
       margin:0 auto;
       width:70%;
-      text-align:center;
+      text-align:center; */
       /* margin-top:20vh; */
-    }
-    .tab-content{
+    /* } */
+    /* .tab-content{
       height: unset;
       padding-bottom: 10px;
     }
     .tab-buttons{
       margin-bottom:50px;
       text-align: unset;
-    }
+    } */
     
-    button{
+    /* button{
       margin-right:15px;
       font-size:20px;
       background:transparent;
@@ -75,11 +78,11 @@
       border-bottom:2px solid transparent !important;
       opacity: 0.5 !important;
       
-    }
-    .active{
+    } */
+    /* .active{
       border-bottom:2px solid #42b3f4;
       opacity: 1 !important;
-       }
+       } */
   
    .input-order{
       top: 2318px;

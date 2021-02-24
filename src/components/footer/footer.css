@@ -12,7 +12,7 @@ right: 0;
 left: 0;
 z-index: 1030;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 16px/19px var(--unnamed-font-family-roboto);
-
+text-align: right;
 }
 .wrapper-footer{
     /* height: 30vh; */
@@ -63,7 +63,7 @@ opacity: 1;
 margin-bottom: 12px;
 }
 .contact{
-    top: 4374px;
+top: 4374px;
 left: 323px;
 width: 268px;
 /* height: 280px; */
@@ -76,7 +76,7 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-a{
+.footer-link{
     color: white !important;
 }
 @media screen and (max-width: 1800px){

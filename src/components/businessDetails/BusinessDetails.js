@@ -3,6 +3,7 @@ import backgroundGray from "../../style/images/backgroundGray.png";
 import imageFood from "../../style/images/imageFood.png";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import UserMenu from "../shoppingCart/userMenu/UserMenu"
 // import Recommendations from "../recommendations/Recommendations";
 export default function BusinessDetails() {
   return (
@@ -21,10 +22,11 @@ export default function BusinessDetails() {
       </div>
       <div className="d-flex justify-content-center w-100">
         <div className="containerBuisnessDetails row">
-        
           <div className="col-lg-8 col-md-8 col-sm-12">
           <div className="d-flex flex-column">
-            <div className="tabs d-flex tabsBuisness justify-content-center">
+          <div className="d-flex justify-content-center">
+            <UserMenu></UserMenu>
+            {/* <div className="tabs d-flex tabsBuisness justify-content-center">
               <Tabs>
                 <Tab label="סקירה כללית">
                 <div className="p1">
@@ -46,6 +48,7 @@ export default function BusinessDetails() {
                   <div className="p1">כאן תוכלו לראות את ההמלצות עלינו</div>
                 </Tab>
               </Tabs>
+            </div> */}
             </div>
             </div>
           </div>

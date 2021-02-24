@@ -1,6 +1,7 @@
 import React from "react";
 import "./orderdetails.css";
-import { /*BootstrapInput,*/ Form, Container ,Button } from "react-bootstrap";
+import ProductMenu from "../productMenu/ProductMenu";
+import { /*BootstrapInput,*/ Form, Container, Button } from "react-bootstrap";
 
 export default function OrderDetails() {
   return (
@@ -11,22 +12,13 @@ export default function OrderDetails() {
           className="d-flex"
           style={{ minHeight: "100vh", minWidth: "400px" }}
         >
-            <div className="order-tabs d-flex justify-content-center">
-              <Tabs>
-                <Tab label="קטלוג מוצרים">
-                  <div></div>
-                </Tab>
-                <Tab label="סל הקניות שלי">
-                  <div></div>
-                </Tab>
-                <Tab label="לסיים הזמנה">
-                  <div className="wrapperContent">
-                <p className="title">כמעט סיימנו...</p>
+          <ProductMenu></ProductMenu>
+          <div className="wrapperContent">
+            <p className="title">כמעט סיימנו...</p>
             <div className="detail">
               <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
               <p>זמן ההזמנה נחשב מרגע סיום ההזמנה.</p>
             </div>
-
             <Form.Group>
               <Form.Label className="formLable">הזן כתובת מייל</Form.Label>
               <Form.Control
@@ -44,36 +36,14 @@ export default function OrderDetails() {
               />
             </Form.Group>
             <Button
-                    variant="contained"
-                    type="submit"
-                    // disabled={loading}
-                    className="submitOrder"
-                  >
-                    תזמין לי
-                  </Button>
-                  </div>
-                </Tab>
-              </Tabs>
-            </div>
-            
-          {/* <Form className="d-flex-column">
-            <div className="order-tabs d-flex justify-content-center">
-              <Tabs>
-                <Tab label="קטלוג מוצרים">
-                  <div></div>
-                </Tab>
-                <Tab label="סל הקניות שלי">
-                  <div></div>
-                </Tab>
-                <Tab label="לסיים הזמנה"></Tab>
-              </Tabs>
-            </div>
-            <p className="title">כמעט סיימנו...</p>
-            <div className="detail">
-              <p>נשאר רק לעדכן פרטי מייל וטלפון שלך וההזמנה בדרך...</p>
-              <p>זמן ההזמנה נחשב מרגע סיום ההזמנה.</p>
-            </div>
-          </Form> */}
+              variant="contained"
+              type="submit"
+              // disabled={loading}
+              className="submitOrder"
+            >
+              תזמין לי
+            </Button>
+          </div>
         </Container>
       </div>
     </>
@@ -129,6 +99,3 @@ const TabButtons = ({ buttons, changeTab, activeTab }) => {
 const Tab = (props) => {
   return <React.Fragment>{props.children}</React.Fragment>;
 };
-
-
-
