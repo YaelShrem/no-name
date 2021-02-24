@@ -26,7 +26,7 @@ export default function Login2() {
       <Container
         dir="rtl"
         className="container-login d-flex align-items-center justify-content-center">
-        <div className="wrapper-card-login d-flex justify-content-center col-12">
+        <div className="wrapper-card-login d-flex justify-content-center col-4">
           <Card className="css-shadow">
             <Card.Body className="card d-flex justify-content-center align-items-center">
               <div

@@ -3,11 +3,21 @@
     min-width: 320px;
      margin-top: 77px;
      width: 100%;
+     max-width: 100% !important;
 }
 .wrapper-card-login{
     min-height: 550px;
      height: 70vh;
+     max-width: 720px;
+    min-width: 280px;
      
+}
+.css-shadow{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 6px #0000001F;
+
 }
 .background-shape{
     width: 88vw;
@@ -139,14 +149,7 @@ a, button {
 .wrapper-forgot-password{
     width: 400px;
 }
-.css-shadow{
-    height: 100%;
-    max-width: 720px;
-    min-width: 280px;
-    background-color: white;
-    box-shadow: 0px 2px 6px #0000001F;
 
-}
 .input-group{
     border: 1px solid #ccc !important;
     border-radius: 3px !important;
@@ -190,7 +193,7 @@ a, button {
 	padding: 30px 0 0 0;
 }
 .tab-content {
-    height: 45vh;
+    height:100%;
 }
 /* Taba Style 3 */
 .style-3 .tabs-nav {
@@ -523,6 +526,9 @@ font-weight: normal !important;
     height: 60vh;
     min-height: 550px;
   }
+  .tabs-login div:first-child{
+      height: 100%;
+  }
   .submit{
       font:normal normal 600 14px/0px Segoe UI !important
   }
@@ -532,10 +538,13 @@ font-weight: normal !important;
     text-align: center;
     padding-right: 0px;
     justify-content: center;
+    font-size: 2vh;
+    height: min-content !important;
   }
   .tab-buttons button{
       padding-bottom: 0px !important;
-
+      padding-left: 15%;
+      padding-right: 15%;
   }
   button{
     /* margin-right:15px; */
@@ -558,7 +567,9 @@ font-weight: normal !important;
   .psign{
       text-align: center;
       margin-bottom: 2vh;
-  }
+      color: #707070;
+      font-size: x-large;
+    }
   .active{
     border-bottom:2px solid #FFD600 !important;
     color: #FFD600 !important;
