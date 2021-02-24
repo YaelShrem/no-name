@@ -10,13 +10,10 @@ export default function Footer() {
           <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
             <h5 className="titleFooter" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
-              <p>
-                {" "}
-                Xbiz.io מנוע חיפוש מקומי למציאת נקודות עניין, עסקים, אירועים
-              </p>
-              <p>ועוד מגוון עצום של תחומי חיפוש. הנתונים נאספים מכל רחבי </p>
-              <p> הרשת וממשתמשי Xbiz על בסיס יום יומי, באופן אוטומטי.</p>
-              <p>האלגוריתם של האתר והמידע בתוכו מתעדכנים באופן קבוע.</p>
+               Xbiz.io מנוע חיפוש מקומי למציאת נקודות עניין, עסקים, אירועים
+              ועוד מגוון עצום של תחומי חיפוש. הנתונים נאספים מכל רחבי
+             הרשת וממשתמשי Xbiz על בסיס יום יומי, באופן אוטומטי.
+             האלגוריתם של האתר והמידע בתוכו מתעדכנים באופן קבוע.
             </div>
           </div>
           <div className="d-flex justify-content-between wrapper col-xl-7 col-lg-6 col-md-6 col-sm-6">
