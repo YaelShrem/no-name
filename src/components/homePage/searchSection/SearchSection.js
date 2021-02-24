@@ -10,16 +10,19 @@ export default function SearchSection() {
                     <section style={{
                        height: '90vh',
                        position: 'relative',
+                       backgroundColor: 'lightgrey'
                       //  backgroundSize: 'cover',
                     //    paddingTop: '8rem',
                     //    paddingBottom: '8rem'
                     }}>
-                                       <img src={backgroundShape}
-                 alt={backgroundShape}
-                 className="background-shape"/>
+                                     {/* <img src={backgroundShape}
+                //  alt={backgroundShape}
+                //  className="background-shape"/>
                 {/* <img src={mainImg}
                  alt={mainImg}
                  className="main-img"/>  */}
+                 <br/><br/><br/><br/>
+                 <h2>hero section</h2>
                     </section>
             {/* </Row> */}
             </>
