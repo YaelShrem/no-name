@@ -4,10 +4,11 @@ import "./footer.css";
 
 export default function Footer() {
   return (
+    <footer>
     <div className="footer d-flex justify-content-center font-small pt-4">
       <div  className="container-footer d-flex justify-content-center align-items-center col-xl-10 col-lg-11" >
         <div className="wrapper-footer d-flex justify-content-between row">
-          <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
+          <div className="col-xl-3 col-lg-6 col-md-12 col-sm-12">
             <h5 className="titleFooter" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
                Xbiz.io מנוע חיפוש מקומי למציאת נקודות עניין, עסקים, אירועים
@@ -16,31 +17,31 @@ export default function Footer() {
              האלגוריתם של האתר והמידע בתוכו מתעדכנים באופן קבוע.
             </div>
           </div>
-          <div className="d-flex justify-content-between wrapper col-xl-7 col-lg-6 col-md-6 col-sm-6">
-            <div className="ulWrapper col-xl-5 col-lg-6 col-md-6 col-sm-6">
+          <div className="d-flex justify-content-between wrapper col-xl-7 col-lg-6 col-md-12 col-sm-12">
+            <div className="ulWrapper col-xl-5 col-lg-6 col-md-6 col-sm-12">
               <h5 className="titleFooter" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
               <ul className="ul-footer d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
-                  <a href="#!">איך זה עובד</a>
+                  <a href="#!" className="footer-link">איך זה עובד</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">צור קשר</a>
+                  <a href="#!" className="footer-link">צור קשר</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">מדיניות ופרטיות</a>
+                  <a href="#!" className="footer-link">מדיניות ופרטיות</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">הרשמה</a>
+                  <a href="#!" className="footer-link">הרשמה</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">כניסה</a>
+                  <a href="#!" className="footer-link">כניסה</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">החשבון שלי</a>
+                  <a href="#!" className="footer-link">החשבון שלי</a>
                 </li>
               </ul>
             </div>
-            <div className="col-xl-5 col-lg-6 col-md-6 col-sm-6">
+            <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12">
               <h5 className="titleFooter" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
               <div className="contact">
                 <p>בר כוכבא 4 קומה 6</p>
@@ -53,5 +54,6 @@ export default function Footer() {
       </div>
     
     </div>
+    </footer>
   );
 }

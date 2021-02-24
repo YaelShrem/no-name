@@ -9,7 +9,7 @@ import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import ScrollMenu from 'react-horizontal-scrolling-menu';
+// import ScrollMenu from 'react-horizontal-scrolling-menu';
 
 
 

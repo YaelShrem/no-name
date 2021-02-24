@@ -14,7 +14,11 @@
 //import SearchSection from "./homePage/searchSection/SearchSection";
 //import Recommendations from "./recommendations/Recommendations";
 // import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
-// import Pricing from './homePage/pricing/Pricing';
+// import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
+// import Pricing from "./homePage/pricing/Pricing";
+// import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
+// import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
+import UserMenu from "./shoppingCart/userMenu/UserMenu";
 
 function App() {
   return (
@@ -24,7 +28,8 @@ function App() {
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
-      {/* <BusinessDetails /> */}
+      {/* <BusinessDetails/> */}
+      {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
       {/* <Footer /> */}

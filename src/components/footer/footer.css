@@ -12,7 +12,7 @@ right: 0;
 left: 0;
 z-index: 1030;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 16px/19px var(--unnamed-font-family-roboto);
-
+text-align: right;
 }
 .wrapper-footer{
     /* height: 30vh; */
@@ -34,8 +34,10 @@ width: 100%;
 .content{
 top: 4374px;
 left: 1072px;
-width: 432px;
+/* width: 432px; */
 /* height: 280px; */
+min-width:400px;
+max-width: 520px;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/40px var(--unnamed-font-family-assistant);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
@@ -44,6 +46,7 @@ text-align: right;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+line-height: 2.3;
 }
 .titleFooter{
 top: 4314px;
@@ -61,7 +64,7 @@ opacity: 1;
 margin-bottom: 12px;
 }
 .contact{
-    top: 4374px;
+top: 4374px;
 left: 323px;
 width: 268px;
 /* height: 280px; */
@@ -74,7 +77,7 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-a{
+.footer-link{
     color: white !important;
 }
 @media screen and (max-width: 1800px){
@@ -87,13 +90,18 @@ a{
         padding-right: 10px;
     }
 }
+@media screen and (max-width:992px){
+    .footer{
+        height:600px ;
+    }
+}
 @media screen and (max-width: 880px){
     .content,.ulWrapper,.contact,.titleFooter{
-font-size: smaller;
+/* font-size: smaller; */
    }
 }
 @media screen and (max-width: 770px){
-    .footer{
+    /* .footer{
         height: unset !important;
 max-height:unset !important;
 min-height: unset !important;
@@ -107,22 +115,22 @@ margin-bottom: 20px;
     }
     .ulWrapper{
         width: 60%;
-    }
+    } */
 
 }
 @media screen and (max-width: 770px){
-     .content,.ulWrapper,.contact,.titleFooter{
+     /* .content,.ulWrapper,.contact,.titleFooter{
 font-size: small;
-    }
+    } */
 }
 @media screen and (max-width: 710px){
-     .content,.ulWrapper,.contact,.titleFooter{
+     /* .content,.ulWrapper,.contact,.titleFooter{
 font-size:11px;
-    }
+    } */
 }
 @media screen and (max-width: 500px){
   
-    .footer,.wrapper-footer{
+    /* .footer,.wrapper-footer{
         height:unset !important;
         max-height: unset !important;
         min-height: unset !important;
@@ -133,11 +141,11 @@ font-size:11px;
     .wrapper{
         margin-top: 25px;
         margin-bottom: 10px;
-    }
+    } */
 }
 @media screen and (max-width: 340px){
  
-    .footer, .wrapper-footer{
+    /* .footer, .wrapper-footer{
         height:unset !important;
         max-height: unset !important;
         min-height: unset !important;
@@ -152,5 +160,5 @@ font-size:11px;
         margin-top: 25px;
         margin-bottom: 10px;
 
-    }
+    } */
 }
