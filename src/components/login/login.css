@@ -479,7 +479,10 @@ max-height: 220px;
 }
 .formRegister{
 min-height: 220px;
-max-height: 260px;
+max-height: 350px;
+}
+.formRegister .MuiTextField-root:first-child{
+    height: min-content;
 }
 .MuiInputLabel-shrink{
     transform-origin: top right !important;
@@ -566,7 +569,8 @@ font-weight: normal !important;
   }
   .psign{
       text-align: center;
-      margin-bottom: 2vh;
+      margin-bottom:1vh;
+      margin-top: 3vh;
       color: #707070;
       font-size: x-large;
     }
