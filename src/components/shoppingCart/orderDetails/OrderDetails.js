@@ -22,7 +22,7 @@ export default function OrderDetails() {
             <Form.Group>
               <Form.Label className="formLable">הזן כתובת מייל</Form.Label>
               <Form.Control
-                className="control"
+                className="control input-order"
                 type="email"
                 placeholder="Example@email.com"
               />
@@ -30,7 +30,7 @@ export default function OrderDetails() {
             <Form.Group>
               <Form.Label className="formLable">פלאפון</Form.Label>
               <Form.Control
-                className="control"
+                className="control input-order"
                 type="text"
                 placeholder="050-000-0000"
               />

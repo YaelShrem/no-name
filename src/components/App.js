@@ -21,7 +21,7 @@ function App() {
       {/* <br/><br/><br/><br/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
-      {/* <Login2 /> */}
+      <Login2 />
       {/* <BusinessDetails /> */}
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}

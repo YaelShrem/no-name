@@ -21,7 +21,7 @@
   outline: none !important;
   padding: 10px 20px !important;
   cursor: pointer !important;
-  color:red!important;
+  color: rgba(0, 0, 0, 0.4) !important;
   transition: all ease-in-out 0.2s !important;
   border-bottom: 3px solid transparent !important;
   font: normal normal 600 17px/36px Segoe UI !important;

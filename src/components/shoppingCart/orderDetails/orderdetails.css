@@ -47,31 +47,112 @@
   letter-spacing: 0px;
   color: #7a7a7a !important;
   opacity: 0.5;
-  background-color: transparent !important;
-  border: 1px solid #cac6d4 !important;
-  border-radius: 5px;
-  padding: 29px;
-  font: normal normal normal 17px/33px Poppins;
-}
-.formLable {
-  top: 2216px;
-  left: 1358px;
-  width: 186px;
-  height: 41px;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 29px/39px Poppins;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  font: normal normal 600 20px/63px Segoe UI;
-  letter-spacing: 0px;
-  color: #666 !important;
-  opacity: 1;
-}
-.submitOrder {
-  background: #ffd600 0% 0% no-repeat padding-box;
-  opacity: 1 !important;
-  width: 100%;
-  height: 60px;
-  margin-right: 0px !important;
-  border-radius: unset;
-  box-shadow: unset;
-}
+  }
+  
+  .tabs{
+      font-family:arial;
+      margin:0 auto;
+      width:70%;
+      text-align:center;
+      /* margin-top:20vh; */
+    }
+    .tab-content{
+      height: unset;
+      padding-bottom: 10px;
+    }
+    .tab-buttons{
+      margin-bottom:50px;
+      text-align: unset;
+    }
+    
+    button{
+      margin-right:15px;
+      font-size:20px;
+      background:transparent;
+      border:none;
+      outline:none;
+      padding:10px 20px ;
+      cursor:pointer;
+      color:rgba(0,0,0,.4);
+      transition:all ease-in-out .2s;
+      border-bottom:2px solid transparent !important;
+      opacity: 0.5 !important;
+      
+    }
+    .active{
+      border-bottom:2px solid #42b3f4;
+      opacity: 1 !important;
+       }
+  
+   .input-order{
+      top: 2318px;
+      left: 1290px;
+      width: 100%;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/33px Poppins;
+      letter-spacing: var(--unnamed-character-spacing-0);
+      /* font: normal normal normal 22px/33px Poppins; */
+      letter-spacing: 0px;
+      color: #7A7A7A !important;
+      opacity: 0.5;
+      background-color: transparent !important;
+      border: 1px solid #CAC6D4 !important;
+      border-radius: 5px;
+      padding: 29px;
+      font: normal normal normal 17px/33px Poppins;
+      
+  }
+  .formLable{
+      top: 2216px;
+      left: 1358px;
+      width: 186px;
+      height: 41px;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/39px Poppins;
+      letter-spacing: var(--unnamed-character-spacing-0);
+      font: normal normal 600 20px/63px Segoe UI;
+      letter-spacing: 0px;
+      color: #666 !important;
+      opacity: 1;
+  }
+  .submitOrder{
+    background:#FFD600 0% 0% no-repeat padding-box;
+    opacity:1!important;
+    width: 100%;
+    height: 60px;
+    margin-right: 0px !important;
+    margin-top: 10px;
+    border-radius: unset;
+    box-shadow: unset;
+    color: white;
+    font: normal normal normal 29px/39px Poppins;font: normal normal normal 29px/39px Poppins;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/39px Poppins;
+    font-size: large;
+  }
+  @media screen and (max-width: 540px){
+    .input-order {
+      width: 80%;
+      padding: 20px;
+    }
+    .submitOrder{
+      height: 42px;
+      width: 80%;
+    }
+    .tab-buttons{
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 430px){
+    .input-order {
+      width: 60%;
+      padding: 20px;
+    }
+    .submitOrder{
+      height: 42px;
+      width: 60%;
+      font: normal normal normal 20px/30px Poppins;font: normal normal normal 20px/30px Poppins !important;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px Poppins !important;
+    font-size: medium !important;
+  }
+  .detail{
+    font: normal normal normal 15px/25px Segoe UI;
+  }
+  }
