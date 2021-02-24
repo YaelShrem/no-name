@@ -25,173 +25,165 @@ export default function Login2() {
       </div>
       <Container
         dir="rtl"
-        className="container-login d-flex align-items-center justify-content-center">
+        className="container-login d-flex align-items-center justify-content-center"
+      >
         <div className="wrapper-card-login d-flex justify-content-center col-4">
           <Card className="css-shadow">
             <Card.Body className="card d-flex justify-content-center align-items-center">
-              <div
-                className="sign-in-form style-1 d-flex flex-column justify-content-between">
-                <div className="tabs-login d-flex flex-column justify-content-between">
+              <div className="sign-in-form style-1 d-flex flex-column justify-content-between">
+                <div className="tab-div d-flex-column justify-content-between">
                   <Tabs>
                     <Tab label="התחבר">
                       {/* Login */}
                       <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
-
                       <button
-                  variant="contained"
-                  type="button"
-                  className="login-with-google-btn d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    class="firebaseui-idp-icon"
-                    alt=""
-                    src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
-                  ></img>{" "}
-                  <p className="p-google-button m-0">התחבר עם גוגל</p>
-                </button>
+                        variant="contained"
+                        type="button"
+                        className="login-with-google-btn d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          class="firebaseui-idp-icon"
+                          alt=""
+                          src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                        ></img>{" "}
+                        <p className="p-google-button m-0">התחבר עם גוגל</p>
+                      </button>
 
-                <div className="header__center">או</div>
-                <Form className="form formRegister  d-flex flex-column justify-content-between">
-                  <TextField
-                    id="userName"
-                    label="שם משתמש"
-                    type="text"
-                    InputLabelProps={{
-                      shrink: true,
-                    }}
-                  />
-                  <TextField
-                    id="email"
-                    label="אמייל"
-                    type="text"
-                    InputLabelProps={{
-                      shrink: true,
-                    }}
-                  />
-                  <TextField
-                    id="password"
-                    label="סיסמא"
-                    type="password"
-                    InputLabelProps={{
-                      shrink: true,
-                    }}
-                  />
+                      <div className="header__center">או</div>
+                      <Form className="form formRegister  d-flex flex-column justify-content-between">
+                        <TextField
+                          id="userName"
+                          label="שם משתמש"
+                          type="text"
+                          InputLabelProps={{
+                            shrink: true,
+                          }}
+                        />
+                        <TextField
+                          id="email"
+                          label="אמייל"
+                          type="text"
+                          InputLabelProps={{
+                            shrink: true,
+                          }}
+                        />
+                        <TextField
+                          id="password"
+                          label="סיסמא"
+                          type="password"
+                          InputLabelProps={{
+                            shrink: true,
+                          }}
+                        />
 
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center">
-                      <section title=".roundedOne">
-                        <div class="roundedOne">
-                          <input
-                            type="checkbox"
-                            value="None"
-                            id="roundedOne"
-                            name="check"
-                          //  checked
-                          />
-                          <label
-                            for="roundedOne"
-                            className="labelClass"
-                          ></label>
+                        <div className="d-flex justify-content-between align-items-center">
+                          <div className="d-flex align-items-center">
+                            <section title=".roundedOne">
+                              <div class="roundedOne">
+                                <input
+                                  type="checkbox"
+                                  value="None"
+                                  id="roundedOne"
+                                  name="check"
+                                  //  checked
+                                />
+                                <label
+                                  for="roundedOne"
+                                  className="labelClass"
+                                ></label>
+                              </div>
+                            </section>
+                            <p className="link-login">תזכור אותי</p>
+                          </div>
+                          <p className="link-login">אפס סיסמא</p>
                         </div>
-                      </section>
-                      <p className="link-login">
-                        תזכור אותי
-                      </p>
-                    </div>
-                    <p className="link-login">אפס סיסמא</p>
-                  </div>
-                </Form>
+                      </Form>
 
-                <div className="d-flex justify-content-center mb-4 mt-4">
-                  <Button
-                    variant="contained"
-                    type="submit"
-                    disabled={loading}
-                    className="submit"
-                    type="submit"
-                  >
-                    הרשם
-                  </Button>
-                </div>
-                     </Tab>
-                    <Tab label="הרשם">
+                      <div className="d-flex justify-content-center mb-4 mt-4">
+                        <Button
+                          variant="contained"
+                          type="submit"
+                          disabled={loading}
+                          className="submit"
+                          type="submit"
+                        >
+                          הרשם
+                        </Button>
+                      </div>
+                    </Tab>
+                    <Tab className="" label="הרשם">
                       {/* Register */}
                       <p className="psign">הרשם באמצעות חשבון הגוגל שלך</p>
                       <button
-                  variant="contained"
-                  type="button"
-                  className="login-with-google-btn d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    class="firebaseui-idp-icon"
-                    alt=""
-                    src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
-                  ></img>{" "}
-                  <p className="p-google-button m-0">הרשם עם גוגל</p>
-                </button>
+                        variant="contained"
+                        type="button"
+                        className="login-with-google-btn d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          class="firebaseui-idp-icon"
+                          alt=""
+                          src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                        ></img>{" "}
+                        <p className="p-google-button m-0">הרשם עם גוגל</p>
+                      </button>
 
-                <div className="header__center">או</div>
-                <Form className="form  d-flex flex-column justify-content-between">
-                  <TextField
-                    id="email"
-                    label="אמייל"
-                    type="text"
-                    InputLabelProps={{
-                      shrink: true,
-                    }}
-                  />
-                  <TextField
-                    id="password"
-                    label="סיסמא"
-                    type="password"
-                    InputLabelProps={{
-                      shrink: true,
-                    }}
-                  />
+                      <div className="header__center">או</div>
+                      <Form className="form  d-flex flex-column justify-content-between">
+                        <TextField
+                          id="email"
+                          label="אמייל"
+                          type="text"
+                          InputLabelProps={{
+                            shrink: true,
+                          }}
+                        />
+                        <TextField
+                          id="password"
+                          label="סיסמא"
+                          type="password"
+                          InputLabelProps={{
+                            shrink: true,
+                          }}
+                        />
 
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center">
-                      <section title=".roundedOne">
-                        <div class="roundedOne">
-                          <input
-                            type="checkbox"
-                            value="None"
-                            id="roundedOne"
-                            name="check"
-                            checked
-                          />
-                          <label
-                            for="roundedOne"
-                            className="labelClass"
-                          ></label>
+                        <div className="d-flex justify-content-between align-items-center">
+                          <div className="d-flex align-items-center">
+                            <section title=".roundedOne">
+                              <div class="roundedOne">
+                                <input
+                                  type="checkbox"
+                                  value="None"
+                                  id="roundedOne"
+                                  name="check"
+                                  checked
+                                />
+                                <label
+                                  for="roundedOne"
+                                  className="labelClass"
+                                ></label>
+                              </div>
+                            </section>
+                            <p className="link-login">תזכור אותי</p>
+                          </div>
+                          <p className="link-login">אפס סיסמא</p>
                         </div>
-                      </section>
-                      <p className="link-login">
-                        תזכור אותי
-                      </p>
-                    </div>
-                    <p className="link-login">אפס סיסמא</p>
-                  </div>
-                </Form>
+                      </Form>
 
-                <div className="d-flex justify-content-center mb-4 mt-4">
-                  <Button
-                    variant="contained"
-                    type="submit"
-                    disabled={loading}
-                    className="submit"
-                    type="submit"
-                  >
-                    הרשם
-                  </Button>
-                </div>
-                   
+                      <div className="d-flex justify-content-center mb-4 mt-4">
+                        <Button
+                          variant="contained"
+                          type="submit"
+                          disabled={loading}
+                          className="submit"
+                          type="submit"
+                        >
+                          הרשם
+                        </Button>
+                      </div>
                     </Tab>
                   </Tabs>
                 </div>
-
                 {/* <button class="button">bygole</button> */}
-              
               </div>
             </Card.Body>
           </Card>
@@ -201,7 +193,7 @@ export default function Login2() {
   );
 }
 
-<div id="style-switcher">
+{/* <div id="style-switcher">
   <h2>
     Color Switcher{" "}
     <a href="#">
@@ -260,7 +252,7 @@ export default function Login2() {
       </li>
     </ul>
   </div>
-</div>;
+</div>; */}
 
 class Tabs extends React.Component {
   state = {
@@ -285,7 +277,9 @@ class Tabs extends React.Component {
           buttons={buttons}
           changeTab={this.changeTab}
         />
-        <div className="tab-content d-flex flex-column justify-content-between">{content}</div>
+        <div className="tab-content d-flex flex-column justify-content-between">
+          {content}
+        </div>
       </div>
     );
   }

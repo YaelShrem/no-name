@@ -4,6 +4,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
+    <footer>
     <div className="footer d-flex justify-content-center font-small pt-4">
       <div  className="container-footer d-flex justify-content-center align-items-center col-xl-10 col-lg-11" >
         <div className="wrapper-footer d-flex justify-content-between row">
@@ -53,5 +54,6 @@ export default function Footer() {
       </div>
     
     </div>
+    </footer>
   );
 }
