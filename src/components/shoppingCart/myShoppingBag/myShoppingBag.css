@@ -1,84 +1,89 @@
-.container-shopping-bag{
-    width:50vw !important;
-    direction: rtl;
+.container-shopping-bag {
+  width: 50vw !important;
+  direction: rtl;
 }
 
-.img-shopping-bag{
-    width: 14vw;
-    height: 24vh;
+.img-shopping-bag {
+  width: 14vw;
+  height: 24vh;
 }
-.p1-bag{
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 31px/46px Rubik !important;
-text-align: right!important;
-/* font: normal normal normal 31px/46px Rubik !important; */
-letter-spacing: -0.62px!important;
-color: #344968!important;
-opacity: 1!important;
-font-size: x-large !important;
+.p1-bag {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 31px/46px Rubik !important;
+  text-align: right !important;
+  /* font: normal normal normal 31px/46px Rubik !important; */
+  letter-spacing: -0.62px !important;
+  color: #344968 !important;
+  opacity: 1 !important;
+  font-size: x-large !important;
 }
-.p2-bag{
-font: normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-28)/2px Muli!important;
-letter-spacing: var(--unnamed-character-spacing-0);
-text-align: right;
-/* font: normal normal normal 28px/2px Muli; */
-letter-spacing: 0px;
-color: #8C98A8;
-font-size: large !important;
-opacity: 1!important;
-padding-right: 8px!important;
+.p2-bag {
+  font: normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-28) /
+    2px Muli !important;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: right;
+  /* font: normal normal normal 28px/2px Muli; */
+  letter-spacing: 0px;
+  color: #8c98a8;
+  font-size: large !important;
+  opacity: 1 !important;
+  padding-right: 8px !important;
 }
-.p3-bag{
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 33px/43px Rubik !important;
-color: var(--unnamed-color-22c5bb)!important;
-text-align: right!important;
-/* font: normal normal normal 33px/43px Rubik; */
-letter-spacing: -0.66px!important;
-color: #22C5BB!important;
-opacity: 1!important;
-font-size: large !important;
-font-style: bold !important;
+.p3-bag {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 33px/43px Rubik !important;
+  color: var(--unnamed-color-22c5bb) !important;
+  text-align: right !important;
+  /* font: normal normal normal 33px/43px Rubik; */
+  letter-spacing: -0.66px !important;
+  color: #22c5bb !important;
+  opacity: 1 !important;
+  font-size: large !important;
+  font-style: bold !important;
 }
-.show-all-bag{
-width: 97px;
-height: 38px;  
-background: var(--yellow) 0% 0% no-repeat padding-box !important;
-border-radius: 4px!important;
-opacity: 1 !important;
-/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-segoe-ui); */
-color: var(--white) !important;
-text-align: center !important;
-font: normal normal 600 10px/24px Segoe UI !important;
-letter-spacing: 0.54px !important;
-box-shadow:none !important;
-    }
-.invite{
-width: 45% !important;
-height: 70px! important;
-background: var(--yellow) 0% 0% no-repeat padding-box !important;
-border-radius: 5px !important;
-opacity: 1 !important;
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/39px Poppins!important;
-letter-spacing: var(--unnamed-character-spacing-0)!important;
-color: var(--white) !important;
-text-align: center !important;
-/* font: normal normal normal 29px/39px Poppins !important; */
-letter-spacing: 0px !important;
-box-shadow: none !important;
-position: absolute !important;
-margin-top: 47px!important;
-font-size: large !important;
+.show-all-bag {
+  width: 97px;
+  height: 38px;
+  background: var(--yellow) 0% 0% no-repeat padding-box !important;
+  border-radius: 4px !important;
+  opacity: 1 !important;
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-segoe-ui); */
+  color: var(--white) !important;
+  text-align: center !important;
+  font: normal normal 600 10px/24px Segoe UI !important;
+  letter-spacing: 0.54px !important;
+  box-shadow: none !important;
 }
-.div-detail-bag{
-padding-right: 22px!important;
-}  
-.count{
-font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 38px/4px var(--unnamed-font-family-segoe-ui)!important;
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-707070);
-text-align: left;
-/* font: normal normal 600 38px/4px Segoe UI; */
-letter-spacing: 0px;
-color: #707070;
-font-size: x-large !important;
-opacity: 1;
+.invite {
+  width: 45% !important;
+  height: 70px !important;
+  background: var(--yellow) 0% 0% no-repeat padding-box !important;
+  border-radius: 5px !important;
+  opacity: 1 !important;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 29px/39px Poppins !important;
+  letter-spacing: var(--unnamed-character-spacing-0) !important;
+  color: var(--white) !important;
+  text-align: center !important;
+  /* font: normal normal normal 29px/39px Poppins !important; */
+  letter-spacing: 0px !important;
+  box-shadow: none !important;
+  position: absolute !important;
+  margin-top: 47px !important;
+  font-size: large !important;
+}
+.div-detail-bag {
+  padding-right: 22px !important;
+}
+.count {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    38px/4px var(--unnamed-font-family-segoe-ui) !important;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-707070);
+  text-align: left;
+  /* font: normal normal 600 38px/4px Segoe UI; */
+  letter-spacing: 0px;
+  color: #707070;
+  font-size: x-large !important;
+  opacity: 1;
 }

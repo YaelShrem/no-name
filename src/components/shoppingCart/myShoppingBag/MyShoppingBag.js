@@ -1,7 +1,8 @@
 import React from "react";
 import Parser from "html-react-parser";
-import { Container, Dropdown } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Button from "@material-ui/core/Button";
+import ProductMenu from "../productMenu/ProductMenu";
 import ProductImg from "../../../style/images/productImg.png";
 import "./myShoppingBag.css";
 
@@ -15,27 +16,10 @@ export default function MyShoppingBag() {
     <>
       <Container className="container-shopping-bag d-flex-col justify-content-center">
         <div className="d-flex justify-content-between">
-          <div className="tab-shopping-bag d-flex justify-content-between">
-            <Tabs>
-              <Tab label="קטלוג מוצרים"></Tab>
-              <Tab label="סל הקניות שלי"></Tab>
-              <Tab label="לסיים הזמנה"></Tab>
-            </Tabs>
-          </div>
+          <ProductMenu></ProductMenu>
           <Button className="show-all-bag" variant="contained">
             תציג הכל
           </Button>
-          {/* <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              מיין לפי
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">תאריך הזמנה</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">מחיר</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">שמות</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown> */}
         </div>
         <div className="d-flex">
           <img

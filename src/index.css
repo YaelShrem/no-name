@@ -1,43 +1,45 @@
 /*--Designed by: Odelya Elimelech--*/
 
 /*Colors Definitions +fonts*/
-:root{
-  --almost-black:#302D3A !important;
-  --white: #FFFFFF !important;
-  --smoky-white: #F2F2F2 !important;
+:root {
+  --almost-black: #302d3a !important;
+  --white: #ffffff !important;
+  --smoky-white: #f2f2f2 !important;
   --very-light-gray: #00000029 !important;
-  --light-gray: #B9B9B9 !important;
+  --light-gray: #b9b9b9 !important;
   --gray: #707070 !important;
   --dark-gray: #515151 !important;
   --very-dark-gray: #161616 !important;
   --black: #000000 !important;
-  --green: #4DDC6B !important;
-  --blue: #22C5BB !important;
-  --yellow: #FFD600 !important;
-  --heading-font-family: 'Poppins', sans-serif;
-  --body-font-family: 'Lato', sans-serif;
+  --green: #4ddc6b !important;
+  --blue: #22c5bb !important;
+  --yellow: #ffd600 !important;
+  --heading-font-family: "Poppins", sans-serif;
+  --body-font-family: "Lato", sans-serif;
 }
 
 /*Global Styles Definitions*/
-*,::before,::after{
+*,
+::before,
+::after {
   box-sizing: border-box;
   /* text-decoration: none!important; */
 }
 
-.large-icon{
+.large-icon {
   width: 80px !important;
   height: 80px !important;
 }
-.medium-icon{
+.medium-icon {
   width: 60px !important;
   height: 60px !important;
 }
-.small-icon{
+.small-icon {
   width: 35px !important;
   height: 35px !important;
 }
 
-.mini-icon{
+.mini-icon {
   width: 21px !important;
   height: 21px !important;
 }

@@ -9,6 +9,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "./productCatalog.css";
+import ProductMenu from "../productMenu/ProductMenu";
 import ProductImg from "../../../style/images/productImg.png";
 // import CardColumns from "react-bootstrap-card";
 
@@ -28,13 +29,7 @@ export default function ProductCatalog() {
     <>
       <Container className="container-catalog d-flex-col justify-content-center">
         <div className="d-flex justify-content-between">
-          <div className="tab-div d-flex justify-content-between">
-            <Tabs>
-              <Tab label="קטלוג מוצרים"></Tab>
-              <Tab label="סל הקניות שלי"></Tab>
-              <Tab label="לסיים הזמנה"></Tab>
-            </Tabs>
-          </div>
+        <ProductMenu></ProductMenu>
           <div className="rout d-flex justify-content-between">
             {/* <p className="sortBy">מיין לפי</p> */}
             <Button className="show-all" variant="contained">

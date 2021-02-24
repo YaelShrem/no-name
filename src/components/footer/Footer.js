@@ -4,14 +4,14 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <MDBFooter color="blue" className="footer d-flex font-small pt-4">
+    <MDBFooter color="blue" className="root-footer d-flex font-small pt-4">
       <MDBContainer
         fluid
         className="text-center d-flex justify-content-center align-items-center text-md-left"
       >
-        <MDBRow className="text-center containerFooter row col-lg-9 col-md-10 ">
+        <MDBRow className="text-center container-footer row col-lg-9 col-md-10 ">
           <MDBCol lg="6" md="6" sm="6">
-            <h5 className="titleFooter" style={{color:"#B9B9B9"}}>Logo</h5>
+            <h5 className="title-footer" style={{color:"#B9B9B9"}}>Logo</h5>
             <div className="content">
               <p>
                 {" "}
@@ -24,30 +24,30 @@ export default function Footer() {
           </MDBCol>
           <MDBCol className="d-flex justify-content-between wrapper" md="6" sm="6">
             <MDBCol className="ulWrapper" lg="6" md="6" sm="6">
-              <h5 className="titleFooter" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
-              <ul className="ulContainer d-flex flex-column justify-content-between">
+              <h5 className="title-footer" style={{color:"#B9B9B9"}} >לינקים שימושיים</h5>
+              <ul className="ul-container d-flex flex-column justify-content-between">
                 <li className="list-unstyled">
-                  <a href="#!">איך זה עובד</a>
+                  <a href="#!" className="footer-link">איך זה עובד</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">צור קשר</a>
+                  <a href="#!" className="footer-link">צור קשר</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">מדיניות ופרטיות</a>
+                  <a href="#!" className="footer-link">מדיניות ופרטיות</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">הרשמה</a>
+                  <a href="#!" className="footer-link">הרשמה</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">כניסה</a>
+                  <a href="#!" className="footer-link">כניסה</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">החשבון שלי</a>
+                  <a href="#!" className="footer-link">החשבון שלי</a>
                 </li>
               </ul>
             </MDBCol>
             <MDBCol lg="6" md="6" sm="6">
-              <h5 className="titleFooter" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
+              <h5 className="title-footer" style={{color:"#B9B9B9"}}>יצירת קשר</h5>
               <div className="contact">
                 <p>בר כוכבא 4 קומה 6</p>
                 <p>טלפון: (123) 123-456</p>
