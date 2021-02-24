@@ -11,7 +11,7 @@ import BusinessDetails from "./businessDetails/BusinessDetails";
 // import Pricing from "./homePage/pricing/Pricing";
 // import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
 // import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
-import UserMenu from "./shoppingCart/userMenu/UserMenu";
+// import UserMenu from "./shoppingCart/userMenu/UserMenu";
 
 function App() {
   return (

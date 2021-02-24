@@ -276,6 +276,12 @@ height: 32px; */
     font: normal normal normal 24px/15px Segoe UI;
   }
 }
+@media screen and(max-width:2600px){
+.imgGray{
+    width: 75% !important;
+    height: 700px !important;
+}
+}
 @media screen and(max-width:3000px) and (min-width: 1000px) {
   .containerBuisnessDetails {
     width: 75vw;
