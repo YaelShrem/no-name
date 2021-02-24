@@ -4,7 +4,7 @@ import SearchSection from './searchSection/SearchSection';
 import CategoriesSection from './categoriesSection/CategoriesSection';
 import TopBusinesses from './topBusinesses/TopBusinesses';
 import Pricing from './pricing/Pricing';
- import Footer from '../../footer/Footer';
+ import Footer from '../footer/Footer';
 
 export default function HomePage() {
     return (
@@ -14,19 +14,17 @@ export default function HomePage() {
       <section style={{height: '50vh',
                       //  position: 'relative',
                       //  backgroundSize: 'cover',
-                       backgroundColor: 'green'}}><h2>TopBusinesses</h2></section>
-      
+                       backgroundColor: 'green'}}>
+                           <TopBusinesses/>
+                       </section>
+    
                         <section>
                            <h2>Pricing</h2>
                             <Pricing/>
                         </section>
-                    
-                    <section //style={{height: '35vh',
-                      //  position: 'relative',
-                      //  backgroundSize: 'cover',
-                       /*backgroundColor: 'gray'}}*/>
-                        <Footer/>       
-                    </section>
+                        <footer>
+                            <Footer/>
+                        </footer>       
                 {/* <Row>
                     <Pricing/>
                 </Row> */}

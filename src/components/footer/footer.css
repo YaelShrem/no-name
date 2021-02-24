@@ -26,12 +26,7 @@ width: 100%;
     text-align: right;
     padding-right: unset;
 }
-<<<<<<< HEAD
-
-a:hover{
-=======
 .ul-footer a:hover{
->>>>>>> ef251acaa54f46f2ef3a35e532a0961eb85f80ff
     text-decoration: none;
     color:#B9B9B9 !important;
 }

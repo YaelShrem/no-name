@@ -1,4 +1,4 @@
-export default {
+const iconPath= {
   checkCircle: `<svg xmlns="http://www.w3.org/2000/svg"
     fill="url('#myGradient')"
     class="bi bi-check2-circle try mini-icon check-icon"
@@ -82,3 +82,4 @@ export default {
     </g>
     </svg>`,
 };
+export default iconPath;
