@@ -3,6 +3,7 @@ import { TextField, FormControlLabel, Radio } from "@material-ui/core";
 import { Paper } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
 import { Form, Button, Card, Alert, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import backgroundShape from "../../style/images/backgroundShape.png";
 import "./login.css";
 
@@ -24,15 +25,13 @@ export default function Login2() {
       </div>
       <Container
         dir="rtl"
-        className="d-flex align-items-center justify-content-center col-4"
-        style={{ minHeight: "100vh", minWidth: "320px", marginTop: "76px" }}
-      >
-        <div className="col-12" style={{ minHeight: "550px", height: "70vh" }}>
+        className="container-login d-flex align-items-center justify-content-center">
+        <div className="wrapper-card-login d-flex justify-content-center col-4">
           <Card className="css-shadow">
             <Card.Body className="card d-flex justify-content-center align-items-center">
               <div
                 className="sign-in-form style-1 d-flex flex-column justify-content-between">
-                <div className="tabs d-flex flex-column justify-content-between">
+                <div className="tabs-login d-flex flex-column justify-content-between">
                   <Tabs>
                     <Tab label="התחבר">
                       {/* Login */}
@@ -48,7 +47,7 @@ export default function Login2() {
                     alt=""
                     src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                   ></img>{" "}
-                  <p className="m-0">התחבר עם גוגל</p>
+                  <p className="p-google-button m-0">התחבר עם גוגל</p>
                 </button>
 
                 <div className="header__center">או</div>
@@ -95,11 +94,11 @@ export default function Login2() {
                           ></label>
                         </div>
                       </section>
-                      <p classnames="p" style={{ marginBottom: "0" }}>
+                      <p className="link-login">
                         תזכור אותי
                       </p>
                     </div>
-                    <p className="p">אפס סיסמא</p>
+                    <p className="link-login">אפס סיסמא</p>
                   </div>
                 </Form>
 
@@ -128,7 +127,7 @@ export default function Login2() {
                     alt=""
                     src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                   ></img>{" "}
-                  <p className="m-0">הרשם עם גוגל</p>
+                  <p className="p-google-button m-0">הרשם עם גוגל</p>
                 </button>
 
                 <div className="header__center">או</div>
@@ -167,11 +166,11 @@ export default function Login2() {
                           ></label>
                         </div>
                       </section>
-                      <p classnames="p" style={{ marginBottom: "0" }}>
+                      <p className="link-login">
                         תזכור אותי
                       </p>
                     </div>
-                    <p className="p">אפס סיסמא</p>
+                    <p className="link-login">אפס סיסמא</p>
                   </div>
                 </Form>
 
@@ -186,75 +185,7 @@ export default function Login2() {
                     הרשם
                   </Button>
                 </div>
-                    {/*   <div>
-                      <p className="psign">הרשם באמצעות חשבון הגוגל שלך</p>
-                      <div className="tabs-container alt">
-                        <div
-                          className="tab-content"
-                          id="tab2"
-                          style={{ display: "none" }}
-                        >
-                          <form method="post" className="register">
-                            <p className="form-row form-row-wide">
-                              <label htmlFor="username2">
-                                Username:
-                                <i className="im im-icon-Male" />
-                                <input
-                                  type="text"
-                                  className="input-text"
-                                  name="username"
-                                  id="username2"
-                                  defaultValue
-                                />
-                              </label>
-                            </p>
-                            <p className="form-row form-row-wide">
-                              <label htmlFor="email2">
-                                Email Address:
-                                <i className="im im-icon-Mail" />
-                                <input
-                                  type="text"
-                                  className="input-text"
-                                  name="email"
-                                  id="email2"
-                                  defaultValue
-                                />
-                              </label>
-                            </p>
-                            <p className="form-row form-row-wide">
-                              <label htmlFor="password1">
-                                Password:
-                                <i className="im im-icon-Lock-2" />
-                                <input
-                                  className="input-text"
-                                  type="password"
-                                  name="password1"
-                                  id="password1"
-                                />
-                              </label>
-                            </p>
-                            <p className="form-row form-row-wide">
-                              <label htmlFor="password2">
-                                Repeat Password:
-                                <i className="im im-icon-Lock-2" />
-                                <input
-                                  className="input-text"
-                                  type="password"
-                                  name="password2"
-                                  id="password2"
-                                />
-                              </label>
-                            </p>
-                            <input
-                              type="submit"
-                              className="button border fw margin-top-10"
-                              name="register"
-                              defaultValue="Register"
-                            />
-                          </form>
-                        </div>
-                      </div>
-                      </div> */}
+                   
                     </Tab>
                   </Tabs>
                 </div>
