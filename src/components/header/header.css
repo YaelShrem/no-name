@@ -1,5 +1,5 @@
 .nav-header{
-    background: var(--gray) !important;
+    background: var(--dark-gray) !important;
     direction: rtl;
     justify-content: space-between !important;
 }
