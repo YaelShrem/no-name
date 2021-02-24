@@ -285,7 +285,7 @@ class Tabs extends React.Component {
           buttons={buttons}
           changeTab={this.changeTab}
         />
-        <div className="tab-content">{content}</div>
+        <div className="tab-content d-flex flex-column justify-content-between">{content}</div>
       </div>
     );
   }
