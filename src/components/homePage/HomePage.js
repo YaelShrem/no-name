@@ -11,8 +11,8 @@ export default function HomePage() {
     return (
         <Container fluid style={{padding: 0, margin: 0}}>
             <SearchSection/>
-            <CategoriesSection/>
-                <TopBusinessesSection/>
+            {/* <CategoriesSection/>
+            <TopBusinessesSection/> */}
             <section>
                 <h2 className="main-title">Pricing</h2>
                     <Pricing/>

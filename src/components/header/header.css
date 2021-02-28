@@ -1,6 +1,6 @@
 .nav-header{
-    background: var(--dark-gray) !important;
-    direction: rtl;
+    background: var(--gray) !important;
+    direction: ltr;
     justify-content: space-between !important;
 }
 

@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <HomePage/> */}
+      <HomePage/>
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
@@ -33,7 +33,7 @@ function App() {
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
       {/* <MyShoppingBag /> */}
-      <ProductMenu />
+      {/* <ProductMenu /> */}
       {/* <Footer /> */}
     </>
   );

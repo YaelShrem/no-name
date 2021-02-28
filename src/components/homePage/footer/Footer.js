@@ -14,20 +14,19 @@ export default function Footer() {
               <div className="footer-widget">
                 <div className="widget-about">
                     <Icon value="logo" size="medium"/>
-                  <p>
-                  Xbiz.io מנוע חיפוש מקומי למציאת נקודות עניין, עסקים, אירועים
-              ועוד מגוון עצום של תחומי חיפוש. הנתונים נאספים מכל רחבי
-             הרשת וממשתמשי Xbiz על בסיס יום יומי, באופן אוטומטי. )
-                  </p>
+                  {/* <p>
+                      Download the Xbiz.io App!
+                      Available for Android and iOS:)
+                  </p> */}
                   <ul className="contact-details ul-footer">
                     <li>
                       <span className="icon-earphones" /> Call Us:
-                      <a href="tel:344-755-111">344-755-111</a>
+                      <a href="tel:344-755-111">000-000-111</a>
                     </li>
                     <li>
                       <span className="icon-envelope-open" />
                       <a href="mailto:support@aazztech.com">
-                        support@aazztech.com
+                        support@xbiz.io
                       </a>
                     </li>
                   </ul>
@@ -66,19 +65,13 @@ export default function Footer() {
             <div className="col-md-3 col-sm-4">
               <div className="footer-widget">
                 <div className="footer-menu">
-                  <h4 className="footer-widget-title">Our Company</h4>
+                  <h4 className="footer-widget-title">Xbiz links</h4>
                   <ul className="ul-footer">
                     <li>
                       <a href="#">About Us</a>
                     </li>
                     <li>
                       <a href="#">How It Works</a>
-                    </li>
-                    <li>
-                      <a href="#">Affiliates</a>
-                    </li>
-                    <li>
-                      <a href="#">Testimonials</a>
                     </li>
                     <li>
                       <a href="#">Contact Us</a>
@@ -116,12 +109,6 @@ export default function Footer() {
                     <li>
                       <a href="#">FAQs</a>
                     </li>
-                    <li>
-                      <a href="#">Buyers Faq</a>
-                    </li>
-                    <li>
-                      <a href="#">Sellers Faq</a>
-                    </li>
                   </ul>
                 </div>
                 {/* end /.footer-menu */}
@@ -142,7 +129,7 @@ export default function Footer() {
               <div className="copyright-text">
                 <p>
                   © 2021
-                  <a href="#"> Leader.codes</a>. All rights reserved. Created by
+                  <a href="#"> Leader.codes</a>. All rights reserved. Designed by
                   <a href="#"> Odelya Elimelech</a>
                 </p>
               </div>

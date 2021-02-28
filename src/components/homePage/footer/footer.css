@@ -21,19 +21,18 @@
 .footer p {
  font-size:16px;
  line-height:30px;
- color:#898b96;
+ /*color:#ff0000;*/
  font-weight:300
 }
 .footer h4 {
- font-family:Rubik,sans-serif;
  margin:0;
  font-weight:400;
  padding:0;
- color:#363940
+ color: var(--light-gray);
 }
-.footer a {
- color:#5867dd
-}
+/* .footer a {
+ color: red
+} */
 .no-padding {
  padding:0!important
 }
@@ -60,10 +59,10 @@
 } */
 
 .footer-big {
- padding:105px 0 65px 0
+ padding:65px 0 65px 0
 }
 .footer-big .footer-widget {
- margin-bottom:40px
+ margin-bottom:2px
 }
 .footer--light {
  background: var(--dark-gray)
@@ -82,7 +81,7 @@
  transition:.3s
 }
 .footer-menu ul li a:hover {
- color:#5867dd
+ color: var(--yellow)
 }
 .footer-menu--1 {
  width:100%
@@ -93,21 +92,21 @@
  font-size:18px
 }
 .mini-footer {
- background:#192027;
+ background: var(--gray);
  text-align:center;
- padding:32px 0
+ padding:15px 0
 }
 .mini-footer p {
  margin:0;
- line-height:26px;
- font-size:15px;
- color:#999
+ line-height:20px;
+ font-size:1rem;
+ color: var(--light-gray);
 }
 .mini-footer p a {
- color:#5867dd
+ color: var(--white);
 }
 .mini-footer p a:hover {
- color:#34bfa3
+ color: var(--yellow);
 }
 .widget-about img {
  display:block;
@@ -129,7 +128,7 @@
  padding-right:12px
 }
 .widget-about .contact-details li a {
- color:#5867dd
+ color: var(--light-gray)
 }
 @media (max-width:991px) {
  .footer-menu {
