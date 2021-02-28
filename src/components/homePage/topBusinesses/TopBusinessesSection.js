@@ -1,4 +1,6 @@
 import React from 'react'
+import {useSpring, animated} from 'react-spring'
+
 // import AliceCarousel from 'react-alice-carousel';
 // import 'react-alice-carousel/lib/alice-carousel.css';
 
@@ -16,6 +18,8 @@ import React from 'react'
 //     <div className="item" data-value="5">5</div>,
 // ];
 export default function TopBusinesses() {
+    const props = useSpring({opacity: 1, from: {opacity: 0}})
+
     return (
         // <div style={{position: 'relative', alignItems: 'center'}}>
         //     <h1>עסקים נבחרים</h1>
@@ -26,7 +30,10 @@ export default function TopBusinesses() {
         //     />
         // </div>
         <>
-            <h2>TopBusinesses</h2>
+        <section style={{height: '50vh',
+                        backgroundColor: 'lightgray'}}>
+                <animated.h2 style={props} className="main-title">TopBusinesses</animated.h2>
+        </section>
         </>
     )
 }
