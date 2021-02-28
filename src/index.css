@@ -25,7 +25,9 @@
   box-sizing: border-box;
   /* text-decoration: none!important; */
 }
-
+body{
+  position: relative;
+}
 .large-icon {
   width: 80px !important;
   height: 80px !important;

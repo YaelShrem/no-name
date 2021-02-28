@@ -1,6 +1,6 @@
 import React from 'react'
-import backgroundShape from '../../../style/images/backgroundShape.png';
-import mainImg from '../../../style/images/mainImg.png';
+//import backgroundShape from '../../../style/images/backgroundShape.png';
+//import mainImg from '../../../style/images/mainImg.png';
 import './searchSection.css';
 
 export default function SearchSection() {

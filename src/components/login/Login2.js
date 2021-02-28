@@ -99,7 +99,7 @@ export default function Login2() {
                         </div>
                       </Form>
 
-                      <div className="d-flex justify-content-center mb-4 mt-4">
+                      <div className="d-flex justify-content-center mt-4">
                         <Button
                           variant="contained"
                           type="submit"
@@ -169,7 +169,7 @@ export default function Login2() {
                         </div>
                       </Form>
 
-                      <div className="d-flex justify-content-center mb-4 mt-4">
+                      <div className="d-flex justify-content-center mt-4">
                         <Button
                           variant="contained"
                           type="submit"

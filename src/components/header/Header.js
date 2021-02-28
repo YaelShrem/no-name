@@ -32,22 +32,18 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
          <Nav className="mr-auto">
-            <Nav.Link href="/" 
-                      className="header-link">
-                ראשי
-            </Nav.Link> 
              <Nav.Link href="/">
-                קטגוריות
+                Categories
+            </Nav.Link>
+            <Nav.Link href="/">
+                Post for free
             </Nav.Link>
             <Nav.Link href="/signup">
-                פרסם חינם
+                Signin | Signup
             </Nav.Link>
-            <Nav.Link href="/signup">
-                כניסה | הרשמה
-            </Nav.Link>
-            <NavDropdown title="שפה" id="collasible-nav-dropdown">
-                <NavDropdown.Item className="animate slideIn" /*href="Hebrew"*/>עברית</NavDropdown.Item>
+            <NavDropdown title="Language" id="collasible-nav-dropdown">
                 <NavDropdown.Item className="animate slideIn"/*href="English"*/ >English</NavDropdown.Item>
+                <NavDropdown.Item className="animate slideIn" /*href="Hebrew"*/>עברית</NavDropdown.Item>
                 <NavDropdown.Item className="animate slideIn" /*href="Spanish"*/>Español</NavDropdown.Item>            
                 <NavDropdown.Item className="animate slideIn"/*href="French"*/ >français</NavDropdown.Item>
                 <NavDropdown.Item className="animate slideIn"/*href="Russian"*/ >русский</NavDropdown.Item>

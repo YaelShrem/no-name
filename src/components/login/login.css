@@ -7,13 +7,14 @@
 }
 .wrapper-card-login {
   min-height: 550px;
-  height: 70vh;
+  height: 75vh;
   max-width: 720px;
   min-width: 280px;
 }
 .css-shadow {
   height: 100%;
   width: 100%;
+  min-width:320px; 
   background-color: white;
   box-shadow: 0px 2px 6px #0000001f;
 }
@@ -57,12 +58,12 @@
   height: 47px;
   opacity: 1;
 }
-/* .sign-in-form .tabs-nav li a { */
-  /* padding: 0 15px 18px 15px; */
-  /* color: #8d8d8d;
+.sign-in-form .tabs-nav li a {
+  padding: 0 15px 18px 15px;
+  color: #8d8d8d;
   font-weight: 500;
-} */
-/* .tabs-nav li a {
+}
+.tabs-nav li a {
   border-bottom: 1px solid transparent;
   color: #333;
   display: inline-block;
@@ -74,7 +75,7 @@
   position: relative;
   margin-bottom: -1px;
   opacity: 1 !important;
-} */
+}
 .google {
   top: 389px;
   left: 837px;
@@ -99,14 +100,14 @@
   min-width: 300px;
 }
 
-/* .sign-in-form .tabs-nav li a { */
-  /* padding: 0 15px 18px 15px; */
-  /* color: #8d8d8d;
+.sign-in-form .tabs-nav li a {
+  padding: 0 15px 18px 15px;
+  color: #8d8d8d;
   font-weight: 500;
-} */
-/* .tabs-nav li a :hover {
+}
+.tabs-nav li a :hover {
   color: #ffd600;
-} */
+}
 .MuiInput-underline:focus,
 .MuiTextField-root:focus,
 .MuiFormLabel-root:focus,
@@ -134,14 +135,14 @@ a,
 button {
   outline: none !important;
 }
-/* .tab-buttons button {
+.tab-buttons button {
   margin: 0px !important;
 }
 
 .tabs-nav li a:hover {
   border-color: #66676b;
   color: #ffd600;
-} */
+}
 
 .container-login::before {
   content: none !important;
@@ -470,11 +471,11 @@ input[type="checkbox"]:checked + .labelClass:after {
 .form {
   top: 625px;
   left: 789px;
-  /* width: 329px; */
+  width: 100%;
   min-height: 190px;
   height: 25vh;
   opacity: 1;
-  /* margin-top: 5vh; */
+  margin-top: 2vh;
   max-height: 220px;
 }
 .formRegister {
@@ -524,15 +525,15 @@ input[type="checkbox"]:checked + .labelClass:after {
   border: none !important;
 }
 
-/* .tabs-login {
+.tabs-login {
   font-family: arial;
   margin: 0 auto;
   width: 73%;
-  text-align: center; */
-  /* margin-top:15vh; */
-  /* height: 60vh;
+  text-align: center;
+  margin-top:15vh;
+  height: 60vh;
   min-height: 550px;
-} */
+}
 .tabs-login div:first-child {
   height: 100%;
 }
@@ -542,8 +543,8 @@ input[type="checkbox"]:checked + .labelClass:after {
 
 
 button {
-  /* margin-right:15px; */
-  /* font-size:20px; */
+  margin-right:15px;
+  font-size:20px;
   background: transparent;
   border: none;
   outline: none;
@@ -564,7 +565,7 @@ button {
   margin-bottom: 1vh;
   margin-top: 3vh;
   color: #707070;
-  font-size: x-large;
+  font-size:large;
 }
 .active {
   border-bottom: 2px solid #ffd600 !important;
@@ -576,14 +577,14 @@ button {
   margin: 0 auto !important;
   width: 70% !important;
   text-align: center !important;
-  /* margin-top: 15vh !important; */
   direction: rtl !important;
   letter-spacing: 0px !important;
   text-align: right !important;
 }
 
 .tab-buttons {
-  margin-bottom: 50px;
+display: flex;
+justify-content: center;
 }
 
 .tab-buttons button {
@@ -604,4 +605,9 @@ button {
   border-bottom: 3px solid var(--yellow) !important;
   color: #707070 !important;
   font: normal normal 600 19px/39px Segoe UI !important;
+}
+@media only screen and (max-width: 1500px) {
+  .tab-div{
+    width: 95% !important;
+  }
 }
