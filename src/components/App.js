@@ -13,8 +13,8 @@
 // import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Recommendations from "./recommendations/Recommendations";
-import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
-// import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
+// import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
 // import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
 // import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
@@ -30,8 +30,8 @@ function App() {
       {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       {/* <UserMenu /> */}
-      <OrderDetails />
-      {/* <ProductCatalog /> */}
+      {/* <OrderDetails /> */}
+      <ProductCatalog />
       {/* <MyShoppingBag /> */}
       {/* <ProductMenu /> */}
       {/* <Footer /> */}
