@@ -152,13 +152,13 @@ onChange={(event, newValue) => {
           />
         </div>
         
-       {/* <div className="d-flex">
+       <div className="d-flex">
         <AliceCarousel
                  mouseTracking
                 items={items}
                 responsive={responsive}
             />
-            </div> */}
+            </div>
      
       </div>
       {/* Fonts to support Material Design  */}
