@@ -1,19 +1,23 @@
 import React from "react";
 import "./productMenu.css";
-import { Button } from '@material-ui/core';
+import { Button } from "@material-ui/core";
 
 export default function ProductMenu() {
   return (
     <>
-    <div className="d-flex justify-content-between">
-      <div className="tab-div d-flex justify-content-between">
-        <Tabs className="d-flex">
-          <Tab className="product-tab" label="קטלוג מוצרים"></Tab>
-          <Tab className="product-tab" label="סל הקניות שלי"></Tab>
-          <Tab className="product-tab" label="לסיים הזמנה"></Tab>
-        </Tabs>
-      </div>
-      <div><Button className="show-all-btn" variant="contained">תציג הכל</Button></div>
+      <div className="d-flex justify-content-center">
+        <div className="tab-div d-flex justify-content-between">
+          <Tabs className="d-flex">
+            <Tab className="product-tab" label="קטלוג מוצרים"></Tab>
+            <Tab className="product-tab" label="סל הקניות שלי"></Tab>
+            <Tab className="product-tab" label="לסיים הזמנה"></Tab>
+          </Tabs>
+        </div>
+        <div className="d-flex">
+          <Button className="show-all-btn" variant="contained">
+            תציג הכל
+          </Button>
+        </div>
       </div>
     </>
   );

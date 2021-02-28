@@ -38,6 +38,9 @@
   opacity: 1 !important;
   color: var(--white) !important;
   box-shadow: none !important;
-  font: normal normal 600 18px/24px Segoe UI !important;
+  /* font: normal normal 600 18px/24px Segoe UI !important; */
   letter-spacing: 0.54px !important;
+  text-align: left !important;
+  width: 97px;
+  height: 38px;
 }

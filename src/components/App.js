@@ -1,5 +1,5 @@
- import Header from "./header/Header";
- import HomePage from './homePage/HomePage';
+//  import Header from "./header/Header";
+//  import HomePage from './homePage/HomePage';
 //import Login2 from "./login/Login2";
 //import BusinessDetails from "./businessDetails/BusinessDetails";
 //import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
@@ -14,7 +14,7 @@
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Recommendations from "./recommendations/Recommendations";
 // import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
-// import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
+import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
 // import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
 import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
@@ -23,17 +23,17 @@ import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
 function App() {
   return (
     <>
-      <Header />
-      <HomePage/>
+      {/* <Header /> */}
+      {/* <HomePage/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
       {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
-      {/* <ProductCatalog /> */}
+      <ProductCatalog />
       {/* <MyShoppingBag /> */}
-      <ProductMenu />
+      {/* <ProductMenu /> */}
       {/* <Footer /> */}
     </>
   );
