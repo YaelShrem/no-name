@@ -31,4 +31,9 @@
   border-bottom: 3px solid var(--yellow) !important;
   color: #707070 !important;
 }
-
+@media only screen and (max-width: 1190px) {
+  .wrapper-product-menu{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

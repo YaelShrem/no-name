@@ -9,6 +9,7 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
+import { Dropdown } from "react-bootstrap";
 import { Container, Card } from "react-bootstrap";
 export default function ProductCatalog() {
   const icon = {
@@ -25,17 +26,40 @@ export default function ProductCatalog() {
   return (
     <>
       <Container className="container-catalog d-flex flex-column align-items-center">
-        <div className="d-flex justify-content-between align-items-center col-lg-7 col-md-8 col-sm-10">
-        <Button className="show-all-btn" variant="contained">
-          תציג הכל
-        </Button>
-  
-          <ProductMenu></ProductMenu>
+        <div className="d-flex justify-content-between align-items-center row col-lg-7 col-md-8 col-sm-10 mb-3" dir="rtl">
+        <ProductMenu></ProductMenu>
+          <div className="wrapper-left-header-catalog d-flex col-lg-4 col-md-6 col-sm-8 justify-content-between align-items-center" dir="ltr">
+            <Button className="show-all-btn" variant="contained">
+              תציג הכל
+            </Button>
+            <div className="dropdown">
+              <Dropdown className="wrapper-dropdown-catalog">
+                <Dropdown.Toggle
+                  className="dropdown-product-catalog"
+                  variant="secondary btn-sm"
+                  id="dropdown-basic"
+                >
+                  מיין לפי
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu style={{ backgroundColor: "#73a47" }}>
+                  <Dropdown.Item href="#">aaaaa</Dropdown.Item>
+                  <Dropdown.Item href="#">bbbbb</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+            </div>
+          </div>
+         
         </div>
         <div className="wrapper-catalog d-flex flex-column justify-content-center">
           <div className="row d-flex justify-content-center">
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -51,32 +75,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
-            </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
-              <Card.Body className="card-body-catalog">
-                <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
-                </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
-                  {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                
               </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -92,11 +100,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -112,11 +125,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -132,11 +150,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -152,11 +175,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -172,11 +200,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -192,11 +225,16 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
-              <Card.Img className="img-catalog" variant="top" src={ProductImg} alt={ProductImg} />
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
               <Card.Body className="card-body-catalog">
                 <Card.Title className="title-catalog">
                   מנת ירקות של בורגר
@@ -212,10 +250,34 @@ export default function ProductCatalog() {
                     <button className="Increment">+</button>
                   </div>
                   <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                  </div>
-                  </Card.Body>
+                </div>
+              </Card.Body>
             </Card>
-
+            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+              <Card.Img
+                className="img-catalog"
+                variant="top"
+                src={ProductImg}
+                alt={ProductImg}
+              />
+              <Card.Body className="card-body-catalog">
+                <Card.Title className="title-catalog">
+                  מנת ירקות של בורגר
+                </Card.Title>
+                <div className="time-wrapper d-flex align-items-center">
+                  {Parser(icon.clockFill)}
+                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <div className="count-wrapper d-flex">
+                    <button className="Decrement">-</button>
+                    <div className="count-product">1</div>
+                    <button className="Increment">+</button>
+                  </div>
+                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
           </div>
         </div>
         <div className="d-flex justify-content-between">

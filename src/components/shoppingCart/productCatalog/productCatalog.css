@@ -66,6 +66,29 @@ color: #22C5BB;
   width: 97px;
   height: 38px;
 }
+.dropdown-product-catalog{
+background-color:unset !important;
+color: #5F5982  !important;
+border:none !important;
+}
+/* .wrapper-dropdown-catalog .dropdown-toggle::after{ */
+   /* margin-left:unset !important;
+  vertical-align:unset !important;
+  border-top:unset !important;
+  -webkit-transform: rotate(90deg) !important;
+  -moz-transform: rotate(90deg) !important;
+  -ms-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important; */
+  /* content: "\f078" !important;
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit; */
+/* } */
+.dropdown-product-catalog :focus{
+  outline: none !important;
+box-shadow: none !important;
+}
 /* Overiding Bootstrap Style */
 /* .card-title.h5 {
   color: #302d3a !important;

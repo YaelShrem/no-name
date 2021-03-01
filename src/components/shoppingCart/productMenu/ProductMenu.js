@@ -5,7 +5,7 @@ import { Button } from "@material-ui/core";
 export default function ProductMenu() {
   return (
     <>
-      <div className="d-flex justify-content-center align-items-center">
+      <div className="wrapper-product-menu d-flex justify-content-center align-items-center col-lg-8 col-md-12 col-sm-12">
         <div className="tab-div-product-menu d-flex justify-content-between">
           <Tabs className="d-flex">
             <Tab className="product-tab" label="קטלוג מוצרים"></Tab>
