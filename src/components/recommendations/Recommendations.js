@@ -154,14 +154,15 @@ export default function Recommendations(props) {
             style={{ maxWidth: "70vw" }}
           />
         </div>
-
-        <div className="d-flex">
+        
+       <div className="d-flex">
         <AliceCarousel
                  mouseTracking
                 items={items}
                 responsive={responsive}
             />
             </div>
+     
       </div>
       {/* Fonts to support Material Design  */}
       <link
