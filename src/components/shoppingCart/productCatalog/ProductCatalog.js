@@ -26,9 +26,9 @@ export default function ProductCatalog() {
   return (
     <>
       <Container className="container-catalog d-flex flex-column align-items-center">
-        <div className="d-flex justify-content-between align-items-center row col-lg-7 col-md-8 col-sm-10 mb-3" dir="rtl">
+        <div className="wrapper-header-catalog d-flex justify-content-between align-items-center row col-lg-7 col-md-8 col-sm-10 mb-3" dir="rtl">
         <ProductMenu></ProductMenu>
-          <div className="wrapper-left-header-catalog d-flex col-lg-4 col-md-6 col-sm-8 justify-content-between align-items-center" dir="ltr">
+          <div className="wrapper-left-header-catalog d-flex col-lg-4 col-md-6 col-sm-8 align-items-center" dir="ltr">
             <Button className="show-all-btn" variant="contained">
               תציג הכל
             </Button>

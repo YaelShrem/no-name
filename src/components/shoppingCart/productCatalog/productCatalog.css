@@ -6,6 +6,9 @@
 .wrapper-catalog{
   width: 70%;
 }
+.wrapper-left-header-catalog{
+  justify-content: space-between;
+}
 .card-catalog {
   background:var(--white) 0% 0% no-repeat padding-box;
   border-radius: 5px;
@@ -89,85 +92,36 @@ border:none !important;
   outline: none !important;
 box-shadow: none !important;
 }
-/* Overiding Bootstrap Style */
-/* .card-title.h5 {
-  color: #302d3a !important;
-}
+@media only screen and (max-width: 1190px) {
 
-.MuiButtonBase-root {
-  background: var(--white) !important;
-  opacity: 1 !important;
-  min-width: 36px !important;
-  border-radius: 5px !important;
+ .wrapper-header-catalog{
+   flex-direction: column;
+ }
+ .wrapper-left-header-catalog{
+   width: 100% !important;
+   max-width: 100% !important;
+   justify-content: end !important;
+   
+ }
 }
+@media only screen and (max-width: 582px) {
+.wrapper-header-catalog{
+  width: 84% !important;
+}
+}
+@media only screen and (max-width: 557px) {
+  .wrapper-header-catalog{
+    width: 86% !important;
+  }
+  }
+@media only screen and (max-width: 530px) {
+  .wrapper-header-catalog{
+    width: 90% !important;
+  }
+  }
+  @media only screen and (max-width: 522px) {
+    .wrapper-header-catalog{
+      width: 98% !important;
+    }
+    }
 
-.productImg {
-   z-index: -2 !important;
-  right: 0% !important;
-}
-*/
-
-
-/* 
-.card:hover {
-  cursor: pointer;
-  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
-    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-}
-
-.card.Text {
-  top: 2232px;
-  left: 1351px;
-  width: 136px;
-  height: 24px;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) / 2px Muli;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
-  font: normal normal normal 18px/2px Muli;
-  letter-spacing: 0px;
-  color: #8c98a8;
-  opacity: 1;
-  padding-right: 8px;
-}
-.p {
-  top: 2277px;
-  left: 1461px;
-  width: 62px;
-  height: 25px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-18) / 24px bold Poppins;
-  color: var(--unnamed-color-22c5bb);
-  text-align: right;
-  font: normal normal bold 18px/24px;
-  letter-spacing: 0.36px;
-  color: #22c5bb;
-  opacity: 1 !important;
-}
-.botton-style {
-  padding: 0px !important;
-  padding: 0.2rem !important;
-}
-.card-body {
-  flex: 1 1 auto;
-  min-height: 1px;
-  padding: 0.2rem !important;
-}
-
-.rout {
-  text-align: left;
-}
-.time {
-  padding-right: 8px;
-}
-.div-time {
-  margin-bottom: 7px;
-}
-
-.arrow {
-  color: red !important;
-}
-
-.arrow:active {
-  color: yellow !important;
-} */
