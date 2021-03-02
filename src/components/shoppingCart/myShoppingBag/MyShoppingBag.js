@@ -14,12 +14,9 @@ export default function MyShoppingBag() {
   };
   return (
     <>
-      <Container className="container-shopping-bag d-flex-col justify-content-center">
-        <div className="d-flex justify-content-between">
+      <Container className="container-shopping-bag d-flex">
+        <div className="d-flex">
           <ProductMenu></ProductMenu>
-          <Button className="show-all-bag" variant="contained">
-            תציג הכל
-          </Button>
         </div>
         <div className="d-flex">
           <img
