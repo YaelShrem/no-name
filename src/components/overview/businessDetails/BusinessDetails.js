@@ -1,9 +1,9 @@
 import React from "react";
-import backgroundGray from "../../style/images/backgroundGray.png";
-import imageFood from "../../style/images/imageFood.png";
+import backgroundGray from "../../../style/images/backgroundGray.png";
+import imageFood from "../../../style/images/imageFood.png";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import UserMenu from "../shoppingCart/userMenu/UserMenu"
+import UserMenu from "../../shoppingCart/userMenu/UserMenu"
 // import Recommendations from "../recommendations/Recommendations";
 export default function BusinessDetails() {
   return (
