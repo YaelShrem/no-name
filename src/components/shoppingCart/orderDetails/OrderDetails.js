@@ -8,7 +8,7 @@ export default function OrderDetails() {
   return (
     <>
       <div className="wrapper-order-details">
-        <Container dir="ltr" className="container-order-details">
+        <Container className="container-order-details">
           <div className="d-flex">
             <ProductMenu></ProductMenu>
           </div>

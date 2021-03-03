@@ -5,6 +5,7 @@
   max-width: 70vw !important;
   margin: auto !important;
   min-height: 100vh !important;
+  direction:ltr !important;
   /* min-width: 400px !important; */
   /* width: 70vw !important; */
   /* height: 625px; */
