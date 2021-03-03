@@ -1,6 +1,6 @@
 .container-shopping-bag {
-  width: 50vw !important;
-  direction: rtl;
+  /* width: 50vw !important; */
+  direction: rtl !important;
 }
 
 .img-shopping-bag {

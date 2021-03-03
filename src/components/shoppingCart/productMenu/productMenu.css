@@ -1,12 +1,11 @@
-.tab-div {
+.tab-div-product-menu {
   font-family: arial !important;
   margin: 0 auto !important;
-  width: 70% !important;
+  width: 100% !important;
   text-align: center !important;
-  margin-top: 15vh !important;
-  direction: rtl !important;
+  direction: ltr !important;
   letter-spacing: 0px !important;
-  text-align: right !important;
+  text-align: left !important;
 }
 /* 
 .tab-buttons {
@@ -19,25 +18,33 @@
   background: transparent !important;
   border: none !important;
   outline: none !important;
-  padding: 10px 20px !important;
+  padding: 10px 5px !important;
+  padding-bottom: 0px !important;
   cursor: pointer !important;
   color: rgba(0, 0, 0, 0.4) !important;
   transition: all ease-in-out 0.2s !important;
   border-bottom: 3px solid transparent !important;
-  font: normal normal 600 20px/60px Segoe UI !important;
+  font: normal normal 600 18px/60px Segoe UI !important;
 }
 
 .tab-buttons .active {
   border-bottom: 3px solid var(--yellow) !important;
   color: #707070 !important;
-  font: normal normal 600 22px/63px Segoe UI !important;
 }
-.show-all-btn {
-  background: var(--yellow) 0% 0% no-repeat padding-box !important;
-  border-radius: 4px !important;
-  opacity: 1 !important;
-  color: var(--white) !important;
-  box-shadow: none !important;
-  font: normal normal 600 18px/24px Segoe UI !important;
-  letter-spacing: 0.54px !important;
+@media only screen and (max-width: 1190px) {
+  .wrapper-product-menu {
+    width: 100% !important;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+  .tab-buttons button {
+    font: normal normal 600 16px/60px Segoe UI !important;
+  }
+}
+@media only screen and (max-width: 464px) {
+  .tab-buttons button {
+    display: block;
+  }
 }

@@ -4,14 +4,14 @@ import RecommendationsImg from "../../style/images/recommendationsImg.png";
 import message from "../../style/images/message.png";
 import Avater from "../../style/images/avater.png";
 import { Avatar } from "@material-ui/core";
-import Rating from '@material-ui/lab/Rating';
+import Rating from "@material-ui/lab/Rating";
 // import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+import Box from "@material-ui/core/Box";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 // import ScrollMenu from 'react-horizontal-scrolling-menu';
-
-
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Recommendations(props) {
   const [value, setValue] = React.useState(2);
@@ -20,125 +20,130 @@ export default function Recommendations(props) {
     0: { items: 1 },
     568: { items: 2 },
     1024: { items: 3 },
-};
+  };
 
-const items = [
-  <div className="item d-flex flex-column align-items-center"data-value="1">
-  <div className="wrap">
-    <img src={message} alt={message} className="message" />
-    <div className="wrapperp d-flex flex-column justify-content-between"><p>אחלה שירות אוכל טעים ומוגש ברמה</p>
-    <div className="starWrapper">
-<Box component="fieldset" mb={3} borderColor="transparent">
-{/* <Typography component="legend">Controlled</Typography> */}
-<Rating
-name="simple-controlled"
-value={value}
-onChange={(event, newValue) => {
-  setValue(newValue);
-}}
-/>
-</Box>
-</div></div>
-     </div>
-   <div className="divAvaset d-flex justify-content-center align-items-center">
-    <p className="avaterText">Amanda Robertson</p>
-    <Avatar alt="Travis Howard" src={Avater} className="avater" />
-   
-  </div>
-</div>,
-     <div className="item d-flex flex-column align-items-center"data-value="2">
-     <div className="wrap">
-       <img src={message} alt={message} className="message" />
-       <div className="wrapperp d-flex flex-column justify-content-between"><p>אחלה שירות אוכל טעים ומוגש ברמה</p>
-       <div className="starWrapper">
-<Box component="fieldset" mb={3} borderColor="transparent">
- {/* <Typography component="legend">Controlled</Typography> */}
- <Rating
-   name="simple-controlled"
-   value={value}
-   onChange={(event, newValue) => {
-     setValue(newValue);
-   }}
- />
-</Box>
-  </div></div>
+  const items = [
+    <div className="item d-flex flex-column align-items-center" data-value="1">
+      <div className="wrap">
+        <img src={message} alt={message} className="message" />
+        <div className="wrapperp d-flex flex-column justify-content-between">
+          <p>אחלה שירות אוכל טעים ומוגש ברמה</p>
+          <div className="starWrapper">
+            <Box component="fieldset" mb={3} borderColor="transparent">
+              {/* <Typography component="legend">Controlled</Typography> */}
+              <Rating
+                name="simple-controlled"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </Box>
+          </div>
         </div>
-      <div className="divAvaset d-flex justify-content-center align-items-center">
-       <p className="avaterText">Amanda Robertson</p>
-       <Avatar alt="Travis Howard" src={Avater} className="avater" />
-      
-     </div>
-   </div>,
-    <div className="item d-flex flex-column align-items-center"data-value="3">
-    <div className="wrap">
-      <img src={message} alt={message} className="message" />
-      <div className="wrapperp d-flex flex-column justify-content-between"><p>אחלה שירות אוכל טעים ומוגש ברמה</p>
-      <div className="starWrapper">
-<Box component="fieldset" mb={3} borderColor="transparent">
-{/* <Typography component="legend">Controlled</Typography> */}
-<Rating
-  name="simple-controlled"
-  value={value}
-  onChange={(event, newValue) => {
-    setValue(newValue);
-  }}
-/>
-</Box>
- </div></div>
-       </div>
-     <div className="divAvaset d-flex justify-content-center align-items-center">
-      <p className="avaterText">Amanda Robertson</p>
-      <Avatar alt="Travis Howard" src={Avater} className="avater" />
-     
-    </div>
-  </div>,
-     <div className="item d-flex flex-column align-items-center" data-value="4">
-     <div className="wrap">
-       <img src={message} alt={message} className="message" />
-       <div className="wrapperp d-flex flex-column justify-content-between"><p>אחלה שירות אוכל טעים ומוגש ברמה</p>
-       <div className="starWrapper">
-<Box component="fieldset" mb={3} borderColor="transparent">
- {/* <Typography component="legend">Controlled</Typography> */}
- <Rating
-   name="simple-controlled"
-   value={value}
-   onChange={(event, newValue) => {
-     setValue(newValue);
-   }}
- />
-</Box>
-  </div></div>
+      </div>
+      <div className="divAvaset d-flex">
+        <p className="avaterText">Amanda Robertson</p>
+        <Avatar alt="Travis Howard" src={Avater} className="avater" />
+      </div>
+    </div>,
+    <div className="item d-flex flex-column align-items-center" data-value="2">
+      <div className="wrap">
+        <img src={message} alt={message} className="message" />
+        <div className="wrapperp d-flex flex-column justify-content-between">
+          <p>אחלה שירות אוכל טעים ומוגש ברמה</p>
+          <div className="starWrapper">
+            <Box component="fieldset" mb={3} borderColor="transparent">
+              {/* <Typography component="legend">Controlled</Typography> */}
+              <Rating
+                name="simple-controlled"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </Box>
+          </div>
         </div>
+      </div>
       <div className="divAvaset d-flex justify-content-center align-items-center">
-       <p className="avaterText">Amanda Robertson</p>
-       <Avatar alt="Travis Howard" src={Avater} className="avater" />
-      
-     </div>
-   </div>,
+        <p className="avaterText">Amanda Robertson</p>
+        <Avatar alt="Travis Howard" src={Avater} className="avater" />
+      </div>
+    </div>,
+    <div className="item d-flex flex-column align-items-center" data-value="3">
+      <div className="wrap">
+        <img src={message} alt={message} className="message" />
+        <div className="wrapperp d-flex flex-column justify-content-between">
+          <p>אחלה שירות אוכל טעים ומוגש ברמה</p>
+          <div className="starWrapper">
+            <Box component="fieldset" mb={3} borderColor="transparent">
+              {/* <Typography component="legend">Controlled</Typography> */}
+              <Rating
+                name="simple-controlled"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </Box>
+          </div>
+        </div>
+      </div>
+      <div className="divAvaset d-flex justify-content-center align-items-center">
+        <p className="avaterText">Amanda Robertson</p>
+        <Avatar alt="Travis Howard" src={Avater} className="avater" />
+      </div>
+    </div>,
+    <div className="item d-flex flex-column align-items-center" data-value="4">
+      <div className="wrap">
+        <img src={message} alt={message} className="message" />
+        <div className="wrapperp d-flex flex-column justify-content-between">
+          <p>אחלה שירות אוכל טעים ומוגש ברמה</p>
+          <div className="starWrapper">
+            <Box component="fieldset" mb={3} borderColor="transparent">
+              {/* <Typography component="legend">Controlled</Typography> */}
+              <Rating
+                name="simple-controlled"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </Box>
+          </div>
+        </div>
+      </div>
+      <div className="divAvaset d-flex justify-content-center align-items-center">
+        <p className="avaterText">Amanda Robertson</p>
+        <Avatar alt="Travis Howard" src={Avater} className="avater" />
+      </div>
+    </div>,
     <div className="item d-flex flex-column align-items-center" data-value="5">
-    <div className="wrap">
-      <img src={message} alt={message} className="message" />
-      <div className="wrapperp d-flex flex-column justify-content-between"><p>אחלה שירות אוכל טעים ומוגש ברמה</p>
-      <div className="starWrapper">
-<Box component="fieldset" mb={3} borderColor="transparent">
-{/* <Typography component="legend">Controlled</Typography> */}
-<Rating
-  name="simple-controlled"
-  value={value}
-  onChange={(event, newValue) => {
-    setValue(newValue);
-  }}
-/>
-</Box>
- </div></div>
-       </div>
-     <div className="divAvaset d-flex justify-content-center align-items-center">
-      <p className="avaterText">Amanda Robertson</p>
-      <Avatar alt="Travis Howard" src={Avater} className="avater" />
-     
-    </div>
-  </div>,
-];
+      <div className="wrap">
+        <img src={message} alt={message} className="message" />
+        <div className="wrapperp d-flex flex-column justify-content-between">
+          <p>אחלה שירות אוכל טעים ומוגש ברמה</p>
+          <div className="starWrapper">
+            <Box component="fieldset" mb={3} borderColor="transparent">
+              {/* <Typography component="legend">Controlled</Typography> */}
+              <Rating
+                name="simple-controlled"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </Box>
+          </div>
+        </div>
+      </div>
+      <div className="divAvaset d-flex justify-content-center align-items-center">
+        <p className="avaterText">Amanda Robertson</p>
+        <Avatar alt="Travis Howard" src={Avater} className="avater" />
+      </div>
+    </div>,
+  ];
 
   return (
     <>
@@ -151,7 +156,17 @@ onChange={(event, newValue) => {
             style={{ maxWidth: "70vw" }}
           />
         </div>
-        
+        <CarouselProvider
+        naturalSlideWidth={'50px'}
+        naturalSlideHeight={125}
+        totalSlides={3}
+      >
+        <Slider>
+          <Slide index={0}>I am the first Slide.</Slide>
+          <Slide index={1}>I am the second Slide.</Slide>
+          <Slide index={2}>I am the third Slide.</Slide>
+        </Slider>
+      </CarouselProvider>
        {/* <div className="d-flex">
         <AliceCarousel
                  mouseTracking
@@ -162,10 +177,16 @@ onChange={(event, newValue) => {
      
       </div>
       {/* Fonts to support Material Design  */}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-   {/* Icons to support Material Design  */}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <div id="root"></div>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      />
+      {/* Icons to support Material Design  */}
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+      <div id="root"></div>
     </>
   );
 }
