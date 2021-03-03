@@ -1,9 +1,16 @@
-.wrapperOrderDetails {
-  width: 100vw;
-  height: 625px;
-  background: var(--unnamed-color-f2f2f2) 0% 0% no-repeat padding-box;
-  background: #f2f2f2 0% 0% no-repeat padding-box;
-  margin-top: 86px;
+.wrapper-order-details {
+  background: var(--smoky-white) 0% 0% no-repeat padding-box !important;
+}
+.container-order-details {
+  max-width: 70vw !important;
+  margin: auto !important;
+  min-height: 100vh !important;
+  direction:ltr !important;
+  /* min-width: 400px !important; */
+  /* width: 70vw !important; */
+  /* height: 625px; */
+  /* background: #f2f2f2 0% 0% no-repeat padding-box; */
+  /* margin-top: 86px; */
 }
 
 .title {
@@ -21,19 +28,14 @@
   opacity: 1;
 }
 .detail {
-  top: 2079px;
-  left: 1035px;
-  width: 510px;
   font: var(--unnamed-font-style-normal) normal
     var(--unnamed-font-weight-normal) 22px/51px
     var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
+  color: var(--gray);
   text-align: left;
   font: normal normal normal 17px/31px Segoe UI;
   letter-spacing: 0px;
-  color: #707070;
-  opacity: 1;
+  /* font: normal normal normal 15px/25px Segoe UI; */
 }
 
 .control {
@@ -47,112 +49,115 @@
   letter-spacing: 0px;
   color: #7a7a7a !important;
   opacity: 0.5;
+}
+
+.input-order {
+  top: 2318px;
+  left: 1290px;
+  width: 100%;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 22px/33px Poppins;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  /* font: normal normal normal 22px/33px Poppins; */
+  letter-spacing: 0px;
+  color: #7a7a7a !important;
+  opacity: 0.5;
+  background-color: transparent !important;
+  border: 1px solid #cac6d4 !important;
+  border-radius: 5px;
+  padding: 29px;
+  font: normal normal normal 17px/33px Poppins;
+}
+/* .form-lable {
+  top: 2216px;
+  left: 1358px;
+  width: 186px;
+  height: 41px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 29px/39px Poppins;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  font: normal normal 600 20px/63px Segoe UI;
+  letter-spacing: 0px;
+  color: #666 !important;
+  opacity: 1;
+} */
+.btn-send {
+  /* border: 2px solid #ffd600 !important; */
+  border-radius: 10px !important;
+  width: 162px !important;
+  /* height: 33px !important; */
+  font: normal 22px/32px !important;
+  color: var(--yellow) !important;
+  text-align: center !important;
+  letter-spacing: 0.31px !important;
+  text-transform: capitalize !important;
+  margin: 35px 0px 30px 0px !important;
+}
+
+.active,
+.btn-send:hover {
+  color: var(--white) !important;
+}
+
+/* .btn-send:focus {
+  outline: 0 !important;
+} */
+
+.form-label {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 20px/26px
+    var(--unnamed-font-family-roboto) !important;
+  letter-spacing: var(--unnamed-character-spacing-0) !important;
+  text-align: left !important;
+  /* font: normal normal normal 20px/26px Roboto; */
+  letter-spacing: 0px !important;
+  color: #8d8d8d !important;
+}
+
+.form-control {
+  width: 448px !important;
+  height: 56px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 20px/26px
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+}
+.col {
+  padding: 15px !important;
+}
+.section-details{
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+
+@media screen and (max-width: 540px) {
+  .input-order {
+    width: 80%;
+    padding: 20px;
   }
-  
-  /* .tabs{
-      font-family:arial;
-      margin:0 auto;
-      width:70%;
-      text-align:center; */
-      /* margin-top:20vh; */
-    /* } */
-    /* .tab-content{
-      height: unset;
-      padding-bottom: 10px;
-    }
-    .tab-buttons{
-      margin-bottom:50px;
-      text-align: unset;
-    } */
-    
-    /* button{
-      margin-right:15px;
-      font-size:20px;
-      background:transparent;
-      border:none;
-      outline:none;
-      padding:10px 20px ;
-      cursor:pointer;
-      color:rgba(0,0,0,.4);
-      transition:all ease-in-out .2s;
-      border-bottom:2px solid transparent !important;
-      opacity: 0.5 !important;
-      
-    } */
-    /* .active{
-      border-bottom:2px solid #42b3f4;
-      opacity: 1 !important;
-       } */
-  
-   .input-order{
-      top: 2318px;
-      left: 1290px;
-      width: 100%;
-      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 22px/33px Poppins;
-      letter-spacing: var(--unnamed-character-spacing-0);
-      /* font: normal normal normal 22px/33px Poppins; */
-      letter-spacing: 0px;
-      color: #7A7A7A !important;
-      opacity: 0.5;
-      background-color: transparent !important;
-      border: 1px solid #CAC6D4 !important;
-      border-radius: 5px;
-      padding: 29px;
-      font: normal normal normal 17px/33px Poppins;
-      
+  .submit-order {
+    height: 42px;
+    width: 80%;
   }
-  .formLable{
-      top: 2216px;
-      left: 1358px;
-      width: 186px;
-      height: 41px;
-      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/39px Poppins;
-      letter-spacing: var(--unnamed-character-spacing-0);
-      font: normal normal 600 20px/63px Segoe UI;
-      letter-spacing: 0px;
-      color: #666 !important;
-      opacity: 1;
+  .tab-buttons {
+    margin-bottom: 20px;
   }
-  .submitOrder{
-    background:#FFD600 0% 0% no-repeat padding-box;
-    opacity:1!important;
-    width: 100%;
-    height: 60px;
-    margin-right: 0px !important;
-    margin-top: 10px;
-    border-radius: unset;
-    box-shadow: unset;
-    color: white;
-    font: normal normal normal 29px/39px Poppins;font: normal normal normal 29px/39px Poppins;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 29px/39px Poppins;
-    font-size: large;
+}
+@media screen and (max-width: 430px) {
+  .input-order {
+    width: 60%;
+    padding: 20px;
   }
-  @media screen and (max-width: 540px){
-    .input-order {
-      width: 80%;
-      padding: 20px;
-    }
-    .submitOrder{
-      height: 42px;
-      width: 80%;
-    }
-    .tab-buttons{
-      margin-bottom: 20px;
-    }
-  }
-  @media screen and (max-width: 430px){
-    .input-order {
-      width: 60%;
-      padding: 20px;
-    }
-    .submitOrder{
-      height: 42px;
-      width: 60%;
-      font: normal normal normal 20px/30px Poppins;font: normal normal normal 20px/30px Poppins !important;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px Poppins !important;
+  .submit-order {
+    height: 42px;
+    width: 60%;
+    font: normal normal normal 20px/30px Poppins;
+    font: normal normal normal 20px/30px Poppins !important;
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-normal) 20px/30px Poppins !important;
     font-size: medium !important;
   }
-  .detail{
-    font: normal normal normal 15px/25px Segoe UI;
-  }
-  }
+}
