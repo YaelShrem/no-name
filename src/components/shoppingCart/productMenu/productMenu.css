@@ -3,9 +3,9 @@
   margin: 0 auto !important;
   width: 100% !important;
   text-align: center !important;
-  direction: rtl !important;
+  direction: ltr !important;
   letter-spacing: 0px !important;
-  text-align: right !important;
+  text-align: left !important;
 }
 /* 
 .tab-buttons {
@@ -32,16 +32,15 @@
   color: #707070 !important;
 }
 @media only screen and (max-width: 1190px) {
-  .wrapper-product-menu{
-width: 100% !important;
-max-width: 100%;
-}
+  .wrapper-product-menu {
+    width: 100% !important;
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 582px) {
   .tab-buttons button {
     font: normal normal 600 16px/60px Segoe UI !important;
-
   }
 }
 @media only screen and (max-width: 464px) {

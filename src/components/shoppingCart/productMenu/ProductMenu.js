@@ -8,9 +8,9 @@ export default function ProductMenu() {
       <div className="wrapper-product-menu d-flex justify-content-center align-items-center col-lg-8 col-md-12 col-sm-12">
         <div className="tab-div-product-menu d-flex justify-content-between">
           <Tabs className="d-flex">
-            <Tab className="product-tab" label="קטלוג מוצרים"></Tab>
-            <Tab className="product-tab" label="סל הקניות שלי"></Tab>
-            <Tab className="product-tab" label="לסיים הזמנה"></Tab>
+            <Tab className="product-tab" label="Product catalog"></Tab>
+            <Tab className="product-tab" label="My shopping cart"></Tab>
+            <Tab className="product-tab" label="Finish an order"></Tab>
           </Tabs>
         </div>
        

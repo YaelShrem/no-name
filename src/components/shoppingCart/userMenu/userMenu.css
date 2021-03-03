@@ -4,9 +4,9 @@
   width: 70% !important;
   text-align: center !important;
   /* margin-top: 15vh !important; */
-  direction: rtl !important;
+  direction: ltr !important;
   letter-spacing: 0px !important;
-  text-align: right !important;
+  text-align: left !important;
 }
 
 .tab-buttons {
@@ -31,4 +31,13 @@
   border-bottom: 3px solid var(--yellow) !important;
   color: #707070 !important;
   font: normal normal 600 19px/39px Segoe UI !important;
+}
+.p1{
+ font: var(--gray) normal
+    var(--unnamed-font-weight-normal) 22px/51px
+    var(--unnamed-font-family-segoe-ui) !important;
+  text-align: left !important;
+  font: normal normal normal 17px/31px Segoe UI;
+  letter-spacing: 0px !important;
+  /* font: normal normal normal 15px/25px Segoe UI; */
 }
