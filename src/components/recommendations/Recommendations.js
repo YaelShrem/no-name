@@ -10,6 +10,8 @@ import Box from "@material-ui/core/Box";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 // import ScrollMenu from 'react-horizontal-scrolling-menu';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Recommendations(props) {
   const [value, setValue] = React.useState(2);
@@ -154,14 +156,24 @@ export default function Recommendations(props) {
             style={{ maxWidth: "70vw" }}
           />
         </div>
-        
-       <div className="d-flex">
+        <CarouselProvider
+        naturalSlideWidth={'50px'}
+        naturalSlideHeight={125}
+        totalSlides={3}
+      >
+        <Slider>
+          <Slide index={0}>I am the first Slide.</Slide>
+          <Slide index={1}>I am the second Slide.</Slide>
+          <Slide index={2}>I am the third Slide.</Slide>
+        </Slider>
+      </CarouselProvider>
+       {/* <div className="d-flex">
         <AliceCarousel
                  mouseTracking
                 items={items}
                 responsive={responsive}
             />
-            </div>
+            </div> */}
      
       </div>
       {/* Fonts to support Material Design  */}
