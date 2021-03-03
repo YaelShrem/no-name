@@ -40,7 +40,7 @@
     var(--unnamed-font-family-segoe-ui); */
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-707070);
-  text-align: right;
+  text-align: left;
   font: normal normal normal 20px/27px Segoe UI;
   letter-spacing: 0px;
   color: #707070;
@@ -144,4 +144,10 @@ label {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
+}
+.slide-recommendations{
+  width: 400px !important;
+}
+.slide-recommendations:focus, .slide-recommendations:active{
+  outline: unset !important;
 }
