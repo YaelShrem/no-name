@@ -17,6 +17,9 @@
   border-radius: 0px 0px 0px 219px;
   opacity: 1;
 }
+.wrapper-slider-recommendations{
+  width: calc(100vw - 70px);
+}
 .item {
   position: relative;
 }
@@ -49,13 +52,13 @@
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: large;
+  font-size: medium;
 }
 
 .MuiRating-root,
 label {
   color: #ffb400 !important;
-  font-size: large;
+  font-size: medium !important;
 }
 .MuiBox-root-2 {
   margin-bottom: 0px !important;
@@ -106,10 +109,11 @@ label {
   font-weight: 500;
 }
 .divAvaset {
+  align-items: center;
   text-align: center;
   position: absolute;
-  bottom: 30px;
-  right: 92px;
+  bottom: 43px;
+  right: 117px;
 }
 .MuiAvatar-circle {
   border: none !important;

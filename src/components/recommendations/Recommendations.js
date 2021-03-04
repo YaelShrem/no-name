@@ -1,7 +1,7 @@
 import React,{ useState } from "react";
 import "./recommendations.css";
 import RecommendationsImg from "../../style/images/recommendationsImg.png";
-import message from "../../style/images/message.png";
+import message from "../../style/images/messageltr.png";
 import Avater from "../../style/images/avater.png";
 import { Avatar } from "@material-ui/core";
 import Rating from "@material-ui/lab/Rating";
@@ -16,11 +16,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 
 export default function Recommendations(props) {
-  const [value, setValue] = React.useState(2);
+  const [value, setValue] = React.useState(5);
   const [index, setIndex] = useState(0);
   
     const handleSelect = (selectedIndex, e) => {
@@ -29,8 +31,38 @@ export default function Recommendations(props) {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow:3,
-        slidesToScroll:2
+        slidesToShow:4,
+        slidesToScroll:2,
+        responsive: [
+               {
+            breakpoint: 1600 ,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2,
+              initialSlide: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 1250,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 770,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 2,
+              dots: true
+            }
+          }
+        ]
       };
   return (
     <>
@@ -43,8 +75,7 @@ export default function Recommendations(props) {
             style={{ maxWidth: "70vw" }}
           />
         </div>
-        <div>
-        <Slider {...settings}>
+        <Slider className="wrapper-slider-recommendations" {...settings}>
           <div className="slide-recommendations">
           <div className="item d-flex flex-column align-items-center" data-value="1">
       <div className="wrap">
@@ -52,22 +83,20 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="starWrapper">
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
-              />
+                readOnly={true}
+               />
             </Box>
           </div>
         </div>
       </div>
       <div className="divAvaset d-flex">
-        <p className="avaterText">Amanda Robertson</p>
         <Avatar alt="Travis Howard" src={Avater} className="avater" />
+        <p className="avaterText">Amanda Robertson</p>
       </div>
     </div>
           </div>
@@ -78,22 +107,20 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="starWrapper">
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
+                readOnly={true}
               />
             </Box>
           </div>
         </div>
       </div>
       <div className="divAvaset d-flex">
-        <p className="avaterText">Amanda Robertson</p>
         <Avatar alt="Travis Howard" src={Avater} className="avater" />
+        <p className="avaterText">Amanda Robertson</p>
       </div>
     </div>
           </div>
@@ -104,22 +131,20 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="starWrapper">
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
+                readOnly={true}
               />
             </Box>
           </div>
         </div>
       </div>
       <div className="divAvaset d-flex">
-        <p className="avaterText">Amanda Robertson</p>
         <Avatar alt="Travis Howard" src={Avater} className="avater" />
+        <p className="avaterText">Amanda Robertson</p>
       </div>
     </div>
           </div>
@@ -130,22 +155,20 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="starWrapper">
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
+                readOnly={true}
               />
             </Box>
           </div>
         </div>
       </div>
       <div className="divAvaset d-flex">
-        <p className="avaterText">Amanda Robertson</p>
         <Avatar alt="Travis Howard" src={Avater} className="avater" />
+        <p className="avaterText">Amanda Robertson</p>
       </div>
     </div>
           </div>
@@ -156,22 +179,20 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="starWrapper">
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
+                readOnly={true}
               />
             </Box>
           </div>
         </div>
       </div>
       <div className="divAvaset d-flex">
+        <Avatar alt="Travis Howard" src={Avater} className="avater" />        
         <p className="avaterText">Amanda Robertson</p>
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />
       </div>
     </div>
           </div>
@@ -182,27 +203,24 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="starWrapper">
-            <Box component="fieldset" mb={3} borderColor="transparent">
+            <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
-                onChange={(event, newValue) => {
-                  setValue(newValue);
-                }}
+                readOnly={true}
               />
             </Box>
           </div>
         </div>
       </div>
       <div className="divAvaset d-flex">
-        <p className="avaterText">Amanda Robertson</p>
         <Avatar alt="Travis Howard" src={Avater} className="avater" />
+        <p className="avaterText">Amanda Robertson</p>
       </div>
     </div>
           </div>
         </Slider>
-      </div>
          
       </div>
       {/* Fonts to support Material Design  */}
