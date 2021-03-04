@@ -14,7 +14,7 @@ export default function OrderDetails() {
           </div>
           <div className="wrapper-content">
             <section className="section-details">
-              <p className="title">Almost done...</p>
+              <p className="title-order-details">Almost done...</p>
               <div className="detail">
                 <p>
                   All that remains is to update your email and phone details and
@@ -29,32 +29,36 @@ export default function OrderDetails() {
             <section>
               <Form>
                 <Row>
-                  <Col>
+                  <Col lg={6} md={6} sm={12}>
                     {/* <Form.Group controlId="formGroupEmail"> */}
-                    <Form.Label className="form-lable">First Name</Form.Label>
-                    <Form.Control className="form-control"/>
+                    <Form.Label className="form-lable w-100">First Name</Form.Label>
+                    <Form.Control className="form-control w-100"/>
                   </Col>
-                  <Col>
-                  <Form.Label>Last Name</Form.Label>
-                  <Form.Control className="form-control"/>
+                  <Col lg={6} md={6} sm={12}>
+                  <Form.Label className="form-lable w-100">Last Name</Form.Label>
+                  <Form.Control className="form-control w-100"/>
                   </Col>
-                  <Col>
+                  </Row>
+                  <Row>
+                  <Col lg={6} md={6} sm={12}>
                     {/* <Form.Group controlId="formGroupEmail"> */}
-                    <Form.Label className="form-lable">Adress</Form.Label>
-                    <Form.Control className="form-control" placeholder="City and neighborhood"/>
+                    <Form.Label className="form-lable w-100">Adress</Form.Label>
+                    <Form.Control className="form-control w-100 input-order-details" placeholder="City and neighborhood"/>
                   </Col>
-                  <Col>
-                  <Form.Label>Address</Form.Label>
-                  <Form.Control className="form-control" placeholder="Street and house number"/>
+                  <Col lg={6} md={6} sm={12}>
+                  <Form.Label className="form-lable w-100">Address</Form.Label>
+                  <Form.Control className="form-control w-100 input-order-details" placeholder="Street and house number"/>
                   </Col>
-                  <Col>
+                 </Row>
+                 <Row>
+                  <Col lg={6} md={6} sm={12}>
                     {/* <Form.Group controlId="formGroupEmail"> */}
-                    <Form.Label className="form-lable">Email</Form.Label>
-                    <Form.Control className="form-control"/>
+                    <Form.Label className="form-lable w-100">Email</Form.Label>
+                    <Form.Control className="form-control w-100"/>
                   </Col>
-                  <Col>
-                  <Form.Label>Phone Number</Form.Label>
-                  <Form.Control className="form-control"/>
+                  <Col lg={6} md={6} sm={12}>
+                  <Form.Label className="form-lable w-100">Phone Number</Form.Label>
+                  <Form.Control className="form-control w-100"/>
                   </Col>
                 </Row>
               </Form>

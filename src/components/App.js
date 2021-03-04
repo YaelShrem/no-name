@@ -6,7 +6,7 @@
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
 // import Recommendations from "./recommendations/Recommendations";
-// import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 // import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
 import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";

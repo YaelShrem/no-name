@@ -17,6 +17,9 @@
   border-radius: 0px 0px 0px 219px;
   opacity: 1;
 }
+.wrapper-slider-recommendations{
+  width: calc(100vw - 70px);
+}
 .item {
   position: relative;
 }
@@ -49,13 +52,13 @@
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: large;
+  font-size: medium;
 }
 
 .MuiRating-root,
 label {
   color: #ffb400 !important;
-  font-size: large;
+  font-size: medium !important;
 }
 .MuiBox-root-2 {
   margin-bottom: 0px !important;
@@ -97,7 +100,7 @@ label {
   /* height: 24px; */
   /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 20px/39px Rubik !important;  */
   letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: right !important;
+  text-align: left !important;
   font: normal normal medium 20px/39px Rubik !important;
   letter-spacing: 0px;
   color: #090b27;
@@ -106,10 +109,11 @@ label {
   font-weight: 500;
 }
 .divAvaset {
+  align-items: center;
   text-align: center;
   position: absolute;
-  bottom: 30px;
-  right: 92px;
+  bottom: 43px;
+  right: 117px;
 }
 .MuiAvatar-circle {
   border: none !important;
@@ -150,4 +154,24 @@ label {
 }
 .slide-recommendations:focus, .slide-recommendations:active{
   outline: unset !important;
+}
+@media screen and (max-width:1250px) {
+  .message{
+    width: 350px;
+  }
+  .wrapperp{
+    font-size: smaller;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .star-wrapper .MuiBox-root-10{
+    margin-top: 4px;
+  }
+  .divAvaset{
+    bottom: 24px;
+    right: 90px;
+  }
+  .avaterText{
+    font-size: smaller;
+  }
 }
