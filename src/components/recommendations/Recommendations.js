@@ -39,27 +39,26 @@ export default function Recommendations(props) {
             settings: {
               slidesToShow: 3,
               slidesToScroll: 2,
-              initialSlide: 2,
+              initialSlide: 1,
               infinite: true,
               dots: true
             }
           },
           {
-            breakpoint: 1250,
+            breakpoint: 1000,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
-              initialSlide: 2,
+              initialSlide: 1,
               dots: true
             }
           },
           {
-            breakpoint: 770,
+            breakpoint: 470,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 2,
-              dots: true
+              slidesToScroll: 2,
+              initialSlide: 1,
             }
           }
         ]
@@ -82,7 +81,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -106,7 +105,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -130,7 +129,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -154,7 +153,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -178,7 +177,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -202,7 +201,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
