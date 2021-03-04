@@ -1,16 +1,19 @@
 import React from "react";
 import "./orderdetails.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import ProductMenu from "../productMenu/ProductMenu";
-import { Container, Button, Form, Col, Row } from 'react-bootstrap';
+import { Container, Button, Form, Col, Row } from "react-bootstrap";
 
 export default function OrderDetails() {
   return (
     <>
       <div className="wrapper-order-details">
-        <Container dir="ltr" className="container-order-details d-flex">
-          <ProductMenu></ProductMenu>
+        <Container className="container-order-details">
+          <div className="d-flex">
+            <ProductMenu></ProductMenu>
+          </div>
           <div className="wrapper-content">
-            <section className="d-flex justify-content-center">
+            <section className="section-details">
               <p className="title">Almost done...</p>
               <div className="detail">
                 <p>
@@ -23,38 +26,40 @@ export default function OrderDetails() {
                 </p>
               </div>
             </section>
-            <section className="d-flex">
+            <section>
               <Form>
-                <Row >
+                <Row>
                   <Col>
-                    <Form.Control placeholder="First name" />
+                    {/* <Form.Group controlId="formGroupEmail"> */}
+                    <Form.Label className="form-lable">First Name</Form.Label>
+                    <Form.Control className="form-control"/>
                   </Col>
                   <Col>
-                    <Form.Control placeholder="Last name" />
+                  <Form.Label>Last Name</Form.Label>
+                  <Form.Control className="form-control"/>
+                  </Col>
+                  <Col>
+                    {/* <Form.Group controlId="formGroupEmail"> */}
+                    <Form.Label className="form-lable">Adress</Form.Label>
+                    <Form.Control className="form-control" placeholder="City and neighborhood"/>
+                  </Col>
+                  <Col>
+                  <Form.Label>Address</Form.Label>
+                  <Form.Control className="form-control" placeholder="Street and house number"/>
+                  </Col>
+                  <Col>
+                    {/* <Form.Group controlId="formGroupEmail"> */}
+                    <Form.Label className="form-lable">Email</Form.Label>
+                    <Form.Control className="form-control"/>
+                  </Col>
+                  <Col>
+                  <Form.Label>Phone Number</Form.Label>
+                  <Form.Control className="form-control"/>
                   </Col>
                 </Row>
               </Form>
             </section>
-            {/* <Form.Group controlId="formBasicEmail">
-              <Form.Label className="formLable">הזן כתובת מייל</Form.Label>
-              <Form.Control
-                className="control input-order"
-                type="email"
-                placeholder="Example@email.com"
-              />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
-            </Form.Group>
-            <Form.Group>
-              <Form.Label className="form-lable">פלאפון</Form.Label>
-              <Form.Control
-                className="control input-order"
-                type="text"
-                placeholder="050-000-0000"
-              />
-            </Form.Group> */}
-            <Button className="btn-send">Send invitation</Button>
+            <Button className="btn-send" variant="outline-warning">Send invitation</Button>
           </div>
         </Container>
       </div>

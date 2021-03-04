@@ -1,7 +1,7 @@
 import React from "react";
 import Parser from "html-react-parser";
 import "./productCatalog.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../../overview/businessDetails/node_modules/bootstrap/dist/css/bootstrap.min.css";
 import ProductMenu from "../productMenu/ProductMenu";
 import ProductImg from "../../../style/images/productImg.png";
 import CardActionArea from "@material-ui/core/CardActionArea";

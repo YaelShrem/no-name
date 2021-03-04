@@ -1,9 +1,9 @@
 import React from "react";
-import backgroundGray from "../../style/images/backgroundGray.png";
-import imageFood from "../../style/images/imageFood.png";
+import backgroundGray from "../../../style/images/backgroundGray.png";
+import imageFood from "../../../style/images/imageFood.png";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import UserMenu from "../shoppingCart/userMenu/UserMenu"
+import UserMenu from "../../shoppingCart/userMenu/UserMenu"
 // import Recommendations from "../recommendations/Recommendations";
 export default function BusinessDetails() {
   return (
@@ -26,29 +26,6 @@ export default function BusinessDetails() {
           <div className="d-flex flex-column">
           <div className="d-flex justify-content-center">
             <UserMenu></UserMenu>
-            {/* <div className="tabs d-flex tabsBuisness justify-content-center">
-              <Tabs>
-                <Tab label="סקירה כללית">
-                <div className="p1">
-              <p>.הנכם מוזמנים לחוויה קולינרית, בריאה, מגוונת ובאווירה אחרת</p>
-              <p>.שילוב של בריא וטעים לצד שירות אדיב ומקצועי</p>
-              <p>.ניתן לקיים אירועים בסניף ולהזמין משלוחים</p>
-              <p>.​השירותים והחנייה בסניף נגישים</p>
-         <br></br>
-              <p>.הנכם מוזמנים לחוויה קולינרית, בריאה, מגוונת ובאווירה אחרת</p>
-              <p>.שילוב של בריא וטעים לצד שירות אדיב ומקצועי</p>
-              <p>.ניתן לקיים אירועים בסניף ולהזמין משלוחים</p>
-              <p>.​השירותים והחנייה בסניף נגישים</p>
-            </div>
-                </Tab>
-                <Tab label="הזמנות">
-                  <div className="p1">כאן תוכלו להזמין את המוצרים שלכם</div>
-                </Tab>
-                <Tab label="המלצות">
-                  <div className="p1">כאן תוכלו לראות את ההמלצות עלינו</div>
-                </Tab>
-              </Tabs>
-            </div> */}
             </div>
             </div>
           </div>
