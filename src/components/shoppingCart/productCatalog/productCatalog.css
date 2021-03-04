@@ -17,25 +17,29 @@
   margin: 5px;
 }
 .card-body-catalog{
+  padding-left: 0px !important;
   padding-right: 0px !important;
+
 }
 .img-catalog{
   padding-top: 15px;
 }
 .title-catalog{
   font-size: medium !important;
-text-align: right;
 color: #302D3A;
 opacity: 1;
 }
 .time-wrapper{
   direction: rtl;
   color: #8C98A8;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .time-wrapper p{
-  margin-right: 10px;
 font-size: small;
+margin: 0px;
+}
+.time{
+  font-size: 11px !important;
 }
 .price-catalog{
   font-size: small;

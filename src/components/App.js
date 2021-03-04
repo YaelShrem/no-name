@@ -5,8 +5,8 @@
 // import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
-// import Recommendations from "./recommendations/Recommendations";
-import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
+import Recommendations from "./recommendations/Recommendations";
+// import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 // import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
 // import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
@@ -20,12 +20,12 @@ function App() {
       {/* <Header /> */}
       {/* <HomePage/> */}
       {/* <Pricing/> */}
-      {/* <Recommendations /> */}
+      <Recommendations />
       {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       {/* <UserMenu /> */}
       {/* work */}
-      <OrderDetails />     
+      {/* <OrderDetails />      */}
       {/* <ProductCatalog /> */}
       {/* <MyShoppingBag /> */}
       {/* <ProductMenu /> */}
