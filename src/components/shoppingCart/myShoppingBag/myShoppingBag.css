@@ -1,89 +1,162 @@
+.div-wrap {
+  background-color: var(--smoky-white);
+}
+
 .container-shopping-bag {
-  /* width: 50vw !important; */
-  direction: rtl !important;
+  max-width: 70vw !important;
+  margin: auto !important;
+  min-height: 100vh !important;
+  direction: ltr !important;
 }
 
 .img-shopping-bag {
-  width: 14vw;
-  height: 24vh;
+  /* width: 14vw;
+  height: 24vh; */
+  width: 161px;
+  height: 160px;
 }
 .p1-bag {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 31px/46px Rubik !important;
-  text-align: right !important;
-  /* font: normal normal normal 31px/46px Rubik !important; */
-  letter-spacing: -0.62px !important;
-  color: #344968 !important;
-  opacity: 1 !important;
-  font-size: x-large !important;
+  /* font: var(--unnamed-font-style-normal) normal 900 24px/32px var(--unnamed-font-family-roboto) !important; */
+  text-align: left;
+  font: normal normal 900 24px/32px Roboto !important;
+  letter-spacing: 0.34px;
+  color: #515151;
+  text-transform: capitalize;
+  width: 248px !important;
+  margin-top: 3px !important;
+  margin-bottom: 0rem !important;
 }
 .p2-bag {
   font: normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-28) /
     2px Muli !important;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: right;
-  /* font: normal normal normal 28px/2px Muli; */
-  letter-spacing: 0px;
-  color: #8c98a8;
-  font-size: large !important;
-  opacity: 1 !important;
-  padding-right: 8px !important;
+  color: var(--gray);
+  text-align: left;
+  font: normal normal normal 18px/16px Roboto !important;
+  letter-spacing: 0.22px;
+  margin-top: 3px !important;
+  margin-bottom: 0rem !important;
 }
-.p3-bag {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 33px/43px Rubik !important;
-  color: var(--unnamed-color-22c5bb) !important;
-  text-align: right !important;
-  /* font: normal normal normal 33px/43px Rubik; */
-  letter-spacing: -0.66px !important;
-  color: #22c5bb !important;
-  opacity: 1 !important;
-  font-size: large !important;
-  font-style: bold !important;
-}
-.show-all-bag {
-  width: 97px;
-  height: 38px;
-  background: var(--yellow) 0% 0% no-repeat padding-box !important;
-  border-radius: 4px !important;
-  opacity: 1 !important;
-  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-18)/24px var(--unnamed-font-family-segoe-ui); */
-  color: var(--white) !important;
+
+.btn-invite {
+  height: 42px !important;
+  border-radius: 10px !important;
+  width: 162px !important;
+  font: normal 22px/32px !important;
+  color: var(--yellow) !important;
   text-align: center !important;
-  font: normal normal 600 10px/24px Segoe UI !important;
-  letter-spacing: 0.54px !important;
-  box-shadow: none !important;
-}
-.invite {
-  width: 45% !important;
-  height: 70px !important;
-  background: var(--yellow) 0% 0% no-repeat padding-box !important;
-  border-radius: 5px !important;
-  opacity: 1 !important;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 29px/39px Poppins !important;
-  letter-spacing: var(--unnamed-character-spacing-0) !important;
-  color: var(--white) !important;
-  text-align: center !important;
-  /* font: normal normal normal 29px/39px Poppins !important; */
-  letter-spacing: 0px !important;
-  box-shadow: none !important;
-  position: absolute !important;
-  margin-top: 47px !important;
+  letter-spacing: 0.31px !important;
+  text-transform: capitalize !important;
+  margin: 70px 20px 30px 0px !important;
   font-size: large !important;
+}
+.count-p {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-18) / 22px var(--unnamed-font-family-roboto);
+  color: var(--gray);
+  text-align: left;
+  /* font: normal normal bold 18px/22px Roboto; */
+  letter-spacing: 0.18px;
+}
+
+.active,
+.btn-invite:hover {
+  color: var(--white) !important;
 }
 .div-detail-bag {
-  padding-right: 22px !important;
+  /* padding-right: 22px !important; */
+  width: calc(100% - 161px) !important;
+  margin-left: 31px;
 }
 .count {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
     38px/4px var(--unnamed-font-family-segoe-ui) !important;
   letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
+  color: var(--gray);
   text-align: left;
   /* font: normal normal 600 38px/4px Segoe UI; */
   letter-spacing: 0px;
-  color: #707070;
   font-size: x-large !important;
   opacity: 1;
+}
+
+.p3-bag-count {
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-18) / 24px Poppins; */
+  color: var(--gray);
+  text-align: right;
+  font: normal normal bold 18px/24px Poppins;
+  letter-spacing: 0.36px;
+  font-style: bold !important;
+}
+.p3-dollar {
+  left: 0.4659996032714844px;
+  /* width: 15px;
+height: 31px; */
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) */
+    /* 22px/24px Poppins !important; */
+  text-align: right !important;
+  font: normal normal bold 22px/24px Poppins;
+  letter-spacing: 0.44px !important;
+  color: #344968 !important;
+}
+.count-price {
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-18) / 22px var(--unnamed-font-family-roboto); */
+  text-align: right;
+  font: normal normal bold 18px/22px Roboto;
+  letter-spacing: 0.18px;
+  color: var(--black);
+}
+.count-equal {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    29px/35px var(--unnamed-font-family-roboto);
+  color: var(--gray);
+  text-align: left;
+  font: normal normal bold 29px/35px Roboto;
+  letter-spacing: 0.29px;
+}
+
+.count-equal-price {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    23px/28px var(--unnamed-font-family-roboto);
+  text-align: left;
+  font: normal normal bold 23px/28px Roboto;
+  letter-spacing: 0.23px;
+  color: var(--black);
+}
+.hr.solid {
+  border: 1px solid var(--gray) !important;
+  width: 258px;
+}
+
+.Decrement,
+.Increment {
+  background: none;
+  border: none;
+  height: fit-content;
+  border-radius: 3px;
+  color: var(--gray) !important;
+  text-align: left !important;
+  font: normal normal 600 27px/3px Segoe UI !important;
+}
+.Decrement:focus,
+.Increment:focus {
+  outline: none;
+  background-color: #e0dcdc73;
+}
+.count-product {
+  color: var(--gray) !important;
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-30)/3px var(--unnamed-font-family-segoe-ui);
+letter-spacing: var(--unnamed-character-spacing-0); */
+  text-align: left !important;
+  font: normal normal 600 27px/3px Segoe UI !important;
+}
+
+.submit{
+  padding-top: 45px !important;
+}
+.devide{
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 31px;
 }
