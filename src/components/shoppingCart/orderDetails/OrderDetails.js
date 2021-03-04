@@ -43,11 +43,11 @@ export default function OrderDetails() {
                   <Col lg={6} md={6} sm={12}>
                     {/* <Form.Group controlId="formGroupEmail"> */}
                     <Form.Label className="form-lable w-100">Adress</Form.Label>
-                    <Form.Control className="form-control w-100" placeholder="City and neighborhood"/>
+                    <Form.Control className="form-control w-100 input-order-details" placeholder="City and neighborhood"/>
                   </Col>
                   <Col lg={6} md={6} sm={12}>
                   <Form.Label className="form-lable w-100">Address</Form.Label>
-                  <Form.Control className="form-control w-100" placeholder="Street and house number"/>
+                  <Form.Control className="form-control w-100 input-order-details" placeholder="Street and house number"/>
                   </Col>
                  </Row>
                  <Row>
