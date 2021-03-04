@@ -44,18 +44,15 @@
   color: var(--white) !important;
 }
 .button-uplaod-img {
-  top: 1387px;
-  left: 1459px;
-  width: 121px;
-  height: 28px;
+
   background-color: var(--yellow) !important;
   border-radius: 4px !important;
+  border-color: transparent !important;
   font: var(--unnamed-font-style-normal) normal
     var(--unnamed-font-weight-normal) 14px/17px
     var(--unnamed-font-family-roboto) !important;
   letter-spacing: var(--unnamed-character-spacing-0) !important;
-  text-align: center !important;
+  text-align: left !important;
   letter-spacing: 0px !important;
   color: var(--white) !important;
-  
 }

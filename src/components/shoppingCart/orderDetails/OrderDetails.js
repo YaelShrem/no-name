@@ -57,7 +57,6 @@ export default function OrderDetails() {
                   <Form.Control className="form-control"/>
                   </Col>
                 </Row>
-                
               </Form>
             </section>
             <Button className="btn-send" variant="outline-warning">Send invitation</Button>
