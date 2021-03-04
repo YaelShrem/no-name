@@ -14,7 +14,7 @@ export default function OrderDetails() {
           </div>
           <div className="wrapper-content">
             <section className="section-details">
-              <p className="title">Almost done...</p>
+              <p className="title-order-details">Almost done...</p>
               <div className="detail">
                 <p>
                   All that remains is to update your email and phone details and
