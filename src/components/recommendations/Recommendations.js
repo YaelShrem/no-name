@@ -8,15 +8,12 @@ import Rating from "@material-ui/lab/Rating";
 // import Typography from '@material-ui/core/Typography';
 import Box from "@material-ui/core/Box";
 import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
-// import ScrollMenu from 'react-horizontal-scrolling-menu';
-// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-import 'pure-react-carousel/dist/react-carousel.es.css';
-import Carousel from 'react-bootstrap/Carousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {useSpring, animated} from 'react-spring'
+
 
 
 
@@ -39,27 +36,26 @@ export default function Recommendations(props) {
             settings: {
               slidesToShow: 3,
               slidesToScroll: 2,
-              initialSlide: 2,
+              initialSlide: 1,
               infinite: true,
               dots: true
             }
           },
           {
-            breakpoint: 1250,
+            breakpoint: 1000,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
-              initialSlide: 2,
+              initialSlide: 1,
               dots: true
             }
           },
           {
-            breakpoint: 770,
+            breakpoint: 470,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 2,
-              dots: true
+              slidesToScroll: 2,
+              initialSlide: 1,
             }
           }
         ]
@@ -82,7 +78,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -106,7 +102,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -130,7 +126,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -154,7 +150,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -178,7 +174,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
@@ -202,7 +198,7 @@ export default function Recommendations(props) {
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
-          <div className="starWrapper">
+          <div className="star-wrapper">
             <Box component="fieldset" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating

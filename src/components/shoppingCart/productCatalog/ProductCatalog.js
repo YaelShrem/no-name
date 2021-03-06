@@ -1,7 +1,8 @@
 import React from "react";
 import Parser from "html-react-parser";
 import "./productCatalog.css";
-import "../../overview/businessDetails/node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import "../../overview/businessDetails/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import ProductMenu from "../productMenu/ProductMenu";
 import ProductImg from "../../../style/images/productImg.png";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -60,23 +61,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -85,23 +79,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+               <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -110,23 +97,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -135,23 +115,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+             <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -160,23 +133,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -185,23 +151,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -210,23 +169,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -235,23 +187,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -260,23 +205,16 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
-              <Card.Body className="card-body-catalog">
+              <Card.Body className="card-body-catalog d-flex flex-column justify-content-between">
                 <Card.Title className="title-catalog">
-                  מנת ירקות של בורגר
+                  Top Search Engine Optimization Strategies!
                 </Card.Title>
-                <div className="time-wrapper d-flex align-items-center">
+                <div className="time-wrapper d-flex justify-content-between align-items-center w-100">
+                <Card.Text className="d-flex price-catalog">$ 25</Card.Text>
+                  <Card.Text className="time">Delivery time 30 minutes</Card.Text>
                   {Parser(icon.clockFill)}
-                  <Card.Text className="time">זמן משלוח 30 דק'</Card.Text>
                 </div>
-                <div className="d-flex justify-content-between">
-                  <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div>
-                  <Card.Text className="price-catalog">ש"ח 25</Card.Text>
-                </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
           </div>
         </div>
