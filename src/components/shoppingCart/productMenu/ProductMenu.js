@@ -13,7 +13,6 @@ export default function ProductMenu() {
             <Tab className="product-tab" label="Finish an order"></Tab>
           </Tabs>
         </div>
-       
       </div>
     </>
   );
