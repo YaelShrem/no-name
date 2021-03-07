@@ -9,8 +9,8 @@
 import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
 // import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
-import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
-import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
+// import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
+// import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
 // import UserMenu from "./shoppingCart/userMenu/UserMenu";
 // import AddReviews from "./overview/addReviews/AddReviews";
 
@@ -24,9 +24,9 @@ function App() {
       {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       {/* <UserMenu /> */}
-      {/* <OrderDetails /> */}
+      <OrderDetails />
       {/* <ProductCatalog /> */}
-      <MyShoppingBag />
+      {/* <MyShoppingBag /> */}
       {/* <ProductMenu /> */}
       {/* <AddReviews /> */}
       {/* <Footer /> */}
