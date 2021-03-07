@@ -7,9 +7,9 @@ import Header from "./header/Header";
 // import Footer from "./footer/Footer";
 // import Recommendations from "./recommendations/Recommendations";
 // import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
-// import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
+import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
-import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
+// import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
 // import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
 // import UserMenu from "./shoppingCart/userMenu/UserMenu";
 import AddReviews from "./overview/addReviews/AddReviews";
@@ -25,10 +25,11 @@ function App() {
       {/* <BusinessDetails/> */}
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
-      {/* <ProductCatalog /> */}
+      <ProductCatalog />
       {/* <MyShoppingBag /> */}
       {/* <ProductMenu /> */}
       <AddReviews />
+      
       {/* <Footer /> */}
     </>
   );
