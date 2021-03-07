@@ -102,7 +102,7 @@ export default function ProductCatalog() {
                   </Card.Text>
                   <Card.Text className="price-catalog">25 $</Card.Text>
                 </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -127,7 +127,7 @@ export default function ProductCatalog() {
                   </Card.Text>
                   <Card.Text className="price-catalog">25 $</Card.Text>
                 </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -177,7 +177,7 @@ export default function ProductCatalog() {
                   </Card.Text>
                   <Card.Text className="price-catalog">25 $</Card.Text>
                 </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -227,7 +227,7 @@ export default function ProductCatalog() {
                   </Card.Text>
                   <Card.Text className="price-catalog">25 $</Card.Text>
                 </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -277,7 +277,7 @@ export default function ProductCatalog() {
                   </Card.Text>
                   <Card.Text className="price-catalog">25 $</Card.Text>
                 </div>
-              </Card.Body>
+                </Card.Body>
             </Card>
           </div>
         </div>
@@ -298,35 +298,3 @@ export default function ProductCatalog() {
   );
 }
 
-class click extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      bgColor: "gray",
-    };
-  }
-
-  boxClick = (e) => {
-    this.setState({
-      bgColor: "red",
-    });
-  };
-
-  render() {
-    return (
-      <div className="App">
-        <article className="experimentsHolder">
-          <h2>Test 3</h2>
-          <p>This is an example of an onClick event 'renderd' by react.</p>
-          <div
-            className="boxClickCss"
-            style={{ backgroundColor: this.state.bgColor }}
-            onClick={this.boxClick}
-          >
-            Click Me!
-          </div>
-        </article>
-      </div>
-    );
-  }
-}

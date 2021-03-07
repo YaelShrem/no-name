@@ -8,15 +8,12 @@ import Rating from "@material-ui/lab/Rating";
 // import Typography from '@material-ui/core/Typography';
 import Box from "@material-ui/core/Box";
 import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
-// import ScrollMenu from 'react-horizontal-scrolling-menu';
-// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
-import 'pure-react-carousel/dist/react-carousel.es.css';
-import Carousel from 'react-bootstrap/Carousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {useSpring, animated} from 'react-spring'
+
 
 
 
