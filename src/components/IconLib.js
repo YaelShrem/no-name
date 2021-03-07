@@ -1,4 +1,4 @@
-const iconPath= {
+const iconPath = {
   checkCircle: `<svg xmlns="http://www.w3.org/2000/svg"
     fill="url('#myGradient')"
     class="bi bi-check2-circle try mini-icon check-icon"
@@ -82,12 +82,12 @@ const iconPath= {
     </g>
     </g>
     </svg>`,
-    picture:`<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+  picture: `<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
     <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
     <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
   </svg>`,
   clockFill: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#344968" class="bi bi-clock-fill" viewBox="0 0 16 16">
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-</svg>`
+  </svg>`,
 };
 export default iconPath;
