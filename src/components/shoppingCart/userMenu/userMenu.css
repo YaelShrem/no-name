@@ -1,7 +1,7 @@
 .user-menu-div {
   /* font-family: arial !important;*/
-   margin: 0 auto !important; 
- /* width: 70% !important;
+  margin: 0 auto !important;
+  /* width: 70% !important;
   /* margin-top: 15vh !important; */
   direction: ltr !important;
   letter-spacing: 0px !important;
@@ -33,10 +33,9 @@
 }
 .p1 {
   font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 24px/29px
-    var(--unnamed-font-family-roboto) !important;
-  /* font: normal normal normal 24px/29px Roboto; */
+    var(--unnamed-font-weight-normal) 19px/6px var(--unnamed-font-family-roboto) !important;
+  font: normal normal normal 19px/6px Roboto !important;
   letter-spacing: 0px !important;
   color: #707070 !important;
-
+  font: normal normal normal 24px/29px Roboto;
 }
