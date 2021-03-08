@@ -33,27 +33,29 @@ export default function Login2() {
               <div className="sign-in-form style-1 d-flex flex-column justify-content-between">
                 <div className="tab-div d-flex-column justify-content-between">
                   <Tabs>
-                    <Tab label="התחבר">
+                    <Tab label="SIGN UP">
                       {/* Login */}
-                      <p className="psign">התחבר באמצעות חשבון הגוגל שלך</p>
+                      <h3 className="wellcome-login">Wellcome to easycart!</h3>
+                      <p className="psign">sign in with Google</p>
                       <button
                         variant="contained"
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
-                      >
+                      > 
+                      <p className="p-google-button m-0">Google</p>
                         <img
                           class="firebaseui-idp-icon"
                           alt=""
                           src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                         ></img>{" "}
-                        <p className="p-google-button m-0">התחבר עם גוגל</p>
+                       
                       </button>
 
-                      <div className="header__center">או</div>
+                      <div className="header__center">Or</div>
                       <Form className="form formRegister  d-flex flex-column justify-content-between">
                         <TextField
                           id="userName"
-                          label="שם משתמש"
+                          label="user name"
                           type="text"
                           InputLabelProps={{
                             shrink: true,
@@ -61,7 +63,7 @@ export default function Login2() {
                         />
                         <TextField
                           id="email"
-                          label="אמייל"
+                          label="Email"
                           type="text"
                           InputLabelProps={{
                             shrink: true,
@@ -69,7 +71,7 @@ export default function Login2() {
                         />
                         <TextField
                           id="password"
-                          label="סיסמא"
+                          label="Password"
                           type="password"
                           InputLabelProps={{
                             shrink: true,
@@ -77,7 +79,7 @@ export default function Login2() {
                         />
 
                         <div className="d-flex justify-content-between align-items-center">
-                          <div className="d-flex align-items-center">
+                          <div className="d-flex align-items-center w-100">
                             <section title=".roundedOne">
                               <div class="roundedOne">
                                 <input
@@ -93,9 +95,9 @@ export default function Login2() {
                                 ></label>
                               </div>
                             </section>
-                            <p className="link-login">תזכור אותי</p>
+                            <p className="link-login">Remember me</p>
                           </div>
-                          <p className="link-login">אפס סיסמא</p>
+                          <p className="link-login">Recover password</p>
                         </div>
                       </Form>
 
@@ -107,31 +109,32 @@ export default function Login2() {
                           className="submit"
                           type="submit"
                         >
-                          הרשם
+                          Sign in
                         </Button>
                       </div>
                     </Tab>
-                    <Tab className="" label="הרשם">
+                    <Tab className="" label="SIGN IN">
                       {/* Register */}
-                      <p className="psign">הרשם באמצעות חשבון הגוגל שלך</p>
+                      <h2>Welcome to easycart!</h2>
+                      <p className="psign">sign in with Google</p>
                       <button
                         variant="contained"
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
                       >
+                        <p className="p-google-button m-0">Google</p>
                         <img
                           class="firebaseui-idp-icon"
                           alt=""
                           src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                         ></img>{" "}
-                        <p className="p-google-button m-0">הרשם עם גוגל</p>
                       </button>
 
-                      <div className="header__center">או</div>
+                      <div className="header__center">Or</div>
                       <Form className="form  d-flex flex-column justify-content-between">
                         <TextField
                           id="email"
-                          label="אמייל"
+                          label="Email"
                           type="text"
                           InputLabelProps={{
                             shrink: true,
@@ -139,7 +142,7 @@ export default function Login2() {
                         />
                         <TextField
                           id="password"
-                          label="סיסמא"
+                          label="Password"
                           type="password"
                           InputLabelProps={{
                             shrink: true,
@@ -147,7 +150,7 @@ export default function Login2() {
                         />
 
                         <div className="d-flex justify-content-between align-items-center">
-                          <div className="d-flex align-items-center">
+                          <div className="d-flex align-items-center w-100">
                             <section title=".roundedOne">
                               <div class="roundedOne">
                                 <input
@@ -163,9 +166,9 @@ export default function Login2() {
                                 ></label>
                               </div>
                             </section>
-                            <p className="link-login">תזכור אותי</p>
+                            <p className="link-login">Remember me</p>
                           </div>
-                          <p className="link-login">אפס סיסמא</p>
+                          <p className="link-login">Recover password</p>
                         </div>
                       </Form>
 
@@ -177,7 +180,7 @@ export default function Login2() {
                           className="submit"
                           type="submit"
                         >
-                          הרשם
+                          Sign in
                         </Button>
                       </div>
                     </Tab>
@@ -192,67 +195,6 @@ export default function Login2() {
     </>
   );
 }
-
-{/* <div id="style-switcher">
-  <h2>
-    Color Switcher{" "}
-    <a href="#">
-      <i className="sl sl-icon-settings" />
-    </a>
-  </h2>
-  <div>
-    <ul className="colors" id="color1">
-      <li>
-        <a href="#" className="main" title="Main" />
-      </li>
-      <li>
-        <a href="#" className="blue" title="Blue" />
-      </li>
-      <li>
-        <a href="#" className="green" title="Green" />
-      </li>
-      <li>
-        <a href="#" className="orange" title="Orange" />
-      </li>
-      <li>
-        <a href="#" className="navy" title="Navy" />
-      </li>
-      <li>
-        <a href="#" className="yellow" title="Yellow" />
-      </li>
-      <li>
-        <a href="#" className="peach" title="Peach" />
-      </li>
-      <li>
-        <a href="#" className="beige" title="Beige" />
-      </li>
-      <li>
-        <a href="#" className="purple" title="Purple" />
-      </li>
-      <li>
-        <a href="#" className="celadon" title="Celadon" />
-      </li>
-      <li>
-        <a href="#" className="red" title="Red" />
-      </li>
-      <li>
-        <a href="#" className="brown" title="Brown" />
-      </li>
-      <li>
-        <a href="#" className="cherry" title="Cherry" />
-      </li>
-      <li>
-        <a href="#" className="cyan" title="Cyan" />
-      </li>
-      <li>
-        <a href="#" className="gray" title="Gray" />
-      </li>
-      <li>
-        <a href="#" className="olive" title="Olive" />
-      </li>
-    </ul>
-  </div>
-</div>; */}
 
 class Tabs extends React.Component {
   state = {
