@@ -35,19 +35,20 @@ export default function Login2() {
                   <Tabs>
                     <Tab label="SIGN UP">
                       {/* Login */}
-                      <h2>Welcome to easycart!</h2>
+                      <h3 className="wellcome-login">Wellcome to easycart!</h3>
                       <p className="psign">sign in with Google</p>
                       <button
                         variant="contained"
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
-                      >
+                      > 
+                      <p className="p-google-button m-0">Google</p>
                         <img
                           class="firebaseui-idp-icon"
                           alt=""
                           src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                         ></img>{" "}
-                        <p className="p-google-button m-0">Google</p>
+                       
                       </button>
 
                       <div className="header__center">Or</div>
@@ -78,7 +79,7 @@ export default function Login2() {
                         />
 
                         <div className="d-flex justify-content-between align-items-center">
-                          <div className="d-flex align-items-center">
+                          <div className="d-flex align-items-center w-100">
                             <section title=".roundedOne">
                               <div class="roundedOne">
                                 <input
@@ -121,12 +122,12 @@ export default function Login2() {
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
                       >
+                        <p className="p-google-button m-0">Google</p>
                         <img
                           class="firebaseui-idp-icon"
                           alt=""
                           src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                         ></img>{" "}
-                        <p className="p-google-button m-0">Google</p>
                       </button>
 
                       <div className="header__center">Or</div>
@@ -149,7 +150,7 @@ export default function Login2() {
                         />
 
                         <div className="d-flex justify-content-between align-items-center">
-                          <div className="d-flex align-items-center">
+                          <div className="d-flex align-items-center w-100">
                             <section title=".roundedOne">
                               <div class="roundedOne">
                                 <input
