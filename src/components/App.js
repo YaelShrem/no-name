@@ -13,7 +13,7 @@ import Login2 from "./login/Login2";
 import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
 import UserMenu from "./shoppingCart/userMenu/UserMenu";
 // import AddReviews from "./overview/addReviews/AddReviews";
-
+import SearchArea from './searchResult/searchArea/SearchArea'
 function App() {
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
       {/* <HomePage/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
-      <Login2 />
+      {/* <Login2 /> */}
       {/* <BusinessDetails/> */}
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
@@ -30,6 +30,7 @@ function App() {
       {/* <ProductMenu /> */}
       {/* <AddReviews /> */}
       {/* <Footer /> */}
+      <SearchArea></SearchArea>
     </>
   );
 }

@@ -1,0 +1,42 @@
+.inputSize {
+    height: 7.4vh;
+    background-color: #8fe1c1 !important;
+    border-radius: 6.7pt !important;
+ }
+
+.col-sm-3 {
+    margin-left: 3pt;
+    margin-right: 3pt;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.mb-2 {
+    margin-top: 1.8rem!important;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+* {
+    color: white !important;
+    /* font-size: 12pt; */
+}
+.mLeft{
+    margin-left: 23%;
+}
+.input-group-text{
+    background-color:#8fe1c1
+}
+.input-group{
+    background-color: #8fe1c1 !important;
+    border-radius: 7pt !important;
+    border: 0px solid transparent !important;
+
+}
+span{
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 7pt !important;
+    border: none !important;
+}
