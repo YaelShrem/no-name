@@ -10,9 +10,9 @@ import Header from "./header/Header";
 import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 //import Pricing from "./homePage/pricing/Pricing";
 // import MyShoppingBag from "./shoppingCart/myShoppingBag/MyShoppingBag";
-import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
-//import UserMenu from "./shoppingCart/userMenu/UserMenu";
-//import AddReviews from "./overview/addReviews/AddReviews";
+// import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
+// import UserMenu from "./shoppingCart/userMenu/UserMenu";
+// import AddReviews from "./overview/addReviews/AddReviews";
 
 function App() {
   return (
