@@ -29,7 +29,6 @@ function App() {
       {/* <MyShoppingBag /> */}
       {/* <ProductMenu /> */}
       {/* <AddReviews /> */}
-
       {/* <Footer /> */}
     </>
   );
