@@ -86,8 +86,15 @@ const iconPath = {
     <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
     <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
   </svg>`,
-  clockFill: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#344968"
+  clockFill: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+  fill="url('#myGradient')"
    class="bi bi-clock-fill" viewBox="0 0 16 16"> 
+   <defs>
+   <linearGradient id="myGradient" gradientTransform="rotate(90)">
+     <stop offset="5%"  stop-color="#4DDC6B" />
+     <stop offset="95%" stop-color="#22C5BB" />
+   </linearGradient>
+   </defs>  
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
 </svg>`,
   rightArrow: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFD600" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
@@ -96,9 +103,12 @@ const iconPath = {
   leftArrow: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFD600" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
 </svg>`,
-chat:`<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+  chat: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
 <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
-</svg>`
+</svg>`,
+  Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>`,
 };
 
 export default iconPath;

@@ -8,12 +8,12 @@
 // import Footer from "./footer/Footer";
 // import Recommendations from "./recommendations/Recommendations";
 // import OrderDetails from "./shoppingCart/orderDetails/OrderDetails";
-// import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
+import ProductCatalog from "./shoppingCart/productCatalog/ProductCatalog";
 // import Pricing from "./homePage/pricing/Pricing";
 // import ShoppingBag from "./shoppingCart/shoppingBag/ShoppingBag";
 // import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
 // import UserMenu from "./shoppingCart/userMenu/UserMenu";
-import AddReviews from "./overview/addReviews/AddReviews";
+// import AddReviews from "./overview/addReviews/AddReviews";
 // import TabsTitle from "./tabsTitle/TabsTitle";
 
 function App() {
@@ -27,10 +27,10 @@ function App() {
       {/* <BusinessDetails /> */}
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
-      {/* <ProductCatalog /> */}
+      <ProductCatalog />
       {/* <ShoppingBag /> */}
       {/* <ProductMenu /> */}
-      <AddReviews />
+      {/* <AddReviews /> */}
       {/* <TabsTitle/> */}
       {/* <Footer /> */}
     </>
