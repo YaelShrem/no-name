@@ -1,0 +1,26 @@
+.wrapper-card-topBusiness{
+    width: 350px !important;
+}
+.wrapper-slider-topBusiness .slick-track .slick-slide{
+    width: 450px !important;
+}
+.wrapper-section-topBusiness{
+    height:65vh ;
+    background-color: lightgray;
+}
+.wrapper-footer-card-topBuisness{
+    background-color: transparent !important;
+    border: 1px solid #E4E4E5;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 24px 4px;
+}
+.pfooter-topBuisness{
+    margin: 0px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 17px/20px var(--unnamed-font-family-roboto);letter-spacing: 0.24px;
+color: #707070;
+text-transform: capitalize;
+}

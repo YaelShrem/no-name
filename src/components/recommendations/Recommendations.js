@@ -7,7 +7,6 @@ import { Avatar } from "@material-ui/core";
 import Rating from "@material-ui/lab/Rating";
 // import Typography from '@material-ui/core/Typography';
 import Box from "@material-ui/core/Box";
-import AliceCarousel from "react-alice-carousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -21,10 +20,7 @@ import {useSpring, animated} from 'react-spring'
 export default function Recommendations(props) {
   const [value, setValue] = React.useState(5);
   const [index, setIndex] = useState(0);
-  
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);}
-      const settings = {
+        const settings = {
         dots: true,
         infinite: true,
         speed: 500,
