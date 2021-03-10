@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import "./recommendations.css";
 import RecommendationsImg from "../../style/images/recommendationsImg.png";
 import message from "../../style/images/messageltr.png";
@@ -11,11 +11,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useSpring, animated} from 'react-spring'
-
-
-
-
+import { useSpring, animated } from "react-spring";
 
 export default function Recommendations(props) {
   const [value, setValue] = React.useState(5);
@@ -69,151 +65,168 @@ export default function Recommendations(props) {
         </div>
         <Slider className="wrapper-slider-recommendations" {...settings}>
           <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
-      <div className="wrap">
-        <img src={message} alt={message} className="message" />
-        <div className="wrapperp d-flex flex-column justify-content-between">
-          <p>Great food service delicious and served on a level.</p>
-          <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
-              <Rating
-                name="simple-controlled"
-                value={value}
-                readOnly={true}
-               />
-            </Box>
-          </div>
-        </div>
-      </div>
-      <div className="divAvaset d-flex">
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />
-        <p className="avaterText">Amanda Robertson</p>
-      </div>
-    </div>
-          </div>
-          <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
-      <div className="wrap">
-        <img src={message} alt={message} className="message" />
-        <div className="wrapperp d-flex flex-column justify-content-between">
-          <p>Great food service delicious and served on a level.</p>
-          <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
-              <Rating
-                name="simple-controlled"
-                value={value}
-                readOnly={true}
-              />
-            </Box>
-          </div>
-        </div>
-      </div>
-      <div className="divAvaset d-flex">
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />
-        <p className="avaterText">Amanda Robertson</p>
-      </div>
-    </div>
+            <div
+              className="item d-flex flex-column align-items-center"
+              data-value="1"
+            >
+              <div className="wrap">
+                <img src={message} alt={message} className="message" />
+                <div className="wrapperp d-flex flex-column justify-content-between">
+                  <p>Great food service delicious and served on a level.</p>
+                  <div className="star-wrapper">
+                    <Box component="fieldset" mt={3} borderColor="transparent">
+                      {/* <Typography component="legend">Controlled</Typography> */}
+                      <Rating
+                        name="simple-controlled"
+                        value={value}
+                        readOnly={true}
+                      />
+                    </Box>
+                  </div>
+                </div>
+              </div>
+              <div className="divAvaset d-flex">
+                <Avatar alt="Travis Howard" src={Avater} className="avater" />
+                <p className="avaterText">Amanda Robertson</p>
+              </div>
+            </div>
           </div>
           <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
-      <div className="wrap">
-        <img src={message} alt={message} className="message" />
-        <div className="wrapperp d-flex flex-column justify-content-between">
-          <p>Great food service delicious and served on a level.</p>
-          <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
-              <Rating
-                name="simple-controlled"
-                value={value}
-                readOnly={true}
-              />
-            </Box>
-          </div>
-        </div>
-      </div>
-      <div className="divAvaset d-flex">
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />
-        <p className="avaterText">Amanda Robertson</p>
-      </div>
-    </div>
-          </div>
-          <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
-      <div className="wrap">
-        <img src={message} alt={message} className="message" />
-        <div className="wrapperp d-flex flex-column justify-content-between">
-          <p>Great food service delicious and served on a level.</p>
-          <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
-              <Rating
-                name="simple-controlled"
-                value={value}
-                readOnly={true}
-              />
-            </Box>
-          </div>
-        </div>
-      </div>
-      <div className="divAvaset d-flex">
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />
-        <p className="avaterText">Amanda Robertson</p>
-      </div>
-    </div>
+            <div
+              className="item d-flex flex-column align-items-center"
+              data-value="1"
+            >
+              <div className="wrap">
+                <img src={message} alt={message} className="message" />
+                <div className="wrapperp d-flex flex-column justify-content-between">
+                  <p>Great food service delicious and served on a level.</p>
+                  <div className="star-wrapper">
+                    <Box component="fieldset" mt={3} borderColor="transparent">
+                      {/* <Typography component="legend">Controlled</Typography> */}
+                      <Rating
+                        name="simple-controlled"
+                        value={value}
+                        readOnly={true}
+                      />
+                    </Box>
+                  </div>
+                </div>
+              </div>
+              <div className="divAvaset d-flex">
+                <Avatar alt="Travis Howard" src={Avater} className="avater" />
+                <p className="avaterText">Amanda Robertson</p>
+              </div>
+            </div>
           </div>
           <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
-      <div className="wrap">
-        <img src={message} alt={message} className="message" />
-        <div className="wrapperp d-flex flex-column justify-content-between">
-          <p>Great food service delicious and served on a level.</p>
-          <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
-              <Rating
-                name="simple-controlled"
-                value={value}
-                readOnly={true}
-              />
-            </Box>
-          </div>
-        </div>
-      </div>
-      <div className="divAvaset d-flex">
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />        
-        <p className="avaterText">Amanda Robertson</p>
-      </div>
-    </div>
+            <div
+              className="item d-flex flex-column align-items-center"
+              data-value="1"
+            >
+              <div className="wrap">
+                <img src={message} alt={message} className="message" />
+                <div className="wrapperp d-flex flex-column justify-content-between">
+                  <p>Great food service delicious and served on a level.</p>
+                  <div className="star-wrapper">
+                    <Box component="fieldset" mt={3} borderColor="transparent">
+                      {/* <Typography component="legend">Controlled</Typography> */}
+                      <Rating
+                        name="simple-controlled"
+                        value={value}
+                        readOnly={true}
+                      />
+                    </Box>
+                  </div>
+                </div>
+              </div>
+              <div className="divAvaset d-flex">
+                <Avatar alt="Travis Howard" src={Avater} className="avater" />
+                <p className="avaterText">Amanda Robertson</p>
+              </div>
+            </div>
           </div>
           <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
-      <div className="wrap">
-        <img src={message} alt={message} className="message" />
-        <div className="wrapperp d-flex flex-column justify-content-between">
-          <p>Great food service delicious and served on a level.</p>
-          <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
-              <Rating
-                name="simple-controlled"
-                value={value}
-                readOnly={true}
-              />
-            </Box>
+            <div
+              className="item d-flex flex-column align-items-center"
+              data-value="1"
+            >
+              <div className="wrap">
+                <img src={message} alt={message} className="message" />
+                <div className="wrapperp d-flex flex-column justify-content-between">
+                  <p>Great food service delicious and served on a level.</p>
+                  <div className="star-wrapper">
+                    <Box component="fieldset" mt={3} borderColor="transparent">
+                      {/* <Typography component="legend">Controlled</Typography> */}
+                      <Rating
+                        name="simple-controlled"
+                        value={value}
+                        readOnly={true}
+                      />
+                    </Box>
+                  </div>
+                </div>
+              </div>
+              <div className="divAvaset d-flex">
+                <Avatar alt="Travis Howard" src={Avater} className="avater" />
+                <p className="avaterText">Amanda Robertson</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="divAvaset d-flex">
-        <Avatar alt="Travis Howard" src={Avater} className="avater" />
-        <p className="avaterText">Amanda Robertson</p>
-      </div>
-    </div>
+          <div className="slide-recommendations">
+            <div
+              className="item d-flex flex-column align-items-center"
+              data-value="1"
+            >
+              <div className="wrap">
+                <img src={message} alt={message} className="message" />
+                <div className="wrapperp d-flex flex-column justify-content-between">
+                  <p>Great food service delicious and served on a level.</p>
+                  <div className="star-wrapper">
+                    <Box component="fieldset" mt={3} borderColor="transparent">
+                      {/* <Typography component="legend">Controlled</Typography> */}
+                      <Rating
+                        name="simple-controlled"
+                        value={value}
+                        readOnly={true}
+                      />
+                    </Box>
+                  </div>
+                </div>
+              </div>
+              <div className="divAvaset d-flex">
+                <Avatar alt="Travis Howard" src={Avater} className="avater" />
+                <p className="avaterText">Amanda Robertson</p>
+              </div>
+            </div>
+          </div>
+          <div className="slide-recommendations">
+            <div
+              className="item d-flex flex-column align-items-center"
+              data-value="1"
+            >
+              <div className="wrap">
+                <img src={message} alt={message} className="message" />
+                <div className="wrapperp d-flex flex-column justify-content-between">
+                  <p>Great food service delicious and served on a level.</p>
+                  <div className="star-wrapper">
+                    <Box component="fieldset" mt={3} borderColor="transparent">
+                      {/* <Typography component="legend">Controlled</Typography> */}
+                      <Rating
+                        name="simple-controlled"
+                        value={value}
+                        readOnly={true}
+                      />
+                    </Box>
+                  </div>
+                </div>
+              </div>
+              <div className="divAvaset d-flex">
+                <Avatar alt="Travis Howard" src={Avater} className="avater" />
+                <p className="avaterText">Amanda Robertson</p>
+              </div>
+            </div>
           </div>
         </Slider>
-         
       </div>
       {/* Fonts to support Material Design  */}
       <link

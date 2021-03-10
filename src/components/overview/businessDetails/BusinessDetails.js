@@ -4,7 +4,6 @@ import imageFood from "../../../style/images/imageFood.png";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import UserMenu from "../../shoppingCart/userMenu/UserMenu"
-// import Recommendations from "../recommendations/Recommendations";
 export default function BusinessDetails() {
   return (
     <>
@@ -53,8 +52,6 @@ export default function BusinessDetails() {
         </div>
         </div>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-      {/* <Recommendations/> */}
     </>
   );
 }
