@@ -1,6 +1,6 @@
 // import Header from "./header/Header";
 import HomePage from './homePage/HomePage';
-// import Login2 from "./login/Login2";s
+// import Login2 from "./login/Login2";
 // import BusinessDetails from "../../overview/businessDetails/BusinessDetails";
 // import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
