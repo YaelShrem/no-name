@@ -14,8 +14,7 @@
   letter-spacing: 0px;
   color: #707070;
 }
-.form-group-review {
-}
+
 .form-control {
   border: none !important;
 }
@@ -24,24 +23,33 @@
   box-shadow: 3px 3px 6px #00000029 !important;
   border: 1px solid #707070 !important;
   opacity: 0.52 !important;
-  /* height: 211px !important; */
 }
 
 .btn-review {
   border-radius: 10px !important;
   width: 162px !important;
   font: normal 22px/32px !important;
-  color: var(--yellow) !important;
   text-align: center !important;
   letter-spacing: 0.31px !important;
   text-transform: capitalize !important;
   margin: 35px 0px 30px 0px !important;
+  mix-blend-mode: normal !important;
+  border: 2px solid #4ddc9e !important;
+  color:var(--green-blue) !important;
 }
 
 .active,
 .btn-review:hover {
   color: var(--white) !important;
+  background: transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
+  box-shadow: none !important;
 }
+
+.btn-review:focus {
+  box-shadow: none !important;
+}
+
+
 .button-uplaod-img {
   background-color: var(--yellow) !important;
   border-radius: 4px !important;

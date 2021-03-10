@@ -12,7 +12,7 @@ const AntTabs = withStyles({
     borderBottom: '1px solid #e8e8e8',
   },
   indicator: {
-    backgroundColor: 'var(--yellow)',
+    backgroundColor: 'var(--green-blue)',
   },
 })(Tabs);
 
@@ -57,7 +57,7 @@ const StyledTabs = withStyles({
     '& > span': {
       maxWidth: 40,
       width: '70%',
-      backgroundColor: '#635ee7',
+      backgroundColor: 'transparent',
     },
   },
 })((props) => <Tabs {...props} TabIndicatorProps={{ children: <span /> }} />);
@@ -98,7 +98,7 @@ export default function TabsTitle() {
 
   return (
     <div className={classes.root}>
-      <div className={classes.demo1}>
+      <div className={classes.demo1} >
         <AntTabs value={value} onChange={handleChange} aria-label="ant example">
           <AntTab label="Overview" />
           <AntTab label="Location" />
