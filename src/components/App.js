@@ -1,4 +1,4 @@
-// import Header from "./header/Header";
+import Header from "./header/Header";
 // import HomePage from './homePage/HomePage';
 import Login2 from "./login/Login2";
 // import BusinessDetails from "./overview/businessDetails/BusinessDetails";
@@ -14,10 +14,11 @@ import ProductMenu from "./shoppingCart/productMenu/ProductMenu";
 import UserMenu from "./shoppingCart/userMenu/UserMenu";
 // import AddReviews from "./overview/addReviews/AddReviews";
 import SearchArea from './searchResult/searchArea/SearchArea'
+import SideBar from './searchResult/sideBar/SideBar'
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       {/* <HomePage/> */}
       {/* <Pricing/> */}
       {/* <Recommendations /> */}
@@ -31,6 +32,7 @@ function App() {
       {/* <AddReviews /> */}
       {/* <Footer /> */}
       <SearchArea></SearchArea>
+      <SideBar></SideBar>
     </>
   );
 }

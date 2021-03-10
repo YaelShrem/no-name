@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Form from 'react-bootstrap/Form'
 import './searchArea.css'
@@ -10,12 +10,15 @@ const SearchArea = () => {
 
     return (
         <>
-            <div className="container-fluid" style={{ background: 'linear-gradient(to  left, #4DDC6B 0%, #22C5BB 100%)' }}>
-                <div className="row d-flex justify-content-center align-items-center">
-                    <b><div className="mt-5 mb-2">Search result for food</div></b>
-                </div>
+            <div className="container-fluid BackColor borderDivRadius" style={{ background: 'linear-gradient(to  left, #4DDC6B 0%, #22C5BB 100%)' }}>
                 {/* search a business */}
-                <Form className="row d-flex align-items-center justify-content-center">
+                {/* <div className="row d-flex justify-content-center align-items-center">
+                    <b><div className="mt-5 mb-2">Search result for food</div></b>
+                </div> */}
+                <Form.Group className="row d-flex justify-content-center align-items-center">
+                    <Form.Label className="mb-2 mt-5"><b>Search result for food</b></Form.Label>
+                </Form.Group>
+                <Form.Group className="row d-flex align-items-center justify-content-center">
                     <Form.Group as={Col} xs="10" sm='3' controlId="formGridEmail">
                         <InputGroup className="mb-sm-3">
                             <Form.Control className="inputSize"
@@ -23,12 +26,11 @@ const SearchArea = () => {
                                 placeholder="food"
                             />
                             <InputGroup.Prepend>
-                                <InputGroup.Text>
+                                <InputGroup.Text className="BackColor">
                                     <Icon name="search" />
                                 </InputGroup.Text>
                             </InputGroup.Prepend>
                         </InputGroup>
-
                     </Form.Group>
                     {/* search a place */}
                     <Form.Group as={Col} xs="10" sm='3' controlId="formGridEmail mb-3">
@@ -36,7 +38,7 @@ const SearchArea = () => {
                             <Form.Control className="inputSize" type="text" placeholder="Tel Aviv Yafo" />
                         </InputGroup>
                     </Form.Group>
-                </Form>
+                </Form.Group>
             </div>
         </>
     )
