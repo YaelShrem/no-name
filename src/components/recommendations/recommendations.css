@@ -155,6 +155,24 @@ label {
 .slide-recommendations:focus, .slide-recommendations:active{
   outline: unset !important;
 }
+.wrapper-slider-recommendations .slick-dots li.slick-active button:before{
+  width: 18px !important;
+height: 18px !important;
+background-color: transparent linear-gradient(180deg, #4DDC6B 0%, var(--unnamed-color-22c5bb) 100%) 0% 0% no-repeat padding-box !important;
+background: transparent linear-gradient(180deg, #4DDC6B 0%, #22C5BB 100%) 0% 0% no-repeat padding-box !important;
+color: transparent;
+border-radius: 50%;
+opacity: 1;
+}
+.wrapper-slider-recommendations .slick-dots li button:before{
+  width: 18px !important;
+height: 18px !important;
+border: 1px solid var(--unnamed-color-22c5bb) !important;
+border: 1px solid #22C5BB !important;
+color: transparent;
+border-radius: 50%;
+opacity: 1;
+}
 @media screen and (max-width:1250px) {
   .message{
     width: 350px;

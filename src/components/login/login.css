@@ -551,6 +551,11 @@ justify-content: center;
     width: 80%;
      }
 }
+@media only screen and (max-width: 750px) {
+  .background-shape{
+    display: none;
+  }
+}
 @media only screen and (max-width: 500px) {
   .wrapper-card-login{
     min-width: 280px;

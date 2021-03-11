@@ -1,8 +1,5 @@
 import React, { useRef, useState } from "react";
-import { TextField, FormControlLabel, Radio } from "@material-ui/core";
-import { Paper } from "@material-ui/core";
-import { useTranslation } from "react-i18next";
-import { Form, Button, Card, Alert, Container } from "react-bootstrap";
+import { Form, Button, Card, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import backgroundShape from "../../style/images/backgroundShape.png";
 import "./login.css";
@@ -174,7 +171,6 @@ export default function Login2() {
                     </Tab>
                   </Tabs>
                 </div>
-                {/* <button class="button">bygole</button> */}
               </div>
             </Card.Body>
           </Card>
