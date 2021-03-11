@@ -3,6 +3,7 @@
     background-color: #8fe1c1 !important;
     border-radius: 6.7pt !important;
     color: white !important;
+    border: 0px solid transparent !important;
 }
 
 .col-sm-3 {
@@ -36,7 +37,6 @@
 .input-group {
     background-color: #8fe1c1 !important;
     border-radius: 7pt !important;
-    border: 0px solid transparent !important;
 }
 
 span {
@@ -47,4 +47,8 @@ span {
 
 .borderDivRadius {
     border-bottom-left-radius: 35px !important;
+}
+
+.card {
+    border: 0px;
 }
