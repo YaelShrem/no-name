@@ -112,6 +112,7 @@ const iconPath = {
   Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>`,
+  chatRight: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.2" height="18.929" viewBox="0 0 20.2 18.929"><defs><style>.a{fill:url(#a);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4ddc6b"/><stop offset="1" stop-color="#22c5bb"/></linearGradient></defs><path class="a" d="M12.671,3.856c-5.578,0-10.1,3.674-10.1,8.206s4.522,8.206,10.1,8.206a12.474,12.474,0,0,0,1.575-.1c2.17,2.17,4.759,2.559,7.263,2.616v-.531a4.018,4.018,0,0,1-2.525-3.248,3.81,3.81,0,0,1,.043-.566,7.726,7.726,0,0,0,3.745-6.378C22.771,7.53,18.249,3.856,12.671,3.856Z" transform="translate(-2.571 -3.856)"/></svg>`
 };
 
 export default iconPath;

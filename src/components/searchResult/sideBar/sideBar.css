@@ -27,25 +27,21 @@
     background-image: 'url(../style/images/Rectangle 3)' !important;
 }
 
-.custom-radio .custom-control-input:checked~.custom-control-label::after {
-    color: rgb(9, 255, 0);
-}
-
 .custom-control-input:checked~.custom-control-label::before {
-    border-color: #4DDC9E !important;
-    background-color: #4DDC9E !important;
+    border-color: var(--green-blue);
+    background-color: var(--green-blue);
 }
 
 .custom-range::-webkit-slider-thumb {
-    background: #4DDC9E;
+    background: var(--green-blue);
 }
 
 .custom-range::-moz-range-thumb {
-    background: #4DDC9E;
+    background: var(--green-blue);
 }
 
 .custom-range::-ms-thumb {
-    background: #4DDC9E;
+    background: var(--green-blue);
 }
 
 .card-header, .card-body {
@@ -73,14 +69,14 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: #4DDC9E;
+    background: var(--green-blue);
     cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #4DDC9E;
+    background: var(--green-blue);
     cursor: pointer;
 }
 
@@ -88,6 +84,4 @@
     margin-bottom: 0px;
 }
 
-.heightDiv {
-    height: 150vh;
-}
+

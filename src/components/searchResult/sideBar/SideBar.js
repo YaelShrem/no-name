@@ -4,7 +4,7 @@ import './sideBar.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
-import { Button } from 'react-bootstrap';
+import SearchProducts from '../searchProducts/SearchProducts'
 
 const SideBar = () => {
     return (
@@ -15,9 +15,9 @@ const SideBar = () => {
                         <b>***</b>
                     </Accordion.Toggle>
                     <Accordion.Collapse className="collapse d-md-block" eventKey="4">
-                        <div className="container font" >
+                        <div className="container mt-lg-5 font  d-flex justify-content-center" >
                             <div className="row">
-                                <div className="col-lg-3 col-sm-12 col-md-12 paddingGroup heightDiv" style={{ backgroundColor: "#F2F2F2" }}>
+                                <div className="col-lg-3 col-sm-12 col-md-12 paddingGroup" style={{ backgroundColor: "#F2F2F2" }}>
                                     <ListGroup variant="flush">
                                         <ListGroup.Item>
                                             <Accordion>
@@ -121,6 +121,9 @@ const SideBar = () => {
                                             </Accordion>
                                         </ListGroup.Item>
                                     </ListGroup>
+                                </div>
+                                <div className='col-lg col-sm-12' >
+                                    <SearchProducts></SearchProducts>
                                 </div>
                             </div>
                         </div>
