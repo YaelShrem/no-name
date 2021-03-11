@@ -15,12 +15,14 @@ import Recommendations from "./recommendations/Recommendations";
 // import UserMenu from "./shoppingCart/userMenu/UserMenu";
 // import AddReviews from "./overview/addReviews/AddReviews";
 // import TabsTitle from "./tabsTitle/TabsTitle";
-
+// import SearchArea from './searchResult/searchArea/SearchArea';
+// import SideBar from './searchResult/sideBar/SideBar'
+import CategoryPage from './CategoryPage/CategoryPage'
 function App() {
   return (
     <>
       {/* <Header /> */}
-      {/* <HomePage/> */}
+      {/* <HomePage /> */}
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       <Recommendations />
@@ -34,6 +36,9 @@ function App() {
       {/* <TabsTitle/> */}
       {/* <Footer /> */}
       {/* <TopBusinesses/> */}
+      {/* <SearchArea></SearchArea> */}
+      {/* <SideBar></SideBar> */}
+      <CategoryPage></CategoryPage>
     </>
   );
 }
