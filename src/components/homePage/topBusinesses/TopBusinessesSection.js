@@ -24,7 +24,7 @@ export default function TopBusinesses() {
         breakpoint: 1600,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToScroll: 3,
           initialSlide: 1,
           infinite: true,
           dots: true,
@@ -51,99 +51,117 @@ export default function TopBusinesses() {
   };
   return (
     <>
-      <section className="wrapper-section-topBusiness">
+      <section className="wrapper-section-topBusiness d-flex flex-column">
         <animated.h2 style={props} className="main-title">
           TopBusinesses
         </animated.h2>
-        <Slider className="wrapper-slider-topBusiness" {...settings}>
+        <Slider className="wrapper-slider-topBusiness " {...settings}>
           <Card className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image1} />
             <Card.Body>
               <Card.Title>business name</Card.Title>
-              <Card.Text> Business location address </Card.Text>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
             </Card.Body>
             <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text>
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text>
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
           <Card  className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image2} />
             <Card.Body>
             <Card.Title>business name</Card.Title>
-              <Card.Text> Business location address </Card.Text>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
             </Card.Body>
             <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text>
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text>
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
           <Card  className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image3} />
             <Card.Body>
             <Card.Title>business name</Card.Title>
-              <Card.Text> Business location address </Card.Text>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
             </Card.Body>
             <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text>
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text>
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
           <Card  className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image1} />
             <Card.Body>
             <Card.Title>business name</Card.Title>
-              <Card.Text> Business location address </Card.Text>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
             </Card.Body>
             <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text>
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text>
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
           <Card  className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image2} />
             <Card.Body>
             <Card.Title>business name</Card.Title>
-              <Card.Text> Business location address </Card.Text>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
             </Card.Body>
             <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text>
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text>
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
           <Card  className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image3} />
             <Card.Body>
             <Card.Title>business name</Card.Title>
-              <Card.Text> Business location address </Card.Text>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
               </Card.Body>
-              <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+             <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text>
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text>
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
         </Slider>
