@@ -16,12 +16,14 @@ import Login2 from "./login/Login2";
 // import AddReviews from "./overview/addReviews/AddReviews";
 // import TabsTitle from "./tabsTitle/TabsTitle";
 // import AddListing from "./addListing/AddListing"
-
+// import SearchArea from './searchResult/searchArea/SearchArea';
+// import SideBar from './searchResult/sideBar/SideBar'
+// import CategoryPage from './CategoryPage/CategoryPage'
 function App() {
   return (
     <>
       {/* <Header /> */}
-      {/* <HomePage/> */}
+      {/* <HomePage /> */}
       {/* <Pricing /> */}
       <Login2 />
       {/* <Recommendations /> */}
@@ -35,6 +37,10 @@ function App() {
       {/* <TabsTitle/> */}
       {/* <AddListing/> */}
       {/* <Footer /> */}
+      {/* <TopBusinesses/> */}
+      {/* <SearchArea></SearchArea> */}
+      {/* <SideBar></SideBar> */}
+      {/* <CategoryPage></CategoryPage> */}
     </>
   );
 }
