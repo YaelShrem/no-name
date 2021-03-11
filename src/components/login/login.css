@@ -85,7 +85,7 @@ margin-bottom: 0px !important;
   /* --color-1: #22c5bb;
   --color-2: #4ddc6b;
   background: linear-gradient(360deg, var(--color-1), var(--color-2) 85%); */
-  background-color: #FFD600;
+  background-color: var(--green-blue);
   box-shadow: 10px 10px 40px #00000033;
   border-radius: 5px;
   border: none;
@@ -152,7 +152,7 @@ margin-bottom: 0px !important;
   font-weight: 500;
 }
 .tabs-nav li a :hover {
-  color: #ffd600;
+  color: var(--green-blue);
 }
 .MuiInput-underline:focus,
 .MuiTextField-root:focus,
@@ -171,7 +171,7 @@ button {
 
 .tabs-nav li a:hover {
   border-color: #66676b;
-  color: #ffd600;
+  color: var(--green-blue);
 }
 
 .container-login::before {
@@ -333,7 +333,7 @@ button {
   /* --color-1: #22c5bb;
   --color-2: #4ddc6b; */
   /* background: linear-gradient(360deg, var(--color-1), var(--color-2) 85%); */
-  background-color: #FFD600;
+  background-color:var(--green-blue);
   border-radius: 50px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
   margin-right: 5px;
@@ -348,10 +348,10 @@ input[type="checkbox"] {
 }
 input[type="checkbox"]:checked + .labelClass:after {
   opacity: 1;
-  /* --color-1: #22c5bb;
+  /* --color-1: #22c5bbfon;
   --color-2: #4ddc6b;
   background: linear-gradient(360deg, var(--color-1), var(--color-2) 85%); */
-  background-color: #FFD600;
+  background-color:var(--green-blue);
 
 }
 .labelClass {
@@ -518,8 +518,8 @@ justify-content: center;
 }
 
 .tab-buttons .active {
-  border-bottom: 3px solid var(--yellow) !important;
-  color: #FBC124 !important;
+  border-bottom: 3px solid var(--green-blue) !important;
+  color:var(--green-blue) !important;
 }
 .wrapper-Remember-me{
   width: 82%;
