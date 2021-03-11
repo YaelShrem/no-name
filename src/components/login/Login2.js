@@ -1,5 +1,8 @@
 import React, { useRef, useState } from "react";
-import { Form, Button, Card, Container } from "react-bootstrap";
+import { TextField, FormControlLabel, Radio } from "@material-ui/core";
+import { Paper } from "@material-ui/core";
+import { useTranslation } from "react-i18next";
+import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import backgroundShape from "../../style/images/backgroundShape.png";
 import "./login.css";
@@ -24,7 +27,7 @@ export default function Login2() {
         dir="rtl"
         className="container-login d-flex align-items-center justify-content-center"
       >
-        <div className="wrapper-card-login d-flex justify-content-center col-4">
+        <div className="wrapper-card-login d-flex justify-content-center col-5">
           <Card className="css-shadow">
             <Card.Body className="card d-flex justify-content-center align-items-center">
               <div className="sign-in-form style-1 d-flex flex-column justify-content-between">
@@ -32,51 +35,44 @@ export default function Login2() {
                   <Tabs>
                     <Tab label="SIGN UP">
                       {/* Login */}
+                      <div className="wellcome-wrapper d-flex flex-column justify-content-between">
                       <h3 className="wellcome-login">Wellcome to easycart!</h3>
-                      <p className="psign">sign in with Google</p>
+                      <p className="psign">sign in with Google</p></div>
                       <button
                         variant="contained"
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
-                      > 
-                      <p className="p-google-button m-0">Google</p>
+                      >
+                        <p className="p-google-button m-0">Google</p>
                         <img
                           class="firebaseui-idp-icon"
                           alt=""
                           src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
                         ></img>{" "}
-                       
                       </button>
 
                       <div className="header__center">Or</div>
                       <Form className="form formRegister  d-flex flex-column justify-content-between">
-                        <TextField
-                          id="userName"
-                          label="user name"
-                          type="text"
-                          InputLabelProps={{
-                            shrink: true,
-                          }}
-                        />
-                        <TextField
-                          id="email"
-                          label="Email"
-                          type="text"
-                          InputLabelProps={{
-                            shrink: true,
-                          }}
-                        />
-                        <TextField
-                          id="password"
-                          label="Password"
-                          type="password"
-                          InputLabelProps={{
-                            shrink: true,
-                          }}
-                        />
-
+                        <div className="wrapper-input-login">
+                          <Form.Label className="form-lable label-login w-100">
+                            user name
+                          </Form.Label>
+                          <Form.Control className="form-control input-login w-100" />
+                        </div>
+                        <div className="wrapper-input-login">
+                          <Form.Label className="form-lable label-login w-100">
+                            Email
+                          </Form.Label>
+                          <Form.Control className="form-control input-login w-100" />
+                        </div>
+                        <div className="wrapper-input-login">
+                          <Form.Label className="form-lable label-login w-100">
+                            password
+                          </Form.Label>
+                          <Form.Control className="form-control input-login w-100" />
+                        </div>
                         <div className="d-flex justify-content-between align-items-center">
-                          <div className="d-flex align-items-center w-100">
+                          <div className="d-flex align-items-center wrapper-Remember-me">
                             <section title=".roundedOne">
                               <div class="roundedOne">
                                 <input
@@ -112,7 +108,7 @@ export default function Login2() {
                     </Tab>
                     <Tab className="" label="SIGN IN">
                       {/* Register */}
-                      <h2>Welcome to easycart!</h2>
+                      <h2 className="wellcome-login">Welcome to easycart!</h2>
                       <p className="psign">sign in with Google</p>
                       <button
                         variant="contained"
@@ -128,24 +124,19 @@ export default function Login2() {
                       </button>
 
                       <div className="header__center">Or</div>
-                      <Form className="form  d-flex flex-column justify-content-between">
-                        <TextField
-                          id="email"
-                          label="Email"
-                          type="text"
-                          InputLabelProps={{
-                            shrink: true,
-                          }}
-                        />
-                        <TextField
-                          id="password"
-                          label="Password"
-                          type="password"
-                          InputLabelProps={{
-                            shrink: true,
-                          }}
-                        />
-
+                      <Form className="form formRegister sign-in-form-wrapper d-flex flex-column justify-content-between">
+                        <div className="wrapper-input-login">
+                          <Form.Label className="form-lable label-login w-100">
+                            Email
+                          </Form.Label>
+                          <Form.Control className="form-control input-login w-100" />
+                        </div>
+                        <div className="wrapper-input-login">
+                          <Form.Label className="form-lable label-login w-100">
+                            password
+                          </Form.Label>
+                          <Form.Control className="form-control input-login w-100" />
+                        </div>
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="d-flex align-items-center w-100">
                             <section title=".roundedOne">
@@ -155,7 +146,7 @@ export default function Login2() {
                                   value="None"
                                   id="roundedOne"
                                   name="check"
-                                  checked
+                                  //  checked
                                 />
                                 <label
                                   for="roundedOne"
@@ -183,6 +174,7 @@ export default function Login2() {
                     </Tab>
                   </Tabs>
                 </div>
+                {/* <button class="button">bygole</button> */}
               </div>
             </Card.Body>
           </Card>
