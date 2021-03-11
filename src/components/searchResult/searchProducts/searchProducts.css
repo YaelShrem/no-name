@@ -1,0 +1,223 @@
+.container-catalog {
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #f2f2f2 !important;
+}
+
+.wrapper-catalog {
+    width: 100% !important;
+}
+
+.wrapper-left-header-catalog {
+    justify-content: space-between;
+}
+
+.card-catalog {
+    background: var(--white) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin: 10px;
+}
+
+.card-body-catalog {
+    padding-right: 0px !important;
+    text-align: left !important;
+}
+
+.card-body {
+    padding: 0px !important;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-text:last-child {
+    margin-bottom: none !important;
+}
+
+.img-catalog {
+    padding-top: 15px;
+    position: relative !important;
+    display: block !important;
+}
+
+.icon-favorite {
+    position: absolute !important;
+    top: 19px !important;
+    left: 22px !important;
+}
+
+.p {
+    margin-bottom: 0rem !important;
+}
+
+.title-catalog {
+    font-size: medium !important;
+    text-align: right;
+    color: #302d3a;
+    opacity: 1;
+    text-align: left;
+}
+
+.time-wrapper {
+    direction: ltr;
+    color: #8c98a8;
+    /* margin-bottom: 10px;
+    margin-top: 40px !important; */
+}
+
+.time-wrapper p {
+    /* margin-right: 2px; */
+    font-size: small;
+    margin-bottom: 0.75rem !important;
+}
+
+.time {
+    margin-top: none !important;
+}
+
+.card-text {
+    padding-top: 8px !important;
+    /* padding-bottom: 3px !important; */
+    margin-top: none !important;
+}
+
+.price-catalog {
+    font-size: small !important;
+    font-weight: 650 !important;
+    text-align: right !important;
+    letter-spacing: 0.44px !important;
+    color: var(--dark-gray) !important;
+    font: normal normal bold 19px/22px Roboto !important;
+}
+
+.price-char-catalog {
+    text-align: left !important;
+    font: normal normal bold 20px/27px Roboto !important;
+    letter-spacing: 0px !important;
+    color: #4ddc9e !important;
+}
+
+.Decrement, .Increment {
+    background: none;
+    border: none;
+    height: fit-content;
+    color: #707070;
+    border-radius: 3px;
+}
+
+.Decrement:focus, .Increment:focus {
+    outline: none;
+    background-color: #e0dcdc73;
+}
+
+.count-product {
+    color: #707070;
+}
+
+.show-all-btn {
+    background: var(--yellow) 0% 0% no-repeat padding-box !important;
+    border-radius: 4px !important;
+    opacity: 1 !important;
+    color: var(--white) !important;
+    box-shadow: none !important;
+    letter-spacing: 0.54px !important;
+    text-align: left !important;
+    width: 97px;
+    height: 38px;
+}
+
+.dropdown-product-catalog {
+    background-color: unset !important;
+    color: #5f5982 !important;
+    border: none !important;
+}
+
+.p-catalog {
+    text-align: left !important;
+    letter-spacing: 0.17px !important;
+    color: var(--dark-gray) !important;
+    font-size: small !important;
+    font-style: normal;
+    font-weight: none !important;
+}
+
+.arrow {
+    background-color: var(--white) !important;
+    width: 52px !important;
+    height: 45px !important;
+    border-radius: 5px !important;
+}
+
+hr.solid {
+    border-top: 1px solid #e4e4e5 !important;
+    width: 100% !important;
+    margin-top: 2rem !important;
+    margin-bottom: 0rem !important;
+}
+
+.solid .active {
+    background: var(--black) !important;
+}
+
+.footer-slider {
+    padding-top: 68px !important;
+    padding-bottom: 70px !important;
+}
+
+.dropdown-product-catalog :focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.line-over {
+    padding: 8px !important;
+}
+/* 
+@media only screen and (max-width: 1190px) {
+    .wrapper-header-catalog {
+        flex-direction: column;
+    }
+    .wrapper-left-header-catalog {
+        width: 100% !important;
+        max-width: 100% !important;
+        justify-content: end !important;
+    }
+}
+
+@media only screen and (max-width: 582px) {
+    .wrapper-header-catalog {
+        width: 84% !important;
+    }
+}
+
+@media only screen and (max-width: 557px) {
+    .wrapper-header-catalog {
+        width: 86% !important;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .wrapper-header-catalog {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 522px) {
+    .wrapper-header-catalog {
+        width: 98% !important;
+    }
+} */
+
+.cardBody {
+    background-color: #FFFFFF !important;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.containerBG{
+    background-color: white !important;
+}
