@@ -20,11 +20,12 @@
 }
 
 .font {
-    font: size 12pt;
+    font-size: 0.9rem;
 }
 
 .custom-radio {
     background-image: 'url(../style/images/Rectangle 3)' !important;
+    margin-bottom: 10px;
 }
 
 .custom-control-input:checked~.custom-control-label::before {
@@ -83,5 +84,8 @@
 .accordion>.card>.card-header {
     margin-bottom: 0px;
 }
-
-
+.marginSide {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: auto;
+} 

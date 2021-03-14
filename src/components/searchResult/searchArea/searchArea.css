@@ -1,9 +1,13 @@
 .inputSize {
-    height: 7.4vh;
+    height: 8vh;
     background-color: #8fe1c1 !important;
     border-radius: 6.7pt !important;
     color: white !important;
     border: 0px solid transparent !important;
+}
+
+.inputSize:focus {
+    box-shadow: none !important;
 }
 
 .col-sm-3 {
@@ -23,7 +27,6 @@
 
 .BackColor {
     color: white !important;
-    /* font-size: 12pt; */
 }
 
 .mLeft {
@@ -46,7 +49,9 @@ span {
 }
 
 .borderDivRadius {
+    background: linear-gradient(to left, #4DDC6B 0%, #22C5BB 100%);
     border-bottom-left-radius: 35px !important;
+    opacity: 0.9;
 }
 
 .card {
