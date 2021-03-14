@@ -30,7 +30,6 @@ export default function OrderDetails() {
               <Form>
                 <Row>
                   <Col lg={6} md={6} sm={12}>
-                    {/* <Form.Group controlId="formGroupEmail"> */}
                     <Form.Label className="form-lable w-100">First Name</Form.Label>
                     <Form.Control className="form-control w-100"/>
                   </Col>
