@@ -38,10 +38,22 @@
   color: #8181a5;
 }
 
+.basic-information{
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-26)/16px var(--unnamed-font-family-roboto); */
+color: var(--green-blue);
+text-align: right;
+font: normal normal bold 26px/16px Roboto;
+letter-spacing: 0.73px;
+text-transform: capitalize;
+}
+
 .form-control:focus{
     box-shadow:none !important;
     background: #f6f6fa 0% 0% no-repeat padding-box;
 }
 .form-control{
   height:calc(1.5em + 1.75rem + 3px) !important;
+}
+.body-add-listing{
+  padding: 2.25rem !important;
 }
