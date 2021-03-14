@@ -21,15 +21,15 @@ export default function BusinessDetails() {
       </div>
       <div className="d-flex justify-content-center w-100">
         <div className="containerBuisnessDetails row">
-          <div className="col-lg-8 col-md-8 col-sm-12">
+          {/* <div className="">
           <div className="d-flex flex-column">
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center"> */}
             <UserMenu></UserMenu>
+            {/* </div>
             </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center" dir="ltr">
-          <div className="d-flex flex-column justify-content-between align-items-end">
+          </div> */}
+           {/* <div className="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center" dir="ltr">
+         <div className="d-flex flex-column justify-content-between align-items-end">
             <p className="details">פרטי המסעדה</p>
             <p className="preDetails">כתובת</p>
               <div className="d-1">
@@ -47,8 +47,8 @@ export default function BusinessDetails() {
                 <p className="pFooter">שישי 10.00–14.00 </p>
                 <p className="pFooter">שבת סגור</p>
               </div>
-          </div>
-          </div>
+          </div> 
+          </div>*/}
         </div>
         </div>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>

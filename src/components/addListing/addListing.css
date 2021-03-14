@@ -1,0 +1,47 @@
+.container-add-listing {
+  max-width: 70vw !important;
+}
+
+.btn-add-listing {
+  background: transparent linear-gradient(261deg, #4ddc6b 0%, #22c5bb 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 7px;
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0px;
+  width: 100%;
+  height: 49px;
+  border-color: transparent !important;
+  font: normal normal normal 14px/17px Roboto;
+  font-size: x-large;
+}
+
+.active,
+.btn-add-listing:hover {
+  color: var(--white) !important;
+  background: transparent linear-gradient(250deg, #4ddc6b 0%, #22c5bb 100%) !important;
+  box-shadow: none !important;
+}
+
+.btn-add-listing:focus {
+  box-shadow: none !important;
+  border-color: none !important;
+}
+
+.listing-control {
+  background: #f6f6fa 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  border: none;
+}
+
+.listing-lable {
+  color: #8181a5;
+}
+
+.form-control:focus{
+    box-shadow:none !important;
+    background: #f6f6fa 0% 0% no-repeat padding-box;
+}
+.form-control{
+  height:calc(1.5em + 1.75rem + 3px) !important;
+}

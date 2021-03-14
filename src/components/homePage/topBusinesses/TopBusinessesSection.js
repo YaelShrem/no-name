@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Card, Dropdown } from "react-bootstrap";
+import {Card} from "react-bootstrap";
 import image1 from"../../../style/images/image1.png";
 import image2 from"../../../style/images/image2.png";
 import image3 from"../../../style/images/image3.png";
