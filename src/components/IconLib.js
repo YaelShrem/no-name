@@ -109,14 +109,32 @@ const iconPath = {
   chat: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
 <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
 </svg>`,
-  Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" fill:hover="#3bd28e" class="bi bi-heart-fill" viewBox="0 0 16 16">
+<path  stroke="#3bd28e" stroke-width="0.8" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>`,
+  Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="hoverColor bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>`,
 heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" fill:hover="#3bd28e" class="bi bi-heart-fill" viewBox="0 0 16 16">
 <path  stroke="#3bd28e" stroke-width="0.8" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>`,
   chatRight: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.2" height="18.929" viewBox="0 0 20.2 18.929"><defs><style>.a{fill:url(#a);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4ddc6b"/><stop offset="1" stop-color="#22c5bb"/></linearGradient></defs><path class="a" d="M12.671,3.856c-5.578,0-10.1,3.674-10.1,8.206s4.522,8.206,10.1,8.206a12.474,12.474,0,0,0,1.575-.1c2.17,2.17,4.759,2.559,7.263,2.616v-.531a4.018,4.018,0,0,1-2.525-3.248,3.81,3.81,0,0,1,.043-.566,7.726,7.726,0,0,0,3.745-6.378C22.771,7.53,18.249,3.856,12.671,3.856Z" transform="translate(-2.571 -3.856)"/></svg>`
-
+  , place: `<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#3bd28e" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>`,
+  menu: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#707070" class="bi bi-grid-fill" viewBox="0 0 16 16">
+<path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+</svg>`,
+  list: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#707070" class="bi bi-list-ul" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>`,
+  tal: `<svg height="80" width="300">
+<g fill="none" stroke="black" stroke-width="4">
+  <path stroke-dasharray="5,5" d="M5 20 l215 0" />
+  <path stroke-dasharray="10,10" d="M5 40 l215 0" />
+  <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l215 0" />
+</g>
+</svg>`
 };
 
 export default iconPath;
