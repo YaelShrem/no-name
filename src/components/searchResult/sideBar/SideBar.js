@@ -8,6 +8,7 @@ import SearchProducts from '../searchProducts/SearchProducts'
 import Icon from '../../Icon';
 
 const SideBar = () => {
+    let [listOrMenu, setlistOrMenu] = useState(`menu`)
     return (
         <>
             <div>
@@ -15,16 +16,16 @@ const SideBar = () => {
                     <Card >
                         <div className='container-fluid marginSide'>
                             <div className='row d-flex justify-content-end align-items-center'>
-                                <div className='mt-3 ml-3 mb-xs-3 d-inline'><Icon name='menu'></Icon></div>
-                                <div className='mt-3 mr-4 ml-3 mb-xs-3 d-inline'><Icon name='list'></Icon></div>
+                                <div type='button' onClick={() => { setlistOrMenu(`menu`) }} className='mt-3 ml-3 mb-xs-3 d-inline'><Icon name='menu'></Icon></div>
+                                <div type='button' onClick={() => { setlistOrMenu(`list`) }} className='mt-3 mr-4 ml-3 mb-xs-3 d-inline'><Icon name='list'></Icon></div>
                             </div>
                         </div>
                         <Accordion.Toggle className="d-lg-none text-left mt-md-3" as={Card.Header} eventKey="4">
                             <b>***</b>
                         </Accordion.Toggle>
-                        <div className="container-fluid font marginSide" >
+                        <div className="container-fluid font marginSide" style={{height:'160vh'}} >
                             <div className="row">
-                                <div className="position-fixed col-lg-3 col-sm-12 col-md-12">
+                                <div className="sideFixed col-lg-3 col-sm-12 col-md-12" style={{ backgroundColor: "#F2F2F2" }}>
                                     <Accordion.Collapse className="collapse d-lg-block" eventKey="4">
                                         <div className="paddingGroup" style={{ backgroundColor: "#F2F2F2" }}>
                                             <ListGroup variant="flush">
@@ -133,8 +134,8 @@ const SideBar = () => {
                                         </div>
                                     </Accordion.Collapse>
                                 </div>
-                                <div className='ml-lg-5 col-lg-9 col-sm-12' >
-                                    <SearchProducts></SearchProducts>
+                                <div className='ml-lg-5 col-lg col-sm-12' >
+                                    <SearchProducts view={listOrMenu}></SearchProducts>
                                 </div>
                             </div>
                         </div>

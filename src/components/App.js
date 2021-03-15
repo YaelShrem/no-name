@@ -17,7 +17,7 @@ import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSec
 // import AddListing from "./addListing/AddListing"
 // import SearchArea from "./searchResult/searchArea/SearchArea";
 // import SideBar from "./searchResult/sideBar/SideBar";
-// import CategoryPage from "./CategoryPage/CategoryPage";
+// import CategoryPage from "./searchResult/CategoryPage/CategoryPage";
 function App() {
   return (
     <>

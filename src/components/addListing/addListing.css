@@ -9,11 +9,12 @@
   color: var(--white);
   text-align: center !important;
   letter-spacing: 0px;
-  width: 100%;
-  height: 49px;
+  width: 62vw;
+  height: 10vh;
   border-color: transparent !important;
   /* font: normal normal normal 14px/17px Roboto; */
   font-size: x-large;
+  justify-content: center;
   opacity: 1 !important;
 }
 
@@ -105,4 +106,14 @@ hr.solid {
 }
 .card-add-listing {
   margin: 3rem !important;
+}
+
+.btn-preview {
+  width: 287px;
+  height: 48px;
+  border: 1px solid #4ddc9e;
+  color: #4ddc9e;
+  border-radius: 9px;
+  opacity: 1;
+  justify-content: center;
 }
