@@ -139,6 +139,59 @@ export default function AddListing() {
               </Card.Text> */}
             </Card.Body>
           </Card>
+          <Card className="card-add-listing" style={{ width: "57rem" }}>
+            <Card.Body className="body-add-listing">
+              <Card.Title className="basic-information">Details</Card.Title>
+              <hr className="solid"></hr>
+              <Card.Text>
+                <Row>
+                  <Col>
+                    {/* <Form.Group controlId="formGroupEmail">
+                      <Form.Label className="listing-lable">Description</Form.Label>
+                      <Form.Control type="email" className="listing-control" />
+                    </Form.Group> */}
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                      <Form.Label className="listing-lable">
+                        Description
+                      </Form.Label>
+                      <Form.Control as="textarea" rows={3} className="listing-control"/>
+                    </Form.Group>     
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Form.Group controlId="formGroupEmail">
+                      <Form.Label className="listing-lable">Website</Form.Label>
+                      <Form.Control
+                        type="Website"
+                        className="listing-control"
+                      />
+                    </Form.Group>
+                  </Col>
+                  <Col>
+                    <Form.Group controlId="formGroupEmail">
+                      <Form.Label className="listing-lable">Video</Form.Label>
+                      <Form.Control type="Video" className="listing-control" />
+                    </Form.Group>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Form.Group controlId="formGroupEmail">
+                      <Form.Label className="listing-lable">Phone</Form.Label>
+                      <Form.Control type="phone" className="listing-control" />
+                    </Form.Group>
+                  </Col>
+                  <Col>
+                    <Form.Group controlId="formGroupEmail">
+                      <Form.Label className="listing-lable">E-mail</Form.Label>
+                      <Form.Control type="email" className="listing-control" />
+                    </Form.Group>
+                  </Col>
+                </Row>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </Form>
       </Container>
     </>
