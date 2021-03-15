@@ -45,7 +45,6 @@ export default function ProductCatalog() {
             </div>
           </div>
         </div> */}
-        <ProductMenu/>
         <div className="wrapper-catalog d-flex flex-column justify-content-center">
           <div className="row d-flex justify-content-center">
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
@@ -367,7 +366,9 @@ export default function ProductCatalog() {
             <Icon name="leftArrow" className="leftArrow"></Icon>
           </Button>
           <div className="wrapper-right-side-footer-catalog d-flex align-items-center">
-          <div className="line-over d-flex justify-content-center"></div>
+          <div className="line-over d-flex justify-content-center">
+            
+          </div>
           <Button className="arrow ml-3" variant="light">
             <Icon name="rightArrow" className="rightArrow"></Icon>
           </Button></div>
