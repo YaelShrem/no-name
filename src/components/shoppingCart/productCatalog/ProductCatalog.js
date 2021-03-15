@@ -367,7 +367,9 @@ export default function ProductCatalog() {
             <Icon name="leftArrow" className="leftArrow"></Icon>
           </Button>
           <div className="wrapper-right-side-footer-catalog d-flex align-items-center">
-          <div className="line-over d-flex justify-content-center"></div>
+          <div className="line-over d-flex justify-content-center">
+            
+          </div>
           <Button className="arrow ml-3" variant="light">
             <Icon name="rightArrow" className="rightArrow"></Icon>
           </Button></div>
