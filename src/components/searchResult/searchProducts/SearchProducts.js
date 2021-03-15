@@ -93,10 +93,4 @@ const SearchProducts = (props) => {
     )
 }
 
-export default SearchProducts
-
-
-
-
-
 export default SearchProducts;
