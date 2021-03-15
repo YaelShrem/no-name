@@ -115,8 +115,8 @@ const iconPath = {
   Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="hoverColor bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>`,
-  chatRight: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.2" height="18.929" viewBox="0 0 20.2 18.929"><defs><style>.a{fill:url(#a);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4ddc6b"/><stop offset="1" stop-color="#22c5bb"/></linearGradient></defs><path class="a" d="M12.671,3.856c-5.578,0-10.1,3.674-10.1,8.206s4.522,8.206,10.1,8.206a12.474,12.474,0,0,0,1.575-.1c2.17,2.17,4.759,2.559,7.263,2.616v-.531a4.018,4.018,0,0,1-2.525-3.248,3.81,3.81,0,0,1,.043-.566,7.726,7.726,0,0,0,3.745-6.378C22.771,7.53,18.249,3.856,12.671,3.856Z" transform="translate(-2.571 -3.856)"/></svg>`
-  , place: `<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#3bd28e" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+  chatRight: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.2" height="18.929" viewBox="0 0 20.2 18.929"><defs><style>.a{fill:url(#a);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4ddc6b"/><stop offset="1" stop-color="#22c5bb"/></linearGradient></defs><path class="a" d="M12.671,3.856c-5.578,0-10.1,3.674-10.1,8.206s4.522,8.206,10.1,8.206a12.474,12.474,0,0,0,1.575-.1c2.17,2.17,4.759,2.559,7.263,2.616v-.531a4.018,4.018,0,0,1-2.525-3.248,3.81,3.81,0,0,1,.043-.566,7.726,7.726,0,0,0,3.745-6.378C22.771,7.53,18.249,3.856,12.671,3.856Z" transform="translate(-2.571 -3.856)"/></svg>`,
+  place: `<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#3bd28e" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 </svg>`,
   menu: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#707070" class="bi bi-grid-fill" viewBox="0 0 16 16">
@@ -131,7 +131,12 @@ const iconPath = {
   <path stroke-dasharray="10,10" d="M5 40 l215 0" />
   <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l215 0" />
 </g>
-</svg>`
+</svg>`,
+  imageDownload: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.792" height="85.008" viewBox="0 0 99.792 85.008"><defs><style>.a{fill:#e4e4e5;}.b{opacity:0.94;}.c{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="99.792" height="85.008"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><g transform="translate(0 0)"><g class="c"><path class="a" d="M830.313,414.689a26.108,26.108,0,0,0-50.648-.029,26.14,26.14,0,0,0,2.451,52.166h9.8a3.267,3.267,0,1,0,0-6.535h-9.8A19.606,19.606,0,0,1,782,421.081a3.393,3.393,0,0,0,3.6-2.79,19.576,19.576,0,0,1,38.76,0,3.527,3.527,0,0,0,3.5,2.79,19.606,19.606,0,1,1,0,39.211h-9.8a3.267,3.267,0,1,0,0,6.535h9.8a26.141,26.141,0,0,0,2.452-52.138Zm0,0" transform="translate(-754.45 -393.09)"/></g><path class="a" d="M897.741,512.918a3.267,3.267,0,0,0,4.62-4.62l-16.338-16.339a3.268,3.268,0,0,0-4.62,0L865.066,508.3a3.267,3.267,0,0,0,4.62,4.62l10.761-10.76v41.125a3.268,3.268,0,1,0,6.535,0V502.158Zm0,0" transform="translate(-833.174 -463.011)"/>
+  </g>
+  </g>
+  </g>
+</svg>`,
 };
 
 export default iconPath;
