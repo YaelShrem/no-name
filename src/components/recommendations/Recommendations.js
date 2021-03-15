@@ -24,9 +24,19 @@ export default function Recommendations(props) {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow:4,
+        slidesToShow:5,
         slidesToScroll:3,
         responsive: [
+          {
+            breakpoint: 1999 ,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 3,
+              initialSlide: 1,
+              infinite: true,
+              dots: true
+            }
+          },
                {
             breakpoint: 1600 ,
             settings: {
@@ -41,16 +51,16 @@ export default function Recommendations(props) {
             breakpoint: 1000,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 3,
               initialSlide: 1,
               dots: true
             }
           },
           {
-            breakpoint: 470,
+            breakpoint: 600,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 2,
+              slidesToScroll: 3,
               initialSlide: 1,
             }
           }
@@ -67,7 +77,7 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
+            <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
@@ -91,7 +101,7 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
+            <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
@@ -115,7 +125,7 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
+            <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
@@ -139,7 +149,7 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
+            <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
@@ -163,7 +173,7 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
+            <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
@@ -187,7 +197,7 @@ export default function Recommendations(props) {
         <div className="wrapperp d-flex flex-column justify-content-between">
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
-            <Box component="fieldset" mt={3} borderColor="transparent">
+            <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
               {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"

@@ -31,19 +31,19 @@ export default function TopBusinesses() {
         },
       },
       {
-        breakpoint: 1000,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 5,
           initialSlide: 1,
           dots: true,
         },
       },
       {
-        breakpoint: 470,
+        breakpoint: 670,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2,
+          slidesToScroll: 5,
           initialSlide: 1,
         },
       },

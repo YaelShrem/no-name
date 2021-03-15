@@ -1,8 +1,8 @@
 // import Header from "./header/Header";
-import HomePage from './homePage/HomePage';
+// import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
 // import BusinessDetails from "./overview/businessDetails/BusinessDetails";
-// import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
+import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSection";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
 // import Recommendations from "./recommendations/Recommendations";
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      <HomePage />
+      {/* <HomePage /> */}
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}
@@ -36,7 +36,7 @@ function App() {
       {/* <TabsTitle/> */}
       {/* <AddListing/> */}
       {/* <Footer /> */}
-      {/* <TopBusinesses/> */}
+      <TopBusinesses/>
       {/* <SearchArea></SearchArea> */}
       {/* <SideBar></SideBar> */}
       {/* <CategoryPage></CategoryPage> */}
