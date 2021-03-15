@@ -1,10 +1,10 @@
 .container-catalog {
   width: 100% !important;
   max-width: 100% !important;
-  background-color: #f2f2f2 !important;
+  /* background-color: #f2f2f2 !important; */
 }
 .wrapper-catalog {
-  width: 70%;
+  width: 100%;
 }
 .wrapper-left-header-catalog {
   justify-content: space-between;
@@ -14,6 +14,7 @@
   border-radius: 5px;
   opacity: 1;
   margin: 10px;
+  min-width: 235px;
 }
 .card-body-catalog {
   padding-right: 0px !important;
@@ -160,7 +161,7 @@ hr.solid {
 } */
 
 .footer-slider {
-  width: 58%;
+  width: 90%;
   padding-top: 68px !important;
   padding-bottom: 70px !important;
 }

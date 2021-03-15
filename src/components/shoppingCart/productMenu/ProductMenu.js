@@ -8,8 +8,8 @@ import MyShoppingBag from "../shoppingBag/ShoppingBag";
 export default function ProductMenu() {
   return (
     <>
-      <div className="wrapper-product-menu d-flex justify-content-center align-items-center col-lg-8 col-md-12 col-sm-12">
-        <div className="tab-div-product-menu d-flex justify-content-between">
+      <div className="wrapper-product-menu d-flex justify-content-center align-items-center w-100">
+        <div className="tab-div-product-menu d-flex justify-content-between col-lg-8 col-md-10 col-sm-10">
           <Tabs className="d-flex">
             <Tab className="product-tab" label="Product catalog">
               <ProductCatalog/>

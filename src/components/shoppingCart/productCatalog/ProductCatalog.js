@@ -45,7 +45,6 @@ export default function ProductCatalog() {
             </div>
           </div>
         </div> */}
-        <ProductMenu/>
         <div className="wrapper-catalog d-flex flex-column justify-content-center">
           <div className="row d-flex justify-content-center">
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
