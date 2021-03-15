@@ -99,3 +99,4 @@ export default SearchProducts
 
 
 
+export default SearchProducts;

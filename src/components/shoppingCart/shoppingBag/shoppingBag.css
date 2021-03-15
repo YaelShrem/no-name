@@ -1,5 +1,6 @@
 .div-wrap {
   background-color: var(--smoky-white);
+  width: 100vw;
 }
 
 .container-shopping-bag {
@@ -7,6 +8,7 @@
   margin: auto !important;
   min-height: 100vh !important;
   direction: ltr !important;
+  margin-left: 0px !important;
 }
 
 .img-shopping-bag {

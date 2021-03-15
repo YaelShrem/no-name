@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Button, Col, Row } from "react-bootstrap";
 import ProductMenu from "../productMenu/ProductMenu";
 // import TabTitle from "../../tabTitle/TabTitle";
-import ProductImg from "./style/images/productImg.png";
+import ProductImg from "../../../style/images/productImg.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Icon from "../../Icon";
 import "./shoppingBag.css";

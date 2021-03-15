@@ -1,7 +1,6 @@
 // import Header from "./header/Header";
-// import HomePage from './homePage/HomePage';
+import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
-// import BusinessDetails from "../../overview/businessDetails/BusinessDetails";
 // import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
 // import SearchSection from "./homePage/searchSection/SearchSection";
@@ -16,14 +15,14 @@
 // import AddReviews from "./overview/addReviews/AddReviews";
 // import TabsTitle from "./tabsTitle/TabsTitle";
 // import AddListing from "./addListing/AddListing"
-// import SearchArea from './searchResult/searchArea/SearchArea';
-// import SideBar from './searchResult/sideBar/SideBar'
-import CategoryPage from './searchResult/CategoryPage/CategoryPage'
+// import SearchArea from "./searchResult/searchArea/SearchArea";
+// import SideBar from "./searchResult/sideBar/SideBar";
+// import CategoryPage from "./CategoryPage/CategoryPage";
 function App() {
   return (
     <>
       {/* <Header /> */}
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}

@@ -59,15 +59,7 @@ export default function Recommendations(props) {
   return (
     <>
       <div className="wrapperRecommendations d-flex flex-column justify-content-between align-items-center">
-        <div className="d-flex justify-content-end w-100">
-          <img
-            src={RecommendationsImg}
-            alt={RecommendationsImg}
-            className="recommendations"
-            style={{ maxWidth: "70vw" }}
-          />
-        </div>
-        <Slider className="wrapper-slider-recommendations" {...settings}>
+             <Slider className="wrapper-slider-recommendations" {...settings}>
           <div className="slide-recommendations">
           <div className="item d-flex flex-column align-items-center" data-value="1">
       <div className="wrap">

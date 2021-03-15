@@ -101,6 +101,9 @@ export default function TabsTitle() {
       <div className={classes.demo1} >
         <AntTabs value={value} onChange={handleChange} aria-label="ant example">
           <AntTab label="Overview" />
+          {/* <div className="content-overview">
+            Aenean in felis egestas, fringilla magna eget, lobortis tortor. Phasellus finibus sed enim sit amet luctus. Cras et ultrices mi, id venenatis massa. Suspendisse mattis justo a venenatis mattis. Pellentesque venenatis vehicula ullamcorper. Suspendisse placerat ligula velit, non varius dolor consectetur faucibus. Cras maximus nulla libero, ut tincidunt sapien finibus sit amet. Etiam tristique nulla elit, at dapibus neque dictum id.
+            </div> */}
           <AntTab label="Location" />
           <AntTab label="Add Reviews" />
         </AntTabs>

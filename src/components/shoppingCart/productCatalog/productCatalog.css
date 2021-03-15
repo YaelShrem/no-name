@@ -1,11 +1,10 @@
 .container-catalog {
   width: 100% !important;
   max-width: 100% !important;
-  background-color: #f2f2f2 !important;
-  /* width: 50vw; */
+  /* background-color: #f2f2f2 !important; */
 }
 .wrapper-catalog {
-  width: 70%;
+  width: 100%;
 }
 .wrapper-left-header-catalog {
   justify-content: space-between;
@@ -15,6 +14,7 @@
   border-radius: 5px;
   opacity: 1;
   margin: 10px;
+  min-width: 235px;
 }
 .card-body-catalog {
   padding-right: 0px !important;
@@ -27,8 +27,6 @@
   border: none !important;
 }
 .card-text:last-child {
-  /* padding-top: 2px !important; */
-  /* padding-bottom: 4px !important; */
   margin-bottom: none !important;
 }
 
@@ -56,20 +54,18 @@
 .time-wrapper {
   direction: ltr;
   color: #8c98a8;
-  /* margin-bottom: 10px;
-  margin-top: 40px !important; */
 }
 .time-wrapper p {
-  /* margin-right: 2px; */
   font-size: small;
   margin-bottom: 0.75rem !important;
 }
-.time {
+.time-text {
+  margin-left: 6px;
   margin-top: none !important;
+  margin-bottom: none !important;
 }
 .card-text {
   padding-top: 8px !important;
-  /* padding-bottom: 3px !important; */
   margin-top: none !important;
 }
 .price-catalog {
@@ -80,11 +76,18 @@
   color: var(--dark-gray) !important;
   font: normal normal bold 19px/22px Roboto !important;
 }
+.wrapper-time-delivery{
+  width: max-content;
+}
+.wrapper-price-catalog{
+  width: max-content;
+}
 .price-char-catalog {
   text-align: left !important;
   font: normal normal bold 20px/27px Roboto !important;
   letter-spacing: 0px !important;
   color: #4ddc9e !important;
+  margin-right: 5px;
 }
 .Decrement,
 .Increment {
@@ -133,6 +136,18 @@
   width: 52px !important;
   height: 45px !important;
   border-radius: 5px !important;
+  min-width: 52px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.arrow:active, .arrow:focus{
+  outline: none !important;
+
+}
+.arrow svg:hover{
+  outline: none !important;
+  fill: #3bd28e!important;
+
 }
 hr.solid {
   border-top: 1px solid #e4e4e5 !important;
@@ -140,12 +155,13 @@ hr.solid {
   margin-top: 2rem !important;
   margin-bottom: 0rem !important;
 }
-
+/* 
 .solid .active {
   background: var(--black) !important;
-}
+} */
 
 .footer-slider {
+  width: 90%;
   padding-top: 68px !important;
   padding-bottom: 70px !important;
 }
@@ -168,9 +184,17 @@ hr.solid {
   outline: none !important;
   box-shadow: none !important;
 }
-
+.wrapper-right-side-footer-catalog{
+  width:50%;
+}
 .line-over {
-  padding: 8px !important;
+  width: 90%;
+  height: 3px;
+  background: var(--unnamed-color-4ddc9e) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-4ddc9e);
+background: #4DDC9E 0% 0% no-repeat padding-box;
+border: 1px solid #4DDC9E;
+opacity: 1;
 }
 @media only screen and (max-width: 1190px) {
   .wrapper-header-catalog {
