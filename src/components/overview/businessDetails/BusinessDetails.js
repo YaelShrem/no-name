@@ -6,6 +6,7 @@ import UserMenu from "../../shoppingCart/userMenu/UserMenu";
 import ProductCatalog from "../../shoppingCart/productCatalog/ProductCatalog";
 import ProductMenu from "../../shoppingCart/productMenu/ProductMenu";
 import TabsTitle from "../../tabsTitle/TabsTitle";
+import Recommendations from "../../recommendations/Recommendations";  
 export default function BusinessDetails() {
   return (
     <>
@@ -18,11 +19,10 @@ export default function BusinessDetails() {
         </div>
       </div>
       <div className="d-flex flex-column justify-content-center w-100">
-           <UserMenu/>
+                     {/* <TabsTitle/> */}
+ <UserMenu/>
            <ProductMenu/>
-           {/* <TabsTitle/> */}
-           {/* <ProductCatalog/> */}
-                  
+           <Recommendations/>
         </div>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </>
