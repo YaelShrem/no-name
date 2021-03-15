@@ -37,6 +37,7 @@
   font-size: 1vw !important;
   line-height: 2vw !important;
   max-width: 1300px;
+  height: 300px;
 }
 @media screen and (max-width: 1700px) {
  .content-overview{
