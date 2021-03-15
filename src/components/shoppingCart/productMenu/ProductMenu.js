@@ -2,6 +2,7 @@ import React from "react";
 import "./productMenu.css";
 import { Button } from "@material-ui/core";
 import ProductCatalog from "../productCatalog/ProductCatalog";
+import MyShoppingBag from "../shoppingBag/ShoppingBag";
 
 
 export default function ProductMenu() {
@@ -13,7 +14,9 @@ export default function ProductMenu() {
             <Tab className="product-tab" label="Product catalog">
               <ProductCatalog/>
             </Tab>
-            <Tab className="product-tab" label="My shopping cart"></Tab>
+            <Tab className="product-tab" label="My shopping cart">
+              <MyShoppingBag/>
+            </Tab>
             <Tab className="product-tab" label="Finish an order"></Tab>
           </Tabs>
         </div>
