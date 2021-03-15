@@ -134,7 +134,12 @@ heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" 
   <path stroke-dasharray="10,10" d="M5 40 l215 0" />
   <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l215 0" />
 </g>
-</svg>`
+</svg>`,
+  imageDownload: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.792" height="85.008" viewBox="0 0 99.792 85.008"><defs><style>.a{fill:#e4e4e5;}.b{opacity:0.94;}.c{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="99.792" height="85.008"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><g transform="translate(0 0)"><g class="c"><path class="a" d="M830.313,414.689a26.108,26.108,0,0,0-50.648-.029,26.14,26.14,0,0,0,2.451,52.166h9.8a3.267,3.267,0,1,0,0-6.535h-9.8A19.606,19.606,0,0,1,782,421.081a3.393,3.393,0,0,0,3.6-2.79,19.576,19.576,0,0,1,38.76,0,3.527,3.527,0,0,0,3.5,2.79,19.606,19.606,0,1,1,0,39.211h-9.8a3.267,3.267,0,1,0,0,6.535h9.8a26.141,26.141,0,0,0,2.452-52.138Zm0,0" transform="translate(-754.45 -393.09)"/></g><path class="a" d="M897.741,512.918a3.267,3.267,0,0,0,4.62-4.62l-16.338-16.339a3.268,3.268,0,0,0-4.62,0L865.066,508.3a3.267,3.267,0,0,0,4.62,4.62l10.761-10.76v41.125a3.268,3.268,0,1,0,6.535,0V502.158Zm0,0" transform="translate(-833.174 -463.011)"/>
+  </g>
+  </g>
+  </g>
+</svg>`,
 };
 
 export default iconPath;

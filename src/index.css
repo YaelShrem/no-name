@@ -15,14 +15,16 @@
   --green: #4ddc6b !important;
   --blue: #22c5bb !important;
   --yellow: #ffd600 !important;
-  --green-blue: #4DDC9E !important;
+  --green-blue: #4ddc9e !important;
   --heading-font-family: "Poppins", sans-serif;
   --body-font-family: "Lato", sans-serif;
 }
 
 /*Global Styles Definitions*/
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   /* text-decoration: none!important; */
 }
