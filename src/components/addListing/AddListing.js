@@ -12,9 +12,9 @@ const animatedComponents = makeAnimated();
 export default function AddListing() {
   return (
     <>
-      <Container className="container-add-listing">
+      <Container className="container-add-listing d-flex flex-col justify-content-center">
         <Form>
-          <Button className="btn-add-listing d-flex" variant="primary">
+          <Button className="btn-add-listing" variant="primary">
             Add Listing
           </Button>
           <Card className="card-add-listing" style={{ width: "57rem" }}>
@@ -154,8 +154,12 @@ export default function AddListing() {
                       <Form.Label className="listing-lable">
                         Description
                       </Form.Label>
-                      <Form.Control as="textarea" rows={3} className="listing-control"/>
-                    </Form.Group>     
+                      <Form.Control
+                        as="textarea"
+                        rows={3}
+                        className="listing-control"
+                      />
+                    </Form.Group>
                   </Col>
                 </Row>
                 <Row>
@@ -192,6 +196,7 @@ export default function AddListing() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <Button className="btn-preview" variant="outline-primary">Preview</Button>
         </Form>
       </Container>
     </>
