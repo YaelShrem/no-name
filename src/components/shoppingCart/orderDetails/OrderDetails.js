@@ -10,7 +10,6 @@ export default function OrderDetails() {
       <div className="wrapper-order-details">
         <Container className="container-order-details">
           <div className="d-flex-col">
-            <TabsTitle></TabsTitle>
           </div>
           <div >
             <section className="section-details d-flex-col">
