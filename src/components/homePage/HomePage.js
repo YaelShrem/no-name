@@ -4,7 +4,7 @@ import SearchSection from './searchSection/SearchSection';
 import CategoriesSection from './categoriesSection/CategoriesSection';
 import TopBusinessesSection from './topBusinesses/TopBusinessesSection';
 import Pricing from './pricing/Pricing';
-import Footer from './footer/Footer';
+//import Footer from './footer/Footer';
 import './homePage.css';
 
 export default function HomePage() {
@@ -17,7 +17,7 @@ export default function HomePage() {
                 <h2 className="main-title">Pricing</h2>
                     <Pricing/>
             </section>
-            <Footer/>
+            {/* <Footer/> */}
         </Container>
     )
 }
