@@ -19,8 +19,8 @@ export default function ProductCatalog() {
           className="wrapper-header-catalog d-flex justify-content-between align-items-center row col-lg-7 col-md-8 col-sm-10 mb-3"
           dir="ltr"
         > */}
-          {/* <ProductMenu></ProductMenu> */}
-          {/* <div
+        {/* <ProductMenu></ProductMenu> */}
+        {/* <div
             className="wrapper-left-header-catalog d-flex col-lg-4 col-md-6 col-sm-8 align-items-center"
             dir="ltr"
           >
@@ -54,6 +54,9 @@ export default function ProductCatalog() {
                 src={food1}
                 alt={food1}
               />
+             <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -62,13 +65,18 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                 <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
-                  </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </Card.Text></div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
                 {/* <div className="d-flex justify-content-between"> */}
                 {/* <div className="count-wrapper d-flex">
@@ -86,6 +94,9 @@ export default function ProductCatalog() {
                 src={food2}
                 alt={food2}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -94,15 +105,21 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
-                </Card.Body>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -111,6 +128,9 @@ export default function ProductCatalog() {
                 src={food3}
                 alt={food3}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -119,15 +139,21 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
-                </Card.Body>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -136,6 +162,9 @@ export default function ProductCatalog() {
                 src={ProductImg}
                 alt={ProductImg}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -144,13 +173,19 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
               </Card.Body>
             </Card>
@@ -161,6 +196,9 @@ export default function ProductCatalog() {
                 src={food1}
                 alt={food1}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -169,15 +207,21 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
-                </Card.Body>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -186,6 +230,9 @@ export default function ProductCatalog() {
                 src={food4}
                 alt={food4}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -194,13 +241,19 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
               </Card.Body>
             </Card>
@@ -211,6 +264,9 @@ export default function ProductCatalog() {
                 src={food3}
                 alt={food3}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -219,15 +275,21 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
-                </div>
-                </Card.Body>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
+                  </div>
+              </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
               <Card.Img
@@ -236,6 +298,9 @@ export default function ProductCatalog() {
                 src={food2}
                 alt={food2}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -244,13 +309,19 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
               </Card.Body>
             </Card>
@@ -261,6 +332,9 @@ export default function ProductCatalog() {
                 src={food4}
                 alt={food4}
               />
+              <div className="icon-favorite">
+                <Icon name="Heart"></Icon>
+              </div>
               <Card.Body className="card-body-catalog d-flex-column justify-content-between">
                 <div className="card-text d-flex-column justify-content-between">
                   <Card.Title className="title-catalog">
@@ -269,32 +343,37 @@ export default function ProductCatalog() {
                   <Card.Title className="p-catalog">
                     Write stories about your business
                   </Card.Title>
+                  <hr className="solid"></hr>
                 </div>
                 <div className="time-wrapper d-flex align-items-center justify-content-between">
+                <div className="wrapper-time-delivery d-flex align-items-center">
                   <Icon name="clockFill"></Icon>
-                  <Card.Text className="time">
+                  <Card.Text className="time-text">
                     Delivery time 30 minutes
                   </Card.Text>
-                  <Card.Text className="price-catalog">25 $</Card.Text>
+                  </div>
+                  <div className="wrapper-price-catalog d-flex align-items-center">
+                  <Card.Text className="price-char-catalog">$</Card.Text>
+                  <Card.Text className="price-catalog">25</Card.Text>
+                  </div>
                 </div>
-                </Card.Body>
+              </Card.Body>
             </Card>
           </div>
         </div>
-        <div className="d-flex footer-slider justify-content-between">
+        <div className="d-flex footer-slider justify-content-between align-items-center">
           <Button className="arrow" variant="light">
-            <Icon name="leftArrow"></Icon>
+            <Icon name="leftArrow" className="leftArrow"></Icon>
           </Button>
+          <div className="wrapper-right-side-footer-catalog d-flex align-items-center">
           <div className="line-over d-flex justify-content-center">
-            <hr className="solid"></hr>
-            <hr className="solid"></hr>
+            
           </div>
-          <Button className="arrow" variant="light">
-            <Icon name="rightArrow"></Icon>
-          </Button>
+          <Button className="arrow ml-3" variant="light">
+            <Icon name="rightArrow" className="rightArrow"></Icon>
+          </Button></div>
         </div>
       </Container>
     </>
   );
 }
-

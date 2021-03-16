@@ -1,576 +1,245 @@
 .wrapperBuisness {
-  height: 580px;
   margin-top: 77px;
 }
-.background-shape {
-  width: 88vw;
-  height: 95vh;
-  z-index: -2;
-  position: absolute;
-  right: 0%;
-}
 
-.main-img {
-  width: 35vw;
-  height: 73vh;
-  position: absolute;
-  left: 7%;
-  top: 25%;
-}
-.background-shape {
-  width: 88vw;
-  height: 95vh;
-  z-index: -2;
-  position: absolute;
-  right: 0%;
-}
-.psign {
-  color: #8d8d8d;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-.MuiFormControl-root {
-  direction: rtl;
-}
-.MuiInputLabel-shrink {
-  font-size: 15px !important;
-}
-.img {
-  top: 105px;
-  left: 419px;
-  width: 930px;
-  height: 574px;
-  /* background: #EAF0F080 0% 0% no-repeat padding-box; */
-  opacity: 1;
-  position: absolute;
-}
-.imgGray {
-  height: 560px;
-  width: 1000px;
-  position: absolute;
-  right: 0;
-  padding: 0;
-}
-.imageFood {
-  top: 120px;
-  left: -43px;
-  width: 1000px;
-  height: 500px;
-  /* box-shadow: 0px 20px 40px #0000001A; */
-  opacity: 1;
-  position: absolute;
-}
-.images {
-  display: inline-block;
-  position: relative;
-}
+
 .name {
   top: 609px;
   left: 1513px;
-  width: 179px;
+  width: 325px;
   height: 95px;
-  font: var(--unnamed-font-style-normal) normal 900 71px/96px
-    var(--unnamed-font-family-segoe-ui);
+  font: var(--unnamed-font-style-normal) normal 900 71px/96px var(--unnamed-font-family-segoe-ui);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-707070);
   text-align: right;
-  font: normal normal 900 60px/100px Segoe UI;
+  font: normal normal 900 120px/50px Segoe UI;
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
 }
+
 .menu {
   top: 716px;
   left: 1391px;
-  width: 310px;
+  width: 425px;
   height: 46px;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 34px/46px
-    var(--unnamed-font-family-segoe-ui);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 34px/46px var(--unnamed-font-family-segoe-ui);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-707070);
   text-align: right;
-  font: normal normal normal 27px/35px Segoe UI;
+  font: normal normal normal 45px/35px Segoe UI;
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
 }
+
 .text {
   position: absolute;
-  right: 87px;
-  top: 330px;
-}
-.p1 {
-  top: 1327px;
-  left: 1002px;
-  width: 542px;
-  /* height: 113px; */
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-26) / 39px
-    var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: right;
-  font: normal normal normal 17px/13px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
-  opacity: 1;
-}
-.details {
-  top: 1070px;
-  left: 408px;
-  /* width: 227px; */
-  height: 76px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
-    36px/48px var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: right;
-  font: normal normal 600 28px/48px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
-  opacity: 1;
-  padding-top: 17px;
-}
-.preDetails {
-  top: 1192px;
-  left: 518px;
-  /* width: 117px; */
-  height: 50px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
-    var(--unnamed-font-size-28) / var(--unnamed-line-spacing-37)
-    var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: right;
-  font: normal normal 600 20px/60px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
-  opacity: 1;
+  right: 245px;
+  top: 860px;
 }
 
-.d-1 {
-  top: 1407px;
-  left: 339px;
-  width: 300px;
-  /* height: 168px; */
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 20px / var(--unnamed-line-spacing-27)
-    var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: right;
-  font: normal normal normal 17px/22px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
-  opacity: 1;
+@media screen and (max-width: 2250px) {
+  .name {
+    width: 325px;
+    font: normal normal 900 120px/50px Segoe UI;
+  }
+
+  .text {
+    right: 200px;
+    top: 585px;
+  }
+
+  .menu {
+    font: normal normal normal 45px/35px Segoe UI;
+    width: 425px;
+  }
 }
 
-a:hover {
-  text-decoration: none;
-  color: #b9b9b9 !important;
-}
-.tabs {
-  width: 100%;
-  text-align: center;
-  /* margin-top:15vh;
-top: 1070px;
-height: 35px; */
-  left: 1391px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
-    var(--unnamed-font-size-26) / 35px var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: left;
-  /* font: normal normal 600 26px/35px Segoe UI; */
-  letter-spacing: 0px;
-  color: #707070;
-  opacity: 1;
-  min-height: unset;
-}
-.tabsBuisness .tab-buttons {
-  margin-bottom: 38px;
-  direction: rtl;
-  /* padding-right: 30px; */
-  display: flex;
-  justify-content: start;
+@media screen and (max-width: 2000px) {
+  .name {
+    width: 325px;
+    font: normal normal 900 105px/50px Segoe UI;
+  }
+
+  .text {
+    right: 135px;
+    top: 500px;
+  }
+
+  .menu {
+    font: normal normal normal 40px/35px Segoe UI;
+    width: 425px;
+  }
 }
 
-button {
-  /* margin-right:15px; */
-  font-size: 20px;
-  background: transparent;
-  border: none;
-  outline: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: all ease-in-out 0.2s;
-  border-bottom: 2px solid transparent;
-  /* top: 1072px;
-left: 1265px;
-width: 74px;
-height: 32px; */
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
-    24px/32px var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-707070);
-  text-align: left;
-  font: normal normal 600 20px/60px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
-  opacity: 0.5;
+@media screen and (max-width: 1700px) {
+  .name {
+    width: 325px;
+    font: normal normal 900 90px/75px Segoe UI
+  }
+
+  .text {
+    right: 100px;
+    top: 320px;
+  }
+
+  .menu {
+    font: normal normal normal 35px/35px Segoe UI;
+    width: 425px;
+  }
 }
-.active {
-  border-bottom: 2px solid #ffd600;
-  color: #707070;
-  opacity: 1;
-  border-width: medium;
-}
-.map {
-  top: 1333px;
-  left: 544px;
-  width: 150px;
-  height: 24px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
-    var(--unnamed-font-size-18) / 24px var(--unnamed-font-family-segoe-ui);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-ffd600);
-  text-align: right;
-  font: normal normal 600 17px/22px Segoe UI;
-  letter-spacing: 0px;
-  color: #ffd600 !important;
-  opacity: 1;
-}
-.row {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
-.containerBuisnessDetails {
-  width: 100vw;
-  height: 30vh;
-  min-height: 500px;
-  direction: rtl;
+
+@media screen and (max-width: 1440px) {
+  .name {
+    width: 179px;
+    font: normal normal 900 60px/100px Segoe UI;
+  }
+
+  .text {
+    right: 87px;
+    top: 330px;
+  }
+
+  .menu {
+    font: normal normal normal 27px/35px Segoe UI;
+    width: 310px;
+  }
 }
 
 @media screen and (max-width: 1120px) {
-  .wrapperBuisness {
-    height: 480px;
-  }
-  .imgGray {
-    height: 460px;
-    width: 800px;
-  }
-  .imageFood {
-    width: 800px;
-    height: 400px;
-  }
-  .text {
+   .text {
     top: 220px;
   }
+
   .name {
     font: normal normal 900 60px/100px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 24px/15px Segoe UI;
   }
 }
-@media screen and(max-width:2600px){
-.imgGray{
-    width: 75% !important;
-    height: 700px !important;
-}
-}
-@media screen and(max-width:3000px) and (min-width: 1000px) {
-  .containerBuisnessDetails {
-    width: 75vw;
-  }
-}
+
 @media screen and (max-width: 1000px) {
-  .containerBuisnessDetails {
-    height: 450px !important;
-    min-height: unset !important;
-  }
-  .wrapperBuisness {
-    height: 430px;
-  }
-  .imgGray {
-    height: 410px;
-    width: 700px;
-  }
-  .imageFood {
-    width: 700px;
-    height: 350px;
-  }
   .text {
     top: 194px;
   }
+
   .name {
     font: normal normal 900 44px/133px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 17px/15px Segoe UI;
-  }
-  button {
-    font: normal normal 600 18px/60px Segoe UI;
-  }
-  .pFooter {
-    font: normal normal normal 15px/20px Segoe UI;
-  }
-  .map {
-    font: normal normal 600 15px/22px Segoe UI;
-  }
-  .p1 {
-    width: 450px;
-    font: normal normal normal 15px/13px Segoe UI;
-  }
-  .details {
-    font: normal normal 600 20px/48px Segoe UI;
-  }
-  .preDetails {
-    font: normal normal 600 18px/60px Segoe UI;
   }
 }
 
 @media screen and (max-width: 830px) {
-  .wrapperBuisness {
-    height: 380px;
-  }
-  .imgGray {
-    height: 360px;
-    width: 600px;
-  }
-  .imageFood {
-    width: 600px;
-    height: 300px;
-  }
-  .text {
+   .text {
     top: 160px;
   }
+
   .name {
     font: normal normal 900 40px/136px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 15px/15px Segoe UI;
   }
 }
-@media screen and (max-width: 768px) {
-  .containerBuisnessDetails {
-    height: 450px !important;
-    min-height: unset !important;
-  }
-}
-@media screen and (max-width: 767px) {
-  .containerBuisnessDetails {
-    height: 730px !important;
-    min-height: unset !important;
-  }
-}
+
 @media screen and (max-width: 720px) {
-  .wrapperBuisness {
-    height: 330px;
-  }
-  .imgGray {
-    height: 310px;
-    width: 500px;
-  }
-  .imageFood {
-    width: 500px;
-    height: 250px;
-  }
+
   .text {
     top: 120px;
   }
+
   .name {
     font: normal normal 900 33px/140px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 13px/15px Segoe UI;
   }
 }
+
 @media screen and (max-width: 620px) {
-  .wrapperBuisness {
-    height: 280px;
-  }
-  .imgGray {
-    height: 260px;
-    width: 450px;
-  }
-  .imageFood {
-    width: 450px;
-    height: 220px;
-    top: 105px;
-  }
-  .text {
+   .text {
     top: 80px;
     right: 60px;
   }
   .name {
     font: normal normal 900 30px/150px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 11px/15px Segoe UI;
   }
 }
+
 @media screen and (max-width: 530px) {
-  .wrapperBuisness {
-    height: 260px;
-  }
-  .imgGray {
-    height: 240px;
-    width: 400px;
-  }
-  .imageFood {
-    width: 400px;
-    height: 200px;
-    top: 105px;
-  }
-  .text {
+   .text {
     top: 65px;
     right: 40px;
   }
+
   .name {
     font: normal normal 900 30px/160px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 11px/15px Segoe UI;
   }
 }
+
 @media screen and (max-width: 480px) {
-  .wrapperBuisness {
-    height: 240px;
-  }
-  .imgGray {
-    height: 220px;
-    width: 350px;
-  }
-  .imageFood {
-    width: 350px;
-    height: 180px;
-  }
+
   .text {
     top: 47px;
     right: 37px;
   }
-
-  button {
-    font: normal normal 600 16px/60px Segoe UI;
-  }
-  .pFooter {
-    font: normal normal normal 13px/20px Segoe UI;
-  }
-  .p1 {
-    font: normal normal normal 13px/13px Segoe UI;
-  }
-  .map {
-    font: normal normal 600 13px/22px Segoe UI;
-  }
-  .details {
-    font: normal normal 600 18px/48px Segoe UI;
-  }
-  .preDetails {
-    font: normal normal 600 16px/60px Segoe UI;
-  }
 }
+
 @media screen and (max-width: 425px) {
-  .wrapperBuisness {
-    height: 220px;
-  }
-  .imgGray {
-    height: 200px;
-    width: 320px;
-  }
-  .imageFood {
-    width: 320px;
-    height: 180px;
-    top: 95px;
-  }
-  .text {
+   .text {
     top: 40px;
     right: 30px;
   }
-  button {
-    font: normal normal 600 14px/60px Segoe UI !important;
-  }
-  .pFooter {
-    font: normal normal normal 11ppx/20px Segoe UI;
-  }
-  .p1 {
-    font: normal normal normal 11px/13px Segoe UI;
-  }
-  .map {
-    font: normal normal 600 12px/22px Segoe UI;
-  }
-  .details {
-    font: normal normal 600 16px/48px Segoe UI;
-  }
-  .preDetails {
-    font: normal normal 600 14px/60px Segoe UI;
-  }
 }
+
 @media screen and (max-width: 375px) {
-  .wrapperBuisness {
-    height: 210px;
-  }
-  .imgGray {
-    height: 190px;
-    width: 300px;
-  }
-  .imageFood {
-    width: 300px;
-    height: 170px;
-    top: 95px;
-  }
-  .text {
+   .text {
     top: 35px;
     right: 20px;
   }
+
   .name {
     font: normal normal 900 25px/170px Segoe UI;
   }
 }
+
 @media screen and (max-width: 340px) {
-  .wrapperBuisness {
-    height: 190px;
-  }
-  .imgGray {
-    height: 170px;
-    width: 250px;
-  }
-  .imageFood {
-    width: 250px;
-    height: 150px;
-    top: 95px;
-  }
-  .text {
+   .text {
     top: 20px;
     right: 20px;
   }
+
   .name {
     font: normal normal 900 25px/170px Segoe UI;
   }
 }
+
 @media screen and (max-width: 290px) {
-  .wrapperBuisness {
-    height: 190px;
-  }
-  .imgGray {
-    height: 170px;
-    width: 250px;
-  }
-  .imageFood {
-    width: 250px;
-    height: 150px;
-    top: 95px;
-  }
-  .text {
+   .text {
     top: 20px;
     right: 0px;
   }
+
   .name {
     font: normal normal 900 25px/170px Segoe UI;
   }
+
   .menu {
     font: normal normal normal 10px/15px Segoe UI;
   }

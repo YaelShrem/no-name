@@ -1,0 +1,59 @@
+.inputSize {
+    height: 8vh;
+    background-color: var(--blue-opacity) !important;
+    border-radius: 6.7pt !important;
+    color: var(--white) !important;
+    border: 0px solid transparent !important;
+}
+
+.inputSize:focus {
+    box-shadow: none !important;
+}
+
+.col-sm-3 {
+    margin-left: 3pt;
+    margin-right: 3pt;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.mb-2 {
+    margin-top: 1.8rem!important;
+}
+
+::placeholder {
+    color: var(--white) !important;
+}
+
+.BackColor {
+    color: var(--white) !important;
+}
+
+.mLeft {
+    margin-left: 23%;
+}
+
+.input-group-text {
+    background-color: var(--blue-opacity)
+}
+
+.input-group {
+    background-color:var(--blue-opacity) !important;
+    border-radius: 7pt !important;
+}
+
+span {
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 7pt !important;
+    border: none !important;
+}
+
+.borderDivRadius {
+    background: linear-gradient(to left,var(--green) 0%, var(--blue) 100%);
+    border-bottom-left-radius: 35px !important;
+    opacity: 0.9;
+}
+
+.card {
+    border: 0px;
+}

@@ -1,8 +1,5 @@
 .user-menu-div {
-  /* font-family: arial !important;*/
   margin: 0 auto !important;
-  /* width: 70% !important;
-  /* margin-top: 15vh !important; */
   direction: ltr !important;
   letter-spacing: 0px !important;
   text-align: left !important;
@@ -31,11 +28,19 @@
   color: #707070 !important;
   font: normal normal 600 19px/39px Segoe UI !important;
 }
-.p1 {
+.content-overview {
   font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 19px/6px var(--unnamed-font-family-roboto) !important;
-  font: normal normal normal 19px/6px Roboto !important;
+    var(--unnamed-font-weight-normal) 19px/29px var(--unnamed-font-family-roboto) !important;
+  font: normal normal normal 19px/29px Roboto !important;
   letter-spacing: 0px !important;
   color: #707070 !important;
-  font: normal normal normal 24px/29px Roboto;
+  font-size: 1vw !important;
+  line-height: 2vw !important;
+  max-width: 1300px;
+  height: 300px;
+}
+@media screen and (max-width: 1700px) {
+ .content-overview{
+    font: normal normal normal 19px/29px Roboto !important;
+  }
 }

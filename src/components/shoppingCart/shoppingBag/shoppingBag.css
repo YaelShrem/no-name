@@ -1,5 +1,6 @@
 .div-wrap {
   background-color: var(--smoky-white);
+  width: 100vw;
 }
 
 .container-shopping-bag {
@@ -7,6 +8,7 @@
   margin: auto !important;
   min-height: 100vh !important;
   direction: ltr !important;
+  margin-left: 0px !important;
 }
 
 .img-shopping-bag {
@@ -38,16 +40,16 @@
 }
 
 .btn-invite {
-  height: 42px !important;
+  border: 2px solid  #4DDC9E !important;
   border-radius: 10px !important;
   width: 162px !important;
   font: normal 22px/32px !important;
-  color: var(--yellow) !important;
+  color: var(--green-blue) !important;
   text-align: center !important;
   letter-spacing: 0.31px !important;
   text-transform: capitalize !important;
-  margin: 70px 20px 30px 0px !important;
-  font-size: large !important;
+  margin: 35px 0px 30px 0px !important;
+  mix-blend-mode: normal !important;
 }
 .count-p {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
@@ -61,6 +63,8 @@
 .active,
 .btn-invite:hover {
   color: var(--white) !important;
+  background: transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
+  box-shadow: none !important;
 }
 .div-detail-bag {
   /* padding-right: 22px !important; */

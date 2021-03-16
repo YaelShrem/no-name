@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Button, Col, Row } from "react-bootstrap";
 import ProductMenu from "../productMenu/ProductMenu";
+// import TabTitle from "../../tabTitle/TabTitle";
 import ProductImg from "../../../style/images/productImg.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Icon from "../../Icon";
-import "./myShoppingBag.css";
+import "./shoppingBag.css";
 
 export default function MyShoppingBag() {
   return (
@@ -12,7 +13,6 @@ export default function MyShoppingBag() {
       <div className="div-wrap">
         <Container className="container-shopping-bag">
           <div>
-            <ProductMenu></ProductMenu>
           </div>
           <div className="devide d-flex">
             <img

@@ -86,15 +86,59 @@ const iconPath = {
     <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
     <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
   </svg>`,
-  clockFill: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#344968"
+  clockFill: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+  fill="url('#myGradient')"
    class="bi bi-clock-fill" viewBox="0 0 16 16"> 
+   <defs>
+   <linearGradient id="myGradient" gradientTransform="rotate(90)">
+     <stop offset="5%"  stop-color="#4DDC6B" />
+     <stop offset="95%" stop-color="#22C5BB" />
+   </linearGradient>
+   </defs>  
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
 </svg>`,
-  rightArrow: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFD600" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+  rightArrow: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#93949b" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
 </svg>`,
-  leftArrow: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFD600" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+  leftArrow: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#93949b" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+</svg>`,
+  search: `<svg svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" >
+    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+</svg >`,
+  chat: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+<path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+</svg>`,
+  heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" fill:hover="#3bd28e" class="bi bi-heart-fill" viewBox="0 0 16 16">
+<path  stroke="#3bd28e" stroke-width="0.8" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>`,
+  Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="hoverColor bi bi-heart-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>`,
+heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" fill:hover="#3bd28e" class="bi bi-heart-fill" viewBox="0 0 16 16">
+<path  stroke="#3bd28e" stroke-width="0.8" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>`,
+  chatRight: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.2" height="18.929" viewBox="0 0 20.2 18.929"><defs><style>.a{fill:url(#a);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4ddc6b"/><stop offset="1" stop-color="#22c5bb"/></linearGradient></defs><path class="a" d="M12.671,3.856c-5.578,0-10.1,3.674-10.1,8.206s4.522,8.206,10.1,8.206a12.474,12.474,0,0,0,1.575-.1c2.17,2.17,4.759,2.559,7.263,2.616v-.531a4.018,4.018,0,0,1-2.525-3.248,3.81,3.81,0,0,1,.043-.566,7.726,7.726,0,0,0,3.745-6.378C22.771,7.53,18.249,3.856,12.671,3.856Z" transform="translate(-2.571 -3.856)"/></svg>`
+  , place: `<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="#3bd28e" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>`,
+  menu: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#707070" class="bi bi-grid-fill" viewBox="0 0 16 16">
+<path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+</svg>`,
+  list: `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#707070" class="bi bi-list-ul" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>`,
+  tal: `<svg height="80" width="300">
+<g fill="none" stroke="black" stroke-width="4">
+  <path stroke-dasharray="5,5" d="M5 20 l215 0" />
+  <path stroke-dasharray="10,10" d="M5 40 l215 0" />
+  <path stroke-dasharray="20,10,5,5,5,10" d="M5 60 l215 0" />
+</g>
+</svg>`,
+  imageDownload: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.792" height="85.008" viewBox="0 0 99.792 85.008"><defs><style>.a{fill:#e4e4e5;}.b{opacity:0.94;}.c{clip-path:url(#a);}</style><clipPath id="a"><rect class="a" width="99.792" height="85.008"/></clipPath></defs><g class="b"><g transform="translate(0 0)"><g transform="translate(0 0)"><g class="c"><path class="a" d="M830.313,414.689a26.108,26.108,0,0,0-50.648-.029,26.14,26.14,0,0,0,2.451,52.166h9.8a3.267,3.267,0,1,0,0-6.535h-9.8A19.606,19.606,0,0,1,782,421.081a3.393,3.393,0,0,0,3.6-2.79,19.576,19.576,0,0,1,38.76,0,3.527,3.527,0,0,0,3.5,2.79,19.606,19.606,0,1,1,0,39.211h-9.8a3.267,3.267,0,1,0,0,6.535h9.8a26.141,26.141,0,0,0,2.452-52.138Zm0,0" transform="translate(-754.45 -393.09)"/></g><path class="a" d="M897.741,512.918a3.267,3.267,0,0,0,4.62-4.62l-16.338-16.339a3.268,3.268,0,0,0-4.62,0L865.066,508.3a3.267,3.267,0,0,0,4.62,4.62l10.761-10.76v41.125a3.268,3.268,0,1,0,6.535,0V502.158Zm0,0" transform="translate(-833.174 -463.011)"/>
+  </g>
+  </g>
+  </g>
 </svg>`,
 };
 

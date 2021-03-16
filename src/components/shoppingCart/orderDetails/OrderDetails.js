@@ -1,7 +1,7 @@
 import React from "react";
 import "./orderdetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProductMenu from "../productMenu/ProductMenu";
+import TabsTitle from "../../tabsTitle/TabsTitle"
 import { Container, Button, Form, Col, Row } from "react-bootstrap";
 
 export default function OrderDetails() {
@@ -9,13 +9,12 @@ export default function OrderDetails() {
     <>
       <div className="wrapper-order-details">
         <Container className="container-order-details">
-          <div className="d-flex">
-            <ProductMenu></ProductMenu>
+          <div className="d-flex-col">
           </div>
-          <div className="wrapper-content">
-            <section className="section-details">
+          <div >
+            <section className="section-details d-flex-col">
               <p className="title-order-details">Almost done...</p>
-              <div className="detail">
+              <div className="details">
                 <p>
                   All that remains is to update your email and phone details and
                   order on the way...
@@ -30,7 +29,6 @@ export default function OrderDetails() {
               <Form>
                 <Row>
                   <Col lg={6} md={6} sm={12}>
-                    {/* <Form.Group controlId="formGroupEmail"> */}
                     <Form.Label className="form-lable w-100">First Name</Form.Label>
                     <Form.Control className="form-control w-100"/>
                   </Col>
