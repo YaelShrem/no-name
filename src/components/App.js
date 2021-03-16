@@ -1,5 +1,5 @@
 // import Header from "./header/Header";
-import HomePage from './homePage/HomePage';
+// import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
 // import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
@@ -18,11 +18,18 @@ import HomePage from './homePage/HomePage';
 // import SearchArea from "./searchResult/searchArea/SearchArea";
 // import SideBar from "./searchResult/sideBar/SideBar";
 // import CategoryPage from "./searchResult/CategoryPage/CategoryPage";
+// import Doughnut from "./dashboard/Doughnut"
+// import Bar from './dashboard/Bar'
+// import BarAppex from './dashboard/BarApex'
+// import HomeHeader from './homeHeader/HomeHeader'
+import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
+// import InformationTemp from '../components/dashboard/Charts/InformationTemp'
+// import Chart2 from '../components/dashboard/Charts/Chart2'
 function App() {
   return (
     <>
       {/* <Header /> */}
-      <HomePage />
+      {/* <HomePage /> */}
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}
@@ -40,6 +47,12 @@ function App() {
       {/* <SearchArea></SearchArea> */}
       {/* <SideBar></SideBar> */}
       {/* <CategoryPage></CategoryPage> */}
+      {/* <HomeHeader /> */}
+      <CardDashboard></CardDashboard>
+      {/* <div className="container-fluid container-all">
+        <InformationTemp></InformationTemp>
+        <Chart2></Chart2>
+      </div> */}
     </>
   );
 }
