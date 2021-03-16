@@ -47,6 +47,7 @@ opacity: 1;
 }
 .wrapper-slider-topBusiness .slick-list{
 margin-bottom: 35px;
+height: 450px !important;
 }
 .wrapper-slider-topBusiness .slick-dots li button:before{
     width: 18px !important;

@@ -1,8 +1,8 @@
 // import Header from "./header/Header";
 // import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
-// import BusinessDetails from "./overview/businessDetails/BusinessDetails";
-// import TopBusinesses from "./homePage/topBusinesses/TopBusinesses";
+import BusinessDetails from "./overview/businessDetails/BusinessDetails";
+// import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSection";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
 // import Recommendations from "./recommendations/Recommendations";
@@ -33,7 +33,7 @@ function App() {
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}
-      {/* <BusinessDetails /> */}
+      <BusinessDetails />
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}

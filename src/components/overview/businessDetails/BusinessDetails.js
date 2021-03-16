@@ -19,8 +19,7 @@ export default function BusinessDetails() {
         </div>
       </div>
       <div className="d-flex flex-column justify-content-center w-100">
-                     {/* <TabsTitle/> */}
- <UserMenu/>
+          <UserMenu/>
            <ProductMenu/>
            <Recommendations/>
         </div>

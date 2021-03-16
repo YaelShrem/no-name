@@ -29,7 +29,6 @@
   border-bottom: 3px solid transparent !important;
   font: normal normal 600 18px/60px Segoe UI !important;
 }
-
 .tab-buttons .active {
   border-bottom: 3px solid var(--yellow) !important;
   color: #707070 !important;
