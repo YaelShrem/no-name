@@ -13,7 +13,6 @@ export default function MyShoppingBag() {
       <div className="div-wrap">
         <Container className="container-shopping-bag">
           <div>
-            {/* <TabTitle></TabTitle> */}
           </div>
           <div className="devide d-flex">
             <img

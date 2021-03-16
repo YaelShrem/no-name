@@ -7,6 +7,7 @@ import image2 from"../../../style/images/image2.png";
 import image3 from"../../../style/images/image3.png";
 import iconClock from "../../../style/images/icon-clock.png";
 import iconReview from "../../../style/images/icon-review.png";
+import Icon from "../../Icon";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -67,7 +68,7 @@ export default function TopBusinesses() {
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
               <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+             <Icon name="place"/>
               <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
@@ -85,7 +86,7 @@ export default function TopBusinesses() {
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
               <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+              <Icon name="place"/>
               <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
@@ -103,7 +104,7 @@ export default function TopBusinesses() {
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
               <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+              <Icon name="place"/>
               <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
@@ -121,7 +122,7 @@ export default function TopBusinesses() {
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
               <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+              <Icon name="place"/>
               <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
@@ -139,7 +140,7 @@ export default function TopBusinesses() {
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
               <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+              <Icon name="place"/>
               <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
@@ -157,7 +158,7 @@ export default function TopBusinesses() {
               <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
               <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+              <Icon name="place"/>
               <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
               <div className="wrapper-item-footer-topBuisness">
               <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
