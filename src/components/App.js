@@ -22,7 +22,7 @@ import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import Bar from './dashboard/Bar'
 // import BarAppex from './dashboard/BarApex'
 // import HomeHeader from './homeHeader/HomeHeader'
-import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
+// import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
 // import InformationTemp from '../components/dashboard/Charts/InformationTemp'
 // import Chart2 from '../components/dashboard/Charts/Chart2'
 function App() {
@@ -48,7 +48,7 @@ function App() {
       {/* <SideBar></SideBar> */}
       {/* <CategoryPage></CategoryPage> */}
       {/* <HomeHeader /> */}
-      <CardDashboard></CardDashboard>
+      {/* <CardDashboard></CardDashboard> */}
       {/* <div className="container-fluid container-all">
         <InformationTemp></InformationTemp>
         <Chart2></Chart2>
