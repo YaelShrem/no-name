@@ -5,7 +5,7 @@ import AddReviews from "../../overview/addReviews/AddReviews";
 export default function UserMenu() {
   return (
     <>
-      <div className="user-menu-div justify-content-center col-8">
+      <div className="user-menu-div justify-content-center col-lg-8 col-md-10 col-sm-10">
         <Tabs className="main-tab">
           <Tab className="user-tab" label="Overview">
             <div className="content-overview">
