@@ -193,7 +193,7 @@ hr.solid {
   background: var(--unnamed-color-4ddc9e) 0% 0% no-repeat padding-box;
 border: 1px solid var(--unnamed-color-4ddc9e);
 background: #4DDC9E 0% 0% no-repeat padding-box;
-border: 1px solid #4DDC9E;
+/* border: 1px solid #4DDC9E; */
 opacity: 1;
 }
 @media only screen and (max-width: 1190px) {

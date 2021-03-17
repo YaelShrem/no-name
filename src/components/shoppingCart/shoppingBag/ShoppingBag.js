@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Button, Col, Row } from "react-bootstrap";
-import ProductMenu from "../productMenu/ProductMenu";
-// import TabTitle from "../../tabTitle/TabTitle";
 import ProductImg from "../../../style/images/productImg.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Icon from "../../Icon";
@@ -26,7 +24,7 @@ export default function MyShoppingBag() {
                 <p className="p2-bag">Write stories about your business</p>
               </div>
               <div className="d-flex justify-content-between">
-                <div className="d-flex justify-content-between">
+                <div className="wrapper-time-shopping d-flex justify-content-between align-items-center">
                   <p className="p3-dollar">$</p>
                   <p className="p3-bag-count">25</p>
                   <Icon name="clockFill"></Icon>
@@ -55,7 +53,7 @@ export default function MyShoppingBag() {
                 <p className="p2-bag">Write stories about your business</p>
               </div>
               <div className="d-flex justify-content-between">
-                <div className="d-flex justify-content-between">
+                <div className="wrapper-time-shopping d-flex justify-content-between align-items-center">
                   <p className="p3-dollar">$</p>
                   <p className="p3-bag-count">25</p>
                   <Icon name="clockFill"></Icon>
@@ -73,7 +71,7 @@ export default function MyShoppingBag() {
           <hr className="solid"></hr>
 
           <div className="submit d-flex justify-content-between">
-            <div>
+            <div className="wrapper-button-shopping-bag d-flex justify-content-between">
               <Button className="btn-invite" variant="outline-warning">
                 Invite me
               </Button>

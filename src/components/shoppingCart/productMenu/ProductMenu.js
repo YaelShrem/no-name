@@ -1,6 +1,5 @@
 import React from "react";
 import "./productMenu.css";
-import { Button } from "@material-ui/core";
 import ProductCatalog from "../productCatalog/ProductCatalog";
 import MyShoppingBag from "../shoppingBag/ShoppingBag";
 import OrderDetails from "../orderDetails/OrderDetails";
@@ -10,7 +9,7 @@ export default function ProductMenu() {
   return (
     <>
       <div className="wrapper-product-menu d-flex justify-content-center align-items-center w-100">
-        <div className="tab-div-product-menu d-flex justify-content-between col-lg-8 col-md-10 col-sm-10">
+        <div className="tab-div-product-menu d-flex justify-content-center col-lg-8 col-md-10 col-sm-10">
           <Tabs className="d-flex">
             <Tab className="product-tab" label="Product catalog">
               <ProductCatalog/>

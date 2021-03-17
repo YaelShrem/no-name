@@ -1,6 +1,6 @@
 .div-wrap {
   background-color: var(--smoky-white);
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .container-shopping-bag {
@@ -50,6 +50,7 @@
   text-transform: capitalize !important;
   margin: 35px 0px 30px 0px !important;
   mix-blend-mode: normal !important;
+  height: fit-content;
 }
 .count-p {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
@@ -128,11 +129,6 @@ height: 31px; */
   letter-spacing: 0.23px;
   color: var(--black);
 }
-.hr.solid {
-  border: 1px solid var(--gray) !important;
-  width: 258px;
-}
-
 .Decrement,
 .Increment {
   background: none;
@@ -163,4 +159,13 @@ letter-spacing: var(--unnamed-character-spacing-0); */
   padding-bottom: 25px;
   padding-top: 25px;
   padding-left: 31px;
+}
+.wrapper-time-shopping{
+  width: 300px;
+}
+.wrapper-time-shopping p{
+  margin-bottom: 0px;
+}
+.wrapper-button-shopping-bag{
+  width: 400px;
 }

@@ -22,7 +22,13 @@
 // import Bar from './dashboard/Bar'
 // import BarAppex from './dashboard/BarApex'
 // import HomeHeader from './homeHeader/HomeHeader'
+<<<<<<< HEAD
 import Layout from '../components/dashboard/sideBar/Layout'
+=======
+// import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
+// import InformationTemp from '../components/dashboard/Charts/InformationTemp'
+// import Chart2 from '../components/dashboard/Charts/Chart2'
+>>>>>>> 90b2392bb478d24af22191d0a687e16a8825aa3e
 function App() {
   return (
     <>
@@ -46,7 +52,15 @@ function App() {
       {/* <SideBar />*/}
       {/* <CategoryPage /> */}
       {/* <HomeHeader /> */}
+<<<<<<< HEAD
       <Layout />
+=======
+      {/* <CardDashboard></CardDashboard> */}
+      {/* <div className="container-fluid container-all">
+        <InformationTemp></InformationTemp>
+        <Chart2></Chart2>
+      </div> */}
+>>>>>>> 90b2392bb478d24af22191d0a687e16a8825aa3e
     </>
   );
 }

@@ -2,14 +2,11 @@ import React from "react";
 import "./addReviews.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Container, Button  } from "react-bootstrap";
-import Icon from "../../Icon";
-import UserMenu from "../../shoppingCart/userMenu/UserMenu";
 
 export default function AddReviews() {
   return (
     <>
       <Container className="container-add-reviews">
-        <div>{/* <UserMenu></UserMenu> */}</div>
         <Form className="form-group-review">
           <Form.Group controlId="exampleForm.ControlTextarea1">
             <Form.Label className="form-label-review">

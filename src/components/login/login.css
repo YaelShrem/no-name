@@ -503,7 +503,6 @@ justify-content: center;
 }
 
 .tab-buttons button {
-  /* margin-right: 15px !important; */
   font-size: 23px !important;
   background: transparent !important;
   border-bottom: 3px solid #E4E4E5 !important;
@@ -516,7 +515,6 @@ justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: lowercase;
-
 }
 
 .tab-buttons .active {
