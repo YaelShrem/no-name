@@ -1,19 +1,14 @@
 import React,{ useState } from "react";
 import "./recommendations.css";
-import RecommendationsImg from "../../style/images/recommendationsImg.png";
 import message from "../../style/images/messageltr.png";
 import Avater from "../../style/images/avater.png";
 import { Avatar } from "@material-ui/core";
 import Rating from "@material-ui/lab/Rating";
-// import Typography from '@material-ui/core/Typography';
 import Box from "@material-ui/core/Box";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useSpring, animated} from 'react-spring'
-
-
 
 
 
@@ -69,7 +64,7 @@ export default function Recommendations(props) {
   return (
     <>
       <div className="wrapperRecommendations d-flex flex-column justify-content-between align-items-center">
-             <Slider className="wrapper-slider-recommendations" {...settings}>
+         <Slider className="wrapper-slider-recommendations" {...settings}>
           <div className="slide-recommendations">
           <div className="item d-flex flex-column align-items-center" data-value="1">
       <div className="wrap">
@@ -78,7 +73,6 @@ export default function Recommendations(props) {
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
             <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
@@ -102,7 +96,6 @@ export default function Recommendations(props) {
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
             <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
@@ -126,7 +119,6 @@ export default function Recommendations(props) {
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
             <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
@@ -150,7 +142,6 @@ export default function Recommendations(props) {
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
             <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
@@ -174,7 +165,6 @@ export default function Recommendations(props) {
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
             <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
@@ -198,7 +188,6 @@ export default function Recommendations(props) {
           <p>Great food service delicious and served on a level.</p>
           <div className="star-wrapper">
             <Box component="fieldset" className="fieldset-star" mt={3} borderColor="transparent">
-              {/* <Typography component="legend">Controlled</Typography> */}
               <Rating
                 name="simple-controlled"
                 value={value}
@@ -215,7 +204,6 @@ export default function Recommendations(props) {
     </div>
           </div>
         </Slider>
-         
       </div>
       {/* Fonts to support Material Design  */}
       <link
