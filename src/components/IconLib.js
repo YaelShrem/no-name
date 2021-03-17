@@ -115,7 +115,7 @@ const iconPath = {
   Heart: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" class="hoverColor bi bi-heart-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>`,
-heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" fill:hover="#3bd28e" class="bi bi-heart-fill" viewBox="0 0 16 16">
+  heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#FFFF" fill:hover="#3bd28e" class="bi bi-heart-fill" viewBox="0 0 16 16">
 <path  stroke="#3bd28e" stroke-width="0.8" fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
 </svg>`,
   chatRight: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.2" height="18.929" viewBox="0 0 20.2 18.929"><defs><style>.a{fill:url(#a);}</style><linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#4ddc6b"/><stop offset="1" stop-color="#22c5bb"/></linearGradient></defs><path class="a" d="M12.671,3.856c-5.578,0-10.1,3.674-10.1,8.206s4.522,8.206,10.1,8.206a12.474,12.474,0,0,0,1.575-.1c2.17,2.17,4.759,2.559,7.263,2.616v-.531a4.018,4.018,0,0,1-2.525-3.248,3.81,3.81,0,0,1,.043-.566,7.726,7.726,0,0,0,3.745-6.378C22.771,7.53,18.249,3.856,12.671,3.856Z" transform="translate(-2.571 -3.856)"/></svg>`
@@ -140,6 +140,47 @@ heartBootstrap: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" 
   </g>
   </g>
 </svg>`,
+  profile: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg>`,
+  bar: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+<path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+</svg>`,
+  messages: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+</svg>`,
+  orders: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+<path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+<path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+</svg>`,
+  plus: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+</svg>`,
+  star: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+</svg>`,
+  chatSquare: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+<path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+</svg>`,
+  signOut: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+<path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+</svg>`,
+  hamburger: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg>`,
+  headset: `<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 54.769 55.887"><defs><style>.a{fill:#fff;}.b{fill:#57db86;}</style></defs><ellipse class="a" cx="27.385" cy="27.944" rx="27.385" ry="27.944" transform="translate(0 0)"/><path class="b" d="M11.229,12.164a1.872,1.872,0,0,0-1.871-1.871H8.422a3.743,3.743,0,0,0-3.743,3.743v2.807a3.743,3.743,0,0,0,3.743,3.743h.936a1.872,1.872,0,0,0,1.871-1.871Zm10.293,8.422a3.743,3.743,0,0,0,3.743-3.743V14.036a3.743,3.743,0,0,0-3.743-3.743h-.936a1.872,1.872,0,0,0-1.871,1.871v6.55a1.872,1.872,0,0,0,1.871,1.871ZM14.972,0C6.619,0,.268,6.95,0,14.972v.936a.935.935,0,0,0,.936.936h.936a.935.935,0,0,0,.936-.936v-.936a12.164,12.164,0,0,1,24.329,0h-.007c0,.142.007,9.692.007,9.692a2.473,2.473,0,0,1-2.473,2.473H18.715a2.807,2.807,0,0,0-2.807-2.807H14.036a2.807,2.807,0,1,0,0,5.614H24.663a5.28,5.28,0,0,0,5.28-5.28V14.972C29.675,6.95,23.324,0,14.972,0Z" transform="translate(12.254 13.563)"/></svg>`,
+  cardText: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-text" viewBox="0 0 16 16">
+<path color="#4bcfb0" d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+<path color="#4bcfb0" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+</svg>`,
+chatSquareColor:`<svg xmlns="http://www.w3.org/2000/svg" width="54.769" height="55.887" viewBox="0 0 54.769 55.887"><defs><style>.a{fill:#fff;}.b{fill:#4acfaf;}</style></defs><ellipse class="a" cx="27.385" cy="27.944" rx="27.385" ry="27.944" transform="translate(0 0)"/><path class="b" d="M48.883,169.538H32.471a3.282,3.282,0,0,0-3.282,3.282v9.362a3.282,3.282,0,0,0,3.282,3.282h1.668c.569,1.153.6,2.359-1.067,4.082,0,0,4.961-1.594,5.875-4.082h9.936a3.283,3.283,0,0,0,3.282-3.282V172.82A3.282,3.282,0,0,0,48.883,169.538Z" transform="translate(-13.292 -151.599)"/></svg>`,
+headset3: `<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+<path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+</svg>`,
+  flag: `<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 54.769 55.887"><defs><style>.a{fill:#fff;}.b{fill:#37cac1;}</style></defs><ellipse class="a" cx="27.385" cy="27.944" rx="27.385" ry="27.944" transform="translate(0 0)"/><path class="b" d="M27.817,5.732c-3.109,0-5.677-2.018-9.586-2.018a11.276,11.276,0,0,0-3.948.7,3.249,3.249,0,1,0-4.891,1.5v22.4a1.392,1.392,0,0,0,1.392,1.392h.928a1.392,1.392,0,0,0,1.392-1.392V22.836a16.21,16.21,0,0,1,6.639-1.283c3.109,0,5.677,2.018,9.586,2.018a12.146,12.146,0,0,0,7.107-2.37,1.853,1.853,0,0,0,.8-1.529V5.567A1.856,1.856,0,0,0,34.6,3.883a16.891,16.891,0,0,1-6.785,1.848Z" transform="translate(5.12 13.967)"/></svg>`
+
 };
 
 export default iconPath;
