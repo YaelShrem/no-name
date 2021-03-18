@@ -38,7 +38,7 @@ export default function Login2() {
                       {/* Login */}
                      
                       <h3 className="wellcome-login">Wellcome to easycart!</h3>
-                      <p className="psign">כאן יוצג כפתור</p>
+                      {/* <p className="psign">כאן יוצג כפתור</p> */}
 {/*                      
                       <div className="header__center">Or</div>
                       <Form className="form formRegister  d-flex flex-column justify-content-between">
@@ -84,14 +84,14 @@ export default function Login2() {
                       </Form> */}
 
                       <div className="d-flex justify-content-center">
-                      <Button className="Sign-in" variant="outline-light"> Sign in</Button>
+                      <Button className="Sign-in" variant="outline-light">כאן יוצג כפתור</Button>
 
                       </div>
                     </Tab>
                     <Tab className="" label="SIGN IN">
                       {/* Register */}
                       <h2 className="wellcome-login">Wellcome to easycart!</h2>
-                      <p className="psign">כאן יוצג כפתור</p>
+                      {/* <p className="psign">כאן יוצג כפתור</p> */}
                       {/* <button
                         variant="contained"
                         type="button"
@@ -143,7 +143,7 @@ export default function Login2() {
                       </Form> */}
 
                       <div className="d-flex justify-content-center">
-                      <Button className="Sign-in" variant="outline-light"> Sign in</Button>
+                      <Button className="Sign-in" variant="outline-light">כאן יוצג כפתור</Button>
 
                       </div>
                     </Tab>

@@ -30,7 +30,7 @@ export default function Header() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="mr-auto main-nav">
                         <Nav.Link href="/">
                             Categories
             </Nav.Link>
