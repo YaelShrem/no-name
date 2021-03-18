@@ -15,7 +15,7 @@ import Login2 from "./login/Login2";
 // import AddReviews from "./overview/addReviews/AddReviews";
 // import TabsTitle from "./tabsTitle/TabsTitle";
 // import AddListing from "./addListing/AddListing"
-// import SearchArea from "./searchResult/searchArea/SearchArea";
+//import SearchArea from "./searchResult/searchArea/SearchArea";
 // import SideBar from "./searchResult/sideBar/SideBar";
 // import CategoryPage from "./searchResult/CategoryPage/CategoryPage";
 // import Doughnut from "./dashboard/Doughnut"

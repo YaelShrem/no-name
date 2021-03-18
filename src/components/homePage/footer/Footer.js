@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Row} from 'react-bootstrap';
 import './footer.css';
-import Logo from '../../../style/images/logo.png'
+//import Logo from '../../../style/images/logo.png'
 import Icon from "../../../style/Icon";
 import {Link} from 'react-router-dom' 
 export default function Footer() {
@@ -41,19 +41,19 @@ export default function Footer() {
                   <h4 className="footer-widget-title">Popular Category</h4>
                   <ul className="ul-footer">
                     <li>
-                      <a href="#">Food</a>
+                      <Link to="">Food</Link>
                     </li>
                     <li>
-                      <a href="#">Deliveries</a>
+                      <Link to="">Deliveries</Link>
                     </li>
                     <li>
-                      <a href="#">Professionals</a>
+                      <Link to="">Professionals</Link>
                     </li>
                     <li>
-                      <a href="#">Vacations</a>
+                      <Link to="">Vacations</Link>
                     </li>
                     <li>
-                      <a href="#">Trips</a>
+                      <Link to="">Trips</Link>
                     </li>
                   </ul>
                 </div>
@@ -68,19 +68,19 @@ export default function Footer() {
                   <h4 className="footer-widget-title">Xbiz links</h4>
                   <ul className="ul-footer">
                     <li>
-                      <a href="#">About Us</a>
+                      <Link to="">About Us</Link>
                     </li>
                     <li>
-                      <a href="#">How It Works</a>
+                      <Link to="">How It Works</Link>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <Link to="">Contact Us</Link>
                     </li>
                     <li>
-                      <a href="#">Plan &amp; Pricing</a>
+                      <Link to="">Plan &amp; Pricing</Link>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <Link to="">Blog</Link>
                     </li>
                   </ul>
                 </div>
@@ -95,19 +95,16 @@ export default function Footer() {
                   <h4 className="footer-widget-title">Help Support</h4>
                   <ul className="ul-footer">
                     <li>
-                      <a href="#">Support Forum</a>
+                      <Link to="">Support Forum</Link>
                     </li>
                     <li>
-                      <a href="#">Terms &amp; Conditions</a>
+                      <Link to="">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                      <a href="#">Support Policy</a>
+                      <Link to="">Support Policy</Link>
                     </li>
                     <li>
-                      <a href="#">Refund Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">FAQs</a>
+                      <Link to="">FAQs</Link>
                     </li>
                   </ul>
                 </div>
@@ -129,8 +126,8 @@ export default function Footer() {
               <div className="copyright-text">
                 <p>
                   © 2021
-                  <a href="#"> Leader.codes</a>. All rights reserved. Designed by
-                  <a href="#"> Odelya Elimelech</a>
+                  <a href="https://leader.codes"> Leader.codes</a>. All rights reserved. Designed by
+                  <a href="https://leader.codes"> Odelya Elimelech</a>
                 </p>
               </div>
               {/* <div className="go_top">
