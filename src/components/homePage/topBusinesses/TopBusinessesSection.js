@@ -16,48 +16,50 @@ export default function TopBusinesses() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
   const settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 3,
-    responsive: [
-      {
-        breakpoint: 1600,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          initialSlide: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 5,
-          initialSlide: 1,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 670,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 5,
-          initialSlide: 1,
-        },
-      },
-    ],
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+       nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+    // responsive: [
+    //   {
+    //     breakpoint: 1600,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       initialSlide: 1,
+    //       infinite: true,
+    //       dots: true,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 1200,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 5,
+    //       initialSlide: 1,
+    //       dots: true,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 670,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 5,
+    //       initialSlide: 1,
+    //     },
+    //   },
+    // ],
   };
-  return (
+    return (
     <>
       <section className="wrapper-section-topBusiness d-flex flex-column">
         <animated.h2 style={props} className="main-title">
           TopBusinesses
         </animated.h2>
         <Slider className="wrapper-slider-topBusiness " {...settings}>
-          <Card className="wrapper-card-topBusiness">
+       
+           <Card className="wrapper-card-topBusiness">
             <Card.Img variant="top" src={image1} />
             <Card.Body>
               <Card.Title>business name</Card.Title>
@@ -165,8 +167,27 @@ export default function TopBusinesses() {
               <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
               </Card.Footer>
           </Card>
-        </Slider>
+        </Slider> 
       </section>
     </>
+  );
+}
+function SampleNextArrow(props) {
+  const { className, onClick } = props;
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, onClick } = props;
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+    />
   );
 }
