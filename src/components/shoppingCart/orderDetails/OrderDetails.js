@@ -58,7 +58,7 @@ export default function OrderDetails() {
                 </Row>
               </Form>
             </section>
-            <Button className="btn-send" variant="outline-warning">Send invitation</Button>
+            <Button className="btn-send" variant="outline-light">Send invitation</Button>
           </div>
         </Container>
       </div>

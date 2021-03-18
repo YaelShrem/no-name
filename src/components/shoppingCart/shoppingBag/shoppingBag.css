@@ -61,7 +61,7 @@
   letter-spacing: 0.18px;
 }
 
-.active,
+.btn-invite:active,
 .btn-invite:hover {
   color: var(--white) !important;
   background: transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
