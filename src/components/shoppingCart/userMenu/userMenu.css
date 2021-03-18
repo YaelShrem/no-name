@@ -5,6 +5,9 @@
   text-align: left !important;
   height: max-content;
 }
+.user-menu-div>div:first-child{
+  height: 500px;
+}
 
 .tab-buttons {
   margin-bottom: 50px;

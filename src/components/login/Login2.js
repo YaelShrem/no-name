@@ -28,7 +28,7 @@ export default function Login2() {
         dir="rtl"
         className="container-login d-flex align-items-center justify-content-center"
       >
-        <div className="wrapper-card-login d-flex justify-content-center col-5">
+        <div className="wrapper-card-login d-flex justify-content-center">
           <Card className="css-shadow">
             <Card.Body className="card d-flex justify-content-center align-items-center">
               <div className="sign-in-form style-1 d-flex flex-column justify-content-between">
@@ -83,7 +83,7 @@ export default function Login2() {
                         </div>
                       </Form> */}
 
-                      <div className="d-flex justify-content-center mt-4">
+                      <div className="d-flex justify-content-center">
                       <Button className="Sign-in" variant="outline-light"> Sign in</Button>
 
                       </div>
@@ -142,7 +142,7 @@ export default function Login2() {
                         </div>
                       </Form> */}
 
-                      <div className="d-flex justify-content-center mt-4">
+                      <div className="d-flex justify-content-center">
                       <Button className="Sign-in" variant="outline-light"> Sign in</Button>
 
                       </div>
