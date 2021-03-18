@@ -84,7 +84,7 @@
     "rsuite-form": "^0.1.20",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
-    "swiper": "^6.4.8",
+    "swiper": "^6.5.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

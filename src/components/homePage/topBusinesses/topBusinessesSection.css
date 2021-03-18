@@ -47,6 +47,9 @@ margin-left: 5px;
 .slick-next{
     left:calc(100% - 55px);
 }
+.slick-next:before{
+    content: '';
+}
 .slick-prev::before,.slick-next:before{
     font-size: 49px;
    color: #e9e7e7 ;
@@ -64,7 +67,7 @@ opacity: 1;
 }
 .wrapper-slider-topBusiness .slick-list{
 margin-top: 35px;
-height: 425px !important;
+height: 424px !important;
 }
 .slick-dots{
     bottom: -60px;
@@ -98,4 +101,14 @@ font-weight: 700;
     text-transform: capitalize;
     opacity: 1;
     font-size: large;
+}
+.swiper-container{
+    width: 100%;
+}
+.swiper-slide{
+display: flex;
+justify-content: center;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    color: var(--green-blue);
 }
