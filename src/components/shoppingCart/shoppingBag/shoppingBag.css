@@ -61,7 +61,7 @@
   letter-spacing: 0.18px;
 }
 
-.active,
+.btn-invite:active,
 .btn-invite:hover {
   color: var(--white) !important;
   background: transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
@@ -105,9 +105,7 @@ height: 31px; */
   color: #344968 !important;
 }
 .count-price {
-  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-18) / 22px var(--unnamed-font-family-roboto); */
-  text-align: right;
+   text-align: right;
   font: normal normal bold 18px/22px Roboto;
   letter-spacing: 0.18px;
   color: var(--black);
@@ -146,9 +144,7 @@ height: 31px; */
 }
 .count-product {
   color: var(--gray) !important;
-  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-30)/3px var(--unnamed-font-family-segoe-ui);
-letter-spacing: var(--unnamed-character-spacing-0); */
-  text-align: left !important;
+   text-align: left !important;
   font: normal normal 600 27px/3px Segoe UI !important;
 }
 

@@ -48,6 +48,8 @@
 }
 .tab-buttons .active {
   border-bottom: 2px solid var(--green-blue) !important;
+  color:var(--green-blue) !important;
+
 }
 @media only screen and (max-width: 1450px) {
   .tab-div-product-menu>div:first-child{

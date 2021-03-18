@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import backgroundShape from "../../style/images/backgroundShape.png";
 import "./login.css";
 
+
 export default function Login2() {
   const emailRef = useRef();
   const passwordRef = useRef();
@@ -35,22 +36,10 @@ export default function Login2() {
                   <Tabs>
                     <Tab label="SIGN UP">
                       {/* Login */}
-                      <div className="wellcome-wrapper d-flex flex-column justify-content-between">
+                     
                       <h3 className="wellcome-login">Wellcome to easycart!</h3>
-                      <p className="psign">sign in with Google</p></div>
-                      <button
-                        variant="contained"
-                        type="button"
-                        className="login-with-google-btn d-flex justify-content-center align-items-center"
-                      >
-                        <p className="p-google-button m-0">Google</p>
-                        <img
-                          class="firebaseui-idp-icon"
-                          alt=""
-                          src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
-                        ></img>{" "}
-                      </button>
-
+                      <p className="psign">כאן יוצג כפתור</p>
+{/*                      
                       <div className="header__center">Or</div>
                       <Form className="form formRegister  d-flex flex-column justify-content-between">
                         <div className="wrapper-input-login">
@@ -92,25 +81,18 @@ export default function Login2() {
                           </div>
                           <p className="link-login">Recover password</p>
                         </div>
-                      </Form>
+                      </Form> */}
 
                       <div className="d-flex justify-content-center mt-4">
-                        <Button
-                          variant="contained"
-                          type="submit"
-                          disabled={loading}
-                          className="submit"
-                          type="submit"
-                        >
-                          Sign in
-                        </Button>
+                      <Button className="Sign-in" variant="outline-light"> Sign in</Button>
+
                       </div>
                     </Tab>
                     <Tab className="" label="SIGN IN">
                       {/* Register */}
-                      <h2 className="wellcome-login">Welcome to easycart!</h2>
-                      <p className="psign">sign in with Google</p>
-                      <button
+                      <h2 className="wellcome-login">Wellcome to easycart!</h2>
+                      <p className="psign">כאן יוצג כפתור</p>
+                      {/* <button
                         variant="contained"
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
@@ -158,23 +140,15 @@ export default function Login2() {
                           </div>
                           <p className="link-login">Recover password</p>
                         </div>
-                      </Form>
+                      </Form> */}
 
                       <div className="d-flex justify-content-center mt-4">
-                        <Button
-                          variant="contained"
-                          type="submit"
-                          disabled={loading}
-                          className="submit"
-                          type="submit"
-                        >
-                          Sign in
-                        </Button>
+                      <Button className="Sign-in" variant="outline-light"> Sign in</Button>
+
                       </div>
                     </Tab>
                   </Tabs>
                 </div>
-                {/* <button class="button">bygole</button> */}
               </div>
             </Card.Body>
           </Card>
@@ -207,7 +181,7 @@ class Tabs extends React.Component {
           buttons={buttons}
           changeTab={this.changeTab}
         />
-        <div className="tab-content d-flex flex-column justify-content-between">
+        <div className="tab-content-login d-flex flex-column justify-content-between">
           {content}
         </div>
       </div>

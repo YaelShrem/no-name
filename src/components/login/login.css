@@ -8,8 +8,7 @@
   max-width: 100% !important;
 }
 .wrapper-card-login {
-  min-height: 550px;
-  height: 786px;
+  height: 550px;
   max-width: 620px;
   min-width: 500px;
 }
@@ -27,10 +26,10 @@
   position: absolute;
   right: 0%;
 }
-.tab-content{
+.tab-content-login{
   text-align: center;
     direction: ltr;
-    height: 674px;
+    height: 400px;
     padding-top: 40px;
     padding-bottom: 30px;
   }
@@ -139,9 +138,26 @@ margin-bottom: 0px !important;
   color: #707070;
   opacity: 1;
 }
+.Sign-in:active,
+.Sign-in:hover {
+  color: var(--white) !important;
+  background: transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
+  box-shadow: none !important;
+}
+.Sign-in {
+  border: 2px solid  #4DDC9E !important;
+  border-radius: 10px !important;
+  width: 162px !important;
+  font: normal 22px/32px !important;
+  color: var(--green-blue) !important;
+  text-align: center !important;
+  letter-spacing: 0.31px !important;
+  text-transform: capitalize !important;
+  mix-blend-mode: normal !important;
+  height: fit-content;
+}
 .sign-in-form {
-  height: 100%;
-  min-height: 580px;
+  height: 450px;
   width: 75%;
   max-width: 600px;
   min-width: 300px;
@@ -505,7 +521,7 @@ justify-content: center;
 .tab-buttons button {
   font-size: 23px !important;
   background: transparent !important;
-  border-bottom: 3px solid #E4E4E5 !important;
+  border-bottom: 2px solid #E4E4E5 !important;
   outline: none !important;
   padding: 10px 43px !important;
   cursor: pointer !important;
@@ -518,7 +534,7 @@ justify-content: center;
 }
 
 .tab-buttons .active {
-  border-bottom: 3px solid var(--green-blue) !important;
+  border-bottom: 2px solid var(--green-blue) !important;
   color:var(--green-blue) !important;
 }
 .wrapper-Remember-me{

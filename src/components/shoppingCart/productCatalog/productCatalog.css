@@ -139,10 +139,18 @@
   min-width: 52px !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
-}
-.arrow:active, .arrow:focus{
   outline: none !important;
-
+  border: none !important;
+  border-color: unset !important;
+  box-shadow: none !important;
+  color: unset !important;
+}
+.arrow:active, .arrow:focus, .arrow:hover{
+  outline: none !important;
+border: none !important;
+border-color: unset !important;
+box-shadow: none !important;
+color: unset !important;
 }
 .arrow svg:hover{
   outline: none !important;

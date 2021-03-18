@@ -25,6 +25,8 @@
 }
 .tab-buttons .active {
   border-bottom: 2px solid var(--green-blue) !important;
+  color:var(--green-blue) !important;
+
 }
 .content-overview {
   font: var(--unnamed-font-style-normal) normal
