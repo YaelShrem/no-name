@@ -1,6 +1,6 @@
 // import Header from "./header/Header";
 // import HomePage from './homePage/HomePage';
-// import Login2 from "./login/Login2";
+ import Login2 from "./login/Login2";
 // import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSection";
 // import SearchSection from "./homePage/searchSection/SearchSection";
@@ -21,18 +21,18 @@
 // import Doughnut from "./dashboard/Doughnut"
 // import Bar from './dashboard/Bar'
 // import BarAppex from './dashboard/BarApex'
-// import HomeHeader from './homeHeader/HomeHeader'
+//import HomeHeader from './homeHeader/HomeHeader'
 // import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
 // import InformationTemp from '../components/dashboard/Charts/InformationTemp'
 // import Chart2 from '../components/dashboard/Charts/Chart2'
-import Layout from '../components/dashboard/sideBar/Layout'
+//import Layout from '../components/dashboard/sideBar/Layout'
 function App() {
   return (
     <>
       {/* <Header /> */}
       {/* <HomePage /> */}
       {/* <Pricing /> */}
-      {/* <Login2 /> */}
+      <Login2 />
       {/* <Recommendations /> */}
       {/* <BusinessDetails /> */}
       {/* <UserMenu /> */}
@@ -54,7 +54,7 @@ function App() {
         <InformationTemp></InformationTemp>
         <Chart2></Chart2>
       </div> */}
-      <Layout/>
+      {/* <Layout/> */}
     </>
   );
 }
