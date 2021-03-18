@@ -72,10 +72,10 @@ export default function MyShoppingBag() {
 
           <div className="submit d-flex justify-content-between">
             <div className="wrapper-button-shopping-bag d-flex justify-content-between">
-              <Button className="btn-invite" variant="outline-warning">
+              <Button className="btn-invite" variant="outline-light">
                 Invite me
               </Button>
-              <Button className="btn-invite" variant="outline-warning">
+              <Button className="btn-invite" variant="outline-light">
                 Continue shop
               </Button>
             </div>

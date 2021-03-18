@@ -7,8 +7,8 @@ import food1 from "../../../style/images/food-1.png";
 import food2 from "../../../style/images/food-2.png";
 import food3 from "../../../style/images/food-3.png";
 import food4 from "../../../style/images/food-4.png";
-import Button from "@material-ui/core/Button";
-import { Container, Card } from "react-bootstrap";
+import { Container, Button, Card  } from "react-bootstrap";
+
 import Icon from "../../Icon";
 export default function ProductCatalog() {
   return (
