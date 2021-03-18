@@ -110,7 +110,7 @@ const LineChart = () => {
 
     return (
         <div >
-            <Line data={state.dataLine} options={{ responsive: true }} />
+            <Line style={{height:'50px',width:'70px'}} data={state.dataLine} options={{ responsive: true }} />
         </div>
     );
 

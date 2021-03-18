@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import UserMenu from "../../shoppingCart/userMenu/UserMenu";

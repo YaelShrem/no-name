@@ -1,7 +1,7 @@
 // import Header from "./header/Header";
 // import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
-import BusinessDetails from "./overview/businessDetails/BusinessDetails";
+// import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSection";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
@@ -22,9 +22,10 @@ import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import Bar from './dashboard/Bar'
 // import BarAppex from './dashboard/BarApex'
 // import HomeHeader from './homeHeader/HomeHeader'
-import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
+// import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
 // import InformationTemp from '../components/dashboard/Charts/InformationTemp'
 // import Chart2 from '../components/dashboard/Charts/Chart2'
+import Layout from '../components/dashboard/sideBar/Layout'
 function App() {
   return (
     <>
@@ -33,7 +34,7 @@ function App() {
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}
-      <BusinessDetails />
+      {/* <BusinessDetails /> */}
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
@@ -44,15 +45,16 @@ function App() {
       {/* <AddListing/> */}
       {/* <Footer /> */}
       {/* <TopBusinesses/> */}
-      {/* <SearchArea></SearchArea> */}
-      {/* <SideBar></SideBar> */}
-      {/* <CategoryPage></CategoryPage> */}
+      {/* <SearchArea /> */}
+      {/* <SideBar />*/}
+      {/* <CategoryPage /> */}
       {/* <HomeHeader /> */}
       {/* <CardDashboard></CardDashboard> */}
       {/* <div className="container-fluid container-all">
         <InformationTemp></InformationTemp>
         <Chart2></Chart2>
       </div> */}
+      <Layout/>
     </>
   );
 }
