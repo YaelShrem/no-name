@@ -8,10 +8,9 @@
   max-width: 100% !important;
 }
 .wrapper-card-login {
-  height: 550px;
-  max-width: 620px;
-  min-width: 500px;
-}
+  height: 320px;
+  width: 500px;
+ }
 .css-shadow {
   height: 100%;
   width: 100%;
@@ -29,9 +28,9 @@
 .tab-content-login{
   text-align: center;
     direction: ltr;
-    height: 400px;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 .wellcome-wrapper{
   height: 90px;
@@ -157,8 +156,8 @@ margin-bottom: 0px !important;
   height: fit-content;
 }
 .sign-in-form {
-  height: 450px;
-  width: 75%;
+  height: 300px;
+  width: 80%;
   max-width: 600px;
   min-width: 300px;
   padding-top: 10px;
@@ -555,10 +554,7 @@ justify-content: center;
   }
 }
 @media only screen and (max-width: 1320px) {
-  .tab-buttons button{
-    padding: 10px 30px !important;
-  }
-  .wellcome-login{
+   .wellcome-login{
     font: normal normal bold 27px/30px Segoe UI;
   }
 }
@@ -571,12 +567,16 @@ justify-content: center;
   .background-shape{
     display: none;
   }
-  .css-shadow{
-    box-shadow: none;
-  }
+ 
 }
 @media only screen and (max-width: 500px) {
   .wrapper-card-login{
     min-width: 280px;
        }
+       .css-shadow{
+        box-shadow: none;
+      }
+      .tab-buttons button{
+        padding: 10px 30px !important;
+      }
 }
