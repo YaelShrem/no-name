@@ -26,6 +26,7 @@ import Login2 from "./login/Login2";
 // import InformationTemp from '../components/dashboard/Charts/InformationTemp'
 // import Chart2 from '../components/dashboard/Charts/Chart2'
 // import Layout from '../components/dashboard/sideBar/Layout'
+
 function App() {
   return (
     <>
