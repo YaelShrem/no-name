@@ -10,6 +10,9 @@
   letter-spacing: 0px !important;
   text-align: left !important;
 }
+.tab-div-product-menu>div:first-child{
+  width: 1300px !important;
+}
 /* 
 .tab-buttons {
   margin-bottom: 50px;
@@ -30,23 +33,53 @@
   font: normal normal 600 18px/60px Segoe UI !important;
 }
 .tab-buttons .active {
-  border-bottom: 3px solid var(--yellow) !important;
+  border-bottom: 3px solid #4DDC9E !important;
   color: #707070 !important;
+}
+@media only screen and (max-width: 1450px) {
+  .tab-div-product-menu>div:first-child{
+    width: 870px !important;
+  }
 }
 @media only screen and (max-width: 1190px) {
   .wrapper-product-menu {
     width: 100% !important;
     max-width: 100%;
   }
+  .tab-div-product-menu>div:first-child{
+    width: 700px !important;
+  }
 }
-
+@media only screen and (max-width: 800px) {
+  .tab-div-product-menu>div:first-child{
+    width: 600px !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .tab-div-product-menu>div:first-child{
+    width: 500px !important;
+  }
+}
 @media only screen and (max-width: 582px) {
   .tab-buttons button {
     font: normal normal 600 16px/60px Segoe UI !important;
   }
 }
+@media only screen and (max-width: 520px) {
+  .tab-div-product-menu>div:first-child{
+    width: 447px !important;
+  }
+}
 @media only screen and (max-width: 464px) {
   .tab-buttons button {
     display: block;
+  }
+  .tab-div-product-menu>div:first-child{
+    width: 400px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .tab-div-product-menu>div:first-child{
+    width:300px !important;
   }
 }

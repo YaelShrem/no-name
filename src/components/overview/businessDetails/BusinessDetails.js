@@ -3,9 +3,7 @@ import React from "react";
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import UserMenu from "../../shoppingCart/userMenu/UserMenu";
-import ProductCatalog from "../../shoppingCart/productCatalog/ProductCatalog";
 import ProductMenu from "../../shoppingCart/productMenu/ProductMenu";
-import TabsTitle from "../../tabsTitle/TabsTitle";
 import Recommendations from "../../recommendations/Recommendations";  
 export default function BusinessDetails() {
   return (
