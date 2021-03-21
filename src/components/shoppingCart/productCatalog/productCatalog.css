@@ -26,6 +26,7 @@
 }
 .card {
   border: none !important;
+  width: unset !important;
 }
 .card-text:last-child {
   margin-bottom: none !important;
@@ -210,6 +211,7 @@ opacity: 1;
   padding-bottom: 70px;
 }
 .swiper-slide{
+  /* width: 740px !important; */
 display: flex;
 justify-content: center;
 }
@@ -231,33 +233,81 @@ bottom: 30px !important;
     max-width: 100% !important;
     justify-content: end !important;
   }
-}
-@media only screen and (max-width: 770px) {
-  .swiper-button-next, .swiper-button-prev{
-   top: 99.3% !important;
+  .tab-div-product-menu>div:first-child{
+    width: 790px !important;
   }
-  .swiper-container-horizontal > .swiper-scrollbar{
+}
+@media only screen and (max-width: 773px) {
+  .swiper-slide{
+    width: 560px !important;
+  }
+  /* .swiper-button-next, .swiper-button-prev{
+   top: 99.3% !important;
+  } */
+  /* .swiper-container-horizontal > .swiper-scrollbar{
     left: 8% !important;
     width: 85% !important;
   }
- }
+  .swiper-scrollbar-drag{
+    width:40% !important;
+  } */
+  .tab-div-product-menu>div:first-child{
+    width:590px !important;
+  }
+}
 @media only screen and (max-width: 582px) {
   .wrapper-header-catalog {
     width: 84% !important;
   }
-}
+  .tab-div-product-menu>div:first-child,.swiper-slide{
+    width:540px !important;
+  }
+ }
+ @media only screen and (max-width: 575px){
+  .swiper-button-next, .swiper-button-prev{
+    display: none !important;
+  }
+ }
 @media only screen and (max-width: 557px) {
   .wrapper-header-catalog {
     width: 86% !important;
   }
+  
 }
 @media only screen and (max-width: 530px) {
   .wrapper-header-catalog {
     width: 90% !important;
   }
+  .tab-div-product-menu>div:first-child, .swiper-slide{
+    width:500px !important;
+  }
 }
 @media only screen and (max-width: 522px) {
   .wrapper-header-catalog {
     width: 98% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .tab-div-product-menu>div:first-child, .swiper-slide{
+    width:400px !important;
+  }
+  .swiper-slide{
+    width: 370px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .tab-div-product-menu>div:first-child, .swiper-slide{
+    width:350px !important;
+  }
+  .swiper-slide{
+    width: 300px !important;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .tab-div-product-menu>div:first-child, .swiper-slide{
+    width:320px !important;
+  }
+  .swiper-slide{
+    width: 300px !important;
   }
 }

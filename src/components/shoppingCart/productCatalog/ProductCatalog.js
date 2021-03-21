@@ -37,6 +37,9 @@ export default function ProductCatalog() {
       onSlideChange={() => console.log('slide change')}
     
       breakpoints={{
+        576:{
+          navigation:false,
+          },
         760: {
           slidesPerView:1,
         },
@@ -52,8 +55,8 @@ export default function ProductCatalog() {
       }}
     >
        <SwiperSlide>
-          <div className="row d-flex justify-content-center">
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+       <div className="row d-flex justify-content-center">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -93,7 +96,7 @@ export default function ProductCatalog() {
                 {/* </div> */}
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -127,7 +130,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -161,7 +164,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -195,7 +198,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -229,7 +232,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -263,7 +266,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -297,7 +300,7 @@ export default function ProductCatalog() {
                   </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -331,7 +334,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -369,7 +372,7 @@ export default function ProductCatalog() {
           </SwiperSlide>
           <SwiperSlide>
           <div className="row d-flex justify-content-center">
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -409,7 +412,7 @@ export default function ProductCatalog() {
                 {/* </div> */}
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -443,7 +446,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -477,7 +480,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -511,7 +514,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -545,7 +548,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -579,7 +582,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -613,7 +616,7 @@ export default function ProductCatalog() {
                   </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
@@ -647,7 +650,7 @@ export default function ProductCatalog() {
                 </div>
               </Card.Body>
             </Card>
-            <Card className="card-catalog d-flex col-lg-3 col-md-5 col-sm-12">
+            <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
                 className="img-catalog"
                 variant="top"
