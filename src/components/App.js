@@ -1,7 +1,7 @@
 // import Header from "./header/Header";
-import HomePage from './homePage/HomePage';
+// import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
-// import BusinessDetails from "./overview/businessDetails/BusinessDetails";
+import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSection";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
@@ -30,11 +30,11 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      <HomePage />
+      {/* <HomePage /> */}
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}
-      {/* <BusinessDetails /> */}
+      <BusinessDetails />
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
