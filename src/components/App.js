@@ -21,25 +21,27 @@ import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import Doughnut from "./dashboard/Doughnut"
 // import Bar from './dashboard/Bar'
 // import BarAppex from './dashboard/BarApex'
-// import HomeHeader from './homeHeader/HomeHeader'
+//import HomeHeader from './homeHeader/HomeHeader'
 // import CardDashboard from '../components/dashboard/cardDashboard/CardDashboard'
 // import InformationTemp from '../components/dashboard/Charts/InformationTemp'
 // import Chart2 from '../components/dashboard/Charts/Chart2'
 // import Layout from '../components/dashboard/sideBar/Layout'
+
 function App() {
   return (
     <>
       {/* <Header /> */}
       {/* <HomePage /> */}
       {/* <Pricing /> */}
-      {/* <Login2 /> */}
+      <Login2 />
       {/* <Recommendations /> */}
       <BusinessDetails />
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
       {/* <ShoppingBag /> */}
-      {/* <ProductMenu /> */}
+      {/*  
+      <ProductMenu /> */}
       {/* <AddReviews /> */}
       {/* <TabsTitle/> */}
       {/* <AddListing/> */}
