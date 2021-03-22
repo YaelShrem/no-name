@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
+import React, { useState } from "react";
+// import { useHistory } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
@@ -19,12 +19,12 @@ import Icon from "../Icon";
 */
 
 export default function Header() {
-  const [error, setError] = useState("");
+  // const [error, setError] = useState("");
   const [language, setLanguage] = useState("en");
   const [languageView, setLanguageView] = useState("Language");
-  const [flag, setFlag] = useState(true);
+  // const [flag, setFlag] = useState(true);
   const { t, i18n } = useTranslation();
-  const history = useHistory();
+  // const history = useHistory();
 
   const handleLanguage = (lang) => {
     setLanguage(lang);
@@ -33,15 +33,15 @@ export default function Header() {
 
   //const { currentUser,logout } = useAuth();
 
-  async function handleLogout() {
-    setError("");
-    try {
-      //   await logout()
-      history.push("/");
-    } catch {
-      setError("Failed to log out");
-    }
-  }
+  // async function handleLogout() {
+  //   setError("");
+  //   try {
+  //     //   await logout()
+  //     history.push("/");
+  //   } catch {
+  //     setError("Failed to log out");
+  //   }
+  // }
 
   return (
     <header>

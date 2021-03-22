@@ -39,7 +39,7 @@ export default function Login2() {
                      
                       <h3 className="wellcome-login">Wellcome to easycart!</h3>
                       {/* <p className="psign">כאן יוצג כפתור</p> */}
-{/*                      
+                     
                       <div className="header__center">Or</div>
                       <Form className="form formRegister  d-flex flex-column justify-content-between">
                         <div className="wrapper-input-login">
@@ -81,7 +81,7 @@ export default function Login2() {
                           </div>
                           <p className="link-login">Recover password</p>
                         </div>
-                      </Form> */}
+                      </Form>
 
                       <div className="d-flex justify-content-center">
                       <Button className="Sign-in" variant="outline-light">כאן יוצג כפתור</Button>
@@ -92,7 +92,7 @@ export default function Login2() {
                       {/* Register */}
                       <h2 className="wellcome-login">Wellcome to easycart!</h2>
                       {/* <p className="psign">כאן יוצג כפתור</p> */}
-                      {/* <button
+                       <button
                         variant="contained"
                         type="button"
                         className="login-with-google-btn d-flex justify-content-center align-items-center"
@@ -140,7 +140,7 @@ export default function Login2() {
                           </div>
                           <p className="link-login">Recover password</p>
                         </div>
-                      </Form> */}
+                      </Form> 
 
                       <div className="d-flex justify-content-center">
                       <Button className="Sign-in" variant="outline-light">כאן יוצג כפתור</Button>
