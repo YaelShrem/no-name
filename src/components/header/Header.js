@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./header.css";
+import Icon from "../Icon";
 //import { useAuth } from "../AuthContext";
 
 /*            {/* <nav className="nav-header">
@@ -20,7 +21,7 @@ import "./header.css";
 export default function Header() {
   const [error, setError] = useState("");
   const [language, setLanguage] = useState("en");
-  const [languageView, setLanguageView] = useState("Select Language");
+  const [languageView, setLanguageView] = useState("Language");
   const [flag, setFlag] = useState(true);
   const { t, i18n } = useTranslation();
   const history = useHistory();
@@ -57,12 +58,12 @@ export default function Header() {
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/">{t('header.link-1')}</Nav.Link>
-            <Nav.Link href="#categories">{t('header.link-2')}</Nav.Link>
-            <Nav.Link href="/add">{t('header.link-3')}</Nav.Link>
-            <Nav.Link href="/signup">{t('header.link-4')}</Nav.Link>
+        <Navbar.Collapse className="navbar-collapse-header" id="responsive-navbar-nav">
+          <Nav className="">
+            <Nav.Link href="/" className="home">{t('home')}</Nav.Link>
+            <Nav.Link href="#categories">{t('Categories')}</Nav.Link>
+            <Nav.Link href="/add">{t('Post for free')}</Nav.Link>
+            <Nav.Link href="/signup">{t('sign up | sign in')}</Nav.Link>
             <NavDropdown title={languageView} id="collasible-nav-dropdown">
               <NavDropdown.Item className="animate slideIn"
                onClick={() => { setLanguageView('English'); handleLanguage('en') }}>
@@ -112,6 +113,10 @@ export default function Header() {
                 عربى
               </NavDropdown.Item>
             </NavDropdown>
+         <Navbar.Text className="icons-wrapper-header">
+            <Icon name="cart" className="cart-icon-header"></Icon>
+           <Icon name="userProphile" className="user-icon-header"></Icon>
+           </Navbar.Text>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
