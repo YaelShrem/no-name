@@ -1,5 +1,5 @@
 .nav-header {
-  background: var(--gray) !important;
+  background: var(--dark-gray) !important;
   direction: ltr;
   justify-content: space-between !important;
 }
@@ -7,13 +7,11 @@
 .nav-link {
   padding-right: 2.2rem !important;
   padding-left: 2.2rem !important;
-  color: white !important;
 }
 
 .nav-link:hover {
-  color: var(--yellow) !important;
+  color: var(--first-color) !important;
 }
-
 .navbar-dark .navbar-toggler {
   outline: none;
 }
@@ -62,8 +60,4 @@
 .slideIn {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
-}
-
-.fixed-top {
-  position: inherit !important;
 }
