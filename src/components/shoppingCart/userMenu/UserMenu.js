@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import "./userMenu.css";
 import AddReviews from "../../overview/addReviews/AddReviews";
 import ReactScrollbar from 'react-scrollbar';
