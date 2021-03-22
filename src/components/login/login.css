@@ -341,7 +341,7 @@ input[type="checkbox"]:checked + .labelClass:after {
   position: absolute;
   left: 6px;
   top: 6px;
-  background: linear-gradient(to left, #222 0%, #45484d 100%);
+  background: linear-gradient(to top, #222 0%, #45484d 100%);
   border-radius: 50px;
    background-color: white;
 }
@@ -353,7 +353,7 @@ input[type="checkbox"]:checked + .labelClass:after {
   top: 0px;
   left: 0px;
   background: #fff;
-  background: linear-gradient(to left, #00bf00 0%, #009400 100%);
+  background: linear-gradient(to top, #00bf00 0%, #009400 100%);
   opacity: 0;
   border-radius: 50px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
