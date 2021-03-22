@@ -8,7 +8,7 @@
   max-width: 100% !important;
 }
 .wrapper-card-login {
-  height: 320px;
+  height: 650px;
   width: 500px;
  }
 .css-shadow {
@@ -28,7 +28,7 @@
 .tab-content-login{
   text-align: center;
     direction: ltr;
-    height: 200px;
+    height: 550px;
     padding-top: 10px;
     padding-bottom: 20px;
   }
@@ -46,13 +46,13 @@ opacity: 1;
   padding-top: 20px;
   margin-bottom: 0px;
 }
-/* .main-img {
+.main-img {
   width: 35vw;
   height: 73vh;
   position: absolute;
   left: 7%;
   top: 25%;
-} */
+}
  .wrapper-input-login{
   height: 62px;
 }
@@ -101,7 +101,7 @@ margin-bottom: 0px !important;
   margin-bottom: -1px;
   opacity: 1 !important;
 } */
-/* .google {
+ .google {
   top: 389px;
   left: 837px;
   width: 246px;
@@ -116,7 +116,7 @@ margin-bottom: 0px !important;
   letter-spacing: 0px;
   color: #707070;
   opacity: 1;
-} */
+} 
 .Sign-in:active,
 .Sign-in:hover {
   color: var(--white) !important;
@@ -175,7 +175,7 @@ input:focus {
 .wrapper-forgot-password {
   width: 400px;
 } */
-/* 
+
 .input-group {
   border: 1px solid #ccc !important;
   border-radius: 3px !important;
@@ -193,8 +193,8 @@ input:focus {
 .form-control {
   border: none !important;
   box-shadow: none !important;
-} */
-/* 
+} 
+
 .linka {
   font-size: 15px !important;
   font-weight: normal !important;
@@ -275,7 +275,7 @@ input:focus {
 }
 .p-google-button {
   font-size: large;
-} */
+} 
 
 .header__center {
   font-size: 2rem;
@@ -311,7 +311,7 @@ input:focus {
 }
 
 /* .roundedOne */
-/* .roundedOne {
+ .roundedOne {
   width: 28px;
   height: 28px;
   position: relative;
@@ -333,15 +333,15 @@ input[type="checkbox"]:checked + .labelClass:after {
   opacity: 1;
    background-color:var(--green-blue);
 
-} */
-/* .labelClass {
+} 
+ .labelClass {
   width: 16px;
   height: 16px;
   cursor: pointer;
   position: absolute;
   left: 6px;
   top: 6px;
-  background: linear-gradient(top, #222 0%, #45484d 100%);
+  background: linear-gradient(to left, #222 0%, #45484d 100%);
   border-radius: 50px;
    background-color: white;
 }
@@ -353,11 +353,11 @@ input[type="checkbox"]:checked + .labelClass:after {
   top: 0px;
   left: 0px;
   background: #fff;
-  background: linear-gradient(top, #00bf00 0%, #009400 100%);
+  background: linear-gradient(to left, #00bf00 0%, #009400 100%);
   opacity: 0;
   border-radius: 50px;
   box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
-} */
+} 
 /* end .roundedOne */
 .link-login {
   top: 765px;
@@ -488,7 +488,7 @@ justify-content: center;
      }
 }
 @media only screen and (max-width: 1440px) {
-  .tab-buttons button{
+  .tab-div .tab-buttons button{
     padding: 10px 40px !important;
 
   }
@@ -516,7 +516,12 @@ justify-content: center;
        .css-shadow{
         box-shadow: none;
       }
-      .tab-buttons button{
+      .tab-div .tab-buttons button{
         padding: 10px 30px !important;
       }
 }
+/* @media only screen and (max-width: 480px) {
+  .tab-buttons button{
+    padding: 10px 10px !important;
+  }
+} */

@@ -1,19 +1,19 @@
-import React, { useRef, useState } from "react";
-import { TextField, FormControlLabel, Radio } from "@material-ui/core";
-import { Paper } from "@material-ui/core";
-import { useTranslation } from "react-i18next";
-import { Form, Button, Card, Alert, Container } from "react-bootstrap";
+import React from "react";
+// import { TextField, FormControlLabel, Radio } from "@material-ui/core";
+// import { Paper } from "@material-ui/core";
+// import { useTranslation } from "react-i18next";
+import { Form, Button, Card, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import backgroundShape from "../../style/images/backgroundShape.png";
 import "./login.css";
 
 
 export default function Login2() {
-  const emailRef = useRef();
-  const passwordRef = useRef();
+  // const emailRef = useRef();
+  // const passwordRef = useRef();
   //const { login } = useAuth();
   //const [error, setError] = useState("");
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   return (
     <>
@@ -30,7 +30,7 @@ export default function Login2() {
       >
         <div className="wrapper-card-login d-flex justify-content-center">
           <Card className="css-shadow">
-            <Card.Body className="card d-flex justify-content-center align-items-center">
+            <Card.Body className="card d-flex align-items-center">
               <div className="sign-in-form style-1 d-flex flex-column justify-content-between">
                 <div className="tab-div d-flex-column justify-content-between">
                   <Tabs>
@@ -39,7 +39,18 @@ export default function Login2() {
                      
                       <h3 className="wellcome-login">Wellcome to easycart!</h3>
                       {/* <p className="psign">כאן יוצג כפתור</p> */}
-                     
+                      <button
+                        variant="contained"
+                        type="button"
+                        className="login-with-google-btn d-flex justify-content-center align-items-center"
+                      >
+                        <p className="p-google-button m-0">Google</p>
+                        <img
+                          class="firebaseui-idp-icon"
+                          alt=""
+                          src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                        ></img>{" "}
+                      </button>
                       <div className="header__center">Or</div>
                       <Form className="form formRegister  d-flex flex-column justify-content-between">
                         <div className="wrapper-input-login">
