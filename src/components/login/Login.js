@@ -9,6 +9,7 @@ import firebase from "firebase";
 // import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 import "./login.css";
 
+
 export default function Login() {
   const { t } = useTranslation();
   const emailRef = useRef();
@@ -52,7 +53,6 @@ export default function Login() {
                 firebaseAuth={firebase.auth()}
                 type="submit"
               /> */}
-
               <Form>
                 <Form.Label type="email" ref={emailRef} required>
                   {/* {t("userName")} */}
