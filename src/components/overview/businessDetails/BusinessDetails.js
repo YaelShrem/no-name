@@ -15,11 +15,13 @@ export default function BusinessDetails() {
         </div> */}
         </div>
       </div>
+      
       <div className="d-flex flex-column justify-content-center w-100">
           <UserMenu/>
            <ProductMenu/>
            <Recommendations/>
         </div>
+
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </>
   );
