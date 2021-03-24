@@ -30,11 +30,9 @@ opacity: 1;
   padding-left: 2.2rem !important;
   color: white !important;
 }
-.home{
+
+.nav-link:hover ,.nav-link:focus{
   color:#22C5BB !important;
-}
-.nav-link:hover {
-  color: var(--first-color) !important;
 }
 .navbar-dark .navbar-toggler {
   outline: none;

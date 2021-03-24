@@ -60,7 +60,7 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="navbar-collapse-header" id="responsive-navbar-nav">
           <Nav className="">
-            <Nav.Link href="/" className="home">{t('home')}</Nav.Link>
+            <Nav.Link href="/">{t('home')}</Nav.Link>
             <Nav.Link href="#categories">{t('Categories')}</Nav.Link>
             <Nav.Link href="/add">{t('Post for free')}</Nav.Link>
             <Nav.Link href="/signup">{t('sign up | sign in')}</Nav.Link>
@@ -113,7 +113,7 @@ export default function Header() {
                 عربى
               </NavDropdown.Item>
             </NavDropdown>
-         <Navbar.Text className="icons-wrapper-header">
+            <Navbar.Text className="icons-wrapper-header">
             <Icon name="cart" className="cart-icon-header"></Icon>
            <Icon name="userProphile" className="user-icon-header"></Icon>
            </Navbar.Text>

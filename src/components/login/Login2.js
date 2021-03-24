@@ -117,7 +117,7 @@ export default function Login2() {
                       </button>
 
                       <div className="header__center">Or</div>
-                      <Form className="form formRegister sign-in-form-wrapper d-flex flex-column justify-content-between">
+                      <Form className="form formRegister sign-in-form-wrapper d-flex flex-column justify-content-around">
                         <div className="wrapper-input-login">
                           <Form.Label className="form-lable label-login w-100">
                             Email
