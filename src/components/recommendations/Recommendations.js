@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React from "react";
 import "./recommendations.css";
 import message from "../../style/images/messageltr.png";
 import Avater from "../../style/images/avater.png";
@@ -7,7 +7,6 @@ import Rating from "@material-ui/lab/Rating";
 import Box from "@material-ui/core/Box";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -25,54 +24,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
 export default function Recommendations(props) {
-  const [value, setValue] = React.useState(5);
-  const [index, setIndex] = useState(0);
-        const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow:5,
-        slidesToScroll:3,
-        responsive: [
-          {
-            breakpoint: 1999 ,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 3,
-              initialSlide: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-               {
-            breakpoint: 1600 ,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              initialSlide: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 1000,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 3,
-              initialSlide: 1,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 3,
-              initialSlide: 1,
-            }
-          }
-        ]
-      };
+  const [value] = React.useState(5);
+   
   return (
     <>
       <div className="wrapperRecommendations d-flex flex-column justify-content-between align-items-center">
@@ -82,7 +35,7 @@ export default function Recommendations(props) {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       breakpoints={{
-        760: {
+        700: {
           slidesPerView:2,
         },
         1050: {
@@ -96,8 +49,8 @@ export default function Recommendations(props) {
         }
       }}
     >
-       <SwiperSlide>  <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
+          <SwiperSlide>  <div className="slide-recommendations">
+          <div className="item d-flex flex-column align-items-center">
       <div className="wrap">
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
@@ -120,7 +73,7 @@ export default function Recommendations(props) {
     </div>
           </div></SwiperSlide>
           <SwiperSlide>  <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
+          <div className="item d-flex flex-column align-items-center">
       <div className="wrap">
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
@@ -143,7 +96,7 @@ export default function Recommendations(props) {
     </div>
           </div></SwiperSlide>
           <SwiperSlide>  <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
+          <div className="item d-flex flex-column align-items-center">
       <div className="wrap">
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
@@ -166,7 +119,7 @@ export default function Recommendations(props) {
     </div>
           </div></SwiperSlide>
           <SwiperSlide>  <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
+          <div className="item d-flex flex-column align-items-center">
       <div className="wrap">
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
@@ -189,7 +142,7 @@ export default function Recommendations(props) {
     </div>
           </div></SwiperSlide>
           <SwiperSlide>  <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
+          <div className="item d-flex flex-column align-items-center">
       <div className="wrap">
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">
@@ -212,7 +165,7 @@ export default function Recommendations(props) {
     </div>
           </div></SwiperSlide>
           <SwiperSlide>  <div className="slide-recommendations">
-          <div className="item d-flex flex-column align-items-center" data-value="1">
+          <div className="item d-flex flex-column align-items-center">
       <div className="wrap">
         <img src={message} alt={message} className="message" />
         <div className="wrapperp d-flex flex-column justify-content-between">

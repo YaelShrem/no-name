@@ -90,7 +90,7 @@ label {
   width: 68px !important;
   height: 68px !important;
   border: 4px solid var(--unnamed-color-ffffff) !important;
-  background: transparent url("") 0% 0% no-repeat padding-box !important;
+  background: transparent  0% 0% no-repeat padding-box !important;
   /* box-shadow: 0px 4px 8px #0000001A; */
   border: 4px solid #ffffff !important;
   opacity: 1 !important;
@@ -191,15 +191,15 @@ label {
 .fieldset-star {
   margin-top: 0px !important;
 }
-.swiper-container{
+.wrapperRecommendations .swiper-container{
   width: 100%;
   margin-bottom: 20px;
 }
-.swiper-slide{
+.wrapperRecommendations .swiper-slide{
 display: flex;
 justify-content: center;
 }
-.swiper-button-prev:after, .swiper-button-next:after{
+.wrapperRecommendations .swiper-button-prev:after,.wrapperRecommendations .swiper-button-next:after{
   color: var(--green-blue);
 }
 
@@ -241,7 +241,12 @@ justify-content: center;
 
   .divAvaset {
     bottom: 11px;
-    right: 72px;
+    right: 53px;
+  }
+}
+@media screen and (max-width:700px){
+  .divAvaset {
+    right: 70px;
   }
 }
 @media screen and (max-width:600px) {
@@ -256,5 +261,16 @@ justify-content: center;
   .divAvaset {
     bottom: 24px;
     right: 90px;
+  }
+}
+@media screen and (max-width:575px) {
+  .wrapperRecommendations .swiper-button-next,.wrapperRecommendations .swiper-button-prev{
+    display: inline !important;
+  }
+}
+@media screen and (max-width:400px) {
+  .divAvaset {
+    bottom: 24px;
+    right: 64px;
   }
 }

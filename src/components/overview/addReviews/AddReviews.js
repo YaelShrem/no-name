@@ -19,14 +19,7 @@ export default function AddReviews() {
               className="textarea"
             ></Form.Control>
           </Form.Group>
-          {/* <Button
-            className="button-uplaod-img"
-            variant="outline-warning"
-            size="sm"
-          >
-            add picture <Icon name="picture" />
-          </Button> */}
-        </Form>
+          </Form>
         <Button className="btn-review" variant="outline-warning">
           Send Reviews
         </Button>

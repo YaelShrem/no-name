@@ -1,6 +1,5 @@
 .div-wrap {
   background-color: var(--smoky-white);
-  /* width: 100vw; */
 }
 
 .container-shopping-bag {
@@ -12,13 +11,10 @@
 }
 
 .img-shopping-bag {
-  /* width: 14vw;
-  height: 24vh; */
   width: 161px;
   height: 160px;
 }
 .p1-bag {
-  /* font: var(--unnamed-font-style-normal) normal 900 24px/32px var(--unnamed-font-family-roboto) !important; */
   text-align: left;
   font: normal normal 900 24px/32px Roboto !important;
   letter-spacing: 0.34px;
@@ -39,7 +35,7 @@
   margin-bottom: 0rem !important;
 }
 
-.btn-invite {
+.wrapper-button-shopping-bag .btn-invite {
   border: 2px solid  #4DDC9E !important;
   border-radius: 10px !important;
   width: 162px !important;
@@ -57,36 +53,20 @@
     var(--unnamed-font-size-18) / 22px var(--unnamed-font-family-roboto);
   color: var(--gray);
   text-align: left;
-  /* font: normal normal bold 18px/22px Roboto; */
   letter-spacing: 0.18px;
 }
 
-.btn-invite:active,
-.btn-invite:hover {
+.wrapper-button-shopping-bag .btn-invite:active,
+.wrapper-button-shopping-bag .btn-invite:hover {
   color: var(--white) !important;
   background: transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
   box-shadow: none !important;
 }
 .div-detail-bag {
-  /* padding-right: 22px !important; */
   width: calc(100% - 161px) !important;
   margin-left: 31px;
 }
-.count {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
-    38px/4px var(--unnamed-font-family-segoe-ui) !important;
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--gray);
-  text-align: left;
-  /* font: normal normal 600 38px/4px Segoe UI; */
-  letter-spacing: 0px;
-  font-size: x-large !important;
-  opacity: 1;
-}
-
 .p3-bag-count {
-  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-18) / 24px Poppins; */
   color: var(--gray);
   text-align: right;
   font: normal normal bold 18px/24px Poppins;
@@ -95,10 +75,6 @@
 }
 .p3-dollar {
   left: 0.4659996032714844px;
-  /* width: 15px;
-height: 31px; */
-  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) */
-    /* 22px/24px Poppins !important; */
   text-align: right !important;
   font: normal normal bold 22px/24px Poppins;
   letter-spacing: 0.44px !important;
@@ -127,8 +103,8 @@ height: 31px; */
   letter-spacing: 0.23px;
   color: var(--black);
 }
-.Decrement,
-.Increment {
+.count-wrapper .Decrement,
+.count-wrapper .Increment {
   background: none;
   border: none;
   height: fit-content;
@@ -137,21 +113,21 @@ height: 31px; */
   text-align: left !important;
   font: normal normal 600 27px/3px Segoe UI !important;
 }
-.Decrement:focus,
-.Increment:focus {
+.count-wrapper .Decrement:focus,
+.count-wrapper .Increment:focus {
   outline: none;
   background-color: #e0dcdc73;
 }
-.count-product {
+.count-wrapper .count-product {
   color: var(--gray) !important;
    text-align: left !important;
   font: normal normal 600 27px/3px Segoe UI !important;
 }
 
-.submit{
+.container-shopping-bag .submit{
   padding-top: 45px !important;
 }
-.devide{
+.container-shopping-bag .devide{
   padding-bottom: 25px;
   padding-top: 25px;
   padding-left: 31px;

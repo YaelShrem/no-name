@@ -10,7 +10,6 @@ import iconReview from "../../../style/images/icon-review.png";
 import Icon from "../../Icon";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import "./topBusinessesSection.css"
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -74,7 +73,25 @@ export default function TopBusinesses() {
               </Card.Footer>
           </Card></SwiperSlide>
       <SwiperSlide>  <Card className="wrapper-card-topBusiness">
-            <Card.Img variant="top" src={image1} />
+            <Card.Img variant="top" src={image2} />
+            <Card.Body>
+              <Card.Title>business name</Card.Title>
+              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
+            </Card.Body>
+            <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
+              <div className="wrapper-item-footer-topBuisness">
+              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
+              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
+             <Icon name="place"/>
+              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
+              <div className="wrapper-item-footer-topBuisness">
+              <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
+              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
+              </Card.Footer>
+          </Card></SwiperSlide>
+      <SwiperSlide>  <Card className="wrapper-card-topBusiness">
+            <Card.Img variant="top" src={image3} />
             <Card.Body>
               <Card.Title>business name</Card.Title>
               <Card.Text className="location-topBuisness"> Business location address </Card.Text>
@@ -128,25 +145,7 @@ export default function TopBusinesses() {
               </Card.Footer>
           </Card></SwiperSlide>
       <SwiperSlide>  <Card className="wrapper-card-topBusiness">
-            <Card.Img variant="top" src={image1} />
-            <Card.Body>
-              <Card.Title>business name</Card.Title>
-              <Card.Text className="location-topBuisness"> Business location address </Card.Text>
-            </Card.Body>
-            <Card.Footer className="wrapper-footer-card-topBuisness d-flex justify-content-between align-items-center">
-              <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"23px",height:"20px"}} src={iconClock} />
-              <Card.Text className="pfooter-topBuisness">Open</Card.Text></div>
-              <div className="wrapper-item-footer-topBuisness">
-             <Icon name="place"/>
-              <Card.Text className="pfooter-topBuisness">1.1 km</Card.Text></div>
-              <div className="wrapper-item-footer-topBuisness">
-              <Card.Img style={{width:"21px",height:"20px"}} src={iconReview} />
-              <Card.Text className="pfooter-topBuisness">24 Reviews</Card.Text></div>
-              </Card.Footer>
-          </Card></SwiperSlide>
-      <SwiperSlide>  <Card className="wrapper-card-topBusiness">
-            <Card.Img variant="top" src={image1} />
+            <Card.Img variant="top" src={image2} />
             <Card.Body>
               <Card.Title>business name</Card.Title>
               <Card.Text className="location-topBuisness"> Business location address </Card.Text>
@@ -168,24 +167,5 @@ export default function TopBusinesses() {
 
       </section>
     </>
-  );
-}
-function SampleNextArrow(props) {
-  const { className, onClick } = props;
-  return (
-    <div
-      className={className}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, onClick } = props;
-  return (
-    <div
-      className={className}
-      onClick={onClick}
-    />
   );
 }

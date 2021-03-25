@@ -13,26 +13,8 @@
 .tab-div-product-menu>div:first-child{
   width: 1300px !important;
 }
-/* 
-.tab-buttons {
-  margin-bottom: 50px;
-} */
 
-/* .tab-buttons button {
-  margin-right: 15px !important;
-  font-size: 16px !important;
-  background: transparent !important;
-  border: none !important;
-  outline: none !important;
-  padding: 10px 5px !important;
-  padding-bottom: 0px !important;
-  cursor: pointer !important;
-  color: rgba(0, 0, 0, 0.4) !important;
-  transition: all ease-in-out 0.2s !important;
-  border-bottom: 3px solid transparent !important;
-  font: normal normal 600 18px/60px Segoe UI !important;
-} */
-.tab-buttons button {
+.tab-div-product-menu .tab-buttons button {
   font-size: 23px !important;
   background: transparent !important;
   border: none !important;
@@ -46,7 +28,7 @@
   font-weight: 500;
   text-transform: lowercase;
 }
-.tab-buttons .active {
+.tab-div-product-menu .tab-buttons .active {
   border-bottom: 2px solid var(--green-blue) !important;
   color:var(--green-blue) !important;
 
@@ -64,7 +46,7 @@
   .tab-div-product-menu>div:first-child{
     width: 700px !important;
   }
-  .tab-buttons button {
+ .tab-div-product-menu .tab-buttons button {
     font-size: 18px !important;}
 }
 @media only screen and (max-width: 800px) {
@@ -73,7 +55,7 @@
   }
 }
 @media only screen and (max-width: 711px) {
-  .tab-buttons button {
+  .tab-div-product-menu .tab-buttons button {
     font-size: 16px !important;
     padding: 10px 20px !important;
 
@@ -85,7 +67,7 @@
   }
 }
 @media only screen and (max-width: 590px) {
-  .tab-buttons button {
+  .tab-div-product-menu .tab-buttons button {
     font-size: 15px !important;
     padding: 10px 15px !important;
 
@@ -97,7 +79,7 @@
   }
 }
 @media only screen and (max-width: 470px) {
-  .tab-buttons button {
+ .tab-div-product-menu .tab-buttons button {
     font-size: 13px !important;
     padding: 10px 13px !important;
 
@@ -110,19 +92,19 @@
   .tab-div-product-menu>div:first-child{
     width:300px !important;
   }
-  .tab-buttons button {
+  .tab-div-product-menu .tab-buttons button {
     font-size: 12px !important;
     padding: 10px 7px !important;
   }
 }
 @media only screen and (max-width: 325px) {
-  .tab-buttons button {
+  .tab-div-product-menu .tab-buttons button {
     font-size: 11.5px !important;
     padding: 10px 5px !important;
   }
 }
 @media only screen and (max-width: 305px) {
-  .tab-buttons button {
+ .tab-div-product-menu .tab-buttons button {
    display: block;
   }
 }

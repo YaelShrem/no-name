@@ -2,12 +2,10 @@ import React from 'react'
 import Icon from '../../Icon';
 import {Row, Col} from 'react-bootstrap';
 import './categoriesSection.css';
-import {useSpring, animated} from 'react-spring'
+import {useSpring} from 'react-spring'
 
 export default function CategoriesSection() {
-    const props = useSpring({opacity: 1, from: {opacity: 0}})
     return (
-
         <section className="categories-section">
              <h2 className="main-title">Categories</h2>
              <Row>

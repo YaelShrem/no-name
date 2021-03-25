@@ -7,7 +7,7 @@ import food1 from "../../../style/images/food-1.png";
 import food2 from "../../../style/images/food-2.png";
 import food3 from "../../../style/images/food-3.png";
 import food4 from "../../../style/images/food-4.png";
-import { Container, Button, Card  } from "react-bootstrap";
+import { Container, Card} from "react-bootstrap";
 import Icon from "../../Icon";
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -87,14 +87,7 @@ export default function ProductCatalog() {
                   <Card.Text className="price-catalog">25</Card.Text>
                   </div>
                 </div>
-                {/* <div className="d-flex justify-content-between"> */}
-                {/* <div className="count-wrapper d-flex">
-                    <button className="Decrement">-</button>
-                    <div className="count-product">1</div>
-                    <button className="Increment">+</button>
-                  </div> */}
-                {/* </div> */}
-              </Card.Body>
+               </Card.Body>
             </Card>
             <Card className="card-catalog d-flex col-lg-3 col-md-3 col-sm-3 offset-sm-4">
               <Card.Img
@@ -688,18 +681,6 @@ export default function ProductCatalog() {
           </SwiperSlide>
       </Swiper>
         </div>
-        {/* <div className="d-flex footer-slider justify-content-between align-items-center">
-          <Button className="arrow" variant="light">
-            <Icon name="leftArrow" className="leftArrow"></Icon>
-          </Button>
-          <div className="wrapper-right-side-footer-catalog d-flex align-items-center">
-          <div className="line-over d-flex justify-content-center">
-            
-          </div>
-          <Button className="arrow ml-3" variant="light">
-            <Icon name="rightArrow" className="rightArrow"></Icon>
-          </Button></div>
-        </div> */}
       </Container>
     </>
   );
