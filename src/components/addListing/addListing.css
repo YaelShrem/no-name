@@ -1,5 +1,8 @@
 .container-add-listing {
   max-width: 70vw !important;
+  text-align: center !important;
+  padding-top: 5vh;
+  padding-bottom: 13vh
 }
 
 .btn-add-listing {
@@ -9,8 +12,8 @@
   color: var(--white);
   text-align: center !important;
   letter-spacing: 0px;
-  width: 62vw;
-  height: 10vh;
+  width: calc(100% - 87px);
+  height: 11vh;
   border-color: transparent !important;
   /* font: normal normal normal 14px/17px Roboto; */
   font-size: x-large;
@@ -20,8 +23,9 @@
 
 .card-add-listing {
   /* box-shadow: 0 -1px 0px 0 rgb(0 0 0 / 31%), 0 6px 10px 0 rgb(0 0 0 / 12%); */
-  box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 1px 11px 0 rgb(0 0 0 / 8%);
+  box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 2px 5px 0 rgb(0 0 0 / 21%);
   border: none;
+  text-align: left !important;
 }
 
 /* .active,
@@ -59,7 +63,7 @@
   box-shadow: none !important;
   background: #f6f6fa 0% 0% no-repeat padding-box;
 }
-.form-control {
+.listing-control {
   height: calc(1.5em + 1.75rem + 3px) !important;
 }
 .body-add-listing {
@@ -96,6 +100,13 @@ hr.solid {
 .select {
   background-color: #f6f6fa !important;
   height: calc(1.5em + 1.75rem + 2px) !important;
+  border: none !important;
+}
+.css-1pahdxg-control {
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
 }
 
 .css-g1d714-ValueContainer {
@@ -109,11 +120,30 @@ hr.solid {
 }
 
 .btn-preview {
-  width: 287px;
-  height: 48px;
-  border: 1px solid #4ddc9e;
-  color: #4ddc9e;
-  border-radius: 9px;
-  opacity: 1;
-  justify-content: center;
+  width: 287px !important;
+  height: 48px !important;
+  border: 1px solid #4ddc9e !important;
+  color: #4ddc9e !important;
+  border-radius: 9px !important;
+  opacity: 1 !important;
+  justify-content: center !important;
+}
+.css-yk16xz-control {
+  background-color: transparent !important;
+  border: none !important;
+}
+.css-1okebmr-indicatorSeparator {
+  background-color: transparent !important;
+}
+
+.btn-preview:active {
+  background-color: transparent !important;
+}
+
+.form-control-area {
+  height: none !important;
+  max-height: 200px !important;
+  min-height: 57px !important;
+  background-color: #f6f6fa !important;
+  border: none !important;
 }
