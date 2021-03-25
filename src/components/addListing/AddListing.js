@@ -1,19 +1,22 @@
 import React from "react";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
-// import { colourOptions } from "../data";
 import Icon from "../Icon";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./addListing.css";
+// import Multiselect from 'react-widgets/lib/Multiselect'
+import { Multiselect } from "react-widgets";
 import { Container, Button, Form, Col, Row, Card } from "react-bootstrap";
+// import { yellow } from "@material-ui/core/colors";
 
 const animatedComponents = makeAnimated();
+let colorsArr = ["orange", "red", "blue", "purple"];
 
 export default function AddListing() {
   return (
     <>
       <Container className="container-add-listing d-flex flex-col justify-content-center">
-        <Form>
+        <Form className="d-flex-column justify-content-center">
           <Button className="btn-add-listing" variant="primary">
             Add Listing
           </Button>
@@ -40,14 +43,14 @@ export default function AddListing() {
                       <Form.Label className="listing-lable">
                         Category
                       </Form.Label>
-                      {/* <Form.Control type="email" className="listing-control" /> */}
+                      {/* <Form.Control type="email" className="listing-control"/> */}
                       <Select
                         className="form-control select"
                         closeMenuOnSelect={false}
                         components={animatedComponents}
-                        defaultValue={[]}
+                        defaultValue={[colorsArr[0],colorsArr[1],colorsArr[2]]}
                         isMulti
-                        options={[1, 2, 3]}
+                        options={colorsArr}
                       />
                     </Form.Group>
                   </Col>
@@ -157,7 +160,7 @@ export default function AddListing() {
                       <Form.Control
                         as="textarea"
                         rows={3}
-                        className="listing-control"
+                        className="form-control-area"
                       />
                     </Form.Group>
                   </Col>
@@ -196,7 +199,9 @@ export default function AddListing() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Button className="btn-preview" variant="outline-primary">Preview</Button>
+          <Button className="btn-preview" variant="outline-primary">
+            Preview
+          </Button>
         </Form>
       </Container>
     </>
