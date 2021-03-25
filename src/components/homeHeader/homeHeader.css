@@ -1,0 +1,47 @@
+.HeightHeader {
+    height: 75vh;
+}
+
+.backColor {
+    background-color: #515151;
+}
+
+.heightSearch {
+    height: 10vh !important;
+}
+
+.whiteColor {
+    background-color: var(--white);
+}
+
+.btnColor {
+    background: linear-gradient(to left, var(--green) 0%, var(--blue) 100%)!important;
+    color: var(--white) !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.borderNone {
+    border: none !important;
+}
+
+.borderRadiuse {
+    border-radius: 10px !important;
+}
+
+.textWhite {
+    color: var(--white);
+}
+
+.setText {
+    font-weight: 200;
+    line-height: 50px !important;
+}
+
+.focusNone:focus {
+    box-shadow: none !important;
+}
+
+.heightRow {
+    height: 60% !important;
+}

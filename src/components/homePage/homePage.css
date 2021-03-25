@@ -7,9 +7,9 @@
 
 .main-title:after {
 	content: '';
-	width: 50px;
-	height: 3px;
-	background: var(--yellow);
+	width: 100px;
+	height: 2px;
+	background: var(--green-blue);
 	display: block;
 	margin: 15px auto;
 	transition: all .2s ease-in-out;
@@ -20,5 +20,5 @@
 }
 
 .main-title:hover:after {
-	width: 120px;
+	width: 130px;
 }

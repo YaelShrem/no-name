@@ -1,28 +1,27 @@
 .wrapperRecommendations {
   margin-top: 77px;
 }
+
 .recommendations {
   height: 66vh;
   max-height: 320px;
   min-height: 250px;
-  background: transparent
-    linear-gradient(
-      249deg,
+  background: transparent linear-gradient(249deg,
       var(--unnamed-color-4ddc6b) 0%,
-      var(--unnamed-color-22c5bb) 100%
-    )
-    0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(249deg, #4ddc6b 0%, #22c5bb 100%) 0%
-    0% no-repeat padding-box;
+      var(--unnamed-color-22c5bb) 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(249deg, #4ddc6b 0%, #22c5bb 100%) 0% 0% no-repeat padding-box;
   border-radius: 0px 0px 0px 219px;
   opacity: 1;
 }
-.wrapper-slider-recommendations{
+
+.wrapper-slider-recommendations {
   width: calc(100vw - 70px);
 }
+
 .item {
   position: relative;
 }
+
 .message {
   /* top: 3740px;
     left: 1244px; */
@@ -33,6 +32,7 @@
   /* box-shadow: 0px 40px 60px #00000026; */
   opacity: 1;
 }
+
 .wrapperp {
   top: 3785px;
   left: 1323px;
@@ -60,9 +60,11 @@ label {
   color: #ffb400 !important;
   font-size: medium !important;
 }
+
 .MuiBox-root-2 {
   margin-bottom: 0px !important;
 }
+
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -76,10 +78,12 @@ label {
   overflow: hidden;
   z-index: 0;
 }
+
 .wrap {
   text-align: center;
   position: relative;
 }
+
 .avater {
   top: 3465px !important;
   left: 1117px !important;
@@ -108,6 +112,7 @@ label {
   font-size: medium;
   font-weight: 500;
 }
+
 .divAvaset {
   align-items: center;
   text-align: center;
@@ -115,15 +120,19 @@ label {
   bottom: 43px;
   right: 117px;
 }
+
 .MuiAvatar-circle {
   border: none !important;
 }
+
 .alice-carousel__stage-item {
   width: 445px !important;
 }
+
 #section02 a {
   padding-top: 60px;
 }
+
 #section02 a span {
   position: absolute;
   top: 0;
@@ -135,6 +144,7 @@ label {
   border-radius: 100%;
   box-sizing: border-box;
 }
+
 #section02 a span::after {
   position: absolute;
   top: 50%;
@@ -149,47 +159,102 @@ label {
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
-.slide-recommendations{
+
+.slide-recommendations {
   width: 400px !important;
 }
-.slide-recommendations:focus, .slide-recommendations:active{
+
+.slide-recommendations:focus,
+.slide-recommendations:active {
   outline: unset !important;
 }
-.wrapper-slider-recommendations .slick-dots li.slick-active button:before{
+
+.wrapper-slider-recommendations .slick-dots li.slick-active button:before {
   width: 18px !important;
-height: 18px !important;
-background-color: transparent linear-gradient(180deg, #4DDC6B 0%, var(--unnamed-color-22c5bb) 100%) 0% 0% no-repeat padding-box !important;
-background: transparent linear-gradient(180deg, #4DDC6B 0%, #22C5BB 100%) 0% 0% no-repeat padding-box !important;
-color: transparent;
-border-radius: 50%;
-opacity: 1;
+  height: 18px !important;
+  background-color: transparent linear-gradient(180deg, #4DDC6B 0%, var(--unnamed-color-22c5bb) 100%) 0% 0% no-repeat padding-box !important;
+  background: transparent linear-gradient(180deg, #4DDC6B 0%, #22C5BB 100%) 0% 0% no-repeat padding-box !important;
+  color: transparent;
+  border-radius: 50%;
+  opacity: 1;
 }
-.wrapper-slider-recommendations .slick-dots li button:before{
+
+.wrapper-slider-recommendations .slick-dots li button:before {
   width: 18px !important;
-height: 18px !important;
-border: 1px solid var(--unnamed-color-22c5bb) !important;
-border: 1px solid #22C5BB !important;
-color: transparent;
-border-radius: 50%;
-opacity: 1;
+  height: 18px !important;
+  border: 1px solid var(--unnamed-color-22c5bb) !important;
+  border: 1px solid #22C5BB !important;
+  color: transparent;
+  border-radius: 50%;
+  opacity: 1;
 }
+.fieldset-star {
+  margin-top: 0px !important;
+}
+.swiper-container{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.swiper-slide{
+display: flex;
+justify-content: center;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+  color: var(--green-blue);
+}
+
+
+
 @media screen and (max-width:1250px) {
-  .message{
+  .message {
     width: 350px;
   }
-  .wrapperp{
+
+  .wrapperp {
     font-size: smaller;
     padding-left: 7px;
     padding-right: 7px;
   }
-  .star-wrapper .MuiBox-root-10{
+
+  .star-wrapper .MuiBox-root-10 {
     margin-top: 4px;
   }
-  .divAvaset{
+
+  .divAvaset {
     bottom: 24px;
     right: 90px;
   }
-  .avaterText{
+
+  .avaterText {
     font-size: smaller;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .message {
+    width: 300px;
+  }
+
+  .wrapperp {
+    padding-left: 22px;
+  }
+
+  .divAvaset {
+    bottom: 11px;
+    right: 72px;
+  }
+}
+@media screen and (max-width:600px) {
+  .message {
+    width: 350px;
+  }
+
+  .wrapperp {
+    padding-left: 7px;
+  }
+
+  .divAvaset {
+    bottom: 24px;
+    right: 90px;
   }
 }

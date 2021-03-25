@@ -1,8 +1,8 @@
 .inputSize {
     height: 8vh;
-    background-color: #8fe1c1 !important;
+    background-color: var(--blue-opacity) !important;
     border-radius: 6.7pt !important;
-    color: white !important;
+    color: var(--white) !important;
     border: 0px solid transparent !important;
 }
 
@@ -22,11 +22,11 @@
 }
 
 ::placeholder {
-    color: white !important;
+    color: var(--white) !important;
 }
 
 .BackColor {
-    color: white !important;
+    color: var(--white) !important;
 }
 
 .mLeft {
@@ -34,11 +34,11 @@
 }
 
 .input-group-text {
-    background-color: #8fe1c1
+    background-color: var(--blue-opacity)
 }
 
 .input-group {
-    background-color: #8fe1c1 !important;
+    background-color:var(--blue-opacity) !important;
     border-radius: 7pt !important;
 }
 
@@ -49,7 +49,7 @@ span {
 }
 
 .borderDivRadius {
-    background: linear-gradient(to left, #4DDC6B 0%, #22C5BB 100%);
+    background: linear-gradient(to left,var(--green) 0%, var(--blue) 100%);
     border-bottom-left-radius: 35px !important;
     opacity: 0.9;
 }

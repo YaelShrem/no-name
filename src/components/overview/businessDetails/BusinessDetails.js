@@ -1,11 +1,8 @@
 import React from "react";
-
 import "./BusinessDetails.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import UserMenu from "../../shoppingCart/userMenu/UserMenu";
-import ProductCatalog from "../../shoppingCart/productCatalog/ProductCatalog";
 import ProductMenu from "../../shoppingCart/productMenu/ProductMenu";
-import TabsTitle from "../../tabsTitle/TabsTitle";
 import Recommendations from "../../recommendations/Recommendations";  
 export default function BusinessDetails() {
   return (
@@ -18,12 +15,13 @@ export default function BusinessDetails() {
         </div> */}
         </div>
       </div>
+      
       <div className="d-flex flex-column justify-content-center w-100">
-                     {/* <TabsTitle/> */}
- <UserMenu/>
+          <UserMenu/>
            <ProductMenu/>
            <Recommendations/>
         </div>
+
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </>
   );

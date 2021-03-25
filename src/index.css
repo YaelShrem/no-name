@@ -9,19 +9,24 @@
   --very-light-gray: #00000029 !important;
   --light-gray: #b9b9b9 !important;
   --gray: #707070 !important;
+  --gray-border:#8D8D8D !important;
   --dark-gray: #515151 !important;
+  --blue-opacity:#8fe1c1 !important;
   --very-dark-gray: #161616 !important;
+  --light-black:#0000001f !important;
   --black: #000000 !important;
   --green: #4ddc6b !important;
+  --light-green:#fcfff4 !important;
   --blue: #22c5bb !important;
   --yellow: #ffd600 !important;
   --green-blue: #4ddc9e !important;
+  --light-blue:#E4E4E5 !important;
+   --gradient-green-blue:transparent linear-gradient(250deg, #4DDC6B 0%, #22C5BB 100%)!important;
   --heading-font-family: "Poppins", sans-serif;
   --body-font-family: "Lato", sans-serif;
 }
 
 /*Global Styles Definitions*/
-
 *,
 ::before,
 ::after {

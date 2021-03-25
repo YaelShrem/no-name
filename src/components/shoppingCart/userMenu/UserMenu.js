@@ -1,21 +1,31 @@
 import React from "react";
 import "./userMenu.css";
 import AddReviews from "../../overview/addReviews/AddReviews";
+import ReactScrollbar from 'react-scrollbar';
 
 export default function UserMenu() {
+ 
   return (
     <>
-      <div className="user-menu-div justify-content-center col-8">
+      <div className="user-menu-div justify-content-center col-lg-8 col-md-10 col-sm-10">
         <Tabs className="main-tab">
           <Tab className="user-tab" label="Overview">
-            <div className="content-overview">
+            <div className="content-overview"> 
+            <ReactScrollbar className="content-overview">
+        <div className="should-have-a-children scroll-me">
+        <p>  Aenean in felis egestas, fringilla magna eget, lobortis tortor. Phasellus finibus sed enim sit amet luctus. Cras et ultrices mi, id venenatis massa. Suspendisse mattis justo a venenatis mattis. Pellentesque venenatis vehicula ullamcorper. Suspendisse placerat ligula velit, non varius dolor consectetur faucibus. Cras maximus nulla libero, ut tincidunt sapien finibus sit amet. Etiam tristique nulla elit, at dapibus neque dictum id.
+           </p>
+           <p>
             Aenean in felis egestas, fringilla magna eget, lobortis tortor. Phasellus finibus sed enim sit amet luctus. Cras et ultrices mi, id venenatis massa. Suspendisse mattis justo a venenatis mattis. Pellentesque venenatis vehicula ullamcorper. Suspendisse placerat ligula velit, non varius dolor consectetur faucibus. Cras maximus nulla libero, ut tincidunt sapien finibus sit amet. Etiam tristique nulla elit, at dapibus neque dictum id.
-            </div>
+            </p>
+        </div>
+      </ReactScrollbar>
+                    </div>
           </Tab>
           <Tab className="user-tab" label="Location"></Tab>
 
           <Tab className="user-tab" label="Add Reviews">
-            {/* <AddReviews></AddReviews> */}
+            <AddReviews />
           </Tab>
         </Tabs>
       </div>

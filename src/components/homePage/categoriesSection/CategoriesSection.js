@@ -17,7 +17,7 @@ export default function CategoriesSection() {
                 </Col>
                 <Col>
                 <Icon name="foodCategory"/>
-                <h5>Shopping</h5>
+                    <h5>Shopping</h5>
                 </Col>
                 <Col>
                 <Icon name="tripCategory"/>
