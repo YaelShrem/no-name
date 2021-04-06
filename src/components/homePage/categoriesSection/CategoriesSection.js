@@ -2,7 +2,6 @@ import React from 'react'
 import Icon from '../../Icon';
 import {Row, Col} from 'react-bootstrap';
 import './categoriesSection.css';
-import {useSpring} from 'react-spring'
 
 export default function CategoriesSection() {
     return (
