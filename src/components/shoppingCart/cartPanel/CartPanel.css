@@ -1,0 +1,308 @@
+.cartPanel-container {
+    width: 30%;
+    max-width: 836px;
+    min-width: 500px;
+    box-shadow: -3px 5px 6px #00000029;
+    padding: 30px;
+    padding-top: 15px;
+}
+
+.wrapper-img-cartPanel {
+    width: 91px;
+    height: 93px;
+}
+
+.wrapper-img-cartPanel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.count-wrapper {
+    height: 21px;
+}
+
+.wrapper-total-cartPanel {
+    font: normal normal bold 28px/13px Segoe UI;
+    letter-spacing: 0.28px;
+    color: #707070;
+    opacity: 1;
+}
+
+.delivery-cartPanel {
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.item-in-cartPanel .count-wrapper .Decrement,
+.item-in-cartPanel .count-wrapper .Increment {
+    background-color: var(--gray-background);
+    border: none;
+    border-radius: 3px;
+    color: var(--gray) !important;
+    text-align: left !important;
+    font: normal normal 600 23px/15px Segoe UI !important;
+    font-weight: 500 !important;
+
+}
+
+.item-in-cartPanel .count-wrapper .Decrement:focus,
+.item-in-cartPanel .count-wrapper .Increment:focus {
+    outline: none;
+    background-color: var(--light-gray);
+}
+
+.item-in-cartPanel .count-wrapper .count-product {
+    color: var(--gray) !important;
+    text-align: center !important;
+    font: normal normal 600 23px/20px Segoe UI !important;
+    font-weight: 500 !important;
+    min-width: 15px;
+}
+
+.item-description-cartPanel {
+    font-weight: 500 !important;
+    color: var(--gray-dark);
+    font: normal normal normal 20px/27px Segoe UI;
+
+}
+
+.item-price-cartPanel {
+    color: var(--gray);
+    font: normal normal normal 20px/27px Segoe UI;
+}
+
+.cartButtons Button,
+.continueShop {
+    border-color: #707070;
+    color: #F29544;
+}
+
+.cartButtons Button:hover,
+.continueShop:hover {
+    border-color: #F29544;
+    background-color: #F29544;
+    color: white;
+}
+
+.container-total-cartPnael {
+    padding-top: 20px;
+    height: 150px;
+}
+
+.wrapper-btn-cartPanel {
+    width: 78%;
+}
+
+.total-and-delivery {
+    height: min-content;
+    width: 100%;
+}
+
+.cart tr {
+    text-align: center;
+    color: #707070;
+}
+
+.cart td:first-child {
+    text-align: left;
+}
+
+.calcAmount Button {
+    background-color: #E1DEDE;
+}
+
+.cart .tableHeader tr {
+    background-color: #F29544;
+    color: #FFFFFF;
+}
+
+.clickIcon {
+    cursor: pointer;
+}
+
+.totalLine {
+    border-bottom: 2px dashed var(--gray);
+}
+
+.cart Table {
+    border-bottom: 2px solid var(--gray);
+}
+
+.item-in-cartPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--light-gray);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.onlyProduct {
+    height: 14.5rem;
+    overflow-y: auto;
+    padding-right: 12px;
+}
+
+.cartPanal {
+    border: 0.5px solid #00000029;
+    height: 20rem;
+    width: 30rem;
+    box-shadow: -5px 5px 5px #00000029;
+    background-color: white;
+    position: fixed;
+    z-index: 4;
+    margin-left: 36.8rem !important;
+    margin-top: 4.4rem;
+}
+
+.cartTotal {
+    color: #707070;
+    font-weight: bold;
+}
+
+.btnCartTotal {
+    padding: 7px;
+    border: 1px solid #E1DEDE;
+    color: #F29544;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    width: 10rem;
+    /* height: 2rem; */
+
+}
+
+.btnCartTotal:hover {
+    color: white;
+    background-color: #F29544;
+    font-weight: normal;
+}
+
+@media screen and (max-width:1800px) {
+
+    .item-description-cartPanel,
+    .item-price-cartPanel {
+        font: normal normal normal 15px/27px Segoe UI;
+    }
+
+    .item-in-cartPanel .count-wrapper .count-product {
+        font: normal normal 600 16px/20px Segoe UI !important;
+    }
+
+    .item-in-cartPanel .count-wrapper .Decrement,
+    .item-in-cartPanel .count-wrapper .Increment {
+        font: normal normal 600 16px/15px Segoe UI !important;
+    }
+
+    .wrapper-total-cartPanel {
+        font: normal normal bold 23px/13px Segoe UI;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .cartPanel-container {
+        box-shadow: unset;
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .cartPanel-container {
+        width: 450px !important;
+        min-width: 350px !important;
+    }
+
+    .wrapper-btn-cartPanel {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .wrapper-img-cartPanel {
+        width: 71px;
+        height: 73px;
+    }
+
+    .wrapper-btn-cartPanel {
+        width: 100%;
+    }
+
+    .item-description-cartPanel,
+    .item-price-cartPanel {
+        font: normal normal normal 13px/27px Segoe UI;
+    }
+
+    .item-in-cartPanel .count-wrapper .count-product {
+        font: normal normal 600 14px/20px Segoe UI !important;
+    }
+
+    .item-in-cartPanel .count-wrapper .Decrement,
+    .item-in-cartPanel .count-wrapper .Increment {
+        font: normal normal 600 14px/15px Segoe UI !important;
+    }
+
+    .wrapper-total-cartPanel {
+        font: normal normal bold 20px/13px Segoe UI;
+    }
+
+    .delivery-cartPanel {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:385px) {
+    .btnCartTotal {
+        width: 9rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .btnCartTotal {
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .cartPanel-container {
+        /* width: 450px !important; */
+        min-width: 300px !important;
+    }
+
+    .wrapper-img-cartPanel {
+        width: 61px;
+        height: 63px;
+    }
+
+    .item-description-cartPanel,
+    .item-price-cartPanel {
+        font: normal normal normal 11px/27px Segoe UI;
+    }
+
+    .item-in-cartPanel .count-wrapper .count-product {
+        font: normal normal 600 12px/20px Segoe UI !important;
+    }
+
+    .item-in-cartPanel .count-wrapper .Decrement,
+    .item-in-cartPanel .count-wrapper .Increment {
+        font: normal normal 600 12px/15px Segoe UI !important;
+    }
+
+    .wrapper-total-cartPanel {
+        font: normal normal bold 18px/13px Segoe UI;
+    }
+
+    .delivery-cartPanel {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .btnCartTotal {
+        font-size: small;
+        font-weight: 500;
+        width: 7rem !important;
+    }
+}

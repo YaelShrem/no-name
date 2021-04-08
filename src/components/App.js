@@ -1,7 +1,7 @@
-import Header from "./header/Header";
+// import Header from "./header/Header";
 // import HomePage from './homePage/HomePage';
 // import Login2 from "./login/Login2";
-// import BusinessDetails from "./overview/businessDetails/BusinessDetails";
+import BusinessDetails from "./overview/businessDetails/BusinessDetails";
 // import TopBusinesses from "../components/homePage/topBusinesses/TopBusinessesSection";
 // import SearchSection from "./homePage/searchSection/SearchSection";
 // import Footer from "./footer/Footer";
@@ -27,15 +27,17 @@ import Header from "./header/Header";
 // import Chart2 from '../components/dashboard/Charts/Chart2'
 // import Layout from '../components/dashboard/sideBar/Layout'
 
+import CartPanel from "./shoppingCart/cartPanel/CartPanel";
+
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* <HomePage /> */}
       {/* <Pricing /> */}
       {/* <Login2 /> */}
       {/* <Recommendations /> */}
-      {/* <BusinessDetails /> */}
+      <BusinessDetails />
       {/* <UserMenu /> */}
       {/* <OrderDetails /> */}
       {/* <ProductCatalog /> */}
@@ -56,6 +58,7 @@ function App() {
         <Chart2></Chart2>
       </div> */}
       {/* <Layout/> */}
+      {/* <CartPanel/> */}
     </>
   );
 }
